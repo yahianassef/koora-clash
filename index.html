@@ -88,7 +88,7 @@
       (function f(t) { const k = Math.min(1, (t - t0) / 900); el.textContent = Math.round(end * (1 - Math.pow(1 - k, 3))); if (k < 1) requestAnimationFrame(f); })(t0);
     }
     RERENDER = () => {
-      $("#segs").innerHTML = ["career", "rondo", "spy", "password", "quickfire"]
+      $("#segs").innerHTML = ["career", "who", "rondo", "spy", "password", "quickfire"]
         .map((k) => `<span class="chip c-${k}">${SEG_ICON[k]} ${esc(segTitle(k))}</span>`).join("");
       $("#sologames").innerHTML = SOLO_LIST.map((k) => soloTile(k, getBestScore(k), `href="solo.html?g=${k}"`)).join("");
       if (COUNTS) {

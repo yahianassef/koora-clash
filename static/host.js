@@ -1,7 +1,7 @@
 // Host screen: the "studio" everyone watches.
 
 let S = null, ROOM = null, JOIN_URL = "";
-const ALL_SEGS = ["career", "rondo", "spy", "password", "quickfire"];
+const ALL_SEGS = ["career", "who", "rondo", "spy", "password", "quickfire"];
 
 function act(a, p) { hostAct(a, p || {}); }
 
@@ -66,7 +66,7 @@ function studioFx() {
   LAST_FX = key;
   if (S.phase === "final") { confetti(1.4); setTimeout(() => confetti(1), 900); return; }
   if (S.phase !== "play") return;
-  if (S.seg_key === "career" && g.state === "result" && g.winner) { confetti(.8); toast(hype("ok")); }
+  if ((S.seg_key === "career" || S.seg_key === "who") && g.state === "result" && g.winner) { confetti(.8); toast(hype("ok")); }
   if (S.seg_key === "quickfire" && g.state === "reveal" && g.gained && g.gained.length) toast(hype("ok"));
   if (S.seg_key === "rondo" && g.state === "result" && g.winners && g.winners.length) confetti(.7);
   if (S.seg_key === "spy" && g.state === "result") confetti(.7);
@@ -137,6 +137,22 @@ const SEG = {
         <div style="font-size:22px;margin-top:8px">${g.winner ? `🏅 <b>${esc(g.winner.name)}</b> ${t("got_it")} — +${g.winner.pts} ${t("pts")}` : t("nobody")}</div></div>`;
     }
     return head(segTitle("career"), `${t("question")} ${g.qi + 1}/${g.qn} · ${t("worth")} ${g.points} ${t("pts")}`) + body;
+  },
+
+  who(g) {
+    const left = g.total - g.clubs.length;
+    let body = `<div class="clues">${whoClues(g.clubs, g.state === "reveal")}${left > 0 && g.state === "reveal"
+      ? `<div class="clue locked"><span class="n">+${left}</span><span>${t("clues_left")}</span></div>` : ""}</div>`;
+    if (g.state === "reveal") {
+      body += g.next_clue_at
+        ? `<div class="row"><span class="muted">${t("next_clue_in")}</span> ${timerNum(g.next_clue_at)} <span class="grow">${timerBar(g.next_clue_at, 9)}</span></div>`
+        : `<div class="row"><span class="muted">${t("time_left")}</span> ${timerNum(g.deadline)} <span class="grow">${timerBar(g.deadline, 15)}</span></div>`;
+      if (g.feed.length) body += `<div><div class="muted">${t("wrong_guesses")}</div><div class="feed">${g.feed.map((f) => `<span class="chip">${esc(f.name)}: ${esc(f.text)}</span>`).join("")}</div></div>`;
+    } else {
+      body += `<div class="card center"><div class="muted">${t("the_answer")}</div><div class="reveal">${esc(L(g.answer))}</div>
+        <div style="font-size:22px;margin-top:8px">${g.winner ? `🏅 <b>${esc(g.winner.name)}</b> ${t("got_it")} — +${g.winner.pts} ${t("pts")}` : t("nobody")}</div></div>`;
+    }
+    return head(segTitle("who"), `${t("question")} ${g.qi + 1}/${g.qn} · ${t("worth")} ${g.points} ${t("pts")}`) + body;
   },
 
   rondo(g) {

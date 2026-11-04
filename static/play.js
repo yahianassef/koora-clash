@@ -107,7 +107,7 @@ $("#answerform").addEventListener("submit", (e) => {
   const text = el.value.trim();
   if (!text || !S) return;
   el.value = "";
-  if (S.seg_key === "career") act("guess", { text });
+  if (S.seg_key === "career" || S.seg_key === "who") act("guess", { text });
   if (S.seg_key === "rondo") act("answer", { text });
   el.focus();
 });
@@ -130,6 +130,23 @@ const PHONE = {
       setAnswerBar(true, locked ? `${t("wrong")} — ${t("locked")}` : "", locked ? "bad" : "");
       if (locked) setTimeout(render, m.locked_until * 1000 - serverNow() + 50);
       html += timerBar(g.next_clue_at || g.deadline, g.next_clue_at ? 6 : 12);
+    } else {
+      setAnswerBar(false);
+      const mine = g.winner && g.winner.pid === S.me.id;
+      html += `<div class="card center"><div class="muted">${t("the_answer")}</div><div class="huge" style="color:var(--gold)">${esc(L(g.answer))}</div>
+        <div>${g.winner ? (mine ? `🎉 +${g.winner.pts} ${t("pts")}` : `${esc(g.winner.name)} ${t("got_it")}`) : t("nobody")}</div></div>`;
+    }
+    return html;
+  },
+
+  who(g, m) {
+    let html = `<div class="muted">${t("question")} ${g.qi + 1}/${g.qn} · ${t("worth")} ${g.points} ${t("pts")}</div>
+      <div class="clues">${whoClues(g.clubs, g.state === "reveal")}</div>`;
+    if (g.state === "reveal") {
+      const locked = m.locked_until * 1000 > serverNow();
+      setAnswerBar(true, locked ? `${t("wrong")} — ${t("locked")}` : "", locked ? "bad" : "");
+      if (locked) setTimeout(render, m.locked_until * 1000 - serverNow() + 50);
+      html += timerBar(g.next_clue_at || g.deadline, g.next_clue_at ? 9 : 15);
     } else {
       setAnswerBar(false);
       const mine = g.winner && g.winner.pid === S.me.id;

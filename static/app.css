@@ -334,6 +334,10 @@ button.opt:disabled { opacity: 1; }
 .clue.new .n { background: #a78bfa; color: #0a0e1a; }
 .clue.locked { color: var(--muted); border-style: dashed; background: transparent; font-size: 15px; }
 .clue.locked .n { background: rgba(255, 255, 255, .06); color: var(--muted); }
+.stage .clue { font-size: 24px; padding: 16px 20px; }
+.stage .clue .n { width: 42px; height: 42px; font-size: 26px; }
+.phone .clue { font-size: 15px; padding: 10px 12px; }
+.c-who { --c: #a78bfa; }
 .answer-card { animation: pop .45s cubic-bezier(.3, 1.6, .5, 1); }
 .mtable { display: flex; flex-direction: column; gap: 6px; overflow-x: auto; }
 .mrow { display: grid; grid-template-columns: 1.4fr 1fr .7fr .8fr 1.4fr; gap: 6px; min-width: 540px; }

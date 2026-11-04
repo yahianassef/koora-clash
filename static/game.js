@@ -2,12 +2,14 @@
 // Runs inside the host's browser: the host screen is the authoritative game server,
 // and every change pushes a fresh per-client view to the host screen and each phone.
 
-const SEGMENT_KEYS = ["career", "rondo", "spy", "password", "quickfire"];
+const SEGMENT_KEYS = ["career", "who", "rondo", "spy", "password", "quickfire"];
 let DATA = null;
 
 async function loadData() {
-  const r = await fetch("data/questions.json", { cache: "no-cache" });
-  DATA = await r.json();
+  const [q, p] = await Promise.all(["data/questions.json", "data/players.json"]
+    .map((f) => fetch(f, { cache: "no-cache" }).then((r) => r.json())));
+  DATA = q;
+  DATA.who = p.players.filter((x) => (x.clues || []).length >= 5);  // players with clue sets
   return DATA;
 }
 
@@ -106,7 +108,8 @@ class Segment {
 // Clubs appear one by one; first correct guess scores more the earlier it lands.
 class CareerPath extends Segment {
   static key = "career";
-  constructor(room) { super(room); this.qs = freshest("career", DATA.career, 4); this.qi = -1; }
+  constructor(room) { super(room); this.qs = this.pick(); this.qi = -1; }
+  pick() { return freshest("career", DATA.career, 4); }
   start() { this.nextQ(); }
   nextQ() {
     this.qi++;
@@ -114,7 +117,7 @@ class CareerPath extends Segment {
     this.q = this.qs[this.qi];
     this.shown = 1;
     this.state = "reveal";
-    this.nextClueAt = now() + CareerPath.CLUE_EVERY;
+    this.nextClueAt = now() + this.constructor.CLUE_EVERY;
     this.deadline = null;
     this.locks = {}; this.feed = []; this.winner = null;
   }
@@ -124,12 +127,12 @@ class CareerPath extends Segment {
       const clubs = this.q.clubs.length;
       if (this.shown < clubs && t >= this.nextClueAt) {
         this.shown++;
-        this.nextClueAt = t + CareerPath.CLUE_EVERY;
-        if (this.shown === clubs) this.deadline = t + CareerPath.EXTRA;
+        this.nextClueAt = t + this.constructor.CLUE_EVERY;
+        if (this.shown === clubs) this.deadline = t + this.constructor.EXTRA;
         return true;
       }
-      if (this.shown === clubs && this.deadline == null) { this.deadline = t + CareerPath.EXTRA; return true; }
-      if (this.deadline && t >= this.deadline) { this.state = "result"; this.deadline = t + CareerPath.RESULT; return true; }
+      if (this.shown === clubs && this.deadline == null) { this.deadline = t + this.constructor.EXTRA; return true; }
+      if (this.deadline && t >= this.deadline) { this.state = "result"; this.deadline = t + this.constructor.RESULT; return true; }
     } else if (this.state === "result" && t >= this.deadline) {
       this.nextQ();
       return true;
@@ -145,16 +148,16 @@ class CareerPath extends Segment {
       const pts = this.points();
       this.room.award(pid, pts);
       this.winner = { pid, name: this.room.pname(pid), pts, side: this.room.sideOf(pid) };
-      this.state = "result"; this.deadline = t + CareerPath.RESULT;
+      this.state = "result"; this.deadline = t + this.constructor.RESULT;
     } else {
-      this.locks[pid] = t + CareerPath.LOCKOUT;
+      this.locks[pid] = t + this.constructor.LOCKOUT;
       this.feed = [...this.feed, { name: this.room.pname(pid), text }].slice(-6);
     }
     return true;
   }
   hostAction(act) {
     if (act !== "skip") return false;
-    if (this.state === "reveal") { this.state = "result"; this.deadline = now() + CareerPath.RESULT; } else this.nextQ();
+    if (this.state === "reveal") { this.state = "result"; this.deadline = now() + this.constructor.RESULT; } else this.nextQ();
     return true;
   }
   public() {
@@ -539,7 +542,18 @@ class QuickFire extends Segment {
 }
 Object.assign(QuickFire, { QTIME: 15, RESULT: 6, FAST: 5, N: 8 });
 
-const SEGMENTS = Object.fromEntries([CareerPath, Rondo, Spy, Password, QuickFire].map((c) => [c.key, c]));
+// Who's the Player?: Career Path's buzz-in race, but revealing first-person clues (hardest first).
+class WhoIs extends CareerPath {
+  static key = "who";
+  pick() {
+    return freshest("who", DATA.who, Math.min(4, DATA.who.length))
+      .map((p) => ({ answer: p.name, aliases: p.aliases, clubs: p.clues }));
+  }
+  points() { return this.q.clubs.length - this.shown + 1; }
+}
+Object.assign(WhoIs, { CLUE_EVERY: 9, EXTRA: 15, RESULT: 7, LOCKOUT: 3 });
+
+const SEGMENTS = Object.fromEntries([CareerPath, WhoIs, Rondo, Spy, Password, QuickFire].map((c) => [c.key, c]));
 
 // ---------- room ----------
 

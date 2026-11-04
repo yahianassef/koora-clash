@@ -16,6 +16,8 @@ const I18N = {
     kicked: "You were removed from the room.", room_gone: "This room no longer exists.",
     name_taken: "That name is taken in this room.", no_room: "Room not found. Check the code.",
     move: "Move", kick: "Remove",
+    seg_who: "Who's the Player?", next_clue_in: "next clue in",
+    rules_who: "\"I played for only three clubs…\" Clues appear one at a time, hardest first. Type the player on your phone — the fewer clues shown, the more points (7 → 1). A wrong guess locks you out for 3 seconds.",
     seg_career: "Career Path", seg_rondo: "The Rondo", seg_spy: "The Spy", seg_password: "Password", seg_quickfire: "Quick Fire",
     rules_career: "Clubs appear one at a time. Type the player's name on your phone. The earlier you get it, the more points (5 → 1). A wrong guess locks you out for 3 seconds.",
     rules_rondo: "Take turns naming answers that fit the category — 12 seconds per turn. Run out of time and you lose a life (2 each). Last one standing wins 3 points. The host can accept answers the game didn't recognise.",
@@ -84,6 +86,8 @@ const I18N = {
     kicked: "اتشلت من الغرفة.", room_gone: "الغرفة دي مبقتش موجودة.",
     name_taken: "الاسم ده مستخدم في الغرفة.", no_room: "الغرفة مش موجودة. اتأكد من الكود.",
     move: "نقل", kick: "شيل",
+    seg_who: "مين اللاعب؟", next_clue_in: "التلميح الجاي بعد",
+    rules_who: "\"لعبت لـ٣ أندية بس…\" التلميحات بتظهر واحد ورا التاني، من الأصعب للأسهل. اكتب اسم اللاعب على موبايلك — كل ما تعرفه بتلميحات أقل، نقطك أكتر (٧ ← ١). الإجابة الغلط بتقفلك ٣ ثواني.",
     seg_career: "مسيرة لاعب", seg_rondo: "الروندو", seg_spy: "الجاسوس", seg_password: "كلمة السر", seg_quickfire: "أسئلة سريعة",
     rules_career: "الأندية بتظهر واحد ورا التاني. اكتب اسم اللاعب على موبايلك. كل ما تعرفه أبدري كل ما تاخد نقط أكتر (٥ ← ١). الإجابة الغلط بتقفلك ٣ ثواني.",
     rules_rondo: "بالدور، كل واحد يقول إجابة تنفع للفئة — ١٢ ثانية لكل دور. لو الوقت خلص تخسر روح (لكل واحد روحين). آخر واحد يفضل يكسب ٣ نقط. المضيف يقدر يقبل إجابة اللعبة مفهمتهاش.",
@@ -218,7 +222,11 @@ const ICON_PATHS = {
 function icon(name, cls) {
   return `<svg class="i ${cls || ""}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON_PATHS[name] || ""}</svg>`;
 }
-const SEG_ICON = { career: icon("career"), rondo: icon("rondo"), spy: icon("spy"), password: icon("password"), quickfire: icon("quickfire") };
+// Numbered clue rows for Who's the Player?; the newest one is highlighted while clues are still coming.
+function whoClues(clues, live) {
+  return clues.map((c, i) => `<div class="clue${live && i === clues.length - 1 ? " new" : ""}"><span class="n">${i + 1}</span><span>${esc(L(c))}</span></div>`).join("");
+}
+const SEG_ICON = { career: icon("career"), who: icon("mystery"), rondo: icon("rondo"), spy: icon("spy"), password: icon("password"), quickfire: icon("quickfire") };
 
 // Coloured game tile used on the landing page and the solo menu.
 function soloTile(k, best, attrs, tag) {

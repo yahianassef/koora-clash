@@ -19,6 +19,7 @@ Modes: **Teams** (two named teams) or **every player for themself**.
 | Segment | How it plays |
 |---|---|
 | 🧭 Career Path · مسيرة لاعب | Clubs appear one by one; first to type the player wins 5→1 points. |
+| ❓ Who's the Player? · مين اللاعب؟ | First-person clues appear one by one, hardest first; first to type the player wins 7→1 points. |
 | 🔁 The Rondo · الروندو | Take turns naming answers in a category. 12s per turn, 2 lives. The host can accept answers the game didn't recognise. |
 | 🕵️ The Spy · الجاسوس | Everyone sees the same name except the spy. Clues, then a phone vote. Needs 3+ players. |
 | 🗣️ Password · كلمة السر | One player describes names on their phone; their team shouts guesses. 60s per turn. |
