@@ -46,6 +46,20 @@ const I18N = {
     right: "Correct!", wrong: "Wrong", answered: "answered", fastest: "fastest",
     spy_too_few: "The Spy needs at least 3 connected players — skipped.", host: "Host", play_again: "Play again",
     champions: "Champions", segment_over: "Segment over", connected: "online", offline: "offline",
+    tab_party: "Play with friends", tab_solo: "Play solo", party_hint: "One screen everyone watches, phones as buzzers",
+    solo_hint: "Quick challenges on your own — beat your best",
+    g_nameall: "Name Them All", g_nameall_d: "Sporcle-style: name every answer before the clock runs out.",
+    g_career: "Career Path", g_career_d: "Guess the player from his clubs. Fewer clubs = more points.",
+    g_survival: "Survival Quiz", g_survival_d: "Endless questions, 10 seconds each, 3 lives. How far can you go?",
+    g_mystery: "Mystery Player", g_mystery_d: "Guess the player in 8 tries using nation, position, age and clubs clues.",
+    best: "Best", play: "Play", give_up: "Give up", again: "Play again", menu: "All games", found: "found",
+    choose_cat: "Pick a category", random_cat: "Random category", time_up: "Time's up!", you_got: "You got",
+    reveal_next: "Show next club", guesses_left: "guesses left", round_of: "Player", total: "Total",
+    streak: "Streak", lives_left: "Lives", game_over: "Game over", new_best: "New best! 🎉",
+    daily: "Daily player", random: "Random player", guess_player: "Type a player…", nation: "Nation",
+    position: "Pos", born: "Born", clubs_shared: "Shared clubs", solved: "Got him in", tries: "tries",
+    it_was: "It was", unknown_player: "Not in the player list — pick a suggestion", already_guessed: "Already guessed",
+    pos_GK: "GK", pos_DF: "DEF", pos_MF: "MID", pos_FW: "FWD", next_player: "Next player", skip_player: "Skip",
     lang: "عربي", copy: "Copy link", copied: "Copied!", plus: "+1", minus: "−1",
   },
   ar: {
@@ -93,6 +107,20 @@ const I18N = {
     right: "صح!", wrong: "غلط", answered: "جاوبوا", fastest: "الأسرع",
     spy_too_few: "الجاسوس محتاج ٣ لاعبين متصلين على الأقل — اتخطت.", host: "المضيف", play_again: "العب تاني",
     champions: "الأبطال", segment_over: "الفقرة خلصت", connected: "متصل", offline: "مش متصل",
+    tab_party: "العب مع صحابك", tab_solo: "العب لوحدك", party_hint: "شاشة واحدة الكل بيتفرج عليها، والموبايلات للإجابة",
+    solo_hint: "تحديات سريعة لوحدك — اكسر رقمك القياسي",
+    g_nameall: "سمّيهم كلهم", g_nameall_d: "زي سبوركل: قول كل الإجابات قبل الوقت ما يخلص.",
+    g_career: "مسيرة لاعب", g_career_d: "اعرف اللاعب من أنديته. كل ما تعرفه بأندية أقل، نقطك أكتر.",
+    g_survival: "تحدي البقاء", g_survival_d: "أسئلة ورا بعض، ١٠ ثواني لكل سؤال، و٣ أرواح. هتوصل لفين؟",
+    g_mystery: "مين اللاعب؟", g_mystery_d: "اعرف اللاعب في ٨ محاولات من الجنسية والمركز والسن والأندية.",
+    best: "أحسن رقم", play: "العب", give_up: "استسلم", again: "العب تاني", menu: "كل الألعاب", found: "عرفتهم",
+    choose_cat: "اختار فئة", random_cat: "فئة عشوائية", time_up: "الوقت خلص!", you_got: "جبت",
+    reveal_next: "وريني النادي اللي بعده", guesses_left: "محاولات باقية", round_of: "لاعب", total: "المجموع",
+    streak: "السلسلة", lives_left: "الأرواح", game_over: "خلصت اللعبة", new_best: "رقم قياسي جديد! 🎉",
+    daily: "لاعب النهارده", random: "لاعب عشوائي", guess_player: "اكتب اسم لاعب…", nation: "الجنسية",
+    position: "المركز", born: "مواليد", clubs_shared: "أندية مشتركة", solved: "عرفته في", tries: "محاولات",
+    it_was: "كان", unknown_player: "اللاعب مش في القايمة — اختار من الاقتراحات", already_guessed: "جربته قبل كده",
+    pos_GK: "حارس", pos_DF: "دفاع", pos_MF: "وسط", pos_FW: "هجوم", next_player: "اللاعب اللي بعده", skip_player: "تخطي",
     lang: "English", copy: "انسخ اللينك", copied: "اتنسخ!", plus: "+١", minus: "−١",
   },
 };
@@ -123,38 +151,10 @@ function toggleLang() {
   RERENDER();
 }
 
-async function api(path, body) {
-  const r = await fetch(path, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body || {}) });
-  let data = {};
-  try { data = await r.json(); } catch (e) {}
-  return data;
-}
-
-function connect(room, cid, onState, onGone) {
-  let es, fails = 0;
-  const banner = $("#conn");
-  const open = () => {
-    es = new EventSource(`/events?room=${encodeURIComponent(room)}&cid=${encodeURIComponent(cid)}`);
-    es.onmessage = (e) => {
-      fails = 0;
-      if (banner) banner.hidden = true;
-      const s = JSON.parse(e.data);
-      if (s.now) OFFSET = s.now * 1000 - Date.now();
-      onState(s);
-    };
-    es.onerror = () => {
-      if (banner) banner.hidden = false;
-      fails++;
-      if (fails > 4) {
-        es.close();
-        fetch(`/api/alive?room=${encodeURIComponent(room)}&cid=${encodeURIComponent(cid)}`)
-          .then((r) => { if (r.status === 404) onGone(); else setTimeout(open, 2000); })
-          .catch(() => setTimeout(open, 3000));
-      }
-    };
-  };
-  open();
-}
+// Phones talk to the host screen's browser directly (WebRTC via PeerJS); the room code is the host's peer id.
+const PEER_PREFIX = "kooraclash-v1-";
+function peerId(code) { return PEER_PREFIX + code.toUpperCase(); }
+function showConn(down) { const b = $("#conn"); if (b) b.hidden = !down; }
 
 // Countdown text + bars. Elements: <span data-deadline="epochSec"> or <div class="bar" data-deadline data-total><i></i></div>
 function serverNow() { return Date.now() + OFFSET; }

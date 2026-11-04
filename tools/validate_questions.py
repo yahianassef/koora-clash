@@ -1,16 +1,30 @@
-"""Check data/questions.json before committing new questions.
+"""Check data/questions.json and data/players.json before committing new content.
 
 Usage:  python tools/validate_questions.py
 Exits non-zero and lists problems if anything is wrong. Also prints bank size.
 """
 import json
 import os
+import re
 import sys
+import unicodedata
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from game import norm  # noqa: E402
+_AR_MARKS = re.compile("[ً-ْٰـ]")
+_AR_MAP = str.maketrans({"أ": "ا", "إ": "ا", "آ": "ا", "ٱ": "ا", "ة": "ه", "ى": "ي", "ؤ": "و", "ئ": "ي", "گ": "ج", "چ": "ج"})
 
-PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "questions.json")
+
+def norm(text):
+    """Same normalisation the game uses (static/game.js) for answer matching and duplicate checks."""
+    s = _AR_MARKS.sub("", text.strip().lower()).translate(_AR_MAP)
+    s = "".join(c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c))
+    words = [w[2:] if w.startswith("ال") and len(w) > 4 else w for w in re.split(r"[\s\-_.']+", s)]
+    return re.sub(r"[^\w]|_", "", "".join(words))
+
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+PATH = os.path.join(ROOT, "data", "questions.json")
+PLAYERS_PATH = os.path.join(ROOT, "data", "players.json")
+CONTINENTS = {"europe", "south_america", "north_america", "africa", "asia", "oceania"}
 
 
 def bilingual(x):
@@ -92,12 +106,38 @@ def main():
             errors.append(f"{tag}: duplicate question {q['q']['en']}")
         seen.add(k)
 
+    with open(PLAYERS_PATH, encoding="utf-8") as f:
+        pdata = json.load(f)
+    nations = pdata.get("nations", {})
+    for code, n in nations.items():
+        if not bilingual(n) or n.get("continent") not in CONTINENTS:
+            errors.append(f"nations.{code}: needs en, ar and continent in {sorted(CONTINENTS)}")
+    seen = set()
+    for i, p in enumerate(pdata.get("players", [])):
+        tag = f"players[{i}]"
+        if not bilingual(p.get("name")):
+            errors.append(f"{tag}: name needs en+ar")
+            continue
+        if p.get("nation") not in nations:
+            errors.append(f"{tag}: nation '{p.get('nation')}' missing from nations")
+        if p.get("pos") not in ("GK", "DF", "MF", "FW"):
+            errors.append(f"{tag}: pos must be GK/DF/MF/FW")
+        if not isinstance(p.get("born"), int) or not 1900 < p["born"] < 2015:
+            errors.append(f"{tag}: born must be a year")
+        if not p.get("clubs") or not all(isinstance(c, str) for c in p["clubs"]):
+            errors.append(f"{tag}: clubs must be a non-empty list of English club names")
+        if not isinstance(p.get("aliases"), list):
+            errors.append(f"{tag}: aliases must be a list")
+        if norm(p["name"]["en"]) in seen:
+            errors.append(f"{tag}: duplicate player {p['name']['en']}")
+        seen.add(norm(p["name"]["en"]))
+
     if errors:
         print(f"{len(errors)} problem(s):")
         print("\n".join("  - " + e for e in errors))
         return 1
     print(f"OK  career={len(data['career'])}  rondo={len(data['rondo'])}  "
-          f"words={len(data['words'])}  quickfire={len(data['quickfire'])}")
+          f"words={len(data['words'])}  quickfire={len(data['quickfire'])}  players={len(pdata['players'])}")
     return 0
 
 

@@ -1,9 +1,11 @@
 // Phone controller: join, then follow the host's game.
 
-let S = null, ROOM = null, CID = null;
+let S = null;
 let spyShown = {};  // round index -> whether the role card is revealed
+let PEER = null, CONN = null, SESSION = null;  // SESSION: {room, cid?, name}
+let joining = false;
 
-function act(a, p) { return api("/api/action", { room: ROOM, cid: CID, act: a, p: p || {} }); }
+function act(a, p) { if (CONN && CONN.open) CONN.send({ t: "act", a, p: p || {} }); }
 
 function boot() {
   applyLang();
@@ -15,6 +17,59 @@ function boot() {
   showJoin(want);
 }
 
+// Dial the host's browser; on drop (phone slept, Wi-Fi blip) keep redialling with our saved seat.
+function dial() {
+  if (!PEER || PEER.destroyed) return;
+  if (PEER.disconnected) PEER.reconnect();
+  const conn = PEER.connect(peerId(SESSION.room), { reliable: true, serialization: "json" });
+  CONN = conn;
+  conn.on("open", () => conn.send({ t: "join", name: SESSION.name, cid: SESSION.cid }));
+  conn.on("data", (msg) => onHostData(msg));
+  conn.on("close", () => {
+    if (CONN !== conn) return;
+    showConn(true);
+    setTimeout(() => { if (CONN === conn && SESSION) dial(); }, 2000);
+  });
+}
+
+function onHostData(msg) {
+  if (msg.t === "joined") {
+    joining = false;
+    showConn(false);
+    SESSION = { room: msg.room, cid: msg.cid, name: msg.name };
+    try { sessionStorage.setItem("kc_player", JSON.stringify(SESSION)); } catch (e) {}
+    history.replaceState(null, "", `play.html?r=${msg.room}`);
+    $("#joinform").hidden = true;
+    $("#joinerr").textContent = "";
+  } else if (msg.t === "error") {
+    gone(msg.error);
+  } else if (msg.t === "state") {
+    if (msg.s.kicked) { gone("kicked"); return; }
+    S = msg.s;
+    if (S.now) OFFSET = S.now * 1000 - Date.now();
+    render();
+  }
+}
+
+function start(session) {
+  SESSION = session;
+  joining = !session.cid;
+  if (PEER) PEER.destroy();
+  PEER = new Peer({ debug: 1 });
+  PEER.on("open", dial);
+  PEER.on("error", (e) => {
+    if (e.type === "peer-unavailable") {
+      // Host not reachable: a bad code when joining fresh, or the host screen is reloading.
+      if (joining) { gone("no_room"); return; }
+      showConn(true);
+      setTimeout(dial, 3000);
+    } else if (["network", "server-error", "socket-error", "socket-closed", "disconnected"].includes(e.type)) {
+      showConn(true);
+      setTimeout(() => { if (PEER && !PEER.destroyed) { PEER.reconnect(); } }, 2000);
+    }
+  });
+}
+
 function showJoin(code, err) {
   $("#joinform").hidden = false;
   $("#content").innerHTML = "";
@@ -24,31 +79,25 @@ function showJoin(code, err) {
   (code ? $("#namein") : $("#codein")).focus();
 }
 
-$("#joinform").addEventListener("submit", async (e) => {
+$("#joinform").addEventListener("submit", (e) => {
   e.preventDefault();
   const room = $("#codein").value.trim().toUpperCase();
   const name = $("#namein").value.trim();
   if (!room || !name) return;
-  const r = await api("/api/join", { room, name });
-  if (r.error) { $("#joinerr").textContent = t(r.error); return; }
-  try { sessionStorage.setItem("kc_player", JSON.stringify(r)); } catch (e) {}
-  history.replaceState(null, "", `/play?r=${r.room}`);
-  start(r);
+  $("#joinerr").textContent = "…";
+  start({ room, name });
 });
 
-function start(saved) {
-  ROOM = saved.room; CID = saved.cid;
-  $("#joinform").hidden = true;
-  connect(ROOM, CID, (s) => {
-    if (s.kicked) { gone("kicked"); return; }
-    S = s; render();
-  }, () => gone("room_gone"));
-}
-
 function gone(msg) {
+  const room = SESSION ? SESSION.room : "";
   sessionStorage.removeItem("kc_player");
-  S = null;
-  showJoin("", msg);
+  SESSION = null; S = null;
+  const c = CONN; CONN = null;
+  if (c) c.close();
+  if (PEER) { PEER.destroy(); PEER = null; }
+  showConn(false);
+  $("#content")._h = null;
+  showJoin(msg === "no_room" || msg === "name_taken" ? room : "", msg);
 }
 
 $("#answerform").addEventListener("submit", (e) => {

@@ -1,29 +1,28 @@
 // Host screen: the "studio" everyone watches.
 
-let S = null, ROOM = null, CID = null, JOIN_URL = "";
+let S = null, ROOM = null, JOIN_URL = "";
 const ALL_SEGS = ["career", "rondo", "spy", "password", "quickfire"];
 
-function act(a, p) { return api("/api/action", { room: ROOM, cid: CID, act: a, p: p || {} }); }
+function act(a, p) { hostAct(a, p || {}); }
 
 async function boot() {
   applyLang();
-  let saved = null;
-  try { saved = JSON.parse(sessionStorage.getItem("kc_host") || "null"); } catch (e) {}
-  if (saved) {
-    const r = await fetch(`/api/alive?room=${saved.room}&cid=${encodeURIComponent(saved.cid)}`);
-    if (!r.ok) saved = null;
-  }
-  if (!saved) {
-    saved = await api("/api/create");
-    try { sessionStorage.setItem("kc_host", JSON.stringify(saved)); } catch (e) {}
-  }
-  ROOM = saved.room; CID = saved.cid;
-  const info = await (await fetch("/api/info")).json();
-  const base = location.hostname === "localhost" || location.hostname === "127.0.0.1" ? info.lan : location.origin;
-  JOIN_URL = `${base}/play?r=${ROOM}`;
-  $("#codechip").textContent = ROOM;
+  await loadData();
+  let room = null;
+  try {
+    const saved = sessionStorage.getItem("kc_host_room");
+    if (saved) room = Room.restore(saved);
+  } catch (e) { room = null; }
+  if (!room) room = new Room(randomCode());
   wireSettings();
-  connect(ROOM, CID, (s) => { S = s; render(); }, () => { sessionStorage.removeItem("kc_host"); location.reload(); });
+  startHosting(room, (s) => { S = s; render(); }, (code) => {
+    ROOM = code;
+    JOIN_URL = new URL(`play.html?r=${code}`, location.href).href;
+    $("#codechip").textContent = code;
+    qrDone = false;
+    $("#stage")._h = null;
+    render();
+  });
 }
 
 function wireSettings() {
