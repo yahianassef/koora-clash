@@ -135,8 +135,10 @@ def main():
             errors.append(f"{tag}: aliases must be a list")
         if "clues" in p:
             cl = p["clues"]
-            if not isinstance(cl, list) or not 5 <= len(cl) <= 8 or not all(bilingual(c) for c in cl):
-                errors.append(f"{tag}: clues must be 5–8 items, each with en+ar (hardest first)")
+            if not isinstance(cl, list) or len(cl) != 6 or not all(bilingual(c) for c in cl):
+                errors.append(f"{tag}: clues must be exactly 6 items, each with en+ar (see the ladder in README)")
+            elif not cl[1]["en"].startswith("I played alongside"):
+                errors.append(f"{tag}: clue 2 must name three teammates (\"I played alongside …\")")
             elif any(norm(p["name"]["en"].split()[-1]) in norm(c["en"]) for c in cl):
                 errors.append(f"{tag}: a clue gives away the player's name")
         if norm(p["name"]["en"]) in seen:
