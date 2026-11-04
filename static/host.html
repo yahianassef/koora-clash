@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Koora Clash · Host</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <div id="conn" hidden data-t="reconnecting"></div>
+  <div class="host">
+    <header>
+      <span class="brand">⚽ <b data-t="brand"></b></span>
+      <span class="chip code" id="codechip"></span>
+      <span class="grow"></span>
+      <button class="ghost small" onclick="toggleLang()" data-t="lang"></button>
+    </header>
+    <main>
+      <div class="stage" id="stage"></div>
+      <div class="card settings" id="settings" hidden>
+        <div class="grid2">
+          <div>
+            <h3 style="margin-top:0" data-t="mode"></h3>
+            <label><input type="radio" name="mode" value="teams"> <span data-t="teams"></span></label>
+            <label><input type="radio" name="mode" value="solo"> <span data-t="solo"></span></label>
+            <div id="teamnames">
+              <div class="row" style="margin-top:8px"><input type="text" id="nameA" maxlength="24"></div>
+              <div class="row" style="margin-top:8px"><input type="text" id="nameB" maxlength="24"></div>
+            </div>
+          </div>
+          <div>
+            <h3 style="margin-top:0" data-t="segments"></h3>
+            <div id="seglist"></div>
+          </div>
+        </div>
+        <div class="row" style="margin-top:14px">
+          <button class="primary" id="startbtn" data-t="start"></button>
+          <span class="muted" id="starthint"></span>
+        </div>
+      </div>
+      <div class="controls" id="controls"></div>
+    </main>
+    <aside>
+      <div class="card board">
+        <h3 style="margin-top:0" data-t="scoreboard"></h3>
+        <div id="board"></div>
+      </div>
+    </aside>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="/static/common.js"></script>
+  <script src="/static/host.js"></script>
+</body>
+</html>

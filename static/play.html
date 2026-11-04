@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b1f17">
+  <title>Koora Clash · Play</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <div id="conn" hidden data-t="reconnecting"></div>
+  <div class="phone">
+    <header>
+      <span class="brand">⚽ <b data-t="brand"></b></span>
+      <span class="grow"></span>
+      <span id="mechip"></span>
+      <button class="ghost small" onclick="toggleLang()" data-t="lang"></button>
+    </header>
+
+    <form class="joinform" id="joinform" hidden>
+      <h2 style="margin:0" data-t="join_game"></h2>
+      <input type="text" id="codein" class="code-in" maxlength="4" autocomplete="off" data-tp="room_code">
+      <input type="text" id="namein" maxlength="16" autocomplete="nickname" data-tp="your_name">
+      <button class="primary" type="submit" data-t="join"></button>
+      <div class="err" id="joinerr"></div>
+    </form>
+
+    <div class="content" id="content"></div>
+  </div>
+
+  <div class="answerbar" id="answerbar" hidden>
+    <div class="inner">
+      <div class="fb" id="fb"></div>
+      <form class="row" id="answerform">
+        <input type="text" id="answerin" class="grow" autocomplete="off" autocorrect="off" spellcheck="false" data-tp="type_answer">
+        <button class="primary" type="submit" data-t="send"></button>
+      </form>
+    </div>
+  </div>
+  <script src="/static/common.js"></script>
+  <script src="/static/play.js"></script>
+</body>
+</html>
