@@ -31,6 +31,7 @@ function qkey(kind, item) {
   if (kind === "career") return "career:" + item.answer.en;
   if (kind === "rondo") return "rondo:" + item.prompt.en;
   if (kind === "quickfire") return "quickfire:" + item.q.en + "|" + (item.img || "");
+  if (kind === "who") return "who:" + item.name.en;
   return "word:" + item.en;
 }
 function markPlayed(kind, items) {

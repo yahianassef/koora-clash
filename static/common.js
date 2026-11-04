@@ -51,7 +51,9 @@ const I18N = {
     g_nameall: "Name Them All", g_nameall_d: "Sporcle-style: name every answer before the clock runs out.",
     g_career: "Career Path", g_career_d: "Guess the player from his clubs. Fewer clubs = more points.",
     g_survival: "Survival Quiz", g_survival_d: "Endless questions, 10 seconds each, 3 lives. How far can you go?",
-    g_mystery: "Mystery Player", g_mystery_d: "Guess the player in 8 tries using nation, position, age and clubs clues.",
+    g_mystery: "Who's the Player?", g_mystery_d: "\"I played for only three clubs…\" Guess from the clues — the fewer you need, the more you score.",
+    who_is_it: "Who am I?", next_clue_btn: "Next clue", clues_left: "more clues — each one costs a point", got_him: "Got him with",
+    clue_one: "clue", clues_many: "clues", see_score: "See my score",
     best: "Best", play: "Play", give_up: "Give up", again: "Play again", menu: "All games", found: "found",
     choose_cat: "Pick a category", random_cat: "Random category", time_up: "Time's up!", you_got: "You got",
     reveal_next: "Show next club", guesses_left: "guesses left", round_of: "Player", total: "Total",
@@ -64,7 +66,7 @@ const I18N = {
     hero_sub: "Party games for your next outing, solo challenges for every spare minute. Built for real fans.",
     cta_host: "Host a party game", cta_solo: "Play solo", stat_career: "career paths", stat_cats: "quiz categories",
     stat_q: "questions", stat_players: "players", daily_title: "Today's Mystery Player is waiting",
-    daily_sub: "Can you name him in 8 guesses?", party_title: "With friends", solo_title: "On your own",
+    daily_sub: "Can you name him from the first clue?", party_title: "With friends", solo_title: "On your own",
     lang: "عربي", copy: "Copy link", copied: "Copied!", plus: "+1", minus: "−1",
   },
   ar: {
@@ -117,7 +119,9 @@ const I18N = {
     g_nameall: "سمّيهم كلهم", g_nameall_d: "زي سبوركل: قول كل الإجابات قبل الوقت ما يخلص.",
     g_career: "مسيرة لاعب", g_career_d: "اعرف اللاعب من أنديته. كل ما تعرفه بأندية أقل، نقطك أكتر.",
     g_survival: "تحدي البقاء", g_survival_d: "أسئلة ورا بعض، ١٠ ثواني لكل سؤال، و٣ أرواح. هتوصل لفين؟",
-    g_mystery: "مين اللاعب؟", g_mystery_d: "اعرف اللاعب في ٨ محاولات من الجنسية والمركز والسن والأندية.",
+    g_mystery: "مين اللاعب؟", g_mystery_d: "\"لعبت لـ٣ أندية بس…\" اعرفه من التلميحات — كل ما تحتاج تلميحات أقل، نقطك أكتر.",
+    who_is_it: "أنا مين؟", next_clue_btn: "التلميح اللي بعده", clues_left: "تلميحات كمان — كل واحد بنقطة", got_him: "عرفته من",
+    clue_one: "تلميح", clues_many: "تلميحات", see_score: "شوف نتيجتي",
     best: "أحسن رقم", play: "العب", give_up: "استسلم", again: "العب تاني", menu: "كل الألعاب", found: "عرفتهم",
     choose_cat: "اختار فئة", random_cat: "فئة عشوائية", time_up: "الوقت خلص!", you_got: "جبت",
     reveal_next: "وريني النادي اللي بعده", guesses_left: "محاولات باقية", round_of: "لاعب", total: "المجموع",
@@ -130,7 +134,7 @@ const I18N = {
     hero_sub: "ألعاب جماعية لخروجتك الجاية، وتحديات لوحدك لأي وقت فاضي. معمولة للفانز الحقيقيين.",
     cta_host: "ابدأ تحدي جماعي", cta_solo: "العب لوحدك", stat_career: "مسيرة لاعب", stat_cats: "فئة أسئلة",
     stat_q: "سؤال", stat_players: "لاعب", daily_title: "لاعب النهارده مستنيك",
-    daily_sub: "تقدر تعرفه في ٨ محاولات؟", party_title: "مع صحابك", solo_title: "لوحدك",
+    daily_sub: "تقدر تعرفه من أول تلميح؟", party_title: "مع صحابك", solo_title: "لوحدك",
     lang: "English", copy: "انسخ اللينك", copied: "اتنسخ!", plus: "+١", minus: "−١",
   },
 };
@@ -224,7 +228,7 @@ function soloTile(k, best, attrs, tag) {
     <span class="go">${t("play")} ${icon("arrow")}</span><span class="bg">${icon(k)}</span></${tag}>`;
 }
 function getBestScore(k) {
-  try { return JSON.parse(localStorage.getItem("kc_best") || "{}")[k === "nameall" ? "nameall_total" : k]; } catch (e) { return undefined; }
+  try { return JSON.parse(localStorage.getItem("kc_best") || "{}")[k === "nameall" ? "nameall_total" : k === "mystery" ? "mystery_pts" : k]; } catch (e) { return undefined; }
 }
 
 // ---------- feedback: hype toasts, confetti, shake ----------

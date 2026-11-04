@@ -133,6 +133,36 @@
         "Barcelona",
         "Paris Saint-Germain",
         "Inter Miami"
+      ],
+      "clues": [
+        {
+          "en": "I made my official debut at 17 wearing the number 30 shirt.",
+          "ar": "لعبت أول ماتش رسمي وأنا عندي ١٧ سنة لابس رقم ٣٠."
+        },
+        {
+          "en": "I played for only three clubs in my entire career.",
+          "ar": "لعبت لـ٣ أندية بس في مسيرتي كلها."
+        },
+        {
+          "en": "I suffered a humiliating 8–2 defeat against Bayern Munich.",
+          "ar": "اتهزمت ٨–٢ من بايرن ميونخ."
+        },
+        {
+          "en": "I missed a penalty in a continental final and briefly retired from my national team.",
+          "ar": "ضيعت ضربة جزاء في نهائي قاري واعتزلت دوليًا لفترة قصيرة."
+        },
+        {
+          "en": "I am the all-time top scorer in El Clásico history.",
+          "ar": "أنا الهداف التاريخي للكلاسيكو."
+        },
+        {
+          "en": "I hold the record for the most appearances in World Cup history.",
+          "ar": "عندي رقم أكتر لاعب لعب ماتشات في تاريخ كأس العالم."
+        },
+        {
+          "en": "I have won a record eight Ballon d'Or awards.",
+          "ar": "كسبت الكرة الذهبية ٨ مرات، رقم قياسي."
+        }
       ]
     },
     {
@@ -156,6 +186,32 @@
         "Real Madrid",
         "Juventus",
         "Al Nassr"
+      ],
+      "clues": [
+        {
+          "en": "I grew up on a Portuguese island far from Lisbon.",
+          "ar": "اتربيت في جزيرة برتغالية بعيدة عن لشبونة."
+        },
+        {
+          "en": "A pre-season friendly against Manchester United convinced them to sign me at 18.",
+          "ar": "ماتش ودي قدام مانشستر يونايتد خلاهم يشتروني وأنا عندي ١٨ سنة."
+        },
+        {
+          "en": "I scored an overhead kick against Juventus — and later joined them.",
+          "ar": "جبت جول مقصية في يوفنتوس — وبعدها لعبتلهم."
+        },
+        {
+          "en": "I captained my country to the Euro 2016 title.",
+          "ar": "كنت كابتن منتخب بلدي لما كسبنا يورو ٢٠١٦."
+        },
+        {
+          "en": "I am the all-time top scorer in Champions League history.",
+          "ar": "أنا الهداف التاريخي لدوري أبطال أوروبا."
+        },
+        {
+          "en": "Siuuu! I wore number 7 at Manchester United, Real Madrid and Al Nassr.",
+          "ar": "سيييو! لبست رقم ٧ في مانشستر يونايتد وريال مدريد والنصر."
+        }
       ]
     },
     {
@@ -177,6 +233,36 @@
         "Fiorentina",
         "Roma",
         "Liverpool"
+      ],
+      "clues": [
+        {
+          "en": "As a kid I travelled hours by bus each way just to get to training.",
+          "ar": "وأنا صغير كنت بسافر ساعات في الأتوبيس كل يوم عشان أروح التمرين."
+        },
+        {
+          "en": "My first club in Europe was in Switzerland.",
+          "ar": "أول نادي ليا في أوروبا كان في سويسرا."
+        },
+        {
+          "en": "I scored against Chelsea home and away — then they signed me.",
+          "ar": "جبت جول في تشيلسي ذهاب وإياب — وبعدها اشتروني."
+        },
+        {
+          "en": "I was on loan at Fiorentina before a permanent move to Roma.",
+          "ar": "اتعرت لفيورنتينا وبعدها انتقلت لروما نهائي."
+        },
+        {
+          "en": "My last-minute penalty sent Egypt to the 2018 World Cup, their first in 28 years.",
+          "ar": "ضربة جزاء مني في آخر دقيقة أهلت مصر لكأس العالم ٢٠١٨ لأول مرة من ٢٨ سنة."
+        },
+        {
+          "en": "I scored 32 goals in my first Premier League season at Liverpool.",
+          "ar": "جبت ٣٢ جول في أول موسم ليا في الدوري الإنجليزي مع ليفربول."
+        },
+        {
+          "en": "Anfield calls me the Egyptian King.",
+          "ar": "جماهير أنفيلد بتقولي الملك المصري."
+        }
       ]
     },
     {
@@ -231,6 +317,32 @@
         "RB Salzburg",
         "Borussia Dortmund",
         "Manchester City"
+      ],
+      "clues": [
+        {
+          "en": "My father also played in the Premier League.",
+          "ar": "أبويا كمان لعب في الدوري الإنجليزي."
+        },
+        {
+          "en": "I scored nine goals in a single match at the 2019 Under-20 World Cup.",
+          "ar": "جبت ٩ أجوان في ماتش واحد في كأس العالم للشباب ٢٠١٩."
+        },
+        {
+          "en": "I scored a hat-trick on my Champions League debut for Salzburg.",
+          "ar": "جبت هاتريك في أول ماتش ليا في دوري الأبطال مع سالزبورج."
+        },
+        {
+          "en": "I came off the bench and scored a hat-trick on my Dortmund debut.",
+          "ar": "نزلت بديل وجبت هاتريك في أول ماتش مع دورتموند."
+        },
+        {
+          "en": "I broke the Premier League record with 36 goals in my first season.",
+          "ar": "كسرت رقم الدوري الإنجليزي بـ٣٦ جول في أول موسم ليا."
+        },
+        {
+          "en": "I'm the Norwegian striker who joined Manchester City in 2022.",
+          "ar": "أنا المهاجم النرويجي اللي انضم لمانشستر سيتي سنة ٢٠٢٢."
+        }
       ]
     },
     {
@@ -288,6 +400,32 @@
         "Tottenham",
         "Real Madrid",
         "AC Milan"
+      ],
+      "clues": [
+        {
+          "en": "I grew up as a refugee during the war in my country.",
+          "ar": "اتربيت لاجئ وقت الحرب في بلدي."
+        },
+        {
+          "en": "On loan in Bosnia I was named the league's player of the year.",
+          "ar": "وأنا معار في البوسنة اتختارت أحسن لاعب في الدوري."
+        },
+        {
+          "en": "Tottenham signed me in 2008.",
+          "ar": "توتنهام اشتراني سنة ٢٠٠٨."
+        },
+        {
+          "en": "I won the Golden Ball at the 2018 World Cup.",
+          "ar": "كسبت جايزة أحسن لاعب في كأس العالم ٢٠١٨."
+        },
+        {
+          "en": "I ended Messi and Ronaldo's Ballon d'Or run in 2018.",
+          "ar": "قطعت سلسلة ميسي ورونالدو في الكرة الذهبية سنة ٢٠١٨."
+        },
+        {
+          "en": "I won six Champions League titles with Real Madrid, then joined AC Milan at 39.",
+          "ar": "كسبت دوري الأبطال ٦ مرات مع ريال مدريد وبعدها رحت ميلان وأنا عندي ٣٩ سنة."
+        }
       ]
     },
     {
@@ -353,6 +491,32 @@
         "Paris Saint-Germain",
         "Manchester United",
         "LA Galaxy"
+      ],
+      "clues": [
+        {
+          "en": "I trained in taekwondo as a kid.",
+          "ar": "وأنا صغير اتدربت تايكوندو."
+        },
+        {
+          "en": "I won league titles in the Netherlands, Italy, Spain and France.",
+          "ar": "كسبت الدوري في هولندا وإيطاليا وإسبانيا وفرنسا."
+        },
+        {
+          "en": "I played for Juventus, Inter and AC Milan.",
+          "ar": "لعبت ليوفنتوس وإنتر وميلان."
+        },
+        {
+          "en": "I scored on my LA Galaxy debut with a volley from 40 yards.",
+          "ar": "جبت جول في أول ماتش ليا مع لوس أنجلوس جالاكسي بشوطة من ٤٠ ياردة."
+        },
+        {
+          "en": "I scored a 30-metre bicycle kick against England.",
+          "ar": "جبت جول مقصية من ٣٠ متر في إنجلترا."
+        },
+        {
+          "en": "I am Sweden's all-time top scorer and often talk about myself in the third person.",
+          "ar": "أنا الهداف التاريخي للسويد وساعات بتكلم عن نفسي بصيغة الغايب."
+        }
       ]
     },
     {
@@ -533,6 +697,32 @@
         "Manchester City",
         "Al Ahli",
         "Al Shamal"
+      ],
+      "clues": [
+        {
+          "en": "I started out in the French lower leagues at Quimper.",
+          "ar": "بدأت في الدرجات الأقل في فرنسا مع كيمبر."
+        },
+        {
+          "en": "I was signed from Le Havre for less than £500,000.",
+          "ar": "اتشتريت من لوهافر بأقل من ٥٠٠ ألف جنيه استرليني."
+        },
+        {
+          "en": "I won the PFA Player of the Year as my 5000–1 outsiders won the league.",
+          "ar": "كسبت جايزة أحسن لاعب في إنجلترا والفريق بتاعي كسب الدوري وكان احتماله ١ من ٥٠٠٠."
+        },
+        {
+          "en": "My stoppage-time free kick beat Nigeria in an AFCON semi-final.",
+          "ar": "فري كيك مني في الوقت بدل الضايع كسبت نيجيريا في نص نهائي أمم أفريقيا."
+        },
+        {
+          "en": "I captained Algeria to the 2019 Africa Cup of Nations title.",
+          "ar": "كنت كابتن الجزائر لما كسبنا أمم أفريقيا ٢٠١٩."
+        },
+        {
+          "en": "I won the treble with Manchester City in 2023.",
+          "ar": "كسبت الثلاثية مع مانشستر سيتي سنة ٢٠٢٣."
+        }
       ]
     },
     {
@@ -574,6 +764,32 @@
         "Arsenal",
         "Barcelona",
         "New York Red Bulls"
+      ],
+      "clues": [
+        {
+          "en": "Arsène Wenger gave me my debut at 17 at Monaco.",
+          "ar": "أرسين فينجر لعبني أول ماتش وأنا عندي ١٧ سنة في موناكو."
+        },
+        {
+          "en": "I had a frustrating half-season on the wing at Juventus.",
+          "ar": "قضيت نص موسم مش حلو كجناح في يوفنتوس."
+        },
+        {
+          "en": "I won the World Cup at 20.",
+          "ar": "كسبت كأس العالم وأنا عندي ٢٠ سنة."
+        },
+        {
+          "en": "My handball helped France qualify for the 2010 World Cup.",
+          "ar": "لمسة إيد مني ساعدت فرنسا تتأهل لكأس العالم ٢٠١٠."
+        },
+        {
+          "en": "I was the top scorer of the Premier League's unbeaten 'Invincibles' season.",
+          "ar": "كنت هداف موسم \"اللي ما يتهزموش\" في الدوري الإنجليزي."
+        },
+        {
+          "en": "I am Arsenal's all-time top scorer and have a statue outside the Emirates.",
+          "ar": "أنا الهداف التاريخي لأرسنال وليا تمثال قدام الإمارات."
+        }
       ]
     },
     {
@@ -594,6 +810,36 @@
         "Bordeaux",
         "Juventus",
         "Real Madrid"
+      ],
+      "clues": [
+        {
+          "en": "I grew up in Marseille, the son of Algerian immigrants.",
+          "ar": "اتربيت في مارسيليا، وأهلي مهاجرين من الجزائر."
+        },
+        {
+          "en": "I moved from Bordeaux to Juventus in 1996.",
+          "ar": "انتقلت من بوردو ليوفنتوس سنة ١٩٩٦."
+        },
+        {
+          "en": "I scored two headers in a World Cup final.",
+          "ar": "جبت جولين بالراس في نهائي كأس العالم."
+        },
+        {
+          "en": "My left-foot volley won a Champions League final in Glasgow.",
+          "ar": "فولي بالشمال مني كسب نهائي دوري الأبطال في جلاسجو."
+        },
+        {
+          "en": "My last professional match ended with a red card for a headbutt.",
+          "ar": "آخر ماتش في مسيرتي خلص بكارت أحمر بسبب نطحة."
+        },
+        {
+          "en": "As a coach I won three Champions League titles in a row.",
+          "ar": "كمدرب كسبت دوري الأبطال ٣ مرات ورا بعض."
+        },
+        {
+          "en": "Fans call me Zizou.",
+          "ar": "الجماهير بتقولي زيزو."
+        }
       ]
     },
     {
@@ -614,6 +860,32 @@
         "Atlético Mineiro",
         "Querétaro",
         "Fluminense"
+      ],
+      "clues": [
+        {
+          "en": "I started at Grêmio in Porto Alegre.",
+          "ar": "بدأت في جريميو في بورتو أليجري."
+        },
+        {
+          "en": "My long free kick lobbed David Seaman at the 2002 World Cup.",
+          "ar": "فري كيك بعيدة مني لعبت على ديفيد سيمان في كأس العالم ٢٠٠٢."
+        },
+        {
+          "en": "I joined Barcelona from PSG in 2003.",
+          "ar": "انضميت لبرشلونة من باريس سان جيرمان سنة ٢٠٠٣."
+        },
+        {
+          "en": "Real Madrid fans gave me a standing ovation at the Bernabéu.",
+          "ar": "جماهير ريال مدريد صقفتلي واقفين في البرنابيو."
+        },
+        {
+          "en": "I won the Ballon d'Or in 2005.",
+          "ar": "كسبت الكرة الذهبية سنة ٢٠٠٥."
+        },
+        {
+          "en": "My smile and elásticos made me football's joy.",
+          "ar": "ضحكتي والإلاستيكو بتاعي خلوني فرحة الكورة."
+        }
       ]
     },
     {
@@ -632,6 +904,32 @@
         "AC Milan",
         "Real Madrid",
         "Orlando City"
+      ],
+      "clues": [
+        {
+          "en": "I recovered from a spinal injury after a swimming-pool accident as a teenager.",
+          "ar": "اتعافيت من إصابة في العمود الفقري بعد حادثة في حمام سباحة وأنا مراهق."
+        },
+        {
+          "en": "I started my career at São Paulo.",
+          "ar": "بدأت مسيرتي في ساو باولو."
+        },
+        {
+          "en": "I won the 2002 World Cup but played only 25 minutes.",
+          "ar": "كسبت كأس العالم ٢٠٠٢ ولعبت ٢٥ دقيقة بس."
+        },
+        {
+          "en": "I was the Champions League top scorer when my club won it in 2007.",
+          "ar": "كنت هداف دوري الأبطال لما نادي كسبه سنة ٢٠٠٧."
+        },
+        {
+          "en": "I was the last Ballon d'Or winner before the Messi–Ronaldo era.",
+          "ar": "أنا آخر واحد كسب الكرة الذهبية قبل عصر ميسي ورونالدو."
+        },
+        {
+          "en": "I'm the Brazilian No. 22 who starred for AC Milan.",
+          "ar": "أنا البرازيلي اللي لبس رقم ٢٢ ولمع مع ميلان."
+        }
       ]
     },
     {
@@ -655,6 +953,32 @@
         "Galatasaray",
         "Montreal Impact",
         "Phoenix Rising"
+      ],
+      "clues": [
+        {
+          "en": "I played in France's second division at Le Mans before breaking through.",
+          "ar": "لعبت في الدرجة التانية الفرنسية مع لومان قبل ما أتعرف."
+        },
+        {
+          "en": "One great season at Marseille earned me a big-money move to London.",
+          "ar": "موسم واحد حلو مع مارسيليا جابلي انتقال كبير للندن."
+        },
+        {
+          "en": "I scored in four FA Cup finals.",
+          "ar": "جبت أجوان في ٤ نهائيات كأس إنجلترا."
+        },
+        {
+          "en": "My televised plea after World Cup qualification helped bring a ceasefire at home.",
+          "ar": "كلمة مني في التلفزيون بعد التأهل لكأس العالم ساعدت توقف الحرب في بلدي."
+        },
+        {
+          "en": "I am the Ivory Coast's all-time top scorer.",
+          "ar": "أنا الهداف التاريخي لكوت ديفوار."
+        },
+        {
+          "en": "My late header and winning penalty won Chelsea the 2012 Champions League.",
+          "ar": "جول بالراس في الآخر وضربة الجزاء الحاسمة مني كسبوا تشيلسي دوري الأبطال ٢٠١٢."
+        }
       ]
     },
     {
@@ -675,6 +999,32 @@
         "Tersana",
         "Al Ahly",
         "Baniyas"
+      ],
+      "clues": [
+        {
+          "en": "I started my career at Tersana.",
+          "ar": "بدأت مسيرتي في الترسانة."
+        },
+        {
+          "en": "My club finished third at the 2006 Club World Cup.",
+          "ar": "نادي جه تالت في كأس العالم للأندية ٢٠٠٦."
+        },
+        {
+          "en": "I scored a stoppage-time winner in Tunisia to win the 2006 African Champions League.",
+          "ar": "جبت جول الفوز في الوقت بدل الضايع في تونس وكسبنا دوري أبطال أفريقيا ٢٠٠٦."
+        },
+        {
+          "en": "After scoring at AFCON 2008 I revealed a shirt showing sympathy with Gaza.",
+          "ar": "بعد جول في أمم أفريقيا ٢٠٠٨ رفعت التيشيرت وكان تحته تيشيرت تعاطفًا مع غزة."
+        },
+        {
+          "en": "I scored the only goal of the 2008 Africa Cup of Nations final.",
+          "ar": "جبت الجول الوحيد في نهائي أمم أفريقيا ٢٠٠٨."
+        },
+        {
+          "en": "Al Ahly fans call me 'the Magician'.",
+          "ar": "جماهير الأهلي بتقولي الساحر."
+        }
       ]
     },
     {
@@ -694,6 +1044,32 @@
         "Borussia Dortmund",
         "Inter",
         "Paris Saint-Germain"
+      ],
+      "clues": [
+        {
+          "en": "I was born in Madrid to Moroccan parents.",
+          "ar": "اتولدت في مدريد لأب وأم مغاربة."
+        },
+        {
+          "en": "Real Madrid loaned me to Borussia Dortmund for two seasons.",
+          "ar": "ريال مدريد عارني لدورتموند موسمين."
+        },
+        {
+          "en": "I won Serie A with Inter in 2021.",
+          "ar": "كسبت الدوري الإيطالي مع إنتر سنة ٢٠٢١."
+        },
+        {
+          "en": "My Panenka penalty knocked Spain out of the 2022 World Cup.",
+          "ar": "ضربة جزاء بانينكا مني خرجت إسبانيا من كأس العالم ٢٠٢٢."
+        },
+        {
+          "en": "I scored in the 2025 Champions League final for PSG.",
+          "ar": "جبت جول في نهائي دوري الأبطال ٢٠٢٥ مع باريس سان جيرمان."
+        },
+        {
+          "en": "I'm Morocco's star right-back.",
+          "ar": "أنا الظهير اليمين النجم بتاع المغرب."
+        }
       ]
     },
     {
@@ -1046,6 +1422,32 @@
         "Liverpool",
         "Bayern Munich",
         "Al Nassr"
+      ],
+      "clues": [
+        {
+          "en": "I left my village as a teenager without telling my family, to chase football.",
+          "ar": "سبت قريتي وأنا مراهق من غير ما أقول لأهلي عشان أجري ورا الكورة."
+        },
+        {
+          "en": "My first club in Europe was Metz in France.",
+          "ar": "أول نادي ليا في أوروبا كان ميتز في فرنسا."
+        },
+        {
+          "en": "I scored the fastest hat-trick in Premier League history.",
+          "ar": "جبت أسرع هاتريك في تاريخ الدوري الإنجليزي."
+        },
+        {
+          "en": "I scored in a Champions League final that my team lost.",
+          "ar": "جبت جول في نهائي دوري أبطال واتهزمنا."
+        },
+        {
+          "en": "I scored the winning penalty in the 2022 AFCON final shootout.",
+          "ar": "جبت ضربة الجزاء الحاسمة في نهائي أمم أفريقيا ٢٠٢٢."
+        },
+        {
+          "en": "I won the 2019 Champions League with Liverpool alongside Salah and Firmino.",
+          "ar": "كسبت دوري الأبطال ٢٠١٩ مع ليفربول جنب صلاح وفيرمينو."
+        }
       ]
     },
     {

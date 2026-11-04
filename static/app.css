@@ -327,6 +327,14 @@ button.opt:disabled { opacity: 1; }
 .slot { padding: 12px 14px; border-radius: 14px; background: rgba(0, 0, 0, .25); border: 1px dashed var(--line); color: var(--muted); font-weight: 600; min-height: 48px; display: flex; align-items: center; }
 .slot.got { border: 1px solid var(--ok); background: rgba(46, 229, 157, .14); color: var(--text); animation: pop .35s cubic-bezier(.3, 1.6, .5, 1); }
 .slot.missed { border: 1px solid rgba(255, 77, 109, .5); background: rgba(255, 77, 109, .1); color: #ffc2cf; }
+.clues { display: flex; flex-direction: column; gap: 8px; }
+.clue { display: flex; gap: 14px; align-items: center; padding: 14px 16px; border-radius: 16px; background: rgba(255, 255, 255, .05); border: 1px solid var(--line); font-size: 18px; line-height: 1.45; }
+.clue .n { flex: none; width: 34px; height: 34px; border-radius: 10px; display: grid; place-items: center; font-family: var(--display); font-size: 22px; background: color-mix(in srgb, var(--c-mystery, #a78bfa) 30%, transparent); color: #fff; }
+.clue.new { border-color: #a78bfa; background: linear-gradient(90deg, rgba(167, 139, 250, .22), rgba(255, 255, 255, .03)); box-shadow: 0 14px 34px -14px rgba(167, 139, 250, .7); animation: pop .45s cubic-bezier(.3, 1.6, .5, 1); }
+.clue.new .n { background: #a78bfa; color: #0a0e1a; }
+.clue.locked { color: var(--muted); border-style: dashed; background: transparent; font-size: 15px; }
+.clue.locked .n { background: rgba(255, 255, 255, .06); color: var(--muted); }
+.answer-card { animation: pop .45s cubic-bezier(.3, 1.6, .5, 1); }
 .mtable { display: flex; flex-direction: column; gap: 6px; overflow-x: auto; }
 .mrow { display: grid; grid-template-columns: 1.4fr 1fr .7fr .8fr 1.4fr; gap: 6px; min-width: 540px; }
 .mrow > div { padding: 12px 8px; border-radius: 12px; background: rgba(255, 255, 255, .06); font-weight: 600; text-align: center; font-size: 14px; animation: flip .5s ease both; }

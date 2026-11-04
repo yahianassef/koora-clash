@@ -21,7 +21,7 @@ function go(game) { history.replaceState(null, "", game ? `solo.html?g=${game}` 
 
 function menuHTML() {
   return `<div class="sologrid">${SOLO_GAMES.map((k) => {
-    const b = getBest(k === "nameall" ? "nameall_total" : k);
+    const b = getBestScore(k);
     return soloTile(k, b, `data-go="${k}"`, "button");
   }).join("")}</div>`;
 }
@@ -249,80 +249,107 @@ const Survival = {
   },
 };
 
-// ---------- Mystery Player (Who Are Ya?-style) ----------
+// ---------- Who's the Player? (clue by clue, hardest first) ----------
 const Mystery = {
-  TRIES: 8,
+  ROUND: 5,
+  pool() { return PLAYERS.players.filter((p) => (p.clues || []).length >= 5); },
   start(mode) {
     clearTimers();
     this.mode = mode || "daily";
-    const list = PLAYERS.players;
+    const pool = this.pool();
     if (this.mode === "daily") {
       const d = new Date();
-      const seed = d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
-      let h = seed;
+      let h = d.getFullYear() * 10000 + (d.getMonth() + 1) * 100 + d.getDate();
       for (let i = 0; i < 5; i++) h = (h * 1103515245 + 12345) % 2147483648;
-      this.target = list[h % list.length];
+      this.queue = [pool[h % pool.length]];
     } else {
-      this.target = choice(list);
+      this.queue = freshest("who", pool, Math.min(this.ROUND, pool.length));
     }
-    this.guesses = [];
-    this.over = false;
-    app().innerHTML = topbar("mystery") +
-      `<div class="row"><button class="small ${this.mode === "daily" ? "primary" : ""}" data-mode="daily">📅 ${t("daily")}</button>
-        <button class="small ${this.mode === "random" ? "primary" : ""}" data-mode="random">🎲 ${t("random")}</button>
-        <span class="grow"></span><span class="chip"><b id="my-left">${this.TRIES}</b> ${t("guesses_left")}</span></div>
-      <form class="row" id="my-form"><input type="text" id="my-in" class="grow" list="my-list" autocomplete="off" spellcheck="false" placeholder="${esc(t("guess_player"))}">
+    this.qi = -1;
+    this.total = 0;
+    this.next();
+  },
+  next() {
+    this.qi++;
+    if (this.qi >= this.queue.length) return this.end();
+    this.p = this.queue[this.qi];
+    this.shown = 1;
+    this.done = false;
+    const all = PLAYERS.players;
+    app().innerHTML = topbar("mystery", `<span class="chip">${t("total")}: <b id="wh-total">${this.total}</b></span>`) +
+      `<div class="row"><button class="small ${this.mode === "daily" ? "primary" : ""}" data-mode="daily">${icon("calendar")} ${t("daily")}</button>
+        <button class="small ${this.mode === "random" ? "primary" : ""}" data-mode="random">${icon("dice")} ${t("random")}</button>
+        <span class="grow"></span><span class="muted">${this.queue.length > 1 ? `${t("round_of")} ${this.qi + 1}/${this.queue.length} · ` : ""}${t("worth")} <b id="wh-pts"></b> ${t("pts")}</span></div>
+      <div class="clues" id="wh-clues"></div>
+      <form class="row" id="wh-form"><input type="text" id="wh-in" class="grow" list="wh-list" autocomplete="off" spellcheck="false" placeholder="${esc(t("who_is_it"))}">
         <button class="primary">${t("send")}</button></form>
-      <datalist id="my-list">${list.map((p) => `<option value="${esc(L(p.name))}">`).join("")}</datalist>
-      <div class="fb bad" id="my-fb"></div>
-      <div class="mtable"><div class="mrow mhead"><div></div><div>${t("nation")}</div><div>${t("position")}</div><div>${t("born")}</div><div>${t("clubs_shared")}</div></div><div id="my-rows"></div></div>
-      <div id="my-end"></div>`;
+      <datalist id="wh-list">${all.map((p) => `<option value="${esc(L(p.name))}">`).join("")}</datalist>
+      <div class="row"><button id="wh-more">${t("next_clue_btn")}</button><button class="ghost" id="wh-skip">${t("give_up")}</button></div>
+      <div class="fb" id="wh-fb"></div><div id="wh-end"></div>`;
     wire(app());
     app().querySelectorAll("[data-mode]").forEach((b) => { b.onclick = () => this.start(b.dataset.mode); });
-    $("#my-in").focus();
-    $("#my-form").onsubmit = (e) => {
+    this.draw();
+    $("#wh-in").focus();
+    $("#wh-form").onsubmit = (e) => {
       e.preventDefault();
-      if (this.over) return;
-      const v = $("#my-in").value.trim();
-      if (!v) return;
-      const exact = list.find((p) => norm(p.name.en) === norm(v) || norm(p.name.ar) === norm(v));
-      const p = exact || list.find((x) => matches(v, [x.name.en, x.name.ar, ...x.aliases]));
-      if (!p) { $("#my-fb").textContent = t("unknown_player"); shake($("#my-form")); return; }
-      if (this.guesses.includes(p)) { $("#my-fb").textContent = t("already_guessed"); return; }
-      $("#my-fb").textContent = "";
-      $("#my-in").value = "";
-      this.guess(p);
+      const v = $("#wh-in").value.trim();
+      if (!v || this.done) return;
+      $("#wh-in").value = "";
+      if (matches(v, [this.p.name.en, this.p.name.ar, ...this.p.aliases])) return this.reveal(true);
+      $("#wh-fb").textContent = `✖ ${v}`;
+      $("#wh-fb").className = "fb bad";
+      shake($("#wh-form"));
+      this.more();
     };
+    $("#wh-more").onclick = () => this.more();
+    $("#wh-skip").onclick = () => this.reveal(false);
   },
-  guess(p) {
-    const T = this.target, N = PLAYERS.nations;
-    this.guesses.push(p);
-    const nat = p.nation === T.nation ? "g" : N[p.nation].continent === N[T.nation].continent ? "y" : "x";
-    const pos = p.pos === T.pos ? "g" : "x";
-    const dy = T.born - p.born;
-    const born = dy === 0 ? "g" : Math.abs(dy) <= 2 ? "y" : "x";
-    const arrow = dy > 0 ? " ↑" : dy < 0 ? " ↓" : "";
-    const shared = p.clubs.filter((c) => T.clubs.includes(c));
-    const clubs = p === T ? "g" : shared.length ? "y" : "x";
-    const row = document.createElement("div");
-    row.className = "mrow";
-    row.innerHTML = `<div class="mname">${esc(L(p.name))}</div><div class="${nat}">${esc(L(N[p.nation]))}</div>
-      <div class="${pos}">${t("pos_" + p.pos)}</div><div class="${born}">${p.born}${arrow}</div>
-      <div class="${clubs}">${shared.length ? esc(shared.slice(0, 2).join(", ")) + (shared.length > 2 ? ` +${shared.length - 2}` : "") : "—"}</div>`;
-    $("#my-rows").prepend(row);
-    $("#my-left").textContent = this.TRIES - this.guesses.length;
-    if (p === T || this.guesses.length >= this.TRIES) this.end(p === T);
+  points() { return this.p.clues.length - this.shown + 1; },
+  draw() {
+    const cl = this.p.clues;
+    const left = cl.length - this.shown;
+    $("#wh-clues").innerHTML = cl.slice(0, this.shown).map((c, i) =>
+      `<div class="clue${i === this.shown - 1 && !this.done ? " new" : ""}"><span class="n">${i + 1}</span><span>${esc(L(c))}</span></div>`).join("") +
+      (left ? `<div class="clue locked"><span class="n">+${left}</span><span>${t("clues_left")}</span></div>` : "");
+    $("#wh-pts").textContent = this.done ? 0 : this.points();
+    $("#wh-more").disabled = this.shown >= cl.length;
   },
-  end(won) {
-    this.over = true;
-    $("#my-form").hidden = true;
-    const nb = won && saveBest("mystery", this.guesses.length, true);
-    if (won) { confetti(); toast(hype("ok")); } else toast(hype("bad"), "bad");
-    $("#my-end").innerHTML = `<div class="card center"><div class="muted">${won ? `${t("solved")} ${this.guesses.length} ${t("tries")}` : t("it_was")}</div>
-      <div class="huge" style="color:var(--gold)">${esc(L(this.target.name))}</div>${nb ? `<div style="color:var(--gold);font-weight:800">${t("new_best")}</div>` : ""}
-      <div class="row" style="justify-content:center;margin-top:10px"><button class="primary" data-mode="random">🎲 ${t("random")}</button><button data-menu>${t("menu")}</button></div></div>`;
+  more() {
+    if (this.shown < this.p.clues.length) { this.shown++; this.draw(); }
+    else this.reveal(false);
+  },
+  reveal(won) {
+    if (this.done) return;
+    const pts = won ? this.points() : 0;
+    const used = this.shown;
+    this.done = true;
+    this.total += pts;
+    if (won) { toast(`${hype("ok")} +${pts}`); confetti(used <= 2 ? 1.2 : .6); } else toast(hype("bad"), "bad");
+    this.shown = this.p.clues.length;
+    this.draw();
+    $("#wh-total").textContent = this.total;
+    $("#wh-form").hidden = true;
+    $("#wh-more").parentElement.hidden = true;
+    $("#wh-fb").textContent = "";
+    const N = PLAYERS.nations[this.p.nation];
+    const last = this.qi + 1 >= this.queue.length;
+    $("#wh-end").innerHTML = `<div class="card center answer-card"><div class="muted">${won ? `${t("got_him")} ${used} ${used === 1 ? t("clue_one") : t("clues_many")} · +${pts} ${t("pts")}` : t("it_was")}</div>
+      <div class="huge" style="color:var(--gold)">${esc(L(this.p.name))}</div>
+      <div class="muted">${esc(L(N))} · ${t("pos_" + this.p.pos)} · ${this.p.born}</div>
+      <button class="primary" id="wh-next" style="margin-top:12px">${last ? t("see_score") : t("next_player")}</button></div>`;
+    $("#wh-next").onclick = () => this.next();
+    $("#wh-next").focus();
+  },
+  end() {
+    const max = this.queue.reduce((s, p) => s + p.clues.length, 0);
+    const key = this.mode === "daily" ? "mystery_daily" : "mystery_pts";
+    const nb = saveBest(key, this.total);
+    if (nb && this.total) confetti();
+    app().innerHTML = topbar("mystery") + `<div class="card center"><div class="muted">${this.mode === "daily" ? t("daily") : t("total")}</div>
+      <div class="huge">${this.total} / ${max}</div>${nb && this.total ? `<div style="color:var(--gold);font-weight:800">${t("new_best")}</div>` : ""}
+      <div class="row" style="justify-content:center;margin-top:12px"><button class="primary" data-mode="random">${icon("dice")} ${t("random")}</button><button data-menu>${t("menu")}</button></div></div>`;
     wire(app());
-    app().querySelectorAll("#my-end [data-mode]").forEach((b) => { b.onclick = () => this.start("random"); });
+    app().querySelectorAll("[data-mode]").forEach((b) => { b.onclick = () => this.start(b.dataset.mode); });
   },
 };
 

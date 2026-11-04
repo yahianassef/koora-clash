@@ -31,7 +31,7 @@ Modes: **Teams** (two named teams) or **every player for themself**.
 | 📝 Name Them All · سمّيهم كلهم | Sporcle-style: type every answer in a category before the clock runs out. |
 | 🧭 Career Path · مسيرة لاعب | Guess 5 players from their clubs; each wrong guess or hint reveals another club. |
 | ❤️ Survival Quiz · تحدي البقاء | Endless multiple choice, 10s each, 3 lives. Chase your best streak. |
-| ❓ Mystery Player · مين اللاعب؟ | Who-Are-Ya-style: 8 guesses, with nation / position / birth year / shared-club clues. Daily or random. |
+| ❓ Who's the Player? · مين اللاعب؟ | "I played for only three clubs…" — clues are revealed hardest first; a wrong guess or *Next clue* reveals another, and the fewer you need the more you score. Daily player or a 5-player random round. |
 
 Best scores are saved on the device.
 
@@ -50,7 +50,7 @@ then open http://localhost:8000 (needs internet for the PeerJS relay, fonts and 
 - `data/questions.json` — career paths, Rondo categories, Spy/Password names and Quick Fire questions. For `quickfire`, the **first option is the correct one** (options are shuffled at play time).
 - Career paths list each club with the `years` the player spent there ("2001–2004", "2015", or "2017–" if he's still there).
 - `data/clubs.json` — club name → crest image URL (from TheSportsDB). Run `python tools/fetch_club_logos.py` after adding clubs; clubs without a crest show their initials.
-- `data/players.json` — players for Mystery Player (nation code, position GK/DF/MF/FW, birth year, English club names) plus the `nations` table.
+- `data/players.json` — players (nation code, position GK/DF/MF/FW, birth year, English club names) plus the `nations` table. Players with a `clues` list (5–8 first-person clues, hardest first, each {en, ar}) appear in Who's the Player?.
 
 Add `aliases` to help the answer matcher (it already ignores accents, Arabic hamza/taa-marbuta variants, "ال", and small typos). Run the validator before committing:
 

@@ -133,6 +133,12 @@ def main():
             errors.append(f"{tag}: clubs must be a non-empty list of English club names")
         if not isinstance(p.get("aliases"), list):
             errors.append(f"{tag}: aliases must be a list")
+        if "clues" in p:
+            cl = p["clues"]
+            if not isinstance(cl, list) or not 5 <= len(cl) <= 8 or not all(bilingual(c) for c in cl):
+                errors.append(f"{tag}: clues must be 5–8 items, each with en+ar (hardest first)")
+            elif any(norm(p["name"]["en"].split()[-1]) in norm(c["en"]) for c in cl):
+                errors.append(f"{tag}: a clue gives away the player's name")
         if norm(p["name"]["en"]) in seen:
             errors.append(f"{tag}: duplicate player {p['name']['en']}")
         seen.add(norm(p["name"]["en"]))
@@ -155,7 +161,8 @@ def main():
         print("\n".join("  - " + e for e in errors))
         return 1
     print(f"OK  career={len(data['career'])}  rondo={len(data['rondo'])}  "
-          f"words={len(data['words'])}  quickfire={len(data['quickfire'])}  players={len(pdata['players'])}")
+          f"words={len(data['words'])}  quickfire={len(data['quickfire'])}  players={len(pdata['players'])}  "
+          f"with_clues={sum(1 for p in pdata['players'] if p.get('clues'))}")
     return 0
 
 
