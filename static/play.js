@@ -4,6 +4,7 @@ let S = null;
 let spyShown = {};  // round index -> whether the role card is revealed
 let PEER = null, CONN = null, SESSION = null;  // SESSION: {room, cid?, name}
 let joining = false;
+let MY_LAST = null, LAST_PHASE = null;
 
 function act(a, p) { if (CONN && CONN.open) CONN.send({ t: "act", a, p: p || {} }); }
 
@@ -115,13 +116,14 @@ function setAnswerBar(show, fb, fbClass) {
   const bar = $("#answerbar");
   bar.hidden = !show;
   const f = $("#fb");
+  if (fbClass === "bad" && fb && f.textContent !== fb) shake($("#answerform"));
   f.textContent = fb || "";
   f.className = "fb " + (fbClass || "");
 }
 
 const PHONE = {
   career(g, m) {
-    const clubs = g.clubs.map((c) => `<span class="club">${esc(L(c))}</span>`).join(`<span class="arrow">➜</span>`);
+    const clubs = g.clubs.map((c, i) => clubCard(c, i < g.clubs.length - 1)).join(`<span class="arrow">➜</span>`);
     let html = `<div class="muted">${t("question")} ${g.qi + 1}/${g.qn} · ${t("worth")} ${g.points} ${t("pts")}</div><div class="path">${clubs}</div>`;
     if (g.state === "reveal") {
       const locked = m.locked_until * 1000 > serverNow();
@@ -242,6 +244,15 @@ function render() {
   if (!S || !S.me) return;
   const me = S.me;
   const mySide = S.scores.find((r) => r.side === me.side);
+  const myScore = mySide ? mySide.score : 0;
+  // Cheer on the phone whenever this player's side scores.
+  if (MY_LAST != null && myScore > MY_LAST && S.phase === "play") { toast(`${hype("ok")} +${myScore - MY_LAST}`); confetti(.4); }
+  if (S.phase === "final" && LAST_PHASE !== "final") {
+    const top = Math.max(...S.scores.map((r) => r.score));
+    if (myScore === top && top > 0) confetti(1.2);
+  }
+  MY_LAST = S.phase === "lobby" ? 0 : myScore;
+  LAST_PHASE = S.phase;
   setHTML($("#mechip"), `<span class="chip tag ${S.mode === "teams" ? sideClass(me.team) : "ts"}">${esc(me.name)} · ${mySide ? mySide.score : 0}</span>`);
   let html = "";
   if (S.phase === "lobby") {
@@ -254,7 +265,7 @@ function render() {
     html += `<div class="center muted">${t("wait_host")}</div>`;
   } else if (S.phase === "intro") {
     setAnswerBar(false);
-    html = `<div class="center" style="font-size:70px">${SEG_ICON[S.seg_key]}</div><div class="huge">${esc(segTitle(S.seg_key))}</div>
+    html = `<div class="intro c-${S.seg_key}" style="padding:10px 0 0"><div class="ico" style="font-size:80px">${SEG_ICON[S.seg_key]}</div></div><div class="huge">${esc(segTitle(S.seg_key))}</div>
       <div class="card" style="line-height:1.7">${esc(segRules(S.seg_key, S.mode))}</div>`;
   } else if (S.phase === "play" && S.seg) {
     html = PHONE[S.seg_key](S.seg, S.mine || {});
@@ -265,6 +276,7 @@ function render() {
   const el = $("#content");
   const before = el._h;
   setHTML(el, html);
+  enterOnChange(el, screenKey(S));
   if (el._h === before) return;
   el.querySelectorAll("[data-team]").forEach((b) => { b.onclick = () => act("team", { team: b.dataset.team }); });
   el.querySelectorAll("[data-vote]").forEach((b) => { b.onclick = () => act("vote", { target: b.dataset.vote }); });

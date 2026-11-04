@@ -57,6 +57,21 @@ function renderSettings() {
   $("#starthint").textContent = S.players.length ? "" : t("need_players");
 }
 
+let PREV_SCORES = {}, LAST_FX = "";
+// Celebrate big moments on the studio screen once each: a correct reveal, a round win, the final whistle.
+function studioFx() {
+  const g = S.seg || {};
+  const key = [S.phase, S.seg_key, g.state, g.qi, g.ci, g.ri, g.ti].join("|");
+  if (key === LAST_FX) return;
+  LAST_FX = key;
+  if (S.phase === "final") { confetti(1.4); setTimeout(() => confetti(1), 900); return; }
+  if (S.phase !== "play") return;
+  if (S.seg_key === "career" && g.state === "result" && g.winner) { confetti(.8); toast(hype("ok")); }
+  if (S.seg_key === "quickfire" && g.state === "reveal" && g.gained && g.gained.length) toast(hype("ok"));
+  if (S.seg_key === "rondo" && g.state === "result" && g.winners && g.winners.length) confetti(.7);
+  if (S.seg_key === "spy" && g.state === "result") confetti(.7);
+}
+
 function renderBoard() {
   const rows = scoreRows(S);
   setHTML($("#board"), rows.map((r) => `<div class="row-s ${r.cls}">
@@ -65,6 +80,13 @@ function renderBoard() {
       <div class="adj"><button data-adj="${esc(r.side)}" data-d="1">+</button><button data-adj="${esc(r.side)}" data-d="-1">−</button></div>
     </div>`).join("") || `<div class="muted">${t("no_players")}</div>`);
   $("#board").querySelectorAll("[data-adj]").forEach((b) => { b.onclick = () => act("adjust", { side: b.dataset.adj, delta: +b.dataset.d }); });
+  rows.forEach((r, i) => {
+    if (PREV_SCORES[r.side] != null && r.score > PREV_SCORES[r.side]) {
+      const el = $("#board").querySelectorAll(".sc")[i];
+      if (el) { el.classList.remove("bump"); void el.offsetWidth; el.classList.add("bump"); }
+    }
+    PREV_SCORES[r.side] = r.score;
+  });
 }
 
 function playerChip(p) {
@@ -90,18 +112,18 @@ function lobbyHTML() {
 
 function introHTML() {
   const k = S.seg_key;
-  return `<div class="card intro"><div class="muted">${t("segment")} ${S.seg_index + 1} ${t("of")} ${S.segments.length}</div>
+  return `<div class="card intro c-${k}"><div class="muted">${t("segment")} ${S.seg_index + 1} ${t("of")} ${S.segments.length}</div>
     <div class="ico">${SEG_ICON[k]}</div><h1>${esc(segTitle(k))}</h1><p>${esc(segRules(k, S.mode))}</p></div>`;
 }
 
 function head(title, sub) {
-  return `<div class="seg-head"><span style="font-size:34px">${SEG_ICON[S.seg_key]}</span><h2>${esc(title)}</h2>${sub ? `<span class="chip">${sub}</span>` : ""}</div>`;
+  return `<div class="seg-head c-${S.seg_key}"><span>${SEG_ICON[S.seg_key]}</span><h2>${esc(title)}</h2>${sub ? `<span class="chip">${sub}</span>` : ""}</div>`;
 }
 
 // ----- segment renderers -----
 const SEG = {
   career(g) {
-    const clubs = g.clubs.map((c) => `<span class="club">${esc(L(c))}</span>`);
+    const clubs = g.clubs.map((c, i) => clubCard(c, i < g.clubs.length - 1));
     for (let i = g.clubs.length; i < g.total; i++) clubs.push(`<span class="club hidden">?</span>`);
     const path = clubs.join(`<span class="arrow">➜</span>`);
     let body = `<div class="card"><div class="path">${path}</div></div>`;
@@ -229,6 +251,7 @@ function render() {
   if (!S) return;
   renderSettings();
   renderBoard();
+  studioFx();
   let html = "";
   if (S.phase === "lobby") html = lobbyHTML();
   else if (S.phase === "intro") html = introHTML();
@@ -238,6 +261,7 @@ function render() {
   const stage = $("#stage");
   const before = stage._h;
   setHTML(stage, html);
+  enterOnChange(stage, screenKey(S));
   if (stage._h !== before) {
     qrDone = false;
     stage.querySelectorAll("[data-move]").forEach((b) => { b.onclick = () => act("move", { pid: b.dataset.move, team: b.dataset.to }); });

@@ -1,341 +1,2229 @@
 {
   "career": [
     {
-      "answer": {"en": "Zlatan Ibrahimović", "ar": "زلاتان إبراهيموفيتش"},
-      "aliases": ["zlatan", "ibrahimovic", "ibra", "زلاتان", "ابراهيموفيتش", "ابرا"],
+      "answer": {
+        "en": "Zlatan Ibrahimović",
+        "ar": "زلاتان إبراهيموفيتش"
+      },
+      "aliases": [
+        "zlatan",
+        "ibrahimovic",
+        "ibra",
+        "زلاتان",
+        "ابراهيموفيتش",
+        "ابرا"
+      ],
       "clubs": [
-        {"en": "Malmö", "ar": "مالمو"}, {"en": "Ajax", "ar": "أياكس"}, {"en": "Juventus", "ar": "يوفنتوس"},
-        {"en": "Inter", "ar": "إنتر ميلان"}, {"en": "Barcelona", "ar": "برشلونة"}, {"en": "AC Milan", "ar": "ميلان"},
-        {"en": "Paris Saint-Germain", "ar": "باريس سان جيرمان"}, {"en": "Manchester United", "ar": "مانشستر يونايتد"},
-        {"en": "LA Galaxy", "ar": "لوس أنجلوس جالاكسي"}, {"en": "AC Milan", "ar": "ميلان"}
+        {
+          "en": "Malmö",
+          "ar": "مالمو",
+          "years": "1999–2001"
+        },
+        {
+          "en": "Ajax",
+          "ar": "أياكس",
+          "years": "2001–2004"
+        },
+        {
+          "en": "Juventus",
+          "ar": "يوفنتوس",
+          "years": "2004–2006"
+        },
+        {
+          "en": "Inter",
+          "ar": "إنتر ميلان",
+          "years": "2006–2009"
+        },
+        {
+          "en": "Barcelona",
+          "ar": "برشلونة",
+          "years": "2009–2011"
+        },
+        {
+          "en": "AC Milan",
+          "ar": "ميلان",
+          "years": "2010–2012"
+        },
+        {
+          "en": "Paris Saint-Germain",
+          "ar": "باريس سان جيرمان",
+          "years": "2012–2016"
+        },
+        {
+          "en": "Manchester United",
+          "ar": "مانشستر يونايتد",
+          "years": "2016–2018"
+        },
+        {
+          "en": "LA Galaxy",
+          "ar": "لوس أنجلوس جالاكسي",
+          "years": "2018–2019"
+        },
+        {
+          "en": "AC Milan",
+          "ar": "ميلان",
+          "years": "2020–2023"
+        }
       ]
     },
     {
-      "answer": {"en": "Mohamed Salah", "ar": "محمد صلاح"},
-      "aliases": ["salah", "mo salah", "صلاح", "مو صلاح"],
+      "answer": {
+        "en": "Mohamed Salah",
+        "ar": "محمد صلاح"
+      },
+      "aliases": [
+        "salah",
+        "mo salah",
+        "صلاح",
+        "مو صلاح"
+      ],
       "clubs": [
-        {"en": "Al Mokawloon", "ar": "المقاولون العرب"}, {"en": "Basel", "ar": "بازل"}, {"en": "Chelsea", "ar": "تشيلسي"},
-        {"en": "Fiorentina", "ar": "فيورنتينا"}, {"en": "Roma", "ar": "روما"}, {"en": "Liverpool", "ar": "ليفربول"}
+        {
+          "en": "Al Mokawloon",
+          "ar": "المقاولون العرب",
+          "years": "2010–2012"
+        },
+        {
+          "en": "Basel",
+          "ar": "بازل",
+          "years": "2012–2014"
+        },
+        {
+          "en": "Chelsea",
+          "ar": "تشيلسي",
+          "years": "2014–2016"
+        },
+        {
+          "en": "Fiorentina",
+          "ar": "فيورنتينا",
+          "years": "2015"
+        },
+        {
+          "en": "Roma",
+          "ar": "روما",
+          "years": "2015–2017"
+        },
+        {
+          "en": "Liverpool",
+          "ar": "ليفربول",
+          "years": "2017–"
+        }
       ]
     },
     {
-      "answer": {"en": "Luis Suárez", "ar": "لويس سواريز"},
-      "aliases": ["suarez", "سواريز"],
+      "answer": {
+        "en": "Luis Suárez",
+        "ar": "لويس سواريز"
+      },
+      "aliases": [
+        "suarez",
+        "سواريز"
+      ],
       "clubs": [
-        {"en": "Nacional", "ar": "ناسيونال"}, {"en": "Groningen", "ar": "جرونينجن"}, {"en": "Ajax", "ar": "أياكس"},
-        {"en": "Liverpool", "ar": "ليفربول"}, {"en": "Barcelona", "ar": "برشلونة"}, {"en": "Atlético Madrid", "ar": "أتلتيكو مدريد"},
-        {"en": "Nacional", "ar": "ناسيونال"}, {"en": "Grêmio", "ar": "جريميو"}, {"en": "Inter Miami", "ar": "إنتر ميامي"}
+        {
+          "en": "Nacional",
+          "ar": "ناسيونال",
+          "years": "2005–2006"
+        },
+        {
+          "en": "Groningen",
+          "ar": "جرونينجن",
+          "years": "2006–2007"
+        },
+        {
+          "en": "Ajax",
+          "ar": "أياكس",
+          "years": "2007–2011"
+        },
+        {
+          "en": "Liverpool",
+          "ar": "ليفربول",
+          "years": "2011–2014"
+        },
+        {
+          "en": "Barcelona",
+          "ar": "برشلونة",
+          "years": "2014–2020"
+        },
+        {
+          "en": "Atlético Madrid",
+          "ar": "أتلتيكو مدريد",
+          "years": "2020–2022"
+        },
+        {
+          "en": "Nacional",
+          "ar": "ناسيونال",
+          "years": "2022"
+        },
+        {
+          "en": "Grêmio",
+          "ar": "جريميو",
+          "years": "2023"
+        },
+        {
+          "en": "Inter Miami",
+          "ar": "إنتر ميامي",
+          "years": "2024–"
+        }
       ]
     },
     {
-      "answer": {"en": "Ángel Di María", "ar": "أنخيل دي ماريا"},
-      "aliases": ["di maria", "dimaria", "angel di maria", "دي ماريا", "ديماريا"],
+      "answer": {
+        "en": "Ángel Di María",
+        "ar": "أنخيل دي ماريا"
+      },
+      "aliases": [
+        "di maria",
+        "dimaria",
+        "angel di maria",
+        "دي ماريا",
+        "ديماريا"
+      ],
       "clubs": [
-        {"en": "Rosario Central", "ar": "روساريو سنترال"}, {"en": "Benfica", "ar": "بنفيكا"}, {"en": "Real Madrid", "ar": "ريال مدريد"},
-        {"en": "Manchester United", "ar": "مانشستر يونايتد"}, {"en": "Paris Saint-Germain", "ar": "باريس سان جيرمان"},
-        {"en": "Juventus", "ar": "يوفنتوس"}, {"en": "Benfica", "ar": "بنفيكا"}, {"en": "Rosario Central", "ar": "روساريو سنترال"}
+        {
+          "en": "Rosario Central",
+          "ar": "روساريو سنترال",
+          "years": "2005–2007"
+        },
+        {
+          "en": "Benfica",
+          "ar": "بنفيكا",
+          "years": "2007–2010"
+        },
+        {
+          "en": "Real Madrid",
+          "ar": "ريال مدريد",
+          "years": "2010–2014"
+        },
+        {
+          "en": "Manchester United",
+          "ar": "مانشستر يونايتد",
+          "years": "2014–2015"
+        },
+        {
+          "en": "Paris Saint-Germain",
+          "ar": "باريس سان جيرمان",
+          "years": "2015–2022"
+        },
+        {
+          "en": "Juventus",
+          "ar": "يوفنتوس",
+          "years": "2022–2023"
+        },
+        {
+          "en": "Benfica",
+          "ar": "بنفيكا",
+          "years": "2023–2025"
+        },
+        {
+          "en": "Rosario Central",
+          "ar": "روساريو سنترال",
+          "years": "2025–"
+        }
       ]
     },
     {
-      "answer": {"en": "Edinson Cavani", "ar": "إدينسون كافاني"},
-      "aliases": ["cavani", "كافاني"],
+      "answer": {
+        "en": "Edinson Cavani",
+        "ar": "إدينسون كافاني"
+      },
+      "aliases": [
+        "cavani",
+        "كافاني"
+      ],
       "clubs": [
-        {"en": "Danubio", "ar": "دانوبيو"}, {"en": "Palermo", "ar": "باليرمو"}, {"en": "Napoli", "ar": "نابولي"},
-        {"en": "Paris Saint-Germain", "ar": "باريس سان جيرمان"}, {"en": "Manchester United", "ar": "مانشستر يونايتد"},
-        {"en": "Valencia", "ar": "فالنسيا"}, {"en": "Boca Juniors", "ar": "بوكا جونيورز"}
+        {
+          "en": "Danubio",
+          "ar": "دانوبيو",
+          "years": "2005–2007"
+        },
+        {
+          "en": "Palermo",
+          "ar": "باليرمو",
+          "years": "2007–2010"
+        },
+        {
+          "en": "Napoli",
+          "ar": "نابولي",
+          "years": "2010–2013"
+        },
+        {
+          "en": "Paris Saint-Germain",
+          "ar": "باريس سان جيرمان",
+          "years": "2013–2020"
+        },
+        {
+          "en": "Manchester United",
+          "ar": "مانشستر يونايتد",
+          "years": "2020–2022"
+        },
+        {
+          "en": "Valencia",
+          "ar": "فالنسيا",
+          "years": "2022–2023"
+        },
+        {
+          "en": "Boca Juniors",
+          "ar": "بوكا جونيورز",
+          "years": "2023–2026"
+        }
       ]
     },
     {
-      "answer": {"en": "Gonzalo Higuaín", "ar": "جونزالو هيجواين"},
-      "aliases": ["higuain", "هيجواين", "هيغواين"],
+      "answer": {
+        "en": "Gonzalo Higuaín",
+        "ar": "جونزالو هيجواين"
+      },
+      "aliases": [
+        "higuain",
+        "هيجواين",
+        "هيغواين"
+      ],
       "clubs": [
-        {"en": "River Plate", "ar": "ريفر بليت"}, {"en": "Real Madrid", "ar": "ريال مدريد"}, {"en": "Napoli", "ar": "نابولي"},
-        {"en": "Juventus", "ar": "يوفنتوس"}, {"en": "AC Milan", "ar": "ميلان"}, {"en": "Chelsea", "ar": "تشيلسي"},
-        {"en": "Juventus", "ar": "يوفنتوس"}, {"en": "Inter Miami", "ar": "إنتر ميامي"}
+        {
+          "en": "River Plate",
+          "ar": "ريفر بليت",
+          "years": "2005–2007"
+        },
+        {
+          "en": "Real Madrid",
+          "ar": "ريال مدريد",
+          "years": "2007–2013"
+        },
+        {
+          "en": "Napoli",
+          "ar": "نابولي",
+          "years": "2013–2016"
+        },
+        {
+          "en": "Juventus",
+          "ar": "يوفنتوس",
+          "years": "2016–2018"
+        },
+        {
+          "en": "AC Milan",
+          "ar": "ميلان",
+          "years": "2018–2019"
+        },
+        {
+          "en": "Chelsea",
+          "ar": "تشيلسي",
+          "years": "2019"
+        },
+        {
+          "en": "Juventus",
+          "ar": "يوفنتوس",
+          "years": "2019–2020"
+        },
+        {
+          "en": "Inter Miami",
+          "ar": "إنتر ميامي",
+          "years": "2020–2022"
+        }
       ]
     },
     {
-      "answer": {"en": "Radamel Falcao", "ar": "راداميل فالكاو"},
-      "aliases": ["falcao", "فالكاو"],
+      "answer": {
+        "en": "Radamel Falcao",
+        "ar": "راداميل فالكاو"
+      },
+      "aliases": [
+        "falcao",
+        "فالكاو"
+      ],
       "clubs": [
-        {"en": "River Plate", "ar": "ريفر بليت"}, {"en": "Porto", "ar": "بورتو"}, {"en": "Atlético Madrid", "ar": "أتلتيكو مدريد"},
-        {"en": "Monaco", "ar": "موناكو"}, {"en": "Manchester United", "ar": "مانشستر يونايتد"}, {"en": "Chelsea", "ar": "تشيلسي"},
-        {"en": "Monaco", "ar": "موناكو"}, {"en": "Galatasaray", "ar": "جالطة سراي"}, {"en": "Rayo Vallecano", "ar": "رايو فاليكانو"},
-        {"en": "Millonarios", "ar": "ميوناريوس"}
+        {
+          "en": "River Plate",
+          "ar": "ريفر بليت",
+          "years": "2005–2009"
+        },
+        {
+          "en": "Porto",
+          "ar": "بورتو",
+          "years": "2009–2011"
+        },
+        {
+          "en": "Atlético Madrid",
+          "ar": "أتلتيكو مدريد",
+          "years": "2011–2013"
+        },
+        {
+          "en": "Monaco",
+          "ar": "موناكو",
+          "years": "2013–2014"
+        },
+        {
+          "en": "Manchester United",
+          "ar": "مانشستر يونايتد",
+          "years": "2014–2015"
+        },
+        {
+          "en": "Chelsea",
+          "ar": "تشيلسي",
+          "years": "2015–2016"
+        },
+        {
+          "en": "Monaco",
+          "ar": "موناكو",
+          "years": "2016–2019"
+        },
+        {
+          "en": "Galatasaray",
+          "ar": "جالطة سراي",
+          "years": "2019–2021"
+        },
+        {
+          "en": "Rayo Vallecano",
+          "ar": "رايو فاليكانو",
+          "years": "2021–2024"
+        },
+        {
+          "en": "Millonarios",
+          "ar": "ميوناريوس",
+          "years": "2024–2025"
+        },
+        {
+          "en": "Millonarios",
+          "ar": "ميوناريوس",
+          "years": "2026"
+        }
       ]
     },
     {
-      "answer": {"en": "Fernando Torres", "ar": "فرناندو توريس"},
-      "aliases": ["torres", "el nino", "توريس"],
+      "answer": {
+        "en": "Fernando Torres",
+        "ar": "فرناندو توريس"
+      },
+      "aliases": [
+        "torres",
+        "el nino",
+        "توريس"
+      ],
       "clubs": [
-        {"en": "Atlético Madrid", "ar": "أتلتيكو مدريد"}, {"en": "Liverpool", "ar": "ليفربول"}, {"en": "Chelsea", "ar": "تشيلسي"},
-        {"en": "AC Milan", "ar": "ميلان"}, {"en": "Atlético Madrid", "ar": "أتلتيكو مدريد"}, {"en": "Sagan Tosu", "ar": "ساجان توسو"}
+        {
+          "en": "Atlético Madrid",
+          "ar": "أتلتيكو مدريد",
+          "years": "2001–2007"
+        },
+        {
+          "en": "Liverpool",
+          "ar": "ليفربول",
+          "years": "2007–2011"
+        },
+        {
+          "en": "Chelsea",
+          "ar": "تشيلسي",
+          "years": "2011–2015"
+        },
+        {
+          "en": "AC Milan",
+          "ar": "ميلان",
+          "years": "2014–2015"
+        },
+        {
+          "en": "Atlético Madrid",
+          "ar": "أتلتيكو مدريد",
+          "years": "2015–2018"
+        },
+        {
+          "en": "Sagan Tosu",
+          "ar": "ساجان توسو",
+          "years": "2018–2019"
+        }
       ]
     },
     {
-      "answer": {"en": "Nicolas Anelka", "ar": "نيكولا أنيلكا"},
-      "aliases": ["anelka", "أنيلكا", "انيلكا"],
+      "answer": {
+        "en": "Nicolas Anelka",
+        "ar": "نيكولا أنيلكا"
+      },
+      "aliases": [
+        "anelka",
+        "أنيلكا",
+        "انيلكا"
+      ],
       "clubs": [
-        {"en": "Paris Saint-Germain", "ar": "باريس سان جيرمان"}, {"en": "Arsenal", "ar": "أرسنال"}, {"en": "Real Madrid", "ar": "ريال مدريد"},
-        {"en": "Paris Saint-Germain", "ar": "باريس سان جيرمان"}, {"en": "Liverpool", "ar": "ليفربول"}, {"en": "Manchester City", "ar": "مانشستر سيتي"},
-        {"en": "Fenerbahçe", "ar": "فنربخشة"}, {"en": "Bolton", "ar": "بولتون"}, {"en": "Chelsea", "ar": "تشيلسي"},
-        {"en": "Shanghai Shenhua", "ar": "شنغهاي شينهوا"}, {"en": "Juventus", "ar": "يوفنتوس"}, {"en": "West Brom", "ar": "وست بروميتش"},
-        {"en": "Mumbai City", "ar": "مومباي سيتي"}
+        {
+          "en": "Paris Saint-Germain",
+          "ar": "باريس سان جيرمان",
+          "years": "1996–1997"
+        },
+        {
+          "en": "Arsenal",
+          "ar": "أرسنال",
+          "years": "1997–1999"
+        },
+        {
+          "en": "Real Madrid",
+          "ar": "ريال مدريد",
+          "years": "1999–2000"
+        },
+        {
+          "en": "Paris Saint-Germain",
+          "ar": "باريس سان جيرمان",
+          "years": "2000–2002"
+        },
+        {
+          "en": "Liverpool",
+          "ar": "ليفربول",
+          "years": "2001–2002"
+        },
+        {
+          "en": "Manchester City",
+          "ar": "مانشستر سيتي",
+          "years": "2002–2005"
+        },
+        {
+          "en": "Fenerbahçe",
+          "ar": "فنربخشة",
+          "years": "2005–2006"
+        },
+        {
+          "en": "Bolton",
+          "ar": "بولتون",
+          "years": "2006–2008"
+        },
+        {
+          "en": "Chelsea",
+          "ar": "تشيلسي",
+          "years": "2008–2012"
+        },
+        {
+          "en": "Shanghai Shenhua",
+          "ar": "شنغهاي شينهوا",
+          "years": "2012"
+        },
+        {
+          "en": "Juventus",
+          "ar": "يوفنتوس",
+          "years": "2013"
+        },
+        {
+          "en": "West Brom",
+          "ar": "وست بروميتش",
+          "years": "2013–2014"
+        },
+        {
+          "en": "Mumbai City",
+          "ar": "مومباي سيتي",
+          "years": "2014–2015"
+        }
       ]
     },
     {
-      "answer": {"en": "Samuel Eto'o", "ar": "صامويل إيتو"},
-      "aliases": ["eto'o", "etoo", "eto", "إيتو", "ايتو"],
+      "answer": {
+        "en": "Samuel Eto'o",
+        "ar": "صامويل إيتو"
+      },
+      "aliases": [
+        "eto'o",
+        "etoo",
+        "eto",
+        "إيتو",
+        "ايتو"
+      ],
       "clubs": [
-        {"en": "Real Madrid", "ar": "ريال مدريد"}, {"en": "Leganés", "ar": "ليجانيس"}, {"en": "Espanyol", "ar": "إسبانيول"},
-        {"en": "Mallorca", "ar": "مايوركا"}, {"en": "Barcelona", "ar": "برشلونة"}, {"en": "Inter", "ar": "إنتر ميلان"},
-        {"en": "Anzhi", "ar": "أنجي"}, {"en": "Chelsea", "ar": "تشيلسي"}, {"en": "Everton", "ar": "إيفرتون"},
-        {"en": "Sampdoria", "ar": "سامبدوريا"}, {"en": "Antalyaspor", "ar": "أنطاليا سبور"}, {"en": "Konyaspor", "ar": "كونيا سبور"},
-        {"en": "Qatar SC", "ar": "نادي قطر"}
+        {
+          "en": "Real Madrid",
+          "ar": "ريال مدريد",
+          "years": "1997–2000"
+        },
+        {
+          "en": "Leganés",
+          "ar": "ليجانيس",
+          "years": "1997–1998"
+        },
+        {
+          "en": "Espanyol",
+          "ar": "إسبانيول",
+          "years": "1999"
+        },
+        {
+          "en": "Mallorca",
+          "ar": "مايوركا",
+          "years": "1999–2004"
+        },
+        {
+          "en": "Barcelona",
+          "ar": "برشلونة",
+          "years": "2004–2009"
+        },
+        {
+          "en": "Inter",
+          "ar": "إنتر ميلان",
+          "years": "2009–2011"
+        },
+        {
+          "en": "Anzhi",
+          "ar": "أنجي",
+          "years": "2011–2013"
+        },
+        {
+          "en": "Chelsea",
+          "ar": "تشيلسي",
+          "years": "2013–2014"
+        },
+        {
+          "en": "Everton",
+          "ar": "إيفرتون",
+          "years": "2014–2015"
+        },
+        {
+          "en": "Sampdoria",
+          "ar": "سامبدوريا",
+          "years": "2015"
+        },
+        {
+          "en": "Antalyaspor",
+          "ar": "أنطاليا سبور",
+          "years": "2015–2018"
+        },
+        {
+          "en": "Konyaspor",
+          "ar": "كونيا سبور",
+          "years": "2018"
+        },
+        {
+          "en": "Qatar SC",
+          "ar": "نادي قطر",
+          "years": "2018–2019"
+        }
       ]
     },
     {
-      "answer": {"en": "Riyad Mahrez", "ar": "رياض محرز"},
-      "aliases": ["mahrez", "محرز"],
+      "answer": {
+        "en": "Riyad Mahrez",
+        "ar": "رياض محرز"
+      },
+      "aliases": [
+        "mahrez",
+        "محرز"
+      ],
       "clubs": [
-        {"en": "Quimper", "ar": "كيمبر"}, {"en": "Le Havre", "ar": "لوهافر"}, {"en": "Leicester City", "ar": "ليستر سيتي"},
-        {"en": "Manchester City", "ar": "مانشستر سيتي"}, {"en": "Al Ahli (KSA)", "ar": "الأهلي السعودي"}
+        {
+          "en": "Quimper",
+          "ar": "كيمبر",
+          "years": "2009–2010"
+        },
+        {
+          "en": "Le Havre",
+          "ar": "لوهافر",
+          "years": "2010–2014"
+        },
+        {
+          "en": "Leicester City",
+          "ar": "ليستر سيتي",
+          "years": "2014–2018"
+        },
+        {
+          "en": "Manchester City",
+          "ar": "مانشستر سيتي",
+          "years": "2018–2023"
+        },
+        {
+          "en": "Al Ahli",
+          "ar": "الأهلي السعودي",
+          "years": "2023–2026"
+        },
+        {
+          "en": "Al Shamal",
+          "ar": "الشمال",
+          "years": "2026–"
+        }
       ]
     },
     {
-      "answer": {"en": "Andrea Pirlo", "ar": "أندريا بيرلو"},
-      "aliases": ["pirlo", "بيرلو"],
+      "answer": {
+        "en": "Andrea Pirlo",
+        "ar": "أندريا بيرلو"
+      },
+      "aliases": [
+        "pirlo",
+        "بيرلو"
+      ],
       "clubs": [
-        {"en": "Brescia", "ar": "بريشيا"}, {"en": "Inter", "ar": "إنتر ميلان"}, {"en": "Reggina", "ar": "ريجينا"},
-        {"en": "Brescia", "ar": "بريشيا"}, {"en": "AC Milan", "ar": "ميلان"}, {"en": "Juventus", "ar": "يوفنتوس"},
-        {"en": "New York City FC", "ar": "نيويورك سيتي"}
+        {
+          "en": "Brescia",
+          "ar": "بريشيا",
+          "years": "1995–1998"
+        },
+        {
+          "en": "Inter",
+          "ar": "إنتر ميلان",
+          "years": "1998–2001"
+        },
+        {
+          "en": "Reggina",
+          "ar": "ريجينا",
+          "years": "1999–2000"
+        },
+        {
+          "en": "Brescia",
+          "ar": "بريشيا",
+          "years": "2001"
+        },
+        {
+          "en": "AC Milan",
+          "ar": "ميلان",
+          "years": "2001–2011"
+        },
+        {
+          "en": "Juventus",
+          "ar": "يوفنتوس",
+          "years": "2011–2015"
+        },
+        {
+          "en": "New York City FC",
+          "ar": "نيويورك سيتي",
+          "years": "2015–2017"
+        }
       ]
     },
     {
-      "answer": {"en": "Luka Modrić", "ar": "لوكا مودريتش"},
-      "aliases": ["modric", "مودريتش", "مودريش"],
+      "answer": {
+        "en": "Luka Modrić",
+        "ar": "لوكا مودريتش"
+      },
+      "aliases": [
+        "modric",
+        "مودريتش",
+        "مودريش"
+      ],
       "clubs": [
-        {"en": "Dinamo Zagreb", "ar": "دينامو زغرب"}, {"en": "Zrinjski Mostar", "ar": "زرينسكي موستار"},
-        {"en": "Inter Zaprešić", "ar": "إنتر زابريشيتش"}, {"en": "Dinamo Zagreb", "ar": "دينامو زغرب"},
-        {"en": "Tottenham", "ar": "توتنهام"}, {"en": "Real Madrid", "ar": "ريال مدريد"}, {"en": "AC Milan", "ar": "ميلان"}
+        {
+          "en": "Dinamo Zagreb",
+          "ar": "دينامو زغرب",
+          "years": "2002–2003"
+        },
+        {
+          "en": "Zrinjski Mostar",
+          "ar": "زرينسكي موستار",
+          "years": "2003–2004"
+        },
+        {
+          "en": "Inter Zaprešić",
+          "ar": "إنتر زابريشيتش",
+          "years": "2004–2005"
+        },
+        {
+          "en": "Dinamo Zagreb",
+          "ar": "دينامو زغرب",
+          "years": "2005–2008"
+        },
+        {
+          "en": "Tottenham",
+          "ar": "توتنهام",
+          "years": "2008–2012"
+        },
+        {
+          "en": "Real Madrid",
+          "ar": "ريال مدريد",
+          "years": "2012–2025"
+        },
+        {
+          "en": "AC Milan",
+          "ar": "ميلان",
+          "years": "2025–"
+        }
       ]
     },
     {
-      "answer": {"en": "Thierry Henry", "ar": "تييري هنري"},
-      "aliases": ["henry", "titi", "هنري"],
+      "answer": {
+        "en": "Thierry Henry",
+        "ar": "تييري هنري"
+      },
+      "aliases": [
+        "henry",
+        "titi",
+        "هنري"
+      ],
       "clubs": [
-        {"en": "Monaco", "ar": "موناكو"}, {"en": "Juventus", "ar": "يوفنتوس"}, {"en": "Arsenal", "ar": "أرسنال"},
-        {"en": "Barcelona", "ar": "برشلونة"}, {"en": "New York Red Bulls", "ar": "نيويورك ريد بولز"},
-        {"en": "Arsenal", "ar": "أرسنال"}, {"en": "New York Red Bulls", "ar": "نيويورك ريد بولز"}
+        {
+          "en": "Monaco",
+          "ar": "موناكو",
+          "years": "1994–1999"
+        },
+        {
+          "en": "Juventus",
+          "ar": "يوفنتوس",
+          "years": "1999"
+        },
+        {
+          "en": "Arsenal",
+          "ar": "أرسنال",
+          "years": "1999–2007"
+        },
+        {
+          "en": "Barcelona",
+          "ar": "برشلونة",
+          "years": "2007–2010"
+        },
+        {
+          "en": "New York Red Bulls",
+          "ar": "نيويورك ريد بولز",
+          "years": "2010–2012"
+        },
+        {
+          "en": "Arsenal",
+          "ar": "أرسنال",
+          "years": "2012"
+        },
+        {
+          "en": "New York Red Bulls",
+          "ar": "نيويورك ريد بولز",
+          "years": "2012–2014"
+        }
       ]
     }
   ],
-
   "rondo": [
     {
-      "prompt": {"en": "Countries that have won the World Cup", "ar": "منتخبات فازت بكأس العالم"},
+      "prompt": {
+        "en": "Countries that have won the World Cup",
+        "ar": "منتخبات فازت بكأس العالم"
+      },
       "answers": [
-        {"en": "Brazil", "ar": "البرازيل", "aliases": ["brasil"]},
-        {"en": "Germany", "ar": "ألمانيا", "aliases": ["west germany", "ألمانيا الغربية"]},
-        {"en": "Italy", "ar": "إيطاليا", "aliases": []},
-        {"en": "Argentina", "ar": "الأرجنتين", "aliases": []},
-        {"en": "France", "ar": "فرنسا", "aliases": []},
-        {"en": "Uruguay", "ar": "الأوروجواي", "aliases": ["أوروجواي", "اوروغواي"]},
-        {"en": "England", "ar": "إنجلترا", "aliases": ["انكلترا"]},
-        {"en": "Spain", "ar": "إسبانيا", "aliases": []}
+        {
+          "en": "Brazil",
+          "ar": "البرازيل",
+          "aliases": [
+            "brasil"
+          ]
+        },
+        {
+          "en": "Germany",
+          "ar": "ألمانيا",
+          "aliases": [
+            "west germany",
+            "ألمانيا الغربية"
+          ]
+        },
+        {
+          "en": "Italy",
+          "ar": "إيطاليا",
+          "aliases": []
+        },
+        {
+          "en": "Argentina",
+          "ar": "الأرجنتين",
+          "aliases": []
+        },
+        {
+          "en": "France",
+          "ar": "فرنسا",
+          "aliases": []
+        },
+        {
+          "en": "Uruguay",
+          "ar": "الأوروجواي",
+          "aliases": [
+            "أوروجواي",
+            "اوروغواي"
+          ]
+        },
+        {
+          "en": "England",
+          "ar": "إنجلترا",
+          "aliases": [
+            "انكلترا"
+          ]
+        },
+        {
+          "en": "Spain",
+          "ar": "إسبانيا",
+          "aliases": []
+        }
       ]
     },
     {
-      "prompt": {"en": "Ballon d'Or winners since 2000", "ar": "الفائزون بالكرة الذهبية منذ 2000"},
+      "prompt": {
+        "en": "Ballon d'Or winners since 2000",
+        "ar": "الفائزون بالكرة الذهبية منذ 2000"
+      },
       "answers": [
-        {"en": "Luís Figo", "ar": "لويس فيجو", "aliases": ["figo", "فيجو"]},
-        {"en": "Michael Owen", "ar": "مايكل أوين", "aliases": ["owen", "أوين"]},
-        {"en": "Ronaldo Nazário", "ar": "رونالدو نازاريو", "aliases": ["r9", "nazario", "ronaldo nazario", "الظاهرة", "نازاريو", "رونالدو البرازيلي"]},
-        {"en": "Pavel Nedvěd", "ar": "بافيل نيدفيد", "aliases": ["nedved", "نيدفيد"]},
-        {"en": "Andriy Shevchenko", "ar": "أندريه شيفتشينكو", "aliases": ["shevchenko", "شيفتشينكو", "شفشينكو"]},
-        {"en": "Ronaldinho", "ar": "رونالدينيو", "aliases": []},
-        {"en": "Fabio Cannavaro", "ar": "فابيو كانافارو", "aliases": ["cannavaro", "كانافارو"]},
-        {"en": "Kaká", "ar": "كاكا", "aliases": ["kaka"]},
-        {"en": "Cristiano Ronaldo", "ar": "كريستيانو رونالدو", "aliases": ["cristiano", "ronaldo", "cr7", "كريستيانو", "رونالدو"]},
-        {"en": "Lionel Messi", "ar": "ليونيل ميسي", "aliases": ["messi", "ميسي"]},
-        {"en": "Luka Modrić", "ar": "لوكا مودريتش", "aliases": ["modric", "مودريتش"]},
-        {"en": "Karim Benzema", "ar": "كريم بنزيما", "aliases": ["benzema", "بنزيما"]},
-        {"en": "Rodri", "ar": "رودري", "aliases": []},
-        {"en": "Ousmane Dembélé", "ar": "عثمان ديمبيلي", "aliases": ["dembele", "ديمبيلي", "ديمبلي"]}
+        {
+          "en": "Luís Figo",
+          "ar": "لويس فيجو",
+          "aliases": [
+            "figo",
+            "فيجو"
+          ]
+        },
+        {
+          "en": "Michael Owen",
+          "ar": "مايكل أوين",
+          "aliases": [
+            "owen",
+            "أوين"
+          ]
+        },
+        {
+          "en": "Ronaldo Nazário",
+          "ar": "رونالدو نازاريو",
+          "aliases": [
+            "r9",
+            "nazario",
+            "ronaldo nazario",
+            "الظاهرة",
+            "نازاريو",
+            "رونالدو البرازيلي"
+          ]
+        },
+        {
+          "en": "Pavel Nedvěd",
+          "ar": "بافيل نيدفيد",
+          "aliases": [
+            "nedved",
+            "نيدفيد"
+          ]
+        },
+        {
+          "en": "Andriy Shevchenko",
+          "ar": "أندريه شيفتشينكو",
+          "aliases": [
+            "shevchenko",
+            "شيفتشينكو",
+            "شفشينكو"
+          ]
+        },
+        {
+          "en": "Ronaldinho",
+          "ar": "رونالدينيو",
+          "aliases": []
+        },
+        {
+          "en": "Fabio Cannavaro",
+          "ar": "فابيو كانافارو",
+          "aliases": [
+            "cannavaro",
+            "كانافارو"
+          ]
+        },
+        {
+          "en": "Kaká",
+          "ar": "كاكا",
+          "aliases": [
+            "kaka"
+          ]
+        },
+        {
+          "en": "Cristiano Ronaldo",
+          "ar": "كريستيانو رونالدو",
+          "aliases": [
+            "cristiano",
+            "ronaldo",
+            "cr7",
+            "كريستيانو",
+            "رونالدو"
+          ]
+        },
+        {
+          "en": "Lionel Messi",
+          "ar": "ليونيل ميسي",
+          "aliases": [
+            "messi",
+            "ميسي"
+          ]
+        },
+        {
+          "en": "Luka Modrić",
+          "ar": "لوكا مودريتش",
+          "aliases": [
+            "modric",
+            "مودريتش"
+          ]
+        },
+        {
+          "en": "Karim Benzema",
+          "ar": "كريم بنزيما",
+          "aliases": [
+            "benzema",
+            "بنزيما"
+          ]
+        },
+        {
+          "en": "Rodri",
+          "ar": "رودري",
+          "aliases": []
+        },
+        {
+          "en": "Ousmane Dembélé",
+          "ar": "عثمان ديمبيلي",
+          "aliases": [
+            "dembele",
+            "ديمبيلي",
+            "ديمبلي"
+          ]
+        }
       ]
     },
     {
-      "prompt": {"en": "Clubs that won the Champions League since 2000", "ar": "أندية فازت بدوري أبطال أوروبا منذ 2000"},
+      "prompt": {
+        "en": "Clubs that won the Champions League since 2000",
+        "ar": "أندية فازت بدوري أبطال أوروبا منذ 2000"
+      },
       "answers": [
-        {"en": "Real Madrid", "ar": "ريال مدريد", "aliases": ["madrid", "الريال"]},
-        {"en": "Bayern Munich", "ar": "بايرن ميونخ", "aliases": ["bayern", "بايرن"]},
-        {"en": "AC Milan", "ar": "ميلان", "aliases": ["milan"]},
-        {"en": "Porto", "ar": "بورتو", "aliases": []},
-        {"en": "Liverpool", "ar": "ليفربول", "aliases": []},
-        {"en": "Barcelona", "ar": "برشلونة", "aliases": ["barca", "برشا"]},
-        {"en": "Manchester United", "ar": "مانشستر يونايتد", "aliases": ["man united", "man utd", "united", "اليونايتد"]},
-        {"en": "Inter", "ar": "إنتر ميلان", "aliases": ["inter milan", "انتر"]},
-        {"en": "Chelsea", "ar": "تشيلسي", "aliases": []},
-        {"en": "Manchester City", "ar": "مانشستر سيتي", "aliases": ["man city", "city", "السيتي"]},
-        {"en": "Paris Saint-Germain", "ar": "باريس سان جيرمان", "aliases": ["psg", "paris", "باريس"]}
+        {
+          "en": "Real Madrid",
+          "ar": "ريال مدريد",
+          "aliases": [
+            "madrid",
+            "الريال"
+          ]
+        },
+        {
+          "en": "Bayern Munich",
+          "ar": "بايرن ميونخ",
+          "aliases": [
+            "bayern",
+            "بايرن"
+          ]
+        },
+        {
+          "en": "AC Milan",
+          "ar": "ميلان",
+          "aliases": [
+            "milan"
+          ]
+        },
+        {
+          "en": "Porto",
+          "ar": "بورتو",
+          "aliases": []
+        },
+        {
+          "en": "Liverpool",
+          "ar": "ليفربول",
+          "aliases": []
+        },
+        {
+          "en": "Barcelona",
+          "ar": "برشلونة",
+          "aliases": [
+            "barca",
+            "برشا"
+          ]
+        },
+        {
+          "en": "Manchester United",
+          "ar": "مانشستر يونايتد",
+          "aliases": [
+            "man united",
+            "man utd",
+            "united",
+            "اليونايتد"
+          ]
+        },
+        {
+          "en": "Inter",
+          "ar": "إنتر ميلان",
+          "aliases": [
+            "inter milan",
+            "انتر"
+          ]
+        },
+        {
+          "en": "Chelsea",
+          "ar": "تشيلسي",
+          "aliases": []
+        },
+        {
+          "en": "Manchester City",
+          "ar": "مانشستر سيتي",
+          "aliases": [
+            "man city",
+            "city",
+            "السيتي"
+          ]
+        },
+        {
+          "en": "Paris Saint-Germain",
+          "ar": "باريس سان جيرمان",
+          "aliases": [
+            "psg",
+            "paris",
+            "باريس"
+          ]
+        }
       ]
     },
     {
-      "prompt": {"en": "Clubs that have won the Premier League", "ar": "أندية فازت بالدوري الإنجليزي الممتاز"},
+      "prompt": {
+        "en": "Clubs that have won the Premier League",
+        "ar": "أندية فازت بالدوري الإنجليزي الممتاز"
+      },
       "answers": [
-        {"en": "Manchester United", "ar": "مانشستر يونايتد", "aliases": ["man united", "man utd", "united", "اليونايتد"]},
-        {"en": "Blackburn Rovers", "ar": "بلاكبيرن روفرز", "aliases": ["blackburn", "بلاكبيرن"]},
-        {"en": "Arsenal", "ar": "أرسنال", "aliases": ["ارسنال"]},
-        {"en": "Chelsea", "ar": "تشيلسي", "aliases": []},
-        {"en": "Manchester City", "ar": "مانشستر سيتي", "aliases": ["man city", "city", "السيتي"]},
-        {"en": "Leicester City", "ar": "ليستر سيتي", "aliases": ["leicester", "ليستر"]},
-        {"en": "Liverpool", "ar": "ليفربول", "aliases": []}
+        {
+          "en": "Manchester United",
+          "ar": "مانشستر يونايتد",
+          "aliases": [
+            "man united",
+            "man utd",
+            "united",
+            "اليونايتد"
+          ]
+        },
+        {
+          "en": "Blackburn Rovers",
+          "ar": "بلاكبيرن روفرز",
+          "aliases": [
+            "blackburn",
+            "بلاكبيرن"
+          ]
+        },
+        {
+          "en": "Arsenal",
+          "ar": "أرسنال",
+          "aliases": [
+            "ارسنال"
+          ]
+        },
+        {
+          "en": "Chelsea",
+          "ar": "تشيلسي",
+          "aliases": []
+        },
+        {
+          "en": "Manchester City",
+          "ar": "مانشستر سيتي",
+          "aliases": [
+            "man city",
+            "city",
+            "السيتي"
+          ]
+        },
+        {
+          "en": "Leicester City",
+          "ar": "ليستر سيتي",
+          "aliases": [
+            "leicester",
+            "ليستر"
+          ]
+        },
+        {
+          "en": "Liverpool",
+          "ar": "ليفربول",
+          "aliases": []
+        }
       ]
     },
     {
-      "prompt": {"en": "Egyptian players who played in the Premier League", "ar": "لاعبون مصريون لعبوا في الدوري الإنجليزي الممتاز"},
+      "prompt": {
+        "en": "Egyptian players who played in the Premier League",
+        "ar": "لاعبون مصريون لعبوا في الدوري الإنجليزي الممتاز"
+      },
       "answers": [
-        {"en": "Mohamed Salah", "ar": "محمد صلاح", "aliases": ["salah", "صلاح"]},
-        {"en": "Mohamed Elneny", "ar": "محمد النني", "aliases": ["elneny", "النني"]},
-        {"en": "Trezeguet", "ar": "تريزيجيه", "aliases": ["تريزيجيه", "تريزجيه", "mahmoud trezeguet"]},
-        {"en": "Omar Marmoush", "ar": "عمر مرموش", "aliases": ["marmoush", "مرموش"]},
-        {"en": "Mido", "ar": "ميدو", "aliases": ["ahmed hossam", "احمد حسام"]},
-        {"en": "Hossam Ghaly", "ar": "حسام غالي", "aliases": ["ghaly", "غالي"]},
-        {"en": "Amr Zaki", "ar": "عمرو زكي", "aliases": ["zaki", "زكي"]},
-        {"en": "Mohamed Shawky", "ar": "محمد شوقي", "aliases": ["shawky", "شوقي"]},
-        {"en": "Ahmed Hegazi", "ar": "أحمد حجازي", "aliases": ["hegazi", "hegazy", "حجازي"]},
-        {"en": "Ahmed Elmohamady", "ar": "أحمد المحمدي", "aliases": ["elmohamady", "المحمدي"]},
-        {"en": "Ramadan Sobhi", "ar": "رمضان صبحي", "aliases": ["sobhi", "ramadan", "رمضان"]}
+        {
+          "en": "Mohamed Salah",
+          "ar": "محمد صلاح",
+          "aliases": [
+            "salah",
+            "صلاح"
+          ]
+        },
+        {
+          "en": "Mohamed Elneny",
+          "ar": "محمد النني",
+          "aliases": [
+            "elneny",
+            "النني"
+          ]
+        },
+        {
+          "en": "Trezeguet",
+          "ar": "تريزيجيه",
+          "aliases": [
+            "تريزيجيه",
+            "تريزجيه",
+            "mahmoud trezeguet"
+          ]
+        },
+        {
+          "en": "Omar Marmoush",
+          "ar": "عمر مرموش",
+          "aliases": [
+            "marmoush",
+            "مرموش"
+          ]
+        },
+        {
+          "en": "Mido",
+          "ar": "ميدو",
+          "aliases": [
+            "ahmed hossam",
+            "احمد حسام"
+          ]
+        },
+        {
+          "en": "Hossam Ghaly",
+          "ar": "حسام غالي",
+          "aliases": [
+            "ghaly",
+            "غالي"
+          ]
+        },
+        {
+          "en": "Amr Zaki",
+          "ar": "عمرو زكي",
+          "aliases": [
+            "zaki",
+            "زكي"
+          ]
+        },
+        {
+          "en": "Mohamed Shawky",
+          "ar": "محمد شوقي",
+          "aliases": [
+            "shawky",
+            "شوقي"
+          ]
+        },
+        {
+          "en": "Ahmed Hegazi",
+          "ar": "أحمد حجازي",
+          "aliases": [
+            "hegazi",
+            "hegazy",
+            "حجازي"
+          ]
+        },
+        {
+          "en": "Ahmed Elmohamady",
+          "ar": "أحمد المحمدي",
+          "aliases": [
+            "elmohamady",
+            "المحمدي"
+          ]
+        },
+        {
+          "en": "Ramadan Sobhi",
+          "ar": "رمضان صبحي",
+          "aliases": [
+            "sobhi",
+            "ramadan",
+            "رمضان"
+          ]
+        }
       ]
     },
     {
-      "prompt": {"en": "Arab national teams that qualified for a World Cup", "ar": "منتخبات عربية تأهلت لكأس العالم"},
+      "prompt": {
+        "en": "Arab national teams that qualified for a World Cup",
+        "ar": "منتخبات عربية تأهلت لكأس العالم"
+      },
       "answers": [
-        {"en": "Egypt", "ar": "مصر", "aliases": []},
-        {"en": "Morocco", "ar": "المغرب", "aliases": []},
-        {"en": "Tunisia", "ar": "تونس", "aliases": []},
-        {"en": "Algeria", "ar": "الجزائر", "aliases": []},
-        {"en": "Saudi Arabia", "ar": "السعودية", "aliases": ["saudi", "ksa"]},
-        {"en": "Kuwait", "ar": "الكويت", "aliases": []},
-        {"en": "Iraq", "ar": "العراق", "aliases": []},
-        {"en": "United Arab Emirates", "ar": "الإمارات", "aliases": ["uae", "emirates"]},
-        {"en": "Qatar", "ar": "قطر", "aliases": []},
-        {"en": "Jordan", "ar": "الأردن", "aliases": []}
+        {
+          "en": "Egypt",
+          "ar": "مصر",
+          "aliases": []
+        },
+        {
+          "en": "Morocco",
+          "ar": "المغرب",
+          "aliases": []
+        },
+        {
+          "en": "Tunisia",
+          "ar": "تونس",
+          "aliases": []
+        },
+        {
+          "en": "Algeria",
+          "ar": "الجزائر",
+          "aliases": []
+        },
+        {
+          "en": "Saudi Arabia",
+          "ar": "السعودية",
+          "aliases": [
+            "saudi",
+            "ksa"
+          ]
+        },
+        {
+          "en": "Kuwait",
+          "ar": "الكويت",
+          "aliases": []
+        },
+        {
+          "en": "Iraq",
+          "ar": "العراق",
+          "aliases": []
+        },
+        {
+          "en": "United Arab Emirates",
+          "ar": "الإمارات",
+          "aliases": [
+            "uae",
+            "emirates"
+          ]
+        },
+        {
+          "en": "Qatar",
+          "ar": "قطر",
+          "aliases": []
+        },
+        {
+          "en": "Jordan",
+          "ar": "الأردن",
+          "aliases": []
+        }
       ]
     },
     {
-      "prompt": {"en": "Clubs José Mourinho has managed", "ar": "أندية دربها جوزيه مورينيو"},
+      "prompt": {
+        "en": "Clubs José Mourinho has managed",
+        "ar": "أندية دربها جوزيه مورينيو"
+      },
       "answers": [
-        {"en": "Benfica", "ar": "بنفيكا", "aliases": []},
-        {"en": "União de Leiria", "ar": "يونياو ليريا", "aliases": ["leiria", "ليريا"]},
-        {"en": "Porto", "ar": "بورتو", "aliases": []},
-        {"en": "Chelsea", "ar": "تشيلسي", "aliases": []},
-        {"en": "Inter", "ar": "إنتر ميلان", "aliases": ["inter milan", "انتر"]},
-        {"en": "Real Madrid", "ar": "ريال مدريد", "aliases": ["madrid", "الريال"]},
-        {"en": "Manchester United", "ar": "مانشستر يونايتد", "aliases": ["man united", "man utd", "united", "اليونايتد"]},
-        {"en": "Tottenham", "ar": "توتنهام", "aliases": ["spurs"]},
-        {"en": "Roma", "ar": "روما", "aliases": []},
-        {"en": "Fenerbahçe", "ar": "فنربخشة", "aliases": ["fenerbahce", "فنرباتشه"]}
+        {
+          "en": "Benfica",
+          "ar": "بنفيكا",
+          "aliases": []
+        },
+        {
+          "en": "União de Leiria",
+          "ar": "يونياو ليريا",
+          "aliases": [
+            "leiria",
+            "ليريا"
+          ]
+        },
+        {
+          "en": "Porto",
+          "ar": "بورتو",
+          "aliases": []
+        },
+        {
+          "en": "Chelsea",
+          "ar": "تشيلسي",
+          "aliases": []
+        },
+        {
+          "en": "Inter",
+          "ar": "إنتر ميلان",
+          "aliases": [
+            "inter milan",
+            "انتر"
+          ]
+        },
+        {
+          "en": "Real Madrid",
+          "ar": "ريال مدريد",
+          "aliases": [
+            "madrid",
+            "الريال"
+          ]
+        },
+        {
+          "en": "Manchester United",
+          "ar": "مانشستر يونايتد",
+          "aliases": [
+            "man united",
+            "man utd",
+            "united",
+            "اليونايتد"
+          ]
+        },
+        {
+          "en": "Tottenham",
+          "ar": "توتنهام",
+          "aliases": [
+            "spurs"
+          ]
+        },
+        {
+          "en": "Roma",
+          "ar": "روما",
+          "aliases": []
+        },
+        {
+          "en": "Fenerbahçe",
+          "ar": "فنربخشة",
+          "aliases": [
+            "fenerbahce",
+            "فنرباتشه"
+          ]
+        }
       ]
     },
     {
-      "prompt": {"en": "Countries that have won the Africa Cup of Nations", "ar": "منتخبات فازت بكأس الأمم الأفريقية"},
+      "prompt": {
+        "en": "Countries that have won the Africa Cup of Nations",
+        "ar": "منتخبات فازت بكأس الأمم الأفريقية"
+      },
       "answers": [
-        {"en": "Egypt", "ar": "مصر", "aliases": []},
-        {"en": "Cameroon", "ar": "الكاميرون", "aliases": []},
-        {"en": "Ghana", "ar": "غانا", "aliases": []},
-        {"en": "Nigeria", "ar": "نيجيريا", "aliases": []},
-        {"en": "Ivory Coast", "ar": "كوت ديفوار", "aliases": ["cote d'ivoire", "ساحل العاج"]},
-        {"en": "DR Congo", "ar": "الكونغو الديمقراطية", "aliases": ["zaire", "زائير"]},
-        {"en": "Congo", "ar": "الكونغو", "aliases": ["congo brazzaville", "republic of congo"]},
-        {"en": "Algeria", "ar": "الجزائر", "aliases": []},
-        {"en": "Senegal", "ar": "السنغال", "aliases": []},
-        {"en": "Tunisia", "ar": "تونس", "aliases": []},
-        {"en": "Morocco", "ar": "المغرب", "aliases": []},
-        {"en": "South Africa", "ar": "جنوب أفريقيا", "aliases": []},
-        {"en": "Sudan", "ar": "السودان", "aliases": []},
-        {"en": "Ethiopia", "ar": "إثيوبيا", "aliases": []},
-        {"en": "Zambia", "ar": "زامبيا", "aliases": []}
+        {
+          "en": "Egypt",
+          "ar": "مصر",
+          "aliases": []
+        },
+        {
+          "en": "Cameroon",
+          "ar": "الكاميرون",
+          "aliases": []
+        },
+        {
+          "en": "Ghana",
+          "ar": "غانا",
+          "aliases": []
+        },
+        {
+          "en": "Nigeria",
+          "ar": "نيجيريا",
+          "aliases": []
+        },
+        {
+          "en": "Ivory Coast",
+          "ar": "كوت ديفوار",
+          "aliases": [
+            "cote d'ivoire",
+            "ساحل العاج"
+          ]
+        },
+        {
+          "en": "DR Congo",
+          "ar": "الكونغو الديمقراطية",
+          "aliases": [
+            "zaire",
+            "زائير"
+          ]
+        },
+        {
+          "en": "Congo",
+          "ar": "الكونغو",
+          "aliases": [
+            "congo brazzaville",
+            "republic of congo"
+          ]
+        },
+        {
+          "en": "Algeria",
+          "ar": "الجزائر",
+          "aliases": []
+        },
+        {
+          "en": "Senegal",
+          "ar": "السنغال",
+          "aliases": []
+        },
+        {
+          "en": "Tunisia",
+          "ar": "تونس",
+          "aliases": []
+        },
+        {
+          "en": "Morocco",
+          "ar": "المغرب",
+          "aliases": []
+        },
+        {
+          "en": "South Africa",
+          "ar": "جنوب أفريقيا",
+          "aliases": []
+        },
+        {
+          "en": "Sudan",
+          "ar": "السودان",
+          "aliases": []
+        },
+        {
+          "en": "Ethiopia",
+          "ar": "إثيوبيا",
+          "aliases": []
+        },
+        {
+          "en": "Zambia",
+          "ar": "زامبيا",
+          "aliases": []
+        }
       ]
     }
   ],
-
   "words": [
-    {"en": "Lionel Messi", "ar": "ليونيل ميسي"}, {"en": "Cristiano Ronaldo", "ar": "كريستيانو رونالدو"},
-    {"en": "Mohamed Salah", "ar": "محمد صلاح"}, {"en": "Zinedine Zidane", "ar": "زين الدين زيدان"},
-    {"en": "Ronaldinho", "ar": "رونالدينيو"}, {"en": "Diego Maradona", "ar": "دييجو مارادونا"},
-    {"en": "Pelé", "ar": "بيليه"}, {"en": "Mohamed Aboutrika", "ar": "محمد أبو تريكة"},
-    {"en": "Erling Haaland", "ar": "إيرلينج هالاند"}, {"en": "Kylian Mbappé", "ar": "كيليان مبابي"},
-    {"en": "Neymar", "ar": "نيمار"}, {"en": "Luka Modrić", "ar": "لوكا مودريتش"},
-    {"en": "Karim Benzema", "ar": "كريم بنزيما"}, {"en": "Zlatan Ibrahimović", "ar": "زلاتان إبراهيموفيتش"},
-    {"en": "Andrés Iniesta", "ar": "أندريس إنييستا"}, {"en": "Xavi", "ar": "تشافي"},
-    {"en": "Gianluigi Buffon", "ar": "جيانلويجي بوفون"}, {"en": "Iker Casillas", "ar": "إيكر كاسياس"},
-    {"en": "Sergio Ramos", "ar": "سيرجيو راموس"}, {"en": "Andrea Pirlo", "ar": "أندريا بيرلو"},
-    {"en": "David Beckham", "ar": "ديفيد بيكهام"}, {"en": "Thierry Henry", "ar": "تييري هنري"},
-    {"en": "Kaká", "ar": "كاكا"}, {"en": "Didier Drogba", "ar": "ديدييه دروجبا"},
-    {"en": "Samuel Eto'o", "ar": "صامويل إيتو"}, {"en": "Wayne Rooney", "ar": "واين روني"},
-    {"en": "Robert Lewandowski", "ar": "روبرت ليفاندوفسكي"}, {"en": "Achraf Hakimi", "ar": "أشرف حكيمي"},
-    {"en": "Riyad Mahrez", "ar": "رياض محرز"}, {"en": "Yassine Bounou", "ar": "ياسين بونو"},
-    {"en": "Hossam Hassan", "ar": "حسام حسن"}, {"en": "Essam El-Hadary", "ar": "عصام الحضري"},
-    {"en": "Wael Gomaa", "ar": "وائل جمعة"}, {"en": "Mohamed Barakat", "ar": "محمد بركات"},
-    {"en": "Ahmed Hassan", "ar": "أحمد حسن"}, {"en": "Omar Marmoush", "ar": "عمر مرموش"},
-    {"en": "Jude Bellingham", "ar": "جود بيلينجهام"}, {"en": "Lamine Yamal", "ar": "لامين يامال"},
-    {"en": "Vinícius Júnior", "ar": "فينيسيوس جونيور"}, {"en": "Kevin De Bruyne", "ar": "كيفين دي بروين"},
-    {"en": "Toni Kroos", "ar": "توني كروس"}, {"en": "Francesco Totti", "ar": "فرانشيسكو توتي"},
-    {"en": "Paolo Maldini", "ar": "باولو مالديني"}, {"en": "Carles Puyol", "ar": "كارليس بويول"},
-    {"en": "Jürgen Klopp", "ar": "يورجن كلوب"}, {"en": "Pep Guardiola", "ar": "بيب جوارديولا"},
-    {"en": "José Mourinho", "ar": "جوزيه مورينيو"}, {"en": "Sir Alex Ferguson", "ar": "السير أليكس فيرجسون"},
-    {"en": "Ronaldo Nazário", "ar": "رونالدو نازاريو"}, {"en": "Gareth Bale", "ar": "جاريث بيل"}
+    {
+      "en": "Lionel Messi",
+      "ar": "ليونيل ميسي"
+    },
+    {
+      "en": "Cristiano Ronaldo",
+      "ar": "كريستيانو رونالدو"
+    },
+    {
+      "en": "Mohamed Salah",
+      "ar": "محمد صلاح"
+    },
+    {
+      "en": "Zinedine Zidane",
+      "ar": "زين الدين زيدان"
+    },
+    {
+      "en": "Ronaldinho",
+      "ar": "رونالدينيو"
+    },
+    {
+      "en": "Diego Maradona",
+      "ar": "دييجو مارادونا"
+    },
+    {
+      "en": "Pelé",
+      "ar": "بيليه"
+    },
+    {
+      "en": "Mohamed Aboutrika",
+      "ar": "محمد أبو تريكة"
+    },
+    {
+      "en": "Erling Haaland",
+      "ar": "إيرلينج هالاند"
+    },
+    {
+      "en": "Kylian Mbappé",
+      "ar": "كيليان مبابي"
+    },
+    {
+      "en": "Neymar",
+      "ar": "نيمار"
+    },
+    {
+      "en": "Luka Modrić",
+      "ar": "لوكا مودريتش"
+    },
+    {
+      "en": "Karim Benzema",
+      "ar": "كريم بنزيما"
+    },
+    {
+      "en": "Zlatan Ibrahimović",
+      "ar": "زلاتان إبراهيموفيتش"
+    },
+    {
+      "en": "Andrés Iniesta",
+      "ar": "أندريس إنييستا"
+    },
+    {
+      "en": "Xavi",
+      "ar": "تشافي"
+    },
+    {
+      "en": "Gianluigi Buffon",
+      "ar": "جيانلويجي بوفون"
+    },
+    {
+      "en": "Iker Casillas",
+      "ar": "إيكر كاسياس"
+    },
+    {
+      "en": "Sergio Ramos",
+      "ar": "سيرجيو راموس"
+    },
+    {
+      "en": "Andrea Pirlo",
+      "ar": "أندريا بيرلو"
+    },
+    {
+      "en": "David Beckham",
+      "ar": "ديفيد بيكهام"
+    },
+    {
+      "en": "Thierry Henry",
+      "ar": "تييري هنري"
+    },
+    {
+      "en": "Kaká",
+      "ar": "كاكا"
+    },
+    {
+      "en": "Didier Drogba",
+      "ar": "ديدييه دروجبا"
+    },
+    {
+      "en": "Samuel Eto'o",
+      "ar": "صامويل إيتو"
+    },
+    {
+      "en": "Wayne Rooney",
+      "ar": "واين روني"
+    },
+    {
+      "en": "Robert Lewandowski",
+      "ar": "روبرت ليفاندوفسكي"
+    },
+    {
+      "en": "Achraf Hakimi",
+      "ar": "أشرف حكيمي"
+    },
+    {
+      "en": "Riyad Mahrez",
+      "ar": "رياض محرز"
+    },
+    {
+      "en": "Yassine Bounou",
+      "ar": "ياسين بونو"
+    },
+    {
+      "en": "Hossam Hassan",
+      "ar": "حسام حسن"
+    },
+    {
+      "en": "Essam El-Hadary",
+      "ar": "عصام الحضري"
+    },
+    {
+      "en": "Wael Gomaa",
+      "ar": "وائل جمعة"
+    },
+    {
+      "en": "Mohamed Barakat",
+      "ar": "محمد بركات"
+    },
+    {
+      "en": "Ahmed Hassan",
+      "ar": "أحمد حسن"
+    },
+    {
+      "en": "Omar Marmoush",
+      "ar": "عمر مرموش"
+    },
+    {
+      "en": "Jude Bellingham",
+      "ar": "جود بيلينجهام"
+    },
+    {
+      "en": "Lamine Yamal",
+      "ar": "لامين يامال"
+    },
+    {
+      "en": "Vinícius Júnior",
+      "ar": "فينيسيوس جونيور"
+    },
+    {
+      "en": "Kevin De Bruyne",
+      "ar": "كيفين دي بروين"
+    },
+    {
+      "en": "Toni Kroos",
+      "ar": "توني كروس"
+    },
+    {
+      "en": "Francesco Totti",
+      "ar": "فرانشيسكو توتي"
+    },
+    {
+      "en": "Paolo Maldini",
+      "ar": "باولو مالديني"
+    },
+    {
+      "en": "Carles Puyol",
+      "ar": "كارليس بويول"
+    },
+    {
+      "en": "Jürgen Klopp",
+      "ar": "يورجن كلوب"
+    },
+    {
+      "en": "Pep Guardiola",
+      "ar": "بيب جوارديولا"
+    },
+    {
+      "en": "José Mourinho",
+      "ar": "جوزيه مورينيو"
+    },
+    {
+      "en": "Sir Alex Ferguson",
+      "ar": "السير أليكس فيرجسون"
+    },
+    {
+      "en": "Ronaldo Nazário",
+      "ar": "رونالدو نازاريو"
+    },
+    {
+      "en": "Gareth Bale",
+      "ar": "جاريث بيل"
+    }
   ],
-
   "quickfire": [
-    {"q": {"en": "Who won the 2022 World Cup?", "ar": "مين كسب كأس العالم 2022؟"},
-     "options": [{"en": "Argentina", "ar": "الأرجنتين"}, {"en": "France", "ar": "فرنسا"}, {"en": "Croatia", "ar": "كرواتيا"}, {"en": "Morocco", "ar": "المغرب"}]},
-    {"q": {"en": "Which country hosted the 2010 World Cup?", "ar": "أي دولة استضافت كأس العالم 2010؟"},
-     "options": [{"en": "South Africa", "ar": "جنوب أفريقيا"}, {"en": "Germany", "ar": "ألمانيا"}, {"en": "Brazil", "ar": "البرازيل"}, {"en": "Egypt", "ar": "مصر"}]},
-    {"q": {"en": "Most expensive transfer in history?", "ar": "أغلى صفقة انتقال في التاريخ؟"},
-     "options": [{"en": "Neymar to PSG", "ar": "نيمار لباريس سان جيرمان"}, {"en": "Mbappé to PSG", "ar": "مبابي لباريس سان جيرمان"}, {"en": "Coutinho to Barcelona", "ar": "كوتينيو لبرشلونة"}, {"en": "João Félix to Atlético", "ar": "جواو فيليكس لأتلتيكو"}]},
-    {"q": {"en": "Which club has won the most CAF Champions League titles?", "ar": "أكثر نادي فاز بدوري أبطال أفريقيا؟"},
-     "options": [{"en": "Al Ahly", "ar": "الأهلي"}, {"en": "Zamalek", "ar": "الزمالك"}, {"en": "TP Mazembe", "ar": "مازيمبي"}, {"en": "Espérance", "ar": "الترجي"}]},
-    {"q": {"en": "How many times has Egypt won the Africa Cup of Nations?", "ar": "مصر كسبت كأس الأمم الأفريقية كام مرة؟"},
-     "options": [{"en": "7", "ar": "7"}, {"en": "5", "ar": "5"}, {"en": "6", "ar": "6"}, {"en": "8", "ar": "8"}]},
-    {"q": {"en": "Which club did Messi join in 2023?", "ar": "ميسي انضم لأي نادي في 2023؟"},
-     "options": [{"en": "Inter Miami", "ar": "إنتر ميامي"}, {"en": "Al Hilal", "ar": "الهلال"}, {"en": "Newell's Old Boys", "ar": "نيولز أولد بويز"}, {"en": "Barcelona", "ar": "برشلونة"}]},
-    {"q": {"en": "Which club is nicknamed \"The Red Devils\"?", "ar": "أي نادي لقبه \"الشياطين الحمر\"؟"},
-     "options": [{"en": "Manchester United", "ar": "مانشستر يونايتد"}, {"en": "Liverpool", "ar": "ليفربول"}, {"en": "Arsenal", "ar": "أرسنال"}, {"en": "AC Milan", "ar": "ميلان"}]},
-    {"q": {"en": "Who won Euro 2024?", "ar": "مين كسب يورو 2024؟"},
-     "options": [{"en": "Spain", "ar": "إسبانيا"}, {"en": "England", "ar": "إنجلترا"}, {"en": "France", "ar": "فرنسا"}, {"en": "Germany", "ar": "ألمانيا"}]},
-    {"q": {"en": "Which club did Liverpool sign Mohamed Salah from?", "ar": "ليفربول اشترى محمد صلاح من أي نادي؟"},
-     "options": [{"en": "Roma", "ar": "روما"}, {"en": "Chelsea", "ar": "تشيلسي"}, {"en": "Fiorentina", "ar": "فيورنتينا"}, {"en": "Basel", "ar": "بازل"}]},
-    {"q": {"en": "Who won the first World Cup in 1930?", "ar": "مين كسب أول كأس عالم سنة 1930؟"},
-     "options": [{"en": "Uruguay", "ar": "الأوروجواي"}, {"en": "Brazil", "ar": "البرازيل"}, {"en": "Italy", "ar": "إيطاليا"}, {"en": "Argentina", "ar": "الأرجنتين"}]},
-    {"q": {"en": "Which Arab team reached the 2022 World Cup semi-final?", "ar": "أي منتخب عربي وصل نصف نهائي كأس العالم 2022؟"},
-     "options": [{"en": "Morocco", "ar": "المغرب"}, {"en": "Saudi Arabia", "ar": "السعودية"}, {"en": "Tunisia", "ar": "تونس"}, {"en": "Qatar", "ar": "قطر"}]},
-    {"q": {"en": "Who is the all-time top scorer in World Cup history?", "ar": "مين الهداف التاريخي لكأس العالم؟"},
-     "options": [{"en": "Miroslav Klose", "ar": "ميروسلاف كلوزه"}, {"en": "Ronaldo Nazário", "ar": "رونالدو نازاريو"}, {"en": "Lionel Messi", "ar": "ليونيل ميسي"}, {"en": "Pelé", "ar": "بيليه"}]},
-    {"q": {"en": "Who is the Premier League's all-time top scorer?", "ar": "مين الهداف التاريخي للدوري الإنجليزي الممتاز؟"},
-     "options": [{"en": "Alan Shearer", "ar": "آلان شيرر"}, {"en": "Wayne Rooney", "ar": "واين روني"}, {"en": "Harry Kane", "ar": "هاري كين"}, {"en": "Thierry Henry", "ar": "تييري هنري"}]},
-    {"q": {"en": "Who won the 2025 Club World Cup?", "ar": "مين كسب كأس العالم للأندية 2025؟"},
-     "options": [{"en": "Chelsea", "ar": "تشيلسي"}, {"en": "Paris Saint-Germain", "ar": "باريس سان جيرمان"}, {"en": "Real Madrid", "ar": "ريال مدريد"}, {"en": "Manchester City", "ar": "مانشستر سيتي"}]},
-    {"q": {"en": "Who won the 2024–25 Champions League?", "ar": "مين كسب دوري أبطال أوروبا 2024–25؟"},
-     "options": [{"en": "Paris Saint-Germain", "ar": "باريس سان جيرمان"}, {"en": "Inter", "ar": "إنتر ميلان"}, {"en": "Real Madrid", "ar": "ريال مدريد"}, {"en": "Arsenal", "ar": "أرسنال"}]},
-    {"q": {"en": "How many AFCON titles did Hassan Shehata win as Egypt coach?", "ar": "حسن شحاتة كسب كام بطولة أمم أفريقيا مع مصر؟"},
-     "options": [{"en": "3", "ar": "3"}, {"en": "2", "ar": "2"}, {"en": "1", "ar": "1"}, {"en": "4", "ar": "4"}]},
-    {"q": {"en": "Which player has won the most Ballon d'Or awards?", "ar": "مين أكتر لاعب كسب الكرة الذهبية؟"},
-     "options": [{"en": "Lionel Messi", "ar": "ليونيل ميسي"}, {"en": "Cristiano Ronaldo", "ar": "كريستيانو رونالدو"}, {"en": "Michel Platini", "ar": "ميشيل بلاتيني"}, {"en": "Johan Cruyff", "ar": "يوهان كرويف"}]},
-    {"q": {"en": "Which player is nicknamed \"El Fenómeno\"?", "ar": "مين اللاعب اللي لقبه \"الظاهرة\"؟"},
-     "options": [{"en": "Ronaldo Nazário", "ar": "رونالدو نازاريو"}, {"en": "Ronaldinho", "ar": "رونالدينيو"}, {"en": "Rivaldo", "ar": "ريفالدو"}, {"en": "Romário", "ar": "روماريو"}]},
-    {"q": {"en": "Whose flag is this?", "ar": "ده علم أي دولة؟"}, "img": "https://flagcdn.com/w320/pt.png",
-     "options": [{"en": "Portugal", "ar": "البرتغال"}, {"en": "Spain", "ar": "إسبانيا"}, {"en": "Belgium", "ar": "بلجيكا"}, {"en": "Romania", "ar": "رومانيا"}]},
-    {"q": {"en": "Whose flag is this?", "ar": "ده علم أي دولة؟"}, "img": "https://flagcdn.com/w320/hr.png",
-     "options": [{"en": "Croatia", "ar": "كرواتيا"}, {"en": "Serbia", "ar": "صربيا"}, {"en": "Slovakia", "ar": "سلوفاكيا"}, {"en": "Slovenia", "ar": "سلوفينيا"}]},
-    {"q": {"en": "Whose flag is this?", "ar": "ده علم أي دولة؟"}, "img": "https://flagcdn.com/w320/sn.png",
-     "options": [{"en": "Senegal", "ar": "السنغال"}, {"en": "Mali", "ar": "مالي"}, {"en": "Guinea", "ar": "غينيا"}, {"en": "Cameroon", "ar": "الكاميرون"}]},
-    {"q": {"en": "Whose flag is this?", "ar": "ده علم أي دولة؟"}, "img": "https://flagcdn.com/w320/uy.png",
-     "options": [{"en": "Uruguay", "ar": "الأوروجواي"}, {"en": "Argentina", "ar": "الأرجنتين"}, {"en": "Greece", "ar": "اليونان"}, {"en": "Paraguay", "ar": "باراجواي"}]},
-    {"q": {"en": "Whose flag is this?", "ar": "ده علم أي دولة؟"}, "img": "https://flagcdn.com/w320/gh.png",
-     "options": [{"en": "Ghana", "ar": "غانا"}, {"en": "Cameroon", "ar": "الكاميرون"}, {"en": "Bolivia", "ar": "بوليفيا"}, {"en": "Ethiopia", "ar": "إثيوبيا"}]},
-    {"q": {"en": "Whose flag is this?", "ar": "ده علم أي دولة؟"}, "img": "https://flagcdn.com/w320/be.png",
-     "options": [{"en": "Belgium", "ar": "بلجيكا"}, {"en": "Germany", "ar": "ألمانيا"}, {"en": "Romania", "ar": "رومانيا"}, {"en": "Chad", "ar": "تشاد"}]}
+    {
+      "q": {
+        "en": "Who won the 2022 World Cup?",
+        "ar": "مين كسب كأس العالم 2022؟"
+      },
+      "options": [
+        {
+          "en": "Argentina",
+          "ar": "الأرجنتين"
+        },
+        {
+          "en": "France",
+          "ar": "فرنسا"
+        },
+        {
+          "en": "Croatia",
+          "ar": "كرواتيا"
+        },
+        {
+          "en": "Morocco",
+          "ar": "المغرب"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Which country hosted the 2010 World Cup?",
+        "ar": "أي دولة استضافت كأس العالم 2010؟"
+      },
+      "options": [
+        {
+          "en": "South Africa",
+          "ar": "جنوب أفريقيا"
+        },
+        {
+          "en": "Germany",
+          "ar": "ألمانيا"
+        },
+        {
+          "en": "Brazil",
+          "ar": "البرازيل"
+        },
+        {
+          "en": "Egypt",
+          "ar": "مصر"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Most expensive transfer in history?",
+        "ar": "أغلى صفقة انتقال في التاريخ؟"
+      },
+      "options": [
+        {
+          "en": "Neymar to PSG",
+          "ar": "نيمار لباريس سان جيرمان"
+        },
+        {
+          "en": "Mbappé to PSG",
+          "ar": "مبابي لباريس سان جيرمان"
+        },
+        {
+          "en": "Coutinho to Barcelona",
+          "ar": "كوتينيو لبرشلونة"
+        },
+        {
+          "en": "João Félix to Atlético",
+          "ar": "جواو فيليكس لأتلتيكو"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Which club has won the most CAF Champions League titles?",
+        "ar": "أكثر نادي فاز بدوري أبطال أفريقيا؟"
+      },
+      "options": [
+        {
+          "en": "Al Ahly",
+          "ar": "الأهلي"
+        },
+        {
+          "en": "Zamalek",
+          "ar": "الزمالك"
+        },
+        {
+          "en": "TP Mazembe",
+          "ar": "مازيمبي"
+        },
+        {
+          "en": "Espérance",
+          "ar": "الترجي"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "How many times has Egypt won the Africa Cup of Nations?",
+        "ar": "مصر كسبت كأس الأمم الأفريقية كام مرة؟"
+      },
+      "options": [
+        {
+          "en": "7",
+          "ar": "7"
+        },
+        {
+          "en": "5",
+          "ar": "5"
+        },
+        {
+          "en": "6",
+          "ar": "6"
+        },
+        {
+          "en": "8",
+          "ar": "8"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Which club did Messi join in 2023?",
+        "ar": "ميسي انضم لأي نادي في 2023؟"
+      },
+      "options": [
+        {
+          "en": "Inter Miami",
+          "ar": "إنتر ميامي"
+        },
+        {
+          "en": "Al Hilal",
+          "ar": "الهلال"
+        },
+        {
+          "en": "Newell's Old Boys",
+          "ar": "نيولز أولد بويز"
+        },
+        {
+          "en": "Barcelona",
+          "ar": "برشلونة"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Which club is nicknamed \"The Red Devils\"?",
+        "ar": "أي نادي لقبه \"الشياطين الحمر\"؟"
+      },
+      "options": [
+        {
+          "en": "Manchester United",
+          "ar": "مانشستر يونايتد"
+        },
+        {
+          "en": "Liverpool",
+          "ar": "ليفربول"
+        },
+        {
+          "en": "Arsenal",
+          "ar": "أرسنال"
+        },
+        {
+          "en": "AC Milan",
+          "ar": "ميلان"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Who won Euro 2024?",
+        "ar": "مين كسب يورو 2024؟"
+      },
+      "options": [
+        {
+          "en": "Spain",
+          "ar": "إسبانيا"
+        },
+        {
+          "en": "England",
+          "ar": "إنجلترا"
+        },
+        {
+          "en": "France",
+          "ar": "فرنسا"
+        },
+        {
+          "en": "Germany",
+          "ar": "ألمانيا"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Which club did Liverpool sign Mohamed Salah from?",
+        "ar": "ليفربول اشترى محمد صلاح من أي نادي؟"
+      },
+      "options": [
+        {
+          "en": "Roma",
+          "ar": "روما"
+        },
+        {
+          "en": "Chelsea",
+          "ar": "تشيلسي"
+        },
+        {
+          "en": "Fiorentina",
+          "ar": "فيورنتينا"
+        },
+        {
+          "en": "Basel",
+          "ar": "بازل"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Who won the first World Cup in 1930?",
+        "ar": "مين كسب أول كأس عالم سنة 1930؟"
+      },
+      "options": [
+        {
+          "en": "Uruguay",
+          "ar": "الأوروجواي"
+        },
+        {
+          "en": "Brazil",
+          "ar": "البرازيل"
+        },
+        {
+          "en": "Italy",
+          "ar": "إيطاليا"
+        },
+        {
+          "en": "Argentina",
+          "ar": "الأرجنتين"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Which Arab team reached the 2022 World Cup semi-final?",
+        "ar": "أي منتخب عربي وصل نصف نهائي كأس العالم 2022؟"
+      },
+      "options": [
+        {
+          "en": "Morocco",
+          "ar": "المغرب"
+        },
+        {
+          "en": "Saudi Arabia",
+          "ar": "السعودية"
+        },
+        {
+          "en": "Tunisia",
+          "ar": "تونس"
+        },
+        {
+          "en": "Qatar",
+          "ar": "قطر"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Who is the all-time top scorer in World Cup history?",
+        "ar": "مين الهداف التاريخي لكأس العالم؟"
+      },
+      "options": [
+        {
+          "en": "Miroslav Klose",
+          "ar": "ميروسلاف كلوزه"
+        },
+        {
+          "en": "Ronaldo Nazário",
+          "ar": "رونالدو نازاريو"
+        },
+        {
+          "en": "Lionel Messi",
+          "ar": "ليونيل ميسي"
+        },
+        {
+          "en": "Pelé",
+          "ar": "بيليه"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Who is the Premier League's all-time top scorer?",
+        "ar": "مين الهداف التاريخي للدوري الإنجليزي الممتاز؟"
+      },
+      "options": [
+        {
+          "en": "Alan Shearer",
+          "ar": "آلان شيرر"
+        },
+        {
+          "en": "Wayne Rooney",
+          "ar": "واين روني"
+        },
+        {
+          "en": "Harry Kane",
+          "ar": "هاري كين"
+        },
+        {
+          "en": "Thierry Henry",
+          "ar": "تييري هنري"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Who won the 2025 Club World Cup?",
+        "ar": "مين كسب كأس العالم للأندية 2025؟"
+      },
+      "options": [
+        {
+          "en": "Chelsea",
+          "ar": "تشيلسي"
+        },
+        {
+          "en": "Paris Saint-Germain",
+          "ar": "باريس سان جيرمان"
+        },
+        {
+          "en": "Real Madrid",
+          "ar": "ريال مدريد"
+        },
+        {
+          "en": "Manchester City",
+          "ar": "مانشستر سيتي"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Who won the 2024–25 Champions League?",
+        "ar": "مين كسب دوري أبطال أوروبا 2024–25؟"
+      },
+      "options": [
+        {
+          "en": "Paris Saint-Germain",
+          "ar": "باريس سان جيرمان"
+        },
+        {
+          "en": "Inter",
+          "ar": "إنتر ميلان"
+        },
+        {
+          "en": "Real Madrid",
+          "ar": "ريال مدريد"
+        },
+        {
+          "en": "Arsenal",
+          "ar": "أرسنال"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "How many AFCON titles did Hassan Shehata win as Egypt coach?",
+        "ar": "حسن شحاتة كسب كام بطولة أمم أفريقيا مع مصر؟"
+      },
+      "options": [
+        {
+          "en": "3",
+          "ar": "3"
+        },
+        {
+          "en": "2",
+          "ar": "2"
+        },
+        {
+          "en": "1",
+          "ar": "1"
+        },
+        {
+          "en": "4",
+          "ar": "4"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Which player has won the most Ballon d'Or awards?",
+        "ar": "مين أكتر لاعب كسب الكرة الذهبية؟"
+      },
+      "options": [
+        {
+          "en": "Lionel Messi",
+          "ar": "ليونيل ميسي"
+        },
+        {
+          "en": "Cristiano Ronaldo",
+          "ar": "كريستيانو رونالدو"
+        },
+        {
+          "en": "Michel Platini",
+          "ar": "ميشيل بلاتيني"
+        },
+        {
+          "en": "Johan Cruyff",
+          "ar": "يوهان كرويف"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Which player is nicknamed \"El Fenómeno\"?",
+        "ar": "مين اللاعب اللي لقبه \"الظاهرة\"؟"
+      },
+      "options": [
+        {
+          "en": "Ronaldo Nazário",
+          "ar": "رونالدو نازاريو"
+        },
+        {
+          "en": "Ronaldinho",
+          "ar": "رونالدينيو"
+        },
+        {
+          "en": "Rivaldo",
+          "ar": "ريفالدو"
+        },
+        {
+          "en": "Romário",
+          "ar": "روماريو"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Whose flag is this?",
+        "ar": "ده علم أي دولة؟"
+      },
+      "img": "https://flagcdn.com/w320/pt.png",
+      "options": [
+        {
+          "en": "Portugal",
+          "ar": "البرتغال"
+        },
+        {
+          "en": "Spain",
+          "ar": "إسبانيا"
+        },
+        {
+          "en": "Belgium",
+          "ar": "بلجيكا"
+        },
+        {
+          "en": "Romania",
+          "ar": "رومانيا"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Whose flag is this?",
+        "ar": "ده علم أي دولة؟"
+      },
+      "img": "https://flagcdn.com/w320/hr.png",
+      "options": [
+        {
+          "en": "Croatia",
+          "ar": "كرواتيا"
+        },
+        {
+          "en": "Serbia",
+          "ar": "صربيا"
+        },
+        {
+          "en": "Slovakia",
+          "ar": "سلوفاكيا"
+        },
+        {
+          "en": "Slovenia",
+          "ar": "سلوفينيا"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Whose flag is this?",
+        "ar": "ده علم أي دولة؟"
+      },
+      "img": "https://flagcdn.com/w320/sn.png",
+      "options": [
+        {
+          "en": "Senegal",
+          "ar": "السنغال"
+        },
+        {
+          "en": "Mali",
+          "ar": "مالي"
+        },
+        {
+          "en": "Guinea",
+          "ar": "غينيا"
+        },
+        {
+          "en": "Cameroon",
+          "ar": "الكاميرون"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Whose flag is this?",
+        "ar": "ده علم أي دولة؟"
+      },
+      "img": "https://flagcdn.com/w320/uy.png",
+      "options": [
+        {
+          "en": "Uruguay",
+          "ar": "الأوروجواي"
+        },
+        {
+          "en": "Argentina",
+          "ar": "الأرجنتين"
+        },
+        {
+          "en": "Greece",
+          "ar": "اليونان"
+        },
+        {
+          "en": "Paraguay",
+          "ar": "باراجواي"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Whose flag is this?",
+        "ar": "ده علم أي دولة؟"
+      },
+      "img": "https://flagcdn.com/w320/gh.png",
+      "options": [
+        {
+          "en": "Ghana",
+          "ar": "غانا"
+        },
+        {
+          "en": "Cameroon",
+          "ar": "الكاميرون"
+        },
+        {
+          "en": "Bolivia",
+          "ar": "بوليفيا"
+        },
+        {
+          "en": "Ethiopia",
+          "ar": "إثيوبيا"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Whose flag is this?",
+        "ar": "ده علم أي دولة؟"
+      },
+      "img": "https://flagcdn.com/w320/be.png",
+      "options": [
+        {
+          "en": "Belgium",
+          "ar": "بلجيكا"
+        },
+        {
+          "en": "Germany",
+          "ar": "ألمانيا"
+        },
+        {
+          "en": "Romania",
+          "ar": "رومانيا"
+        },
+        {
+          "en": "Chad",
+          "ar": "تشاد"
+        }
+      ]
+    }
   ]
 }

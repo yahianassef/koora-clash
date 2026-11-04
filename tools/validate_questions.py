@@ -25,6 +25,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PATH = os.path.join(ROOT, "data", "questions.json")
 PLAYERS_PATH = os.path.join(ROOT, "data", "players.json")
 CONTINENTS = {"europe", "south_america", "north_america", "africa", "asia", "oceania"}
+YEARS = re.compile(r"^\d{4}(–(\d{4})?)?$")
+CLUBS_PATH = os.path.join(ROOT, "data", "clubs.json")
 
 
 def bilingual(x):
@@ -54,6 +56,9 @@ def main():
         clubs = q.get("clubs") or []
         if len(clubs) < 3 or not all(bilingual(c) for c in clubs):
             errors.append(f"{tag}: needs 3+ clubs, each with en+ar")
+        for c in clubs:
+            if not YEARS.match(str(c.get("years", ""))):
+                errors.append(f"{tag}: club {c.get('en')} needs years like \"2001–2004\", \"2015\" or \"2017–\" (en dash)")
         k = norm(q["answer"]["en"])
         if k in seen:
             errors.append(f"{tag}: duplicate player {q['answer']['en']}")
@@ -131,6 +136,19 @@ def main():
         if norm(p["name"]["en"]) in seen:
             errors.append(f"{tag}: duplicate player {p['name']['en']}")
         seen.add(norm(p["name"]["en"]))
+
+    try:
+        with open(CLUBS_PATH, encoding="utf-8") as f:
+            logos = json.load(f)
+    except (OSError, ValueError):
+        logos = {}
+    if any(not str(u).startswith("https://") for u in logos.values()):
+        errors.append("clubs.json: every logo must be an https URL")
+    used = {c["en"] for q in data["career"] for c in q.get("clubs", []) if isinstance(c, dict)}
+    used |= {c for p in pdata.get("players", []) for c in p.get("clubs", [])}
+    no_logo = sorted(used - set(logos))
+    if no_logo:
+        print(f"note: {len(no_logo)} club(s) without a logo (run tools/fetch_club_logos.py): {', '.join(no_logo)}")
 
     if errors:
         print(f"{len(errors)} problem(s):")

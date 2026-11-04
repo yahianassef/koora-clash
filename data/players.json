@@ -1,81 +1,1149 @@
 {
   "nations": {
-    "ARG": {"en": "Argentina", "ar": "الأرجنتين", "continent": "south_america"},
-    "BRA": {"en": "Brazil", "ar": "البرازيل", "continent": "south_america"},
-    "URU": {"en": "Uruguay", "ar": "الأوروجواي", "continent": "south_america"},
-    "COL": {"en": "Colombia", "ar": "كولومبيا", "continent": "south_america"},
-    "EGY": {"en": "Egypt", "ar": "مصر", "continent": "africa"},
-    "MAR": {"en": "Morocco", "ar": "المغرب", "continent": "africa"},
-    "ALG": {"en": "Algeria", "ar": "الجزائر", "continent": "africa"},
-    "SEN": {"en": "Senegal", "ar": "السنغال", "continent": "africa"},
-    "CMR": {"en": "Cameroon", "ar": "الكاميرون", "continent": "africa"},
-    "CIV": {"en": "Ivory Coast", "ar": "كوت ديفوار", "continent": "africa"},
-    "POR": {"en": "Portugal", "ar": "البرتغال", "continent": "europe"},
-    "ESP": {"en": "Spain", "ar": "إسبانيا", "continent": "europe"},
-    "FRA": {"en": "France", "ar": "فرنسا", "continent": "europe"},
-    "ITA": {"en": "Italy", "ar": "إيطاليا", "continent": "europe"},
-    "GER": {"en": "Germany", "ar": "ألمانيا", "continent": "europe"},
-    "ENG": {"en": "England", "ar": "إنجلترا", "continent": "europe"},
-    "WAL": {"en": "Wales", "ar": "ويلز", "continent": "europe"},
-    "NED": {"en": "Netherlands", "ar": "هولندا", "continent": "europe"},
-    "BEL": {"en": "Belgium", "ar": "بلجيكا", "continent": "europe"},
-    "CRO": {"en": "Croatia", "ar": "كرواتيا", "continent": "europe"},
-    "POL": {"en": "Poland", "ar": "بولندا", "continent": "europe"},
-    "NOR": {"en": "Norway", "ar": "النرويج", "continent": "europe"},
-    "SWE": {"en": "Sweden", "ar": "السويد", "continent": "europe"}
+    "ARG": {
+      "en": "Argentina",
+      "ar": "الأرجنتين",
+      "continent": "south_america"
+    },
+    "BRA": {
+      "en": "Brazil",
+      "ar": "البرازيل",
+      "continent": "south_america"
+    },
+    "URU": {
+      "en": "Uruguay",
+      "ar": "الأوروجواي",
+      "continent": "south_america"
+    },
+    "COL": {
+      "en": "Colombia",
+      "ar": "كولومبيا",
+      "continent": "south_america"
+    },
+    "EGY": {
+      "en": "Egypt",
+      "ar": "مصر",
+      "continent": "africa"
+    },
+    "MAR": {
+      "en": "Morocco",
+      "ar": "المغرب",
+      "continent": "africa"
+    },
+    "ALG": {
+      "en": "Algeria",
+      "ar": "الجزائر",
+      "continent": "africa"
+    },
+    "SEN": {
+      "en": "Senegal",
+      "ar": "السنغال",
+      "continent": "africa"
+    },
+    "CMR": {
+      "en": "Cameroon",
+      "ar": "الكاميرون",
+      "continent": "africa"
+    },
+    "CIV": {
+      "en": "Ivory Coast",
+      "ar": "كوت ديفوار",
+      "continent": "africa"
+    },
+    "POR": {
+      "en": "Portugal",
+      "ar": "البرتغال",
+      "continent": "europe"
+    },
+    "ESP": {
+      "en": "Spain",
+      "ar": "إسبانيا",
+      "continent": "europe"
+    },
+    "FRA": {
+      "en": "France",
+      "ar": "فرنسا",
+      "continent": "europe"
+    },
+    "ITA": {
+      "en": "Italy",
+      "ar": "إيطاليا",
+      "continent": "europe"
+    },
+    "GER": {
+      "en": "Germany",
+      "ar": "ألمانيا",
+      "continent": "europe"
+    },
+    "ENG": {
+      "en": "England",
+      "ar": "إنجلترا",
+      "continent": "europe"
+    },
+    "WAL": {
+      "en": "Wales",
+      "ar": "ويلز",
+      "continent": "europe"
+    },
+    "NED": {
+      "en": "Netherlands",
+      "ar": "هولندا",
+      "continent": "europe"
+    },
+    "BEL": {
+      "en": "Belgium",
+      "ar": "بلجيكا",
+      "continent": "europe"
+    },
+    "CRO": {
+      "en": "Croatia",
+      "ar": "كرواتيا",
+      "continent": "europe"
+    },
+    "POL": {
+      "en": "Poland",
+      "ar": "بولندا",
+      "continent": "europe"
+    },
+    "NOR": {
+      "en": "Norway",
+      "ar": "النرويج",
+      "continent": "europe"
+    },
+    "SWE": {
+      "en": "Sweden",
+      "ar": "السويد",
+      "continent": "europe"
+    }
   },
   "players": [
-    {"name": {"en": "Lionel Messi", "ar": "ليونيل ميسي"}, "aliases": ["messi", "ميسي"], "nation": "ARG", "pos": "FW", "born": 1987, "clubs": ["Barcelona", "Paris Saint-Germain", "Inter Miami"]},
-    {"name": {"en": "Cristiano Ronaldo", "ar": "كريستيانو رونالدو"}, "aliases": ["ronaldo", "cristiano", "cr7", "رونالدو", "كريستيانو"], "nation": "POR", "pos": "FW", "born": 1985, "clubs": ["Sporting CP", "Manchester United", "Real Madrid", "Juventus", "Al Nassr"]},
-    {"name": {"en": "Mohamed Salah", "ar": "محمد صلاح"}, "aliases": ["salah", "صلاح"], "nation": "EGY", "pos": "FW", "born": 1992, "clubs": ["Al Mokawloon", "Basel", "Chelsea", "Fiorentina", "Roma", "Liverpool"]},
-    {"name": {"en": "Neymar", "ar": "نيمار"}, "aliases": [], "nation": "BRA", "pos": "FW", "born": 1992, "clubs": ["Santos", "Barcelona", "Paris Saint-Germain", "Al Hilal"]},
-    {"name": {"en": "Kylian Mbappé", "ar": "كيليان مبابي"}, "aliases": ["mbappe", "مبابي"], "nation": "FRA", "pos": "FW", "born": 1998, "clubs": ["Monaco", "Paris Saint-Germain", "Real Madrid"]},
-    {"name": {"en": "Erling Haaland", "ar": "إيرلينج هالاند"}, "aliases": ["haaland", "هالاند"], "nation": "NOR", "pos": "FW", "born": 2000, "clubs": ["Bryne", "Molde", "RB Salzburg", "Borussia Dortmund", "Manchester City"]},
-    {"name": {"en": "Karim Benzema", "ar": "كريم بنزيما"}, "aliases": ["benzema", "بنزيما"], "nation": "FRA", "pos": "FW", "born": 1987, "clubs": ["Lyon", "Real Madrid", "Al Ittihad"]},
-    {"name": {"en": "Robert Lewandowski", "ar": "روبرت ليفاندوفسكي"}, "aliases": ["lewandowski", "ليفاندوفسكي"], "nation": "POL", "pos": "FW", "born": 1988, "clubs": ["Znicz Pruszków", "Lech Poznań", "Borussia Dortmund", "Bayern Munich", "Barcelona"]},
-    {"name": {"en": "Luka Modrić", "ar": "لوكا مودريتش"}, "aliases": ["modric", "مودريتش"], "nation": "CRO", "pos": "MF", "born": 1985, "clubs": ["Dinamo Zagreb", "Tottenham", "Real Madrid", "AC Milan"]},
-    {"name": {"en": "Kevin De Bruyne", "ar": "كيفين دي بروين"}, "aliases": ["de bruyne", "kdb", "دي بروين"], "nation": "BEL", "pos": "MF", "born": 1991, "clubs": ["Genk", "Chelsea", "Werder Bremen", "Wolfsburg", "Manchester City", "Napoli"]},
-    {"name": {"en": "Toni Kroos", "ar": "توني كروس"}, "aliases": ["kroos", "كروس"], "nation": "GER", "pos": "MF", "born": 1990, "clubs": ["Bayern Munich", "Bayer Leverkusen", "Real Madrid"]},
-    {"name": {"en": "Zlatan Ibrahimović", "ar": "زلاتان إبراهيموفيتش"}, "aliases": ["zlatan", "ibrahimovic", "زلاتان"], "nation": "SWE", "pos": "FW", "born": 1981, "clubs": ["Malmö", "Ajax", "Juventus", "Inter", "Barcelona", "AC Milan", "Paris Saint-Germain", "Manchester United", "LA Galaxy"]},
-    {"name": {"en": "Luis Suárez", "ar": "لويس سواريز"}, "aliases": ["suarez", "سواريز"], "nation": "URU", "pos": "FW", "born": 1987, "clubs": ["Nacional", "Groningen", "Ajax", "Liverpool", "Barcelona", "Atlético Madrid", "Grêmio", "Inter Miami"]},
-    {"name": {"en": "Edinson Cavani", "ar": "إدينسون كافاني"}, "aliases": ["cavani", "كافاني"], "nation": "URU", "pos": "FW", "born": 1987, "clubs": ["Danubio", "Palermo", "Napoli", "Paris Saint-Germain", "Manchester United", "Valencia", "Boca Juniors"]},
-    {"name": {"en": "Ángel Di María", "ar": "أنخيل دي ماريا"}, "aliases": ["di maria", "دي ماريا"], "nation": "ARG", "pos": "FW", "born": 1988, "clubs": ["Rosario Central", "Benfica", "Real Madrid", "Manchester United", "Paris Saint-Germain", "Juventus"]},
-    {"name": {"en": "Gonzalo Higuaín", "ar": "جونزالو هيجواين"}, "aliases": ["higuain", "هيجواين"], "nation": "ARG", "pos": "FW", "born": 1987, "clubs": ["River Plate", "Real Madrid", "Napoli", "Juventus", "AC Milan", "Chelsea", "Inter Miami"]},
-    {"name": {"en": "Radamel Falcao", "ar": "راداميل فالكاو"}, "aliases": ["falcao", "فالكاو"], "nation": "COL", "pos": "FW", "born": 1986, "clubs": ["River Plate", "Porto", "Atlético Madrid", "Monaco", "Manchester United", "Chelsea", "Galatasaray", "Rayo Vallecano", "Millonarios"]},
-    {"name": {"en": "Fernando Torres", "ar": "فرناندو توريس"}, "aliases": ["torres", "توريس"], "nation": "ESP", "pos": "FW", "born": 1984, "clubs": ["Atlético Madrid", "Liverpool", "Chelsea", "AC Milan", "Sagan Tosu"]},
-    {"name": {"en": "Samuel Eto'o", "ar": "صامويل إيتو"}, "aliases": ["etoo", "eto'o", "إيتو"], "nation": "CMR", "pos": "FW", "born": 1981, "clubs": ["Real Madrid", "Mallorca", "Barcelona", "Inter", "Anzhi", "Chelsea", "Everton", "Sampdoria", "Antalyaspor", "Konyaspor", "Qatar SC"]},
-    {"name": {"en": "Riyad Mahrez", "ar": "رياض محرز"}, "aliases": ["mahrez", "محرز"], "nation": "ALG", "pos": "FW", "born": 1991, "clubs": ["Quimper", "Le Havre", "Leicester City", "Manchester City", "Al Ahli"]},
-    {"name": {"en": "Andrea Pirlo", "ar": "أندريا بيرلو"}, "aliases": ["pirlo", "بيرلو"], "nation": "ITA", "pos": "MF", "born": 1979, "clubs": ["Brescia", "Inter", "Reggina", "AC Milan", "Juventus", "New York City FC"]},
-    {"name": {"en": "Thierry Henry", "ar": "تييري هنري"}, "aliases": ["henry", "هنري"], "nation": "FRA", "pos": "FW", "born": 1977, "clubs": ["Monaco", "Juventus", "Arsenal", "Barcelona", "New York Red Bulls"]},
-    {"name": {"en": "Zinedine Zidane", "ar": "زين الدين زيدان"}, "aliases": ["zidane", "zizou", "زيدان"], "nation": "FRA", "pos": "MF", "born": 1972, "clubs": ["Cannes", "Bordeaux", "Juventus", "Real Madrid"]},
-    {"name": {"en": "Ronaldinho", "ar": "رونالدينيو"}, "aliases": [], "nation": "BRA", "pos": "FW", "born": 1980, "clubs": ["Grêmio", "Paris Saint-Germain", "Barcelona", "AC Milan", "Flamengo", "Atlético Mineiro", "Querétaro", "Fluminense"]},
-    {"name": {"en": "Kaká", "ar": "كاكا"}, "aliases": ["kaka"], "nation": "BRA", "pos": "MF", "born": 1982, "clubs": ["São Paulo", "AC Milan", "Real Madrid", "Orlando City"]},
-    {"name": {"en": "Didier Drogba", "ar": "ديدييه دروجبا"}, "aliases": ["drogba", "دروجبا"], "nation": "CIV", "pos": "FW", "born": 1978, "clubs": ["Le Mans", "Guingamp", "Marseille", "Chelsea", "Shanghai Shenhua", "Galatasaray", "Montreal Impact", "Phoenix Rising"]},
-    {"name": {"en": "Mohamed Aboutrika", "ar": "محمد أبو تريكة"}, "aliases": ["aboutrika", "abou treika", "ابو تريكه", "تريكة"], "nation": "EGY", "pos": "MF", "born": 1978, "clubs": ["Tersana", "Al Ahly", "Baniyas"]},
-    {"name": {"en": "Achraf Hakimi", "ar": "أشرف حكيمي"}, "aliases": ["hakimi", "حكيمي"], "nation": "MAR", "pos": "DF", "born": 1998, "clubs": ["Real Madrid", "Borussia Dortmund", "Inter", "Paris Saint-Germain"]},
-    {"name": {"en": "Yassine Bounou", "ar": "ياسين بونو"}, "aliases": ["bounou", "bono", "بونو"], "nation": "MAR", "pos": "GK", "born": 1991, "clubs": ["Atlético Madrid", "Real Zaragoza", "Girona", "Sevilla", "Al Hilal"]},
-    {"name": {"en": "Gianluigi Buffon", "ar": "جيانلويجي بوفون"}, "aliases": ["buffon", "بوفون"], "nation": "ITA", "pos": "GK", "born": 1978, "clubs": ["Parma", "Juventus", "Paris Saint-Germain"]},
-    {"name": {"en": "Iker Casillas", "ar": "إيكر كاسياس"}, "aliases": ["casillas", "كاسياس"], "nation": "ESP", "pos": "GK", "born": 1981, "clubs": ["Real Madrid", "Porto"]},
-    {"name": {"en": "Sergio Ramos", "ar": "سيرجيو راموس"}, "aliases": ["ramos", "راموس"], "nation": "ESP", "pos": "DF", "born": 1986, "clubs": ["Sevilla", "Real Madrid", "Paris Saint-Germain", "Monterrey"]},
-    {"name": {"en": "Carles Puyol", "ar": "كارليس بويول"}, "aliases": ["puyol", "بويول"], "nation": "ESP", "pos": "DF", "born": 1978, "clubs": ["Barcelona"]},
-    {"name": {"en": "Paolo Maldini", "ar": "باولو مالديني"}, "aliases": ["maldini", "مالديني"], "nation": "ITA", "pos": "DF", "born": 1968, "clubs": ["AC Milan"]},
-    {"name": {"en": "Virgil van Dijk", "ar": "فيرجيل فان دايك"}, "aliases": ["van dijk", "فان دايك"], "nation": "NED", "pos": "DF", "born": 1991, "clubs": ["Groningen", "Celtic", "Southampton", "Liverpool"]},
-    {"name": {"en": "Andrés Iniesta", "ar": "أندريس إنييستا"}, "aliases": ["iniesta", "إنييستا"], "nation": "ESP", "pos": "MF", "born": 1984, "clubs": ["Barcelona", "Vissel Kobe", "Emirates Club"]},
-    {"name": {"en": "Xavi", "ar": "تشافي"}, "aliases": ["xavi hernandez", "تشافي هيرنانديز"], "nation": "ESP", "pos": "MF", "born": 1980, "clubs": ["Barcelona", "Al Sadd"]},
-    {"name": {"en": "David Beckham", "ar": "ديفيد بيكهام"}, "aliases": ["beckham", "بيكهام"], "nation": "ENG", "pos": "MF", "born": 1975, "clubs": ["Manchester United", "Preston North End", "Real Madrid", "LA Galaxy", "AC Milan", "Paris Saint-Germain"]},
-    {"name": {"en": "Wayne Rooney", "ar": "واين روني"}, "aliases": ["rooney", "روني"], "nation": "ENG", "pos": "FW", "born": 1985, "clubs": ["Everton", "Manchester United", "DC United", "Derby County"]},
-    {"name": {"en": "Steven Gerrard", "ar": "ستيفن جيرارد"}, "aliases": ["gerrard", "جيرارد"], "nation": "ENG", "pos": "MF", "born": 1980, "clubs": ["Liverpool", "LA Galaxy"]},
-    {"name": {"en": "Gareth Bale", "ar": "جاريث بيل"}, "aliases": ["bale", "بيل"], "nation": "WAL", "pos": "FW", "born": 1989, "clubs": ["Southampton", "Tottenham", "Real Madrid", "Los Angeles FC"]},
-    {"name": {"en": "Harry Kane", "ar": "هاري كين"}, "aliases": ["kane", "كين"], "nation": "ENG", "pos": "FW", "born": 1993, "clubs": ["Tottenham", "Leyton Orient", "Millwall", "Norwich City", "Leicester City", "Bayern Munich"]},
-    {"name": {"en": "Vinícius Júnior", "ar": "فينيسيوس جونيور"}, "aliases": ["vinicius", "vini", "فينيسيوس"], "nation": "BRA", "pos": "FW", "born": 2000, "clubs": ["Flamengo", "Real Madrid"]},
-    {"name": {"en": "Jude Bellingham", "ar": "جود بيلينجهام"}, "aliases": ["bellingham", "بيلينجهام"], "nation": "ENG", "pos": "MF", "born": 2003, "clubs": ["Birmingham City", "Borussia Dortmund", "Real Madrid"]},
-    {"name": {"en": "Lamine Yamal", "ar": "لامين يامال"}, "aliases": ["yamal", "يامال"], "nation": "ESP", "pos": "FW", "born": 2007, "clubs": ["Barcelona"]},
-    {"name": {"en": "Omar Marmoush", "ar": "عمر مرموش"}, "aliases": ["marmoush", "مرموش"], "nation": "EGY", "pos": "FW", "born": 1999, "clubs": ["Wadi Degla", "Wolfsburg", "St. Pauli", "Karlsruher SC", "Eintracht Frankfurt", "Manchester City"]},
-    {"name": {"en": "Sadio Mané", "ar": "ساديو ماني"}, "aliases": ["mane", "ماني"], "nation": "SEN", "pos": "FW", "born": 1992, "clubs": ["Metz", "RB Salzburg", "Southampton", "Liverpool", "Bayern Munich", "Al Nassr"]},
-    {"name": {"en": "Mohamed Elneny", "ar": "محمد النني"}, "aliases": ["elneny", "النني"], "nation": "EGY", "pos": "MF", "born": 1992, "clubs": ["Al Mokawloon", "Basel", "Arsenal", "Beşiktaş", "Al Jazira"]},
-    {"name": {"en": "Francesco Totti", "ar": "فرانشيسكو توتي"}, "aliases": ["totti", "توتي"], "nation": "ITA", "pos": "FW", "born": 1976, "clubs": ["Roma"]},
-    {"name": {"en": "Diego Maradona", "ar": "دييجو مارادونا"}, "aliases": ["maradona", "مارادونا"], "nation": "ARG", "pos": "FW", "born": 1960, "clubs": ["Argentinos Juniors", "Boca Juniors", "Barcelona", "Napoli", "Sevilla", "Newell's Old Boys"]},
-    {"name": {"en": "Ronaldo Nazário", "ar": "رونالدو نازاريو"}, "aliases": ["r9", "nazario", "الظاهرة", "نازاريو"], "nation": "BRA", "pos": "FW", "born": 1976, "clubs": ["Cruzeiro", "PSV", "Barcelona", "Inter", "Real Madrid", "AC Milan", "Corinthians"]},
-    {"name": {"en": "Pelé", "ar": "بيليه"}, "aliases": ["pele"], "nation": "BRA", "pos": "FW", "born": 1940, "clubs": ["Santos", "New York Cosmos"]}
+    {
+      "name": {
+        "en": "Lionel Messi",
+        "ar": "ليونيل ميسي"
+      },
+      "aliases": [
+        "messi",
+        "ميسي"
+      ],
+      "nation": "ARG",
+      "pos": "FW",
+      "born": 1987,
+      "clubs": [
+        "Barcelona",
+        "Paris Saint-Germain",
+        "Inter Miami"
+      ]
+    },
+    {
+      "name": {
+        "en": "Cristiano Ronaldo",
+        "ar": "كريستيانو رونالدو"
+      },
+      "aliases": [
+        "ronaldo",
+        "cristiano",
+        "cr7",
+        "رونالدو",
+        "كريستيانو"
+      ],
+      "nation": "POR",
+      "pos": "FW",
+      "born": 1985,
+      "clubs": [
+        "Sporting CP",
+        "Manchester United",
+        "Real Madrid",
+        "Juventus",
+        "Al Nassr"
+      ]
+    },
+    {
+      "name": {
+        "en": "Mohamed Salah",
+        "ar": "محمد صلاح"
+      },
+      "aliases": [
+        "salah",
+        "صلاح"
+      ],
+      "nation": "EGY",
+      "pos": "FW",
+      "born": 1992,
+      "clubs": [
+        "Al Mokawloon",
+        "Basel",
+        "Chelsea",
+        "Fiorentina",
+        "Roma",
+        "Liverpool"
+      ]
+    },
+    {
+      "name": {
+        "en": "Neymar",
+        "ar": "نيمار"
+      },
+      "aliases": [],
+      "nation": "BRA",
+      "pos": "FW",
+      "born": 1992,
+      "clubs": [
+        "Santos",
+        "Barcelona",
+        "Paris Saint-Germain",
+        "Al Hilal"
+      ]
+    },
+    {
+      "name": {
+        "en": "Kylian Mbappé",
+        "ar": "كيليان مبابي"
+      },
+      "aliases": [
+        "mbappe",
+        "مبابي"
+      ],
+      "nation": "FRA",
+      "pos": "FW",
+      "born": 1998,
+      "clubs": [
+        "Monaco",
+        "Paris Saint-Germain",
+        "Real Madrid"
+      ]
+    },
+    {
+      "name": {
+        "en": "Erling Haaland",
+        "ar": "إيرلينج هالاند"
+      },
+      "aliases": [
+        "haaland",
+        "هالاند"
+      ],
+      "nation": "NOR",
+      "pos": "FW",
+      "born": 2000,
+      "clubs": [
+        "Bryne",
+        "Molde",
+        "RB Salzburg",
+        "Borussia Dortmund",
+        "Manchester City"
+      ]
+    },
+    {
+      "name": {
+        "en": "Karim Benzema",
+        "ar": "كريم بنزيما"
+      },
+      "aliases": [
+        "benzema",
+        "بنزيما"
+      ],
+      "nation": "FRA",
+      "pos": "FW",
+      "born": 1987,
+      "clubs": [
+        "Lyon",
+        "Real Madrid",
+        "Al Ittihad"
+      ]
+    },
+    {
+      "name": {
+        "en": "Robert Lewandowski",
+        "ar": "روبرت ليفاندوفسكي"
+      },
+      "aliases": [
+        "lewandowski",
+        "ليفاندوفسكي"
+      ],
+      "nation": "POL",
+      "pos": "FW",
+      "born": 1988,
+      "clubs": [
+        "Znicz Pruszków",
+        "Lech Poznań",
+        "Borussia Dortmund",
+        "Bayern Munich",
+        "Barcelona"
+      ]
+    },
+    {
+      "name": {
+        "en": "Luka Modrić",
+        "ar": "لوكا مودريتش"
+      },
+      "aliases": [
+        "modric",
+        "مودريتش"
+      ],
+      "nation": "CRO",
+      "pos": "MF",
+      "born": 1985,
+      "clubs": [
+        "Dinamo Zagreb",
+        "Tottenham",
+        "Real Madrid",
+        "AC Milan"
+      ]
+    },
+    {
+      "name": {
+        "en": "Kevin De Bruyne",
+        "ar": "كيفين دي بروين"
+      },
+      "aliases": [
+        "de bruyne",
+        "kdb",
+        "دي بروين"
+      ],
+      "nation": "BEL",
+      "pos": "MF",
+      "born": 1991,
+      "clubs": [
+        "Genk",
+        "Chelsea",
+        "Werder Bremen",
+        "Wolfsburg",
+        "Manchester City",
+        "Napoli"
+      ]
+    },
+    {
+      "name": {
+        "en": "Toni Kroos",
+        "ar": "توني كروس"
+      },
+      "aliases": [
+        "kroos",
+        "كروس"
+      ],
+      "nation": "GER",
+      "pos": "MF",
+      "born": 1990,
+      "clubs": [
+        "Bayern Munich",
+        "Bayer Leverkusen",
+        "Real Madrid"
+      ]
+    },
+    {
+      "name": {
+        "en": "Zlatan Ibrahimović",
+        "ar": "زلاتان إبراهيموفيتش"
+      },
+      "aliases": [
+        "zlatan",
+        "ibrahimovic",
+        "زلاتان"
+      ],
+      "nation": "SWE",
+      "pos": "FW",
+      "born": 1981,
+      "clubs": [
+        "Malmö",
+        "Ajax",
+        "Juventus",
+        "Inter",
+        "Barcelona",
+        "AC Milan",
+        "Paris Saint-Germain",
+        "Manchester United",
+        "LA Galaxy"
+      ]
+    },
+    {
+      "name": {
+        "en": "Luis Suárez",
+        "ar": "لويس سواريز"
+      },
+      "aliases": [
+        "suarez",
+        "سواريز"
+      ],
+      "nation": "URU",
+      "pos": "FW",
+      "born": 1987,
+      "clubs": [
+        "Nacional",
+        "Groningen",
+        "Ajax",
+        "Liverpool",
+        "Barcelona",
+        "Atlético Madrid",
+        "Grêmio",
+        "Inter Miami"
+      ]
+    },
+    {
+      "name": {
+        "en": "Edinson Cavani",
+        "ar": "إدينسون كافاني"
+      },
+      "aliases": [
+        "cavani",
+        "كافاني"
+      ],
+      "nation": "URU",
+      "pos": "FW",
+      "born": 1987,
+      "clubs": [
+        "Danubio",
+        "Palermo",
+        "Napoli",
+        "Paris Saint-Germain",
+        "Manchester United",
+        "Valencia",
+        "Boca Juniors"
+      ]
+    },
+    {
+      "name": {
+        "en": "Ángel Di María",
+        "ar": "أنخيل دي ماريا"
+      },
+      "aliases": [
+        "di maria",
+        "دي ماريا"
+      ],
+      "nation": "ARG",
+      "pos": "FW",
+      "born": 1988,
+      "clubs": [
+        "Rosario Central",
+        "Benfica",
+        "Real Madrid",
+        "Manchester United",
+        "Paris Saint-Germain",
+        "Juventus"
+      ]
+    },
+    {
+      "name": {
+        "en": "Gonzalo Higuaín",
+        "ar": "جونزالو هيجواين"
+      },
+      "aliases": [
+        "higuain",
+        "هيجواين"
+      ],
+      "nation": "ARG",
+      "pos": "FW",
+      "born": 1987,
+      "clubs": [
+        "River Plate",
+        "Real Madrid",
+        "Napoli",
+        "Juventus",
+        "AC Milan",
+        "Chelsea",
+        "Inter Miami"
+      ]
+    },
+    {
+      "name": {
+        "en": "Radamel Falcao",
+        "ar": "راداميل فالكاو"
+      },
+      "aliases": [
+        "falcao",
+        "فالكاو"
+      ],
+      "nation": "COL",
+      "pos": "FW",
+      "born": 1986,
+      "clubs": [
+        "River Plate",
+        "Porto",
+        "Atlético Madrid",
+        "Monaco",
+        "Manchester United",
+        "Chelsea",
+        "Galatasaray",
+        "Rayo Vallecano",
+        "Millonarios"
+      ]
+    },
+    {
+      "name": {
+        "en": "Fernando Torres",
+        "ar": "فرناندو توريس"
+      },
+      "aliases": [
+        "torres",
+        "توريس"
+      ],
+      "nation": "ESP",
+      "pos": "FW",
+      "born": 1984,
+      "clubs": [
+        "Atlético Madrid",
+        "Liverpool",
+        "Chelsea",
+        "AC Milan",
+        "Sagan Tosu"
+      ]
+    },
+    {
+      "name": {
+        "en": "Samuel Eto'o",
+        "ar": "صامويل إيتو"
+      },
+      "aliases": [
+        "etoo",
+        "eto'o",
+        "إيتو"
+      ],
+      "nation": "CMR",
+      "pos": "FW",
+      "born": 1981,
+      "clubs": [
+        "Real Madrid",
+        "Mallorca",
+        "Barcelona",
+        "Inter",
+        "Anzhi",
+        "Chelsea",
+        "Everton",
+        "Sampdoria",
+        "Antalyaspor",
+        "Konyaspor",
+        "Qatar SC"
+      ]
+    },
+    {
+      "name": {
+        "en": "Riyad Mahrez",
+        "ar": "رياض محرز"
+      },
+      "aliases": [
+        "mahrez",
+        "محرز"
+      ],
+      "nation": "ALG",
+      "pos": "FW",
+      "born": 1991,
+      "clubs": [
+        "Quimper",
+        "Le Havre",
+        "Leicester City",
+        "Manchester City",
+        "Al Ahli",
+        "Al Shamal"
+      ]
+    },
+    {
+      "name": {
+        "en": "Andrea Pirlo",
+        "ar": "أندريا بيرلو"
+      },
+      "aliases": [
+        "pirlo",
+        "بيرلو"
+      ],
+      "nation": "ITA",
+      "pos": "MF",
+      "born": 1979,
+      "clubs": [
+        "Brescia",
+        "Inter",
+        "Reggina",
+        "AC Milan",
+        "Juventus",
+        "New York City FC"
+      ]
+    },
+    {
+      "name": {
+        "en": "Thierry Henry",
+        "ar": "تييري هنري"
+      },
+      "aliases": [
+        "henry",
+        "هنري"
+      ],
+      "nation": "FRA",
+      "pos": "FW",
+      "born": 1977,
+      "clubs": [
+        "Monaco",
+        "Juventus",
+        "Arsenal",
+        "Barcelona",
+        "New York Red Bulls"
+      ]
+    },
+    {
+      "name": {
+        "en": "Zinedine Zidane",
+        "ar": "زين الدين زيدان"
+      },
+      "aliases": [
+        "zidane",
+        "zizou",
+        "زيدان"
+      ],
+      "nation": "FRA",
+      "pos": "MF",
+      "born": 1972,
+      "clubs": [
+        "Cannes",
+        "Bordeaux",
+        "Juventus",
+        "Real Madrid"
+      ]
+    },
+    {
+      "name": {
+        "en": "Ronaldinho",
+        "ar": "رونالدينيو"
+      },
+      "aliases": [],
+      "nation": "BRA",
+      "pos": "FW",
+      "born": 1980,
+      "clubs": [
+        "Grêmio",
+        "Paris Saint-Germain",
+        "Barcelona",
+        "AC Milan",
+        "Flamengo",
+        "Atlético Mineiro",
+        "Querétaro",
+        "Fluminense"
+      ]
+    },
+    {
+      "name": {
+        "en": "Kaká",
+        "ar": "كاكا"
+      },
+      "aliases": [
+        "kaka"
+      ],
+      "nation": "BRA",
+      "pos": "MF",
+      "born": 1982,
+      "clubs": [
+        "São Paulo",
+        "AC Milan",
+        "Real Madrid",
+        "Orlando City"
+      ]
+    },
+    {
+      "name": {
+        "en": "Didier Drogba",
+        "ar": "ديدييه دروجبا"
+      },
+      "aliases": [
+        "drogba",
+        "دروجبا"
+      ],
+      "nation": "CIV",
+      "pos": "FW",
+      "born": 1978,
+      "clubs": [
+        "Le Mans",
+        "Guingamp",
+        "Marseille",
+        "Chelsea",
+        "Shanghai Shenhua",
+        "Galatasaray",
+        "Montreal Impact",
+        "Phoenix Rising"
+      ]
+    },
+    {
+      "name": {
+        "en": "Mohamed Aboutrika",
+        "ar": "محمد أبو تريكة"
+      },
+      "aliases": [
+        "aboutrika",
+        "abou treika",
+        "ابو تريكه",
+        "تريكة"
+      ],
+      "nation": "EGY",
+      "pos": "MF",
+      "born": 1978,
+      "clubs": [
+        "Tersana",
+        "Al Ahly",
+        "Baniyas"
+      ]
+    },
+    {
+      "name": {
+        "en": "Achraf Hakimi",
+        "ar": "أشرف حكيمي"
+      },
+      "aliases": [
+        "hakimi",
+        "حكيمي"
+      ],
+      "nation": "MAR",
+      "pos": "DF",
+      "born": 1998,
+      "clubs": [
+        "Real Madrid",
+        "Borussia Dortmund",
+        "Inter",
+        "Paris Saint-Germain"
+      ]
+    },
+    {
+      "name": {
+        "en": "Yassine Bounou",
+        "ar": "ياسين بونو"
+      },
+      "aliases": [
+        "bounou",
+        "bono",
+        "بونو"
+      ],
+      "nation": "MAR",
+      "pos": "GK",
+      "born": 1991,
+      "clubs": [
+        "Atlético Madrid",
+        "Real Zaragoza",
+        "Girona",
+        "Sevilla",
+        "Al Hilal"
+      ]
+    },
+    {
+      "name": {
+        "en": "Gianluigi Buffon",
+        "ar": "جيانلويجي بوفون"
+      },
+      "aliases": [
+        "buffon",
+        "بوفون"
+      ],
+      "nation": "ITA",
+      "pos": "GK",
+      "born": 1978,
+      "clubs": [
+        "Parma",
+        "Juventus",
+        "Paris Saint-Germain"
+      ]
+    },
+    {
+      "name": {
+        "en": "Iker Casillas",
+        "ar": "إيكر كاسياس"
+      },
+      "aliases": [
+        "casillas",
+        "كاسياس"
+      ],
+      "nation": "ESP",
+      "pos": "GK",
+      "born": 1981,
+      "clubs": [
+        "Real Madrid",
+        "Porto"
+      ]
+    },
+    {
+      "name": {
+        "en": "Sergio Ramos",
+        "ar": "سيرجيو راموس"
+      },
+      "aliases": [
+        "ramos",
+        "راموس"
+      ],
+      "nation": "ESP",
+      "pos": "DF",
+      "born": 1986,
+      "clubs": [
+        "Sevilla",
+        "Real Madrid",
+        "Paris Saint-Germain",
+        "Monterrey"
+      ]
+    },
+    {
+      "name": {
+        "en": "Carles Puyol",
+        "ar": "كارليس بويول"
+      },
+      "aliases": [
+        "puyol",
+        "بويول"
+      ],
+      "nation": "ESP",
+      "pos": "DF",
+      "born": 1978,
+      "clubs": [
+        "Barcelona"
+      ]
+    },
+    {
+      "name": {
+        "en": "Paolo Maldini",
+        "ar": "باولو مالديني"
+      },
+      "aliases": [
+        "maldini",
+        "مالديني"
+      ],
+      "nation": "ITA",
+      "pos": "DF",
+      "born": 1968,
+      "clubs": [
+        "AC Milan"
+      ]
+    },
+    {
+      "name": {
+        "en": "Virgil van Dijk",
+        "ar": "فيرجيل فان دايك"
+      },
+      "aliases": [
+        "van dijk",
+        "فان دايك"
+      ],
+      "nation": "NED",
+      "pos": "DF",
+      "born": 1991,
+      "clubs": [
+        "Groningen",
+        "Celtic",
+        "Southampton",
+        "Liverpool"
+      ]
+    },
+    {
+      "name": {
+        "en": "Andrés Iniesta",
+        "ar": "أندريس إنييستا"
+      },
+      "aliases": [
+        "iniesta",
+        "إنييستا"
+      ],
+      "nation": "ESP",
+      "pos": "MF",
+      "born": 1984,
+      "clubs": [
+        "Barcelona",
+        "Vissel Kobe",
+        "Emirates Club"
+      ]
+    },
+    {
+      "name": {
+        "en": "Xavi",
+        "ar": "تشافي"
+      },
+      "aliases": [
+        "xavi hernandez",
+        "تشافي هيرنانديز"
+      ],
+      "nation": "ESP",
+      "pos": "MF",
+      "born": 1980,
+      "clubs": [
+        "Barcelona",
+        "Al Sadd"
+      ]
+    },
+    {
+      "name": {
+        "en": "David Beckham",
+        "ar": "ديفيد بيكهام"
+      },
+      "aliases": [
+        "beckham",
+        "بيكهام"
+      ],
+      "nation": "ENG",
+      "pos": "MF",
+      "born": 1975,
+      "clubs": [
+        "Manchester United",
+        "Preston North End",
+        "Real Madrid",
+        "LA Galaxy",
+        "AC Milan",
+        "Paris Saint-Germain"
+      ]
+    },
+    {
+      "name": {
+        "en": "Wayne Rooney",
+        "ar": "واين روني"
+      },
+      "aliases": [
+        "rooney",
+        "روني"
+      ],
+      "nation": "ENG",
+      "pos": "FW",
+      "born": 1985,
+      "clubs": [
+        "Everton",
+        "Manchester United",
+        "DC United",
+        "Derby County"
+      ]
+    },
+    {
+      "name": {
+        "en": "Steven Gerrard",
+        "ar": "ستيفن جيرارد"
+      },
+      "aliases": [
+        "gerrard",
+        "جيرارد"
+      ],
+      "nation": "ENG",
+      "pos": "MF",
+      "born": 1980,
+      "clubs": [
+        "Liverpool",
+        "LA Galaxy"
+      ]
+    },
+    {
+      "name": {
+        "en": "Gareth Bale",
+        "ar": "جاريث بيل"
+      },
+      "aliases": [
+        "bale",
+        "بيل"
+      ],
+      "nation": "WAL",
+      "pos": "FW",
+      "born": 1989,
+      "clubs": [
+        "Southampton",
+        "Tottenham",
+        "Real Madrid",
+        "Los Angeles FC"
+      ]
+    },
+    {
+      "name": {
+        "en": "Harry Kane",
+        "ar": "هاري كين"
+      },
+      "aliases": [
+        "kane",
+        "كين"
+      ],
+      "nation": "ENG",
+      "pos": "FW",
+      "born": 1993,
+      "clubs": [
+        "Tottenham",
+        "Leyton Orient",
+        "Millwall",
+        "Norwich City",
+        "Leicester City",
+        "Bayern Munich"
+      ]
+    },
+    {
+      "name": {
+        "en": "Vinícius Júnior",
+        "ar": "فينيسيوس جونيور"
+      },
+      "aliases": [
+        "vinicius",
+        "vini",
+        "فينيسيوس"
+      ],
+      "nation": "BRA",
+      "pos": "FW",
+      "born": 2000,
+      "clubs": [
+        "Flamengo",
+        "Real Madrid"
+      ]
+    },
+    {
+      "name": {
+        "en": "Jude Bellingham",
+        "ar": "جود بيلينجهام"
+      },
+      "aliases": [
+        "bellingham",
+        "بيلينجهام"
+      ],
+      "nation": "ENG",
+      "pos": "MF",
+      "born": 2003,
+      "clubs": [
+        "Birmingham City",
+        "Borussia Dortmund",
+        "Real Madrid"
+      ]
+    },
+    {
+      "name": {
+        "en": "Lamine Yamal",
+        "ar": "لامين يامال"
+      },
+      "aliases": [
+        "yamal",
+        "يامال"
+      ],
+      "nation": "ESP",
+      "pos": "FW",
+      "born": 2007,
+      "clubs": [
+        "Barcelona"
+      ]
+    },
+    {
+      "name": {
+        "en": "Omar Marmoush",
+        "ar": "عمر مرموش"
+      },
+      "aliases": [
+        "marmoush",
+        "مرموش"
+      ],
+      "nation": "EGY",
+      "pos": "FW",
+      "born": 1999,
+      "clubs": [
+        "Wadi Degla",
+        "Wolfsburg",
+        "St. Pauli",
+        "Karlsruher SC",
+        "Eintracht Frankfurt",
+        "Manchester City"
+      ]
+    },
+    {
+      "name": {
+        "en": "Sadio Mané",
+        "ar": "ساديو ماني"
+      },
+      "aliases": [
+        "mane",
+        "ماني"
+      ],
+      "nation": "SEN",
+      "pos": "FW",
+      "born": 1992,
+      "clubs": [
+        "Metz",
+        "RB Salzburg",
+        "Southampton",
+        "Liverpool",
+        "Bayern Munich",
+        "Al Nassr"
+      ]
+    },
+    {
+      "name": {
+        "en": "Mohamed Elneny",
+        "ar": "محمد النني"
+      },
+      "aliases": [
+        "elneny",
+        "النني"
+      ],
+      "nation": "EGY",
+      "pos": "MF",
+      "born": 1992,
+      "clubs": [
+        "Al Mokawloon",
+        "Basel",
+        "Arsenal",
+        "Beşiktaş",
+        "Al Jazira"
+      ]
+    },
+    {
+      "name": {
+        "en": "Francesco Totti",
+        "ar": "فرانشيسكو توتي"
+      },
+      "aliases": [
+        "totti",
+        "توتي"
+      ],
+      "nation": "ITA",
+      "pos": "FW",
+      "born": 1976,
+      "clubs": [
+        "Roma"
+      ]
+    },
+    {
+      "name": {
+        "en": "Diego Maradona",
+        "ar": "دييجو مارادونا"
+      },
+      "aliases": [
+        "maradona",
+        "مارادونا"
+      ],
+      "nation": "ARG",
+      "pos": "FW",
+      "born": 1960,
+      "clubs": [
+        "Argentinos Juniors",
+        "Boca Juniors",
+        "Barcelona",
+        "Napoli",
+        "Sevilla",
+        "Newell's Old Boys"
+      ]
+    },
+    {
+      "name": {
+        "en": "Ronaldo Nazário",
+        "ar": "رونالدو نازاريو"
+      },
+      "aliases": [
+        "r9",
+        "nazario",
+        "الظاهرة",
+        "نازاريو"
+      ],
+      "nation": "BRA",
+      "pos": "FW",
+      "born": 1976,
+      "clubs": [
+        "Cruzeiro",
+        "PSV",
+        "Barcelona",
+        "Inter",
+        "Real Madrid",
+        "AC Milan",
+        "Corinthians"
+      ]
+    },
+    {
+      "name": {
+        "en": "Pelé",
+        "ar": "بيليه"
+      },
+      "aliases": [
+        "pele"
+      ],
+      "nation": "BRA",
+      "pos": "FW",
+      "born": 1940,
+      "clubs": [
+        "Santos",
+        "New York Cosmos"
+      ]
+    }
   ]
 }

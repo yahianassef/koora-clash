@@ -23,7 +23,7 @@ const I18N = {
     rules_password_teams: "One player sees names on their phone and describes them without saying the name. Their team shouts guesses. 60 seconds, +1 per name.",
     rules_password_solo: "One player sees names on their phone and describes them. Everyone shouts guesses; the describer taps who got it — both get +1. 60 seconds each.",
     rules_quickfire: "Answer on your phone before time runs out. Fastest correct answer per side scores: 2 points within 5 seconds, otherwise 1.",
-    question: "Question", worth: "worth", next_clue: "next club in", time_left: "time left",
+    question: "Question", worth: "worth", now: "now", next_clue: "next club in", time_left: "time left",
     the_answer: "The answer", nobody: "Nobody got it", got_it: "got it",
     wrong_guesses: "Wrong guesses", locked: "Locked", your_turn: "YOUR TURN!", turn_of: "Turn:",
     lives: "lives", accept: "Accept", unrecognised: "Not recognised — accept?", said: "Said so far",
@@ -60,6 +60,11 @@ const I18N = {
     position: "Pos", born: "Born", clubs_shared: "Shared clubs", solved: "Got him in", tries: "tries",
     it_was: "It was", unknown_player: "Not in the player list — pick a suggestion", already_guessed: "Already guessed",
     pos_GK: "GK", pos_DF: "DEF", pos_MF: "MID", pos_FW: "FWD", next_player: "Next player", skip_player: "Skip",
+    eyebrow: "Football trivia · Arabic & English", hero_a: "Think you know ball?", hero_b: "Prove it.",
+    hero_sub: "Party games for your next outing, solo challenges for every spare minute. Built for real fans.",
+    cta_host: "Host a party game", cta_solo: "Play solo", stat_career: "career paths", stat_cats: "quiz categories",
+    stat_q: "questions", stat_players: "players", daily_title: "Today's Mystery Player is waiting",
+    daily_sub: "Can you name him in 8 guesses?", party_title: "With friends", solo_title: "On your own",
     lang: "عربي", copy: "Copy link", copied: "Copied!", plus: "+1", minus: "−1",
   },
   ar: {
@@ -84,7 +89,7 @@ const I18N = {
     rules_password_teams: "لاعب واحد بيشوف أسامي على موبايله ويوصفها من غير ما يقول الاسم. فريقه يخمن بصوت عالي. ٦٠ ثانية، +١ لكل اسم.",
     rules_password_solo: "لاعب واحد بيشوف أسامي ويوصفها. الكل يخمن، والواصف يدوس على اللي عرف — الاتنين ياخدوا +١. ٦٠ ثانية لكل واحد.",
     rules_quickfire: "جاوب على موبايلك قبل الوقت ما يخلص. أسرع إجابة صح لكل فريق بتاخد: نقطتين لو في أول ٥ ثواني، غير كده نقطة.",
-    question: "سؤال", worth: "بـ", next_clue: "النادي الجاي بعد", time_left: "الوقت الباقي",
+    question: "سؤال", worth: "بـ", now: "الآن", next_clue: "النادي الجاي بعد", time_left: "الوقت الباقي",
     the_answer: "الإجابة", nobody: "محدش عرفها", got_it: "عرفها",
     wrong_guesses: "إجابات غلط", locked: "مقفول", your_turn: "دورك!", turn_of: "الدور على:",
     lives: "أرواح", accept: "اقبل", unrecognised: "مش متعرّفة — نقبلها؟", said: "اتقال لحد دلوقتي",
@@ -121,6 +126,11 @@ const I18N = {
     position: "المركز", born: "مواليد", clubs_shared: "أندية مشتركة", solved: "عرفته في", tries: "محاولات",
     it_was: "كان", unknown_player: "اللاعب مش في القايمة — اختار من الاقتراحات", already_guessed: "جربته قبل كده",
     pos_GK: "حارس", pos_DF: "دفاع", pos_MF: "وسط", pos_FW: "هجوم", next_player: "اللاعب اللي بعده", skip_player: "تخطي",
+    eyebrow: "تحدي معلومات كورة · عربي وإنجليزي", hero_a: "فاكر نفسك فاهم كورة؟", hero_b: "ورّينا شطارتك.",
+    hero_sub: "ألعاب جماعية لخروجتك الجاية، وتحديات لوحدك لأي وقت فاضي. معمولة للفانز الحقيقيين.",
+    cta_host: "ابدأ تحدي جماعي", cta_solo: "العب لوحدك", stat_career: "مسيرة لاعب", stat_cats: "فئة أسئلة",
+    stat_q: "سؤال", stat_players: "لاعب", daily_title: "لاعب النهارده مستنيك",
+    daily_sub: "تقدر تعرفه في ٨ محاولات؟", party_title: "مع صحابك", solo_title: "لوحدك",
     lang: "English", copy: "انسخ اللينك", copied: "اتنسخ!", plus: "+١", minus: "−١",
   },
 };
@@ -143,6 +153,7 @@ function applyLang() {
   document.documentElement.dir = LANG === "ar" ? "rtl" : "ltr";
   document.querySelectorAll("[data-t]").forEach((el) => { el.textContent = t(el.dataset.t); });
   document.querySelectorAll("[data-tp]").forEach((el) => { el.placeholder = t(el.dataset.tp); });
+  document.querySelectorAll("[data-icon]").forEach((el) => { if (!el.firstChild) el.innerHTML = icon(el.dataset.icon); });
 }
 function toggleLang() {
   LANG = LANG === "ar" ? "en" : "ar";
@@ -181,7 +192,111 @@ function timerNum(deadline) { return deadline ? `<span class="clock" data-deadli
 
 function segTitle(key) { return t("seg_" + key); }
 function segRules(key, mode) { return key === "password" ? t("rules_password_" + (mode === "teams" ? "teams" : "solo")) : t("rules_" + key); }
-const SEG_ICON = { career: "🧭", rondo: "🔁", spy: "🕵️", password: "🗣️", quickfire: "⚡" };
+// Line icons (24×24, stroke = currentColor). Size them with font-size.
+const ICON_PATHS = {
+  ball: '<circle cx="12" cy="12" r="9.5"/><path d="m12 7.2 4.1 3-1.6 4.8h-5l-1.6-4.8z"/><path d="M12 2.5v4.7M16.1 10.2l4.6-1.6M14.5 15l2.8 4M9.5 15l-2.8 4M7.9 10.2 3.3 8.6"/>',
+  career: '<path d="M5 19c5 0 3-7 7-7s2-7 7-7"/><circle cx="5" cy="19" r="2.2"/><circle cx="19" cy="5" r="2.2"/>',
+  rondo: '<path d="M4 12a8 8 0 0 1 13.7-5.6L20 8.5"/><path d="M20 3.5v5h-5"/><path d="M20 12a8 8 0 0 1-13.7 5.6L4 15.5"/><path d="M4 20.5v-5h5"/>',
+  spy: '<path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3.2"/>',
+  password: '<path d="M21 11.5a8.5 8.5 0 0 1-12.3 7.6L3.5 20.5l1.5-4.8A8.5 8.5 0 1 1 21 11.5z"/><path d="M8.5 11.5h.01M12 11.5h.01M15.5 11.5h.01"/>',
+  quickfire: '<path d="M13.5 2.5 4.5 14h7l-1 7.5 9-11.5h-7z"/>',
+  nameall: '<path d="M10 6.5h10M10 12h10M10 17.5h10"/><path d="m3.5 6.5 1.6 1.6L8 5.2M3.5 12l1.6 1.6L8 10.7M3.5 17.5l1.6 1.6L8 16.2"/>',
+  survival: '<path d="M20.6 5.2a5.3 5.3 0 0 0-7.6 0L12 6.3l-1-1.1a5.3 5.3 0 0 0-7.6 7.5L12 21.3l8.6-8.6a5.3 5.3 0 0 0 0-7.5z"/>',
+  mystery: '<circle cx="12" cy="12" r="9.5"/><path d="M9.3 9.2a2.8 2.8 0 1 1 3.9 2.6c-.7.3-1.2 1-1.2 1.8v.6"/><path d="M12 17.3h.01"/>',
+  tv: '<rect x="2.5" y="4.5" width="19" height="13" rx="2.5"/><path d="M8 21h8M12 17.5V21"/>',
+  phone: '<rect x="6.5" y="2" width="11" height="20" rx="2.5"/><path d="M11 18.2h2"/>',
+  trophy: '<path d="M8 21h8M12 16.5V21M7 3.5h10v5.5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3.5 3.5 0 0 1-3.3 3.5M7 5H4v2a3.5 3.5 0 0 0 3.3 3.5"/>',
+  arrow: '<path d="M5 12h14M13 6l6 6-6 6"/>',
+  fire: '<path d="M12 22c4.1 0 7-2.9 7-6.8 0-4.6-4.2-6.6-4.6-12.2C11.2 5 10 8 10 10c-1-.8-1.8-2-2-3.6C6 8.3 5 11.3 5 15.2 5 19.1 7.9 22 12 22z"/>',
+  calendar: '<rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/>',
+  dice: '<rect x="3.5" y="3.5" width="17" height="17" rx="4"/><path d="M8.5 8.5h.01M15.5 8.5h.01M12 12h.01M8.5 15.5h.01M15.5 15.5h.01"/>',
+};
+function icon(name, cls) {
+  return `<svg class="i ${cls || ""}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON_PATHS[name] || ""}</svg>`;
+}
+const SEG_ICON = { career: icon("career"), rondo: icon("rondo"), spy: icon("spy"), password: icon("password"), quickfire: icon("quickfire") };
+
+// Coloured game tile used on the landing page and the solo menu.
+function soloTile(k, best, attrs, tag) {
+  tag = tag || "a";
+  return `<${tag} class="sologame c-${k}" ${attrs}><div class="ico">${icon(k)}</div><h3>${esc(t("g_" + k))}</h3>
+    <div class="muted">${esc(t("g_" + k + "_d"))}</div>${best != null ? `<span class="chip">${icon("trophy")} ${t("best")}: ${best}</span>` : ""}
+    <span class="go">${t("play")} ${icon("arrow")}</span><span class="bg">${icon(k)}</span></${tag}>`;
+}
+function getBestScore(k) {
+  try { return JSON.parse(localStorage.getItem("kc_best") || "{}")[k === "nameall" ? "nameall_total" : k]; } catch (e) { return undefined; }
+}
+
+// ---------- feedback: hype toasts, confetti, shake ----------
+const HYPE = {
+  en: { ok: ["Golazo!", "Top bins!", "What a finish!", "Class!", "Clinical!", "World class!"],
+        bad: ["So close!", "Unlucky!", "Shake it off!", "Next one's yours!", "Keep going!"] },
+  ar: { ok: ["جووول!", "يا سلام!", "عالمي!", "إيه الحلاوة دي!", "مية مية!", "أسطورة!"],
+        bad: ["قريبة!", "معلش!", "ولا يهمك!", "الجاية بتاعتك!", "كمّل!"] },
+};
+function hype(kind) { const l = (HYPE[LANG] || HYPE.en)[kind]; return l[Math.floor(Math.random() * l.length)]; }
+function toast(text, kind) {
+  let box = document.getElementById("toasts");
+  if (!box) { box = document.createElement("div"); box.id = "toasts"; document.body.appendChild(box); }
+  const el = document.createElement("div");
+  el.className = "toast " + (kind || "");
+  el.textContent = text;
+  box.appendChild(el);
+  setTimeout(() => el.remove(), 2000);
+}
+// Replay the entrance animation on el when the screen it shows changes (not on every state tick).
+function enterOnChange(el, key) {
+  if (el._enterKey === key) return;
+  el._enterKey = key;
+  el.classList.remove("enter"); void el.offsetWidth; el.classList.add("enter");
+}
+function screenKey(S) {
+  const g = S.seg || {};
+  return [S.phase, S.seg_key, g.state, g.qi, g.ci, g.ri, g.ti].join("|");
+}
+function shake(el) { if (!el) return; el.classList.remove("shake"); void el.offsetWidth; el.classList.add("shake"); }
+function confetti(power) {
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const cv = document.createElement("canvas");
+  cv.id = "confetti";
+  document.body.appendChild(cv);
+  const ctx = cv.getContext("2d"), dpr = window.devicePixelRatio || 1;
+  cv.width = innerWidth * dpr; cv.height = innerHeight * dpr; ctx.scale(dpr, dpr);
+  const colors = ["#c8ff2e", "#22d3ee", "#ff3d71", "#8b5cf6", "#fde047", "#ffffff"];
+  const n = Math.round(140 * (power || 1));
+  const parts = Array.from({ length: n }, () => ({
+    x: innerWidth / 2 + (Math.random() - .5) * innerWidth * .3, y: innerHeight * .35,
+    vx: (Math.random() - .5) * 16, vy: -Math.random() * 15 - 5, r: Math.random() * 6 + 4,
+    rot: Math.random() * 6, vr: (Math.random() - .5) * .4, c: colors[Math.floor(Math.random() * colors.length)],
+  }));
+  const t0 = performance.now();
+  (function frame(t) {
+    ctx.clearRect(0, 0, innerWidth, innerHeight);
+    for (const p of parts) {
+      p.vy += .35; p.vx *= .99; p.x += p.vx; p.y += p.vy; p.rot += p.vr;
+      ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.rot); ctx.fillStyle = p.c;
+      ctx.fillRect(-p.r / 2, -p.r / 4, p.r, p.r / 2); ctx.restore();
+    }
+    if (t - t0 < 2600) requestAnimationFrame(frame); else cv.remove();
+  })(t0);
+}
+
+// Club crests (data/clubs.json: English club name -> image URL). Missing crests fall back to initials.
+let CLUB_LOGOS = {};
+fetch("data/clubs.json", { cache: "no-cache" }).then((r) => r.json()).then((d) => { CLUB_LOGOS = d; }).catch(() => {});
+
+function clubInitials(name) {
+  const w = String(name).replace(/[^\p{L}\s]/gu, "").split(/\s+/).filter(Boolean);
+  return (w.length > 1 ? w[0][0] + w[1][0] : (w[0] || "?").slice(0, 2)).toUpperCase();
+}
+function fmtYears(y) { return y ? (y.endsWith("–") ? y + t("now") : y) : ""; }
+// Pass seen=true for clubs already on screen so only the newest one animates in.
+function clubCard(c, seen) {
+  const logo = CLUB_LOGOS[c.en];
+  return `<span class="club${seen ? " seen" : ""}"><span class="crest">${esc(clubInitials(c.en))}${logo
+    ? `<img src="${esc(logo)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}</span>
+    <span class="cinfo"><span>${esc(L(c))}</span>${c.years ? `<small>${esc(fmtYears(c.years))}</small>` : ""}</span></span>`;
+}
 
 function teamLabel(S, side) {
   if (side === "A" || side === "B") return (S.team_names && S.team_names[side]) || t("team_" + side.toLowerCase());

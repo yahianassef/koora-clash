@@ -48,6 +48,8 @@ then open http://localhost:8000 (needs internet for the PeerJS relay, fonts and 
 ## Content
 
 - `data/questions.json` — career paths, Rondo categories, Spy/Password names and Quick Fire questions. For `quickfire`, the **first option is the correct one** (options are shuffled at play time).
+- Career paths list each club with the `years` the player spent there ("2001–2004", "2015", or "2017–" if he's still there).
+- `data/clubs.json` — club name → crest image URL (from TheSportsDB). Run `python tools/fetch_club_logos.py` after adding clubs; clubs without a crest show their initials.
 - `data/players.json` — players for Mystery Player (nation code, position GK/DF/MF/FW, birth year, English club names) plus the `nations` table.
 
 Add `aliases` to help the answer matcher (it already ignores accents, Arabic hamza/taa-marbuta variants, "ال", and small typos). Run the validator before committing:

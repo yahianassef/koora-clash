@@ -2,7 +2,7 @@
 
 let PLAYERS = null;
 const SOLO_GAMES = ["nameall", "career", "survival", "mystery"];
-const SOLO_ICON = { nameall: "📝", career: "🧭", survival: "❤️", mystery: "❓" };
+const SOLO_ICON = Object.fromEntries(SOLO_GAMES.map((k) => [k, icon(k)]));
 let TIMERS = [];
 
 function getBest(key) { try { return JSON.parse(localStorage.getItem("kc_best") || "{}")[key]; } catch (e) { return undefined; } }
@@ -22,8 +22,7 @@ function go(game) { history.replaceState(null, "", game ? `solo.html?g=${game}` 
 function menuHTML() {
   return `<div class="sologrid">${SOLO_GAMES.map((k) => {
     const b = getBest(k === "nameall" ? "nameall_total" : k);
-    return `<button class="card sologame" data-go="${k}"><div class="ico">${SOLO_ICON[k]}</div><h3>${t("g_" + k)}</h3>
-      <div class="muted">${t("g_" + k + "_d")}</div>${b != null ? `<div class="chip" style="margin-top:8px">${t("best")}: ${b}</div>` : ""}</button>`;
+    return soloTile(k, b, `data-go="${k}"`, "button");
   }).join("")}</div>`;
 }
 
@@ -34,7 +33,7 @@ function wire(root) {
 
 function topbar(key, extra) {
   return `<div class="row"><button class="small ghost" data-menu>← ${t("menu")}</button>
-    <h2 style="margin:0">${SOLO_ICON[key]} ${t("g_" + key)}</h2><span class="grow"></span>${extra || ""}</div>`;
+    <h2 class="c-${key}" style="margin:0"><span style="color:var(--c)">${SOLO_ICON[key]}</span> ${t("g_" + key)}</h2><span class="grow"></span>${extra || ""}</div>`;
 }
 
 // ---------- Name Them All (Sporcle-style) ----------
@@ -77,6 +76,7 @@ const NameAll = {
       });
       const n = found.filter(Boolean).length;
       const nb = saveBest("nameall:" + cat.prompt.en, n);
+      if (nb && n) { confetti(); toast(t("new_best"), "fire"); }
       let total = 0;
       DATA.rondo.forEach((c) => { total += getBest("nameall:" + c.prompt.en) || 0; });
       saveBest("nameall_total", total);
@@ -97,6 +97,8 @@ const NameAll = {
           input.value = "";
           const n = found.filter(Boolean).length;
           $("#na-count").textContent = `${n} / ${cat.answers.length}`;
+          $("#na-count").classList.remove("bump"); void $("#na-count").offsetWidth; $("#na-count").classList.add("bump");
+          if (n % 4 === 0 && n < cat.answers.length) toast(hype("ok"));
           if (n === cat.answers.length) finish();
           break;
         }
@@ -141,6 +143,7 @@ const CareerSolo = {
       else {
         $("#cp-fb").textContent = `✖ ${v}`;
         $("#cp-fb").className = "fb bad";
+        shake($("#cp-form"));
         this.more();
       }
     };
@@ -149,7 +152,7 @@ const CareerSolo = {
   },
   points() { return Math.max(1, 6 - this.shown); },
   draw() {
-    const clubs = this.q.clubs.map((c, i) => i < this.shown ? `<span class="club">${esc(L(c))}</span>` : `<span class="club hidden">?</span>`);
+    const clubs = this.q.clubs.map((c, i) => i < this.shown ? clubCard(c, i < this.shown - 1) : `<span class="club hidden">?</span>`);
     $("#cp-path").innerHTML = clubs.join(`<span class="arrow">➜</span>`);
     $("#cp-pts").textContent = this.points();
     $("#cp-more").disabled = this.shown >= this.q.clubs.length;
@@ -163,6 +166,7 @@ const CareerSolo = {
     this.done = true;
     const pts = won ? this.points() : 0;
     this.total += pts;
+    if (won) { toast(`${hype("ok")} +${pts}`); if (pts >= 4) confetti(.6); } else toast(hype("bad"), "bad");
     this.shown = this.q.clubs.length;
     this.draw();
     $("#cp-total").textContent = this.total;
@@ -178,6 +182,7 @@ const CareerSolo = {
   end() {
     const max = this.qs.length * 5;
     const nb = saveBest("career", this.total);
+    if (nb && this.total) confetti();
     app().innerHTML = topbar("career") + `<div class="card center"><div class="muted">${t("total")}</div>
       <div class="huge">${this.total} / ${max}</div>${nb && this.total ? `<div style="color:var(--gold);font-weight:800">${t("new_best")}</div>` : ""}
       <div class="row" style="justify-content:center;margin-top:10px"><button class="primary" id="cp-again">${t("again")}</button><button data-menu>${t("menu")}</button></div></div>`;
@@ -220,7 +225,14 @@ const Survival = {
         b.disabled = true;
         b.classList.add(j === correct ? "right" : j === i ? "wrongpick" : "dim");
       });
-      if (i === correct) this.streak++; else this.lives--;
+      if (i === correct) {
+        this.streak++;
+        if (this.streak % 5 === 0) { toast(`${this.streak} 🔥`, "fire"); confetti(.6); } else toast(hype("ok"));
+      } else {
+        this.lives--;
+        shake(app().querySelector(".opts"));
+        toast(hype("bad"), "bad");
+      }
       TIMERS.push(setTimeout(() => (this.lives > 0 ? this.next() : this.end()), 1300));
     };
     app().querySelectorAll(".opt").forEach((b) => { b.onclick = () => pick(+b.dataset.i); });
@@ -228,6 +240,7 @@ const Survival = {
   },
   end() {
     const nb = saveBest("survival", this.streak);
+    if (nb && this.streak) confetti();
     app().innerHTML = topbar("survival") + `<div class="card center"><div class="muted">${t("game_over")} · ${t("streak")}</div>
       <div class="huge">${this.streak}</div>${nb && this.streak ? `<div style="color:var(--gold);font-weight:800">${t("new_best")}</div>` : ""}
       <div class="row" style="justify-content:center;margin-top:10px"><button class="primary" id="sv-again">${t("again")}</button><button data-menu>${t("menu")}</button></div></div>`;
@@ -274,7 +287,7 @@ const Mystery = {
       if (!v) return;
       const exact = list.find((p) => norm(p.name.en) === norm(v) || norm(p.name.ar) === norm(v));
       const p = exact || list.find((x) => matches(v, [x.name.en, x.name.ar, ...x.aliases]));
-      if (!p) { $("#my-fb").textContent = t("unknown_player"); return; }
+      if (!p) { $("#my-fb").textContent = t("unknown_player"); shake($("#my-form")); return; }
       if (this.guesses.includes(p)) { $("#my-fb").textContent = t("already_guessed"); return; }
       $("#my-fb").textContent = "";
       $("#my-in").value = "";
@@ -304,6 +317,7 @@ const Mystery = {
     this.over = true;
     $("#my-form").hidden = true;
     const nb = won && saveBest("mystery", this.guesses.length, true);
+    if (won) { confetti(); toast(hype("ok")); } else toast(hype("bad"), "bad");
     $("#my-end").innerHTML = `<div class="card center"><div class="muted">${won ? `${t("solved")} ${this.guesses.length} ${t("tries")}` : t("it_was")}</div>
       <div class="huge" style="color:var(--gold)">${esc(L(this.target.name))}</div>${nb ? `<div style="color:var(--gold);font-weight:800">${t("new_best")}</div>` : ""}
       <div class="row" style="justify-content:center;margin-top:10px"><button class="primary" data-mode="random">🎲 ${t("random")}</button><button data-menu>${t("menu")}</button></div></div>`;
