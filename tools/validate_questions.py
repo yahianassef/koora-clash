@@ -167,13 +167,41 @@ def main():
     if no_logo:
         print(f"note: {len(no_logo)} club(s) without a logo (run tools/fetch_club_logos.py): {', '.join(no_logo)}")
 
+    # dated quizzes reference items in the banks above
+    qz_path = os.path.join(ROOT, "data", "quizzes.json")
+    qz = json.load(open(qz_path, encoding="utf-8")) if os.path.exists(qz_path) else {}
+    qk = lambda x: x["q"]["en"] + ("|" + x["img"] if x.get("img") else "")
+    banks = {
+        "nameall": ({c["prompt"]["en"] for c in data["rondo"]}, 1, 1),
+        "career": ({c["answer"]["en"] for c in data["career"]}, 3, 5),
+        "survival": ({qk(x) for x in data["quickfire"]}, 10, 16),
+        "mystery": ({p["name"]["en"] for p in pdata["players"] if p.get("clues")}, 3, 5),
+    }
+    ids = set()
+    for game, (bank, lo, hi) in banks.items():
+        for i, quiz in enumerate(qz.get(game, [])):
+            tag = f"quizzes.{game}[{i}]"
+            if quiz.get("id") in ids:
+                errors.append(f"{tag}: duplicate id {quiz.get('id')}")
+            ids.add(quiz.get("id"))
+            if not re.match(r"^\d{4}-\d{2}-\d{2}$", str(quiz.get("date", ""))) or quiz.get("id") != f"{game}-{quiz.get('date')}-{quiz['id'].split('-')[-1]}":
+                errors.append(f"{tag}: id must be '{game}-YYYY-MM-DD-N' and match its date")
+            items = quiz.get("items") or []
+            if not lo <= len(items) <= hi:
+                errors.append(f"{tag}: needs {lo}–{hi} items")
+            for it in items:
+                if it not in bank:
+                    errors.append(f"{tag}: '{it}' isn't in the {game} content bank")
+            if game == "mystery" and quiz.get("level") not in ("easy", "amateur", "pro", "legend"):
+                errors.append(f"{tag}: mystery quizzes need a level")
+
     if errors:
         print(f"{len(errors)} problem(s):")
         print("\n".join("  - " + e for e in errors))
         return 1
     print(f"OK  career={len(data['career'])}  rondo={len(data['rondo'])}  "
           f"words={len(data['words'])}  quickfire={len(data['quickfire'])}  players={len(pdata['players'])}  "
-          f"with_clues={sum(1 for p in pdata['players'] if p.get('clues'))}  " +
+          f"with_clues={sum(1 for p in pdata['players'] if p.get('clues'))}  quizzes={sum(len(v) for v in qz.values())}  " +
           " ".join(f"{lv}={sum(1 for p in pdata['players'] if p.get('clues') and p.get('tier') == lv)}"
                    for lv in ("easy", "amateur", "pro", "legend")))
     return 0

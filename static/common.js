@@ -54,7 +54,10 @@ const I18N = {
     g_career: "Career Path", g_career_d: "Guess the player from his clubs. Fewer clubs = more points.",
     g_survival: "Survival Quiz", g_survival_d: "Endless questions, 10 seconds each, 3 lives. How far can you go?",
     g_mystery: "Who's the Player?", g_mystery_d: "\"I played for only three clubs…\" Guess from the clues — the fewer you need, the more you score.",
-    who_is_it: "Who am I?", difficulty: "Difficulty", who_level_opt: "Who's the Player? difficulty:", lvl_easy: "Easy", lvl_amateur: "Amateur", lvl_pro: "Pro", lvl_legend: "Legend", next_clue_btn: "Next clue", clues_left: "more clues — each one costs a point", got_him: "Got him with",
+    who_is_it: "Who am I?", quizzes: "Quizzes", quiz: "Quiz", practice: "Practice (random)", next_quiz: "Next quiz", back_calendar: "Calendar",
+    quizzes_done: "quizzes done", day_streak: "day streak", new_today: "new today", today: "Today", new_badge: "New",
+    replay: "Replay", no_quizzes_day: "No quizzes on this day.", weekdays: "Mo,Tu,We,Th,Fr,Sa,Su",
+    u_players: "players", u_questions: "questions", lvl_classic: "Classic", lvl_hard: "Hard", difficulty: "Difficulty", who_level_opt: "Who's the Player? difficulty:", lvl_easy: "Easy", lvl_amateur: "Amateur", lvl_pro: "Pro", lvl_legend: "Legend", next_clue_btn: "Next clue", clues_left: "more clues — each one costs a point", got_him: "Got him with",
     clue_one: "clue", clues_many: "clues", see_score: "See my score",
     best: "Best", play: "Play", give_up: "Give up", again: "Play again", menu: "All games", found: "found",
     choose_cat: "Pick a category", random_cat: "Random category", time_up: "Time's up!", you_got: "You got",
@@ -67,8 +70,8 @@ const I18N = {
     eyebrow: "Football trivia · Arabic & English", hero_a: "Think you know ball?", hero_b: "Prove it.",
     hero_sub: "Party games for your next outing, solo challenges for every spare minute. Built for real fans.",
     cta_host: "Host a party game", cta_solo: "Play solo", stat_career: "career paths", stat_cats: "quiz categories",
-    stat_q: "questions", stat_players: "players", daily_title: "Today's Mystery Player is waiting",
-    daily_sub: "Can you name him from the first clue?", party_title: "With friends", solo_title: "On your own",
+    stat_q: "questions", stat_players: "players", daily_title: "Today's new quizzes are in",
+    daily_sub: "2 fresh quizzes for every game, every day — track your streak on the calendar.", party_title: "With friends", solo_title: "On your own",
     lang: "عربي", copy: "Copy link", copied: "Copied!", plus: "+1", minus: "−1",
   },
   ar: {
@@ -124,7 +127,10 @@ const I18N = {
     g_career: "مسيرة لاعب", g_career_d: "اعرف اللاعب من أنديته. كل ما تعرفه بأندية أقل، نقطك أكتر.",
     g_survival: "تحدي البقاء", g_survival_d: "أسئلة ورا بعض، ١٠ ثواني لكل سؤال، و٣ أرواح. هتوصل لفين؟",
     g_mystery: "مين اللاعب؟", g_mystery_d: "\"لعبت لـ٣ أندية بس…\" اعرفه من التلميحات — كل ما تحتاج تلميحات أقل، نقطك أكتر.",
-    who_is_it: "أنا مين؟", difficulty: "الصعوبة", who_level_opt: "صعوبة مين اللاعب؟:", lvl_easy: "سهل", lvl_amateur: "هاوي", lvl_pro: "محترف", lvl_legend: "أسطورة", next_clue_btn: "التلميح اللي بعده", clues_left: "تلميحات كمان — كل واحد بنقطة", got_him: "عرفته من",
+    who_is_it: "أنا مين؟", quizzes: "الكويزات", quiz: "كويز", practice: "تمرين (عشوائي)", next_quiz: "الكويز اللي بعده", back_calendar: "التقويم",
+    quizzes_done: "كويز خلصته", day_streak: "أيام ورا بعض", new_today: "جديد النهارده", today: "النهارده", new_badge: "جديد",
+    replay: "العب تاني", no_quizzes_day: "مفيش كويزات في اليوم ده.", weekdays: "ن,ث,ر,خ,ج,س,ح",
+    u_players: "لاعبين", u_questions: "أسئلة", lvl_classic: "كلاسيك", lvl_hard: "صعب", difficulty: "الصعوبة", who_level_opt: "صعوبة مين اللاعب؟:", lvl_easy: "سهل", lvl_amateur: "هاوي", lvl_pro: "محترف", lvl_legend: "أسطورة", next_clue_btn: "التلميح اللي بعده", clues_left: "تلميحات كمان — كل واحد بنقطة", got_him: "عرفته من",
     clue_one: "تلميح", clues_many: "تلميحات", see_score: "شوف نتيجتي",
     best: "أحسن رقم", play: "العب", give_up: "استسلم", again: "العب تاني", menu: "كل الألعاب", found: "عرفتهم",
     choose_cat: "اختار فئة", random_cat: "فئة عشوائية", time_up: "الوقت خلص!", you_got: "جبت",
@@ -137,8 +143,8 @@ const I18N = {
     eyebrow: "تحدي معلومات كورة · عربي وإنجليزي", hero_a: "فاكر نفسك فاهم كورة؟", hero_b: "ورّينا شطارتك.",
     hero_sub: "ألعاب جماعية لخروجتك الجاية، وتحديات لوحدك لأي وقت فاضي. معمولة للفانز الحقيقيين.",
     cta_host: "ابدأ تحدي جماعي", cta_solo: "العب لوحدك", stat_career: "مسيرة لاعب", stat_cats: "فئة أسئلة",
-    stat_q: "سؤال", stat_players: "لاعب", daily_title: "لاعب النهارده مستنيك",
-    daily_sub: "تقدر تعرفه من أول تلميح؟", party_title: "مع صحابك", solo_title: "لوحدك",
+    stat_q: "سؤال", stat_players: "لاعب", daily_title: "كويزات النهارده نزلت",
+    daily_sub: "كويزين جداد لكل لعبة كل يوم — تابع سلسلتك على التقويم.", party_title: "مع صحابك", solo_title: "لوحدك",
     lang: "English", copy: "انسخ اللينك", copied: "اتنسخ!", plus: "+١", minus: "−١",
   },
 };
@@ -232,7 +238,7 @@ const SEG_ICON = { career: icon("career"), who: icon("mystery"), rondo: icon("ro
 function soloTile(k, best, attrs, tag) {
   tag = tag || "a";
   return `<${tag} class="sologame c-${k}" ${attrs}><div class="ico">${icon(k)}</div><h3>${esc(t("g_" + k))}</h3>
-    <div class="muted">${esc(t("g_" + k + "_d"))}</div>${best != null ? `<span class="chip">${icon("trophy")} ${t("best")}: ${best}</span>` : ""}
+    <div class="muted">${esc(t("g_" + k + "_d"))}</div>${best != null ? `<span class="chip">${icon("calendar")} ${best} ${t("quizzes_done")}</span>` : ""}
     <span class="go">${t("play")} ${icon("arrow")}</span><span class="bg">${icon(k)}</span></${tag}>`;
 }
 function getBestScore(k) {

@@ -34,7 +34,7 @@ Modes: **Teams** (two named teams) or **every player for themself**.
 | ❤️ Survival Quiz · تحدي البقاء | Endless multiple choice, 10s each, 3 lives. Chase your best streak. |
 | ❓ Who's the Player? · مين اللاعب؟ | "I played for only three clubs…" — clues are revealed hardest first; a wrong guess or *Next clue* reveals another, and the fewer you need the more you score. Daily player or a 5-player random round, at four difficulties: Easy (superstars), Amateur, Pro and Legend (deep cuts). |
 
-Best scores are saved on the device.
+Solo games are organised as **dated quizzes** — 2 new quizzes per game every day. Each game opens on a calendar: pick any day to play its quizzes, see your best score per quiz, quizzes done and your day streak. A *Practice* button gives a random round. Progress is saved on the device.
 
 ## Run locally
 
@@ -51,6 +51,7 @@ then open http://localhost:8000 (needs internet for the PeerJS relay, fonts and 
 - `data/questions.json` — career paths, Rondo categories, Spy/Password names and Quick Fire questions. For `quickfire`, the **first option is the correct one** (options are shuffled at play time).
 - Career paths list each club with the `years` the player spent there ("2001–2004", "2015", or "2017–" if he's still there).
 - `data/clubs.json` — club name → crest image URL (from TheSportsDB). Run `python tools/fetch_club_logos.py` after adding clubs; clubs without a crest show their initials.
+- `data/quizzes.json` — the dated quizzes for each solo game (`<game>-YYYY-MM-DD-N`), referencing items in the banks above. Survival questions marked `"level": "hard"` feed the hard quizzes.
 - `data/players.json` — players (nation code, position GK/DF/MF/FW, birth year, English club names) plus the `nations` table. Players with a `clues` list appear in Who's the Player?, grouped by `tier`: `easy`, `amateur`, `pro` or `legend`. Each has exactly 6 first-person clues ({en, ar}) on this ladder:
   1. almost no information ("I was born in the 1980s and spent most of my career in Europe.")
   2. six or seven teammates across his clubs and national team ("I played alongside Xavi, Neymar, Kylian Mbappé, Jordi Alba, Sergio Agüero, Javier Mascherano and Rodrigo De Paul.")

@@ -31,7 +31,7 @@
       <div class="hero-ball" data-icon="ball"></div>
     </section>
 
-    <a class="card daily" href="solo.html?g=mystery">
+    <a class="card daily" href="#solo" id="daily-link">
       <span class="q" data-icon="mystery"></span>
       <span><b data-t="daily_title"></b><span class="muted" data-t="daily_sub"></span></span>
       <span class="go btn primary" data-icon="arrow"></span>
@@ -74,15 +74,25 @@
       history.replaceState(null, "", "#" + name);
     }
     document.querySelectorAll("[data-tab]").forEach((b) => { b.onclick = () => showTab(b.dataset.tab); });
+    $("#daily-link").onclick = (e) => { e.preventDefault(); showTab("solo"); $(".tabs").scrollIntoView({ behavior: "smooth" }); };
     $("#cta-solo").onclick = (e) => { e.preventDefault(); showTab("solo"); $(".tabs").scrollIntoView({ behavior: "smooth" }); };
 
     // Live counts straight from the content files, so the numbers are always true.
-    Promise.all([fetch("data/questions.json").then((r) => r.json()), fetch("data/players.json").then((r) => r.json())])
-      .then(([q, p]) => {
+    let QZ = null;
+    Promise.all(["data/questions.json", "data/players.json", "data/quizzes.json"].map((f) => fetch(f).then((r) => r.json())))
+      .then(([q, p, qz]) => {
+        QZ = qz;
         COUNTS = { career: q.career.length, cats: q.rondo.length, q: q.quickfire.length + q.words.length, players: p.players.length };
         RERENDER();
       }).catch(() => {});
 
+    // "3/8" quizzes finished on this device for a game.
+    function quizDone(k) {
+      if (!QZ || !QZ[k]) return null;
+      let prog = {};
+      try { prog = JSON.parse(localStorage.getItem("kc_progress") || "{}"); } catch (e) {}
+      return `${QZ[k].filter((q) => prog[q.id]).length}/${QZ[k].length}`;
+    }
     function countUp(el) {
       const end = +el.dataset.n, t0 = performance.now();
       (function f(t) { const k = Math.min(1, (t - t0) / 900); el.textContent = Math.round(end * (1 - Math.pow(1 - k, 3))); if (k < 1) requestAnimationFrame(f); })(t0);
@@ -90,7 +100,7 @@
     RERENDER = () => {
       $("#segs").innerHTML = ["career", "who", "rondo", "spy", "password", "quickfire"]
         .map((k) => `<span class="chip c-${k}">${SEG_ICON[k]} ${esc(segTitle(k))}</span>`).join("");
-      $("#sologames").innerHTML = SOLO_LIST.map((k) => soloTile(k, getBestScore(k), `href="solo.html?g=${k}"`)).join("");
+      $("#sologames").innerHTML = SOLO_LIST.map((k) => soloTile(k, quizDone(k), `href="solo.html?g=${k}"`)).join("");
       if (COUNTS) {
         $("#stats").innerHTML = [["career", "stat_career"], ["cats", "stat_cats"], ["q", "stat_q"], ["players", "stat_players"]]
           .map(([k, label]) => `<div class="stat"><b data-n="${COUNTS[k]}">0</b><span>${t(label)}</span></div>`).join("");

@@ -1927,20 +1927,20 @@
       },
       "options": [
         {
-          "en": "Miroslav Klose",
-          "ar": "ميروسلاف كلوزه"
+          "en": "Kylian Mbappé",
+          "ar": "كيليان مبابي"
         },
         {
-          "en": "Ronaldo Nazário",
-          "ar": "رونالدو نازاريو"
+          "en": "Miroslav Klose",
+          "ar": "ميروسلاف كلوزه"
         },
         {
           "en": "Lionel Messi",
           "ar": "ليونيل ميسي"
         },
         {
-          "en": "Pelé",
-          "ar": "بيليه"
+          "en": "Ronaldo Nazário",
+          "ar": "رونالدو نازاريو"
         }
       ]
     },
@@ -2333,6 +2333,806 @@
           "ar": "الهلال"
         }
       ]
+    },
+    {
+      "q": {
+        "en": "Who won the Golden Boot at the 2010 World Cup?",
+        "ar": "مين كسب الحذاء الذهبي في كأس العالم ٢٠١٠؟"
+      },
+      "options": [
+        {
+          "en": "Thomas Müller",
+          "ar": "توماس مولر"
+        },
+        {
+          "en": "David Villa",
+          "ar": "دافيد فيا"
+        },
+        {
+          "en": "Wesley Sneijder",
+          "ar": "ويسلي شنايدر"
+        },
+        {
+          "en": "Diego Forlán",
+          "ar": "دييجو فورلان"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who captained Italy to the 2006 World Cup title?",
+        "ar": "مين كان كابتن إيطاليا لما كسبت كأس العالم ٢٠٠٦؟"
+      },
+      "options": [
+        {
+          "en": "Fabio Cannavaro",
+          "ar": "فابيو كانافارو"
+        },
+        {
+          "en": "Paolo Maldini",
+          "ar": "باولو مالديني"
+        },
+        {
+          "en": "Gianluigi Buffon",
+          "ar": "جيانلويجي بوفون"
+        },
+        {
+          "en": "Alessandro Del Piero",
+          "ar": "أليساندرو ديل بييرو"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Which club did Mohamed Salah join when he left Al Mokawloon?",
+        "ar": "محمد صلاح راح أي نادي بعد المقاولون العرب؟"
+      },
+      "options": [
+        {
+          "en": "Basel",
+          "ar": "بازل"
+        },
+        {
+          "en": "Chelsea",
+          "ar": "تشيلسي"
+        },
+        {
+          "en": "Fiorentina",
+          "ar": "فيورنتينا"
+        },
+        {
+          "en": "Lierse",
+          "ar": "ليرس"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Leicester signed Riyad Mahrez from which club?",
+        "ar": "ليستر اشترى رياض محرز من أي نادي؟"
+      },
+      "options": [
+        {
+          "en": "Le Havre",
+          "ar": "لوهافر"
+        },
+        {
+          "en": "Quimper",
+          "ar": "كيمبر"
+        },
+        {
+          "en": "Marseille",
+          "ar": "مارسيليا"
+        },
+        {
+          "en": "Lyon",
+          "ar": "ليون"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who scored the winning goal in the 2014 World Cup final?",
+        "ar": "مين جاب جول الفوز في نهائي كأس العالم ٢٠١٤؟"
+      },
+      "options": [
+        {
+          "en": "Mario Götze",
+          "ar": "ماريو جوتسه"
+        },
+        {
+          "en": "Thomas Müller",
+          "ar": "توماس مولر"
+        },
+        {
+          "en": "André Schürrle",
+          "ar": "أندريه شورله"
+        },
+        {
+          "en": "Miroslav Klose",
+          "ar": "ميروسلاف كلوزه"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Which country hosted the 2006 Africa Cup of Nations?",
+        "ar": "أي دولة استضافت أمم أفريقيا ٢٠٠٦؟"
+      },
+      "options": [
+        {
+          "en": "Egypt",
+          "ar": "مصر"
+        },
+        {
+          "en": "Ghana",
+          "ar": "غانا"
+        },
+        {
+          "en": "Tunisia",
+          "ar": "تونس"
+        },
+        {
+          "en": "Mali",
+          "ar": "مالي"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who won the first Premier League title in 1992–93?",
+        "ar": "مين كسب أول دوري إنجليزي ممتاز ١٩٩٢–٩٣؟"
+      },
+      "options": [
+        {
+          "en": "Manchester United",
+          "ar": "مانشستر يونايتد"
+        },
+        {
+          "en": "Aston Villa",
+          "ar": "أستون فيلا"
+        },
+        {
+          "en": "Blackburn Rovers",
+          "ar": "بلاكبيرن روفرز"
+        },
+        {
+          "en": "Arsenal",
+          "ar": "أرسنال"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who was the first African player to win the Ballon d'Or?",
+        "ar": "مين أول لاعب أفريقي كسب الكرة الذهبية؟"
+      },
+      "options": [
+        {
+          "en": "George Weah",
+          "ar": "جورج وياه"
+        },
+        {
+          "en": "Roger Milla",
+          "ar": "روجيه ميلا"
+        },
+        {
+          "en": "Abedi Pelé",
+          "ar": "عبيدي بيليه"
+        },
+        {
+          "en": "Samuel Eto'o",
+          "ar": "صامويل إيتو"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Which club has won the most Copa Libertadores titles?",
+        "ar": "أكتر نادي كسب كوبا ليبرتادوريس؟"
+      },
+      "options": [
+        {
+          "en": "Independiente",
+          "ar": "إندبندينتي"
+        },
+        {
+          "en": "Boca Juniors",
+          "ar": "بوكا جونيورز"
+        },
+        {
+          "en": "River Plate",
+          "ar": "ريفر بليت"
+        },
+        {
+          "en": "Peñarol",
+          "ar": "بينارول"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "How many goals did Just Fontaine score at the 1958 World Cup?",
+        "ar": "جوست فونتين جاب كام جول في كأس العالم ١٩٥٨؟"
+      },
+      "options": [
+        {
+          "en": "13",
+          "ar": "١٣"
+        },
+        {
+          "en": "11",
+          "ar": "١١"
+        },
+        {
+          "en": "9",
+          "ar": "٩"
+        },
+        {
+          "en": "15",
+          "ar": "١٥"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Which team did Morocco knock out in the 2022 World Cup quarter-final?",
+        "ar": "المغرب خرّج مين في ربع نهائي كأس العالم ٢٠٢٢؟"
+      },
+      "options": [
+        {
+          "en": "Portugal",
+          "ar": "البرتغال"
+        },
+        {
+          "en": "Spain",
+          "ar": "إسبانيا"
+        },
+        {
+          "en": "Belgium",
+          "ar": "بلجيكا"
+        },
+        {
+          "en": "Croatia",
+          "ar": "كرواتيا"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Barcelona signed Zlatan Ibrahimović from which club in 2009?",
+        "ar": "برشلونة اشترى زلاتان من أي نادي سنة ٢٠٠٩؟"
+      },
+      "options": [
+        {
+          "en": "Inter",
+          "ar": "إنتر ميلان"
+        },
+        {
+          "en": "Juventus",
+          "ar": "يوفنتوس"
+        },
+        {
+          "en": "AC Milan",
+          "ar": "ميلان"
+        },
+        {
+          "en": "Ajax",
+          "ar": "أياكس"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who won the Golden Ball at the 2014 World Cup?",
+        "ar": "مين كسب الكرة الذهبية كأحسن لاعب في كأس العالم ٢٠١٤؟"
+      },
+      "options": [
+        {
+          "en": "Lionel Messi",
+          "ar": "ليونيل ميسي"
+        },
+        {
+          "en": "James Rodríguez",
+          "ar": "خاميس رودريجيز"
+        },
+        {
+          "en": "Thomas Müller",
+          "ar": "توماس مولر"
+        },
+        {
+          "en": "Arjen Robben",
+          "ar": "آريين روبن"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Which club won the 2004 Champions League?",
+        "ar": "مين كسب دوري أبطال أوروبا ٢٠٠٤؟"
+      },
+      "options": [
+        {
+          "en": "Porto",
+          "ar": "بورتو"
+        },
+        {
+          "en": "Monaco",
+          "ar": "موناكو"
+        },
+        {
+          "en": "AC Milan",
+          "ar": "ميلان"
+        },
+        {
+          "en": "Deportivo La Coruña",
+          "ar": "ديبورتيفو لاكورونيا"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who holds the record for most assists in Premier League history?",
+        "ar": "مين صاحب رقم أكتر أسيست في تاريخ الدوري الإنجليزي؟"
+      },
+      "options": [
+        {
+          "en": "Ryan Giggs",
+          "ar": "رايان جيجز"
+        },
+        {
+          "en": "Kevin De Bruyne",
+          "ar": "كيفين دي بروين"
+        },
+        {
+          "en": "Cesc Fàbregas",
+          "ar": "سيسك فابريجاس"
+        },
+        {
+          "en": "Frank Lampard",
+          "ar": "فرانك لامبارد"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Which country won the first Africa Cup of Nations in 1957?",
+        "ar": "مين كسب أول أمم أفريقيا سنة ١٩٥٧؟"
+      },
+      "options": [
+        {
+          "en": "Egypt",
+          "ar": "مصر"
+        },
+        {
+          "en": "Ethiopia",
+          "ar": "إثيوبيا"
+        },
+        {
+          "en": "Sudan",
+          "ar": "السودان"
+        },
+        {
+          "en": "Ghana",
+          "ar": "غانا"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Arsenal signed Thierry Henry from which club?",
+        "ar": "أرسنال اشترى تييري هنري من أي نادي؟"
+      },
+      "options": [
+        {
+          "en": "Juventus",
+          "ar": "يوفنتوس"
+        },
+        {
+          "en": "Monaco",
+          "ar": "موناكو"
+        },
+        {
+          "en": "Paris Saint-Germain",
+          "ar": "باريس سان جيرمان"
+        },
+        {
+          "en": "Inter",
+          "ar": "إنتر ميلان"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Before 2018, when did Egypt last play at a World Cup?",
+        "ar": "قبل ٢٠١٨، آخر مرة مصر لعبت في كأس العالم كانت إمتى؟"
+      },
+      "options": [
+        {
+          "en": "1990",
+          "ar": "١٩٩٠"
+        },
+        {
+          "en": "1994",
+          "ar": "١٩٩٤"
+        },
+        {
+          "en": "1986",
+          "ar": "١٩٨٦"
+        },
+        {
+          "en": "1934",
+          "ar": "١٩٣٤"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who coached Spain to the 2010 World Cup title?",
+        "ar": "مين درب إسبانيا لما كسبت كأس العالم ٢٠١٠؟"
+      },
+      "options": [
+        {
+          "en": "Vicente del Bosque",
+          "ar": "فيسنتي ديل بوسكي"
+        },
+        {
+          "en": "Luis Aragonés",
+          "ar": "لويس أراجونيس"
+        },
+        {
+          "en": "Pep Guardiola",
+          "ar": "بيب جوارديولا"
+        },
+        {
+          "en": "Julen Lopetegui",
+          "ar": "جولين لوبيتيجي"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who won La Liga in 2003–04?",
+        "ar": "مين كسب الدوري الإسباني ٢٠٠٣–٠٤؟"
+      },
+      "options": [
+        {
+          "en": "Valencia",
+          "ar": "فالنسيا"
+        },
+        {
+          "en": "Real Madrid",
+          "ar": "ريال مدريد"
+        },
+        {
+          "en": "Barcelona",
+          "ar": "برشلونة"
+        },
+        {
+          "en": "Deportivo La Coruña",
+          "ar": "ديبورتيفو لاكورونيا"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who won the Bundesliga in 2011–12?",
+        "ar": "مين كسب الدوري الألماني ٢٠١١–١٢؟"
+      },
+      "options": [
+        {
+          "en": "Borussia Dortmund",
+          "ar": "بوروسيا دورتموند"
+        },
+        {
+          "en": "Bayern Munich",
+          "ar": "بايرن ميونخ"
+        },
+        {
+          "en": "Schalke",
+          "ar": "شالكه"
+        },
+        {
+          "en": "Wolfsburg",
+          "ar": "فولفسبورج"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Ronaldinho's famous long free kick at the 2002 World Cup beat which country?",
+        "ar": "فري كيك رونالدينيو الشهيرة في كأس العالم ٢٠٠٢ كانت قدام مين؟"
+      },
+      "options": [
+        {
+          "en": "England",
+          "ar": "إنجلترا"
+        },
+        {
+          "en": "Belgium",
+          "ar": "بلجيكا"
+        },
+        {
+          "en": "Turkey",
+          "ar": "تركيا"
+        },
+        {
+          "en": "Germany",
+          "ar": "ألمانيا"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Arsène Wenger managed which Japanese club before Arsenal?",
+        "ar": "أرسين فينجر درب أي نادي ياباني قبل أرسنال؟"
+      },
+      "options": [
+        {
+          "en": "Nagoya Grampus",
+          "ar": "ناجويا جرامبوس"
+        },
+        {
+          "en": "Kashima Antlers",
+          "ar": "كاشيما أنتلرز"
+        },
+        {
+          "en": "Urawa Reds",
+          "ar": "أوراوا ريدز"
+        },
+        {
+          "en": "Gamba Osaka",
+          "ar": "جامبا أوساكا"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Jürgen Klopp managed which club before Borussia Dortmund?",
+        "ar": "يورجن كلوب درب أي نادي قبل دورتموند؟"
+      },
+      "options": [
+        {
+          "en": "Mainz",
+          "ar": "ماينز"
+        },
+        {
+          "en": "Hamburg",
+          "ar": "هامبورج"
+        },
+        {
+          "en": "Freiburg",
+          "ar": "فرايبورج"
+        },
+        {
+          "en": "Hoffenheim",
+          "ar": "هوفنهايم"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Liverpool sold which player to Barcelona in January 2018?",
+        "ar": "ليفربول باع مين لبرشلونة في يناير ٢٠١٨؟"
+      },
+      "options": [
+        {
+          "en": "Philippe Coutinho",
+          "ar": "فيليب كوتينيو"
+        },
+        {
+          "en": "Luis Suárez",
+          "ar": "لويس سواريز"
+        },
+        {
+          "en": "Javier Mascherano",
+          "ar": "خافيير ماسكيرانو"
+        },
+        {
+          "en": "Sadio Mané",
+          "ar": "ساديو ماني"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Al Ahly beat which club in the 2023 African Champions League final?",
+        "ar": "الأهلي كسب مين في نهائي دوري أبطال أفريقيا ٢٠٢٣؟"
+      },
+      "options": [
+        {
+          "en": "Wydad Casablanca",
+          "ar": "الوداد"
+        },
+        {
+          "en": "Espérance",
+          "ar": "الترجي"
+        },
+        {
+          "en": "Mamelodi Sundowns",
+          "ar": "صن داونز"
+        },
+        {
+          "en": "Zamalek",
+          "ar": "الزمالك"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Mohamed Aboutrika started his career at which club?",
+        "ar": "محمد أبو تريكة بدأ مسيرته في أي نادي؟"
+      },
+      "options": [
+        {
+          "en": "Tersana",
+          "ar": "الترسانة"
+        },
+        {
+          "en": "Al Ahly",
+          "ar": "الأهلي"
+        },
+        {
+          "en": "Ismaily",
+          "ar": "الإسماعيلي"
+        },
+        {
+          "en": "Zamalek",
+          "ar": "الزمالك"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who won the 2025–26 Champions League?",
+        "ar": "مين كسب دوري أبطال أوروبا ٢٠٢٥–٢٦؟"
+      },
+      "options": [
+        {
+          "en": "Paris Saint-Germain",
+          "ar": "باريس سان جيرمان"
+        },
+        {
+          "en": "Arsenal",
+          "ar": "أرسنال"
+        },
+        {
+          "en": "Real Madrid",
+          "ar": "ريال مدريد"
+        },
+        {
+          "en": "Bayern Munich",
+          "ar": "بايرن ميونخ"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who scored the winner in the 2026 World Cup final?",
+        "ar": "مين جاب جول الفوز في نهائي كأس العالم ٢٠٢٦؟"
+      },
+      "options": [
+        {
+          "en": "Ferran Torres",
+          "ar": "فيران توريس"
+        },
+        {
+          "en": "Lamine Yamal",
+          "ar": "لامين يامال"
+        },
+        {
+          "en": "Mikel Oyarzabal",
+          "ar": "ميكيل أويارزابال"
+        },
+        {
+          "en": "Pedri",
+          "ar": "بيدري"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Which Arab team made its World Cup debut in 2026?",
+        "ar": "أي منتخب عربي لعب كأس العالم لأول مرة سنة ٢٠٢٦؟"
+      },
+      "options": [
+        {
+          "en": "Jordan",
+          "ar": "الأردن"
+        },
+        {
+          "en": "Iraq",
+          "ar": "العراق"
+        },
+        {
+          "en": "Qatar",
+          "ar": "قطر"
+        },
+        {
+          "en": "Algeria",
+          "ar": "الجزائر"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Iraq beat which team in the intercontinental play-off to reach the 2026 World Cup?",
+        "ar": "العراق كسب مين في الملحق العالمي عشان يتأهل لكأس العالم ٢٠٢٦؟"
+      },
+      "options": [
+        {
+          "en": "Bolivia",
+          "ar": "بوليفيا"
+        },
+        {
+          "en": "New Caledonia",
+          "ar": "كاليدونيا الجديدة"
+        },
+        {
+          "en": "Jamaica",
+          "ar": "جامايكا"
+        },
+        {
+          "en": "DR Congo",
+          "ar": "الكونغو الديمقراطية"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who managed Egypt to three AFCON titles in a row (2006–2010)?",
+        "ar": "مين درب مصر وكسب ٣ بطولات أمم أفريقيا ورا بعض (٢٠٠٦–٢٠١٠)؟"
+      },
+      "options": [
+        {
+          "en": "Hassan Shehata",
+          "ar": "حسن شحاتة"
+        },
+        {
+          "en": "Mahmoud El-Gohary",
+          "ar": "محمود الجوهري"
+        },
+        {
+          "en": "Bob Bradley",
+          "ar": "بوب برادلي"
+        },
+        {
+          "en": "Hossam Hassan",
+          "ar": "حسام حسن"
+        }
+      ],
+      "level": "hard"
     }
   ]
 }

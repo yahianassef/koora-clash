@@ -1,0 +1,277 @@
+{
+  "nameall": [
+    {
+      "id": "nameall-2026-11-02-1",
+      "date": "2026-11-02",
+      "items": [
+        "Countries that have won the World Cup"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-02-2",
+      "date": "2026-11-02",
+      "items": [
+        "Ballon d'Or winners since 2000"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-03-1",
+      "date": "2026-11-03",
+      "items": [
+        "Clubs that won the Champions League since 2000"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-03-2",
+      "date": "2026-11-03",
+      "items": [
+        "Clubs that have won the Premier League"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-04-1",
+      "date": "2026-11-04",
+      "items": [
+        "Egyptian players who played in the Premier League"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-04-2",
+      "date": "2026-11-04",
+      "items": [
+        "Arab national teams that qualified for a World Cup"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-05-1",
+      "date": "2026-11-05",
+      "items": [
+        "Clubs José Mourinho has managed"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-05-2",
+      "date": "2026-11-05",
+      "items": [
+        "Countries that have won the Africa Cup of Nations"
+      ]
+    }
+  ],
+  "career": [
+    {
+      "id": "career-2026-11-03-1",
+      "date": "2026-11-03",
+      "items": [
+        "Zlatan Ibrahimović",
+        "Mohamed Salah",
+        "Luis Suárez",
+        "Ángel Di María"
+      ]
+    },
+    {
+      "id": "career-2026-11-04-1",
+      "date": "2026-11-04",
+      "items": [
+        "Edinson Cavani",
+        "Gonzalo Higuaín",
+        "Radamel Falcao"
+      ]
+    },
+    {
+      "id": "career-2026-11-04-2",
+      "date": "2026-11-04",
+      "items": [
+        "Fernando Torres",
+        "Nicolas Anelka",
+        "Samuel Eto'o"
+      ]
+    },
+    {
+      "id": "career-2026-11-05-1",
+      "date": "2026-11-05",
+      "items": [
+        "Riyad Mahrez",
+        "Andrea Pirlo",
+        "Luka Modrić",
+        "Thierry Henry"
+      ]
+    }
+  ],
+  "survival": [
+    {
+      "id": "survival-2026-11-04-1",
+      "date": "2026-11-04",
+      "items": [
+        "Who won the 2022 World Cup?",
+        "Which country hosted the 2010 World Cup?",
+        "Most expensive transfer in history?",
+        "Which club has won the most CAF Champions League titles?",
+        "How many times has Egypt won the Africa Cup of Nations?",
+        "Which club did Messi join in 2023?",
+        "Which club is nicknamed \"The Red Devils\"?",
+        "Who won Euro 2024?",
+        "Which club did Liverpool sign Mohamed Salah from?",
+        "Who won the first World Cup in 1930?",
+        "Which Arab team reached the 2022 World Cup semi-final?",
+        "Who is the all-time top scorer in World Cup history?",
+        "Who is the Premier League's all-time top scorer?",
+        "Who won the 2025 Club World Cup?"
+      ],
+      "level": "classic"
+    },
+    {
+      "id": "survival-2026-11-04-2",
+      "date": "2026-11-04",
+      "items": [
+        "Who won the 2024–25 Champions League?",
+        "How many AFCON titles did Hassan Shehata win as Egypt coach?",
+        "Which player has won the most Ballon d'Or awards?",
+        "Which player is nicknamed \"El Fenómeno\"?",
+        "Whose flag is this?|https://flagcdn.com/w320/pt.png",
+        "Whose flag is this?|https://flagcdn.com/w320/hr.png",
+        "Whose flag is this?|https://flagcdn.com/w320/sn.png",
+        "Whose flag is this?|https://flagcdn.com/w320/uy.png",
+        "Whose flag is this?|https://flagcdn.com/w320/gh.png",
+        "Whose flag is this?|https://flagcdn.com/w320/be.png",
+        "Who won the 2026 World Cup?",
+        "Who won the 2026 Ballon d'Or?",
+        "Who won the 2025–26 Premier League?",
+        "Which club did Mohamed Salah join in 2026?"
+      ],
+      "level": "classic"
+    },
+    {
+      "id": "survival-2026-11-05-1",
+      "date": "2026-11-05",
+      "items": [
+        "Who won the Golden Boot at the 2010 World Cup?",
+        "Who captained Italy to the 2006 World Cup title?",
+        "Which club did Mohamed Salah join when he left Al Mokawloon?",
+        "Leicester signed Riyad Mahrez from which club?",
+        "Who scored the winning goal in the 2014 World Cup final?",
+        "Which country hosted the 2006 Africa Cup of Nations?",
+        "Who won the first Premier League title in 1992–93?",
+        "Who was the first African player to win the Ballon d'Or?",
+        "Which club has won the most Copa Libertadores titles?",
+        "How many goals did Just Fontaine score at the 1958 World Cup?",
+        "Which team did Morocco knock out in the 2022 World Cup quarter-final?",
+        "Barcelona signed Zlatan Ibrahimović from which club in 2009?",
+        "Who won the Golden Ball at the 2014 World Cup?",
+        "Which club won the 2004 Champions League?",
+        "Who holds the record for most assists in Premier League history?",
+        "Which country won the first Africa Cup of Nations in 1957?"
+      ],
+      "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-05-2",
+      "date": "2026-11-05",
+      "items": [
+        "Arsenal signed Thierry Henry from which club?",
+        "Before 2018, when did Egypt last play at a World Cup?",
+        "Who coached Spain to the 2010 World Cup title?",
+        "Who won La Liga in 2003–04?",
+        "Who won the Bundesliga in 2011–12?",
+        "Ronaldinho's famous long free kick at the 2002 World Cup beat which country?",
+        "Arsène Wenger managed which Japanese club before Arsenal?",
+        "Jürgen Klopp managed which club before Borussia Dortmund?",
+        "Liverpool sold which player to Barcelona in January 2018?",
+        "Al Ahly beat which club in the 2023 African Champions League final?",
+        "Mohamed Aboutrika started his career at which club?",
+        "Who won the 2025–26 Champions League?",
+        "Who scored the winner in the 2026 World Cup final?",
+        "Which Arab team made its World Cup debut in 2026?",
+        "Iraq beat which team in the intercontinental play-off to reach the 2026 World Cup?",
+        "Who managed Egypt to three AFCON titles in a row (2006–2010)?"
+      ],
+      "level": "hard"
+    }
+  ],
+  "mystery": [
+    {
+      "id": "mystery-2026-11-02-1",
+      "date": "2026-11-02",
+      "items": [
+        "Islam Slimani",
+        "Emmanuel Adebayor",
+        "Kevin-Prince Boateng"
+      ],
+      "level": "pro"
+    },
+    {
+      "id": "mystery-2026-11-02-2",
+      "date": "2026-11-02",
+      "items": [
+        "Roque Santa Cruz",
+        "Javier Saviola",
+        "Benni McCarthy"
+      ],
+      "level": "legend"
+    },
+    {
+      "id": "mystery-2026-11-03-1",
+      "date": "2026-11-03",
+      "items": [
+        "Lionel Messi",
+        "Cristiano Ronaldo",
+        "Mohamed Salah",
+        "Erling Haaland"
+      ],
+      "level": "easy"
+    },
+    {
+      "id": "mystery-2026-11-03-2",
+      "date": "2026-11-03",
+      "items": [
+        "Zlatan Ibrahimović",
+        "Riyad Mahrez",
+        "Thierry Henry",
+        "Kaká"
+      ],
+      "level": "amateur"
+    },
+    {
+      "id": "mystery-2026-11-04-1",
+      "date": "2026-11-04",
+      "items": [
+        "Luka Modrić",
+        "Zinedine Zidane",
+        "Ronaldinho"
+      ],
+      "level": "easy"
+    },
+    {
+      "id": "mystery-2026-11-04-2",
+      "date": "2026-11-04",
+      "items": [
+        "Didier Drogba",
+        "Mohamed Aboutrika",
+        "Achraf Hakimi",
+        "Sadio Mané"
+      ],
+      "level": "amateur"
+    },
+    {
+      "id": "mystery-2026-11-05-1",
+      "date": "2026-11-05",
+      "items": [
+        "Dimitar Berbatov",
+        "Diego Forlán",
+        "Ahmed Hassan",
+        "Essam El-Hadary"
+      ],
+      "level": "pro"
+    },
+    {
+      "id": "mystery-2026-11-05-2",
+      "date": "2026-11-05",
+      "items": [
+        "Mido",
+        "Gedo",
+        "Mohamed Zidan",
+        "Marouane Chamakh"
+      ],
+      "level": "legend"
+    }
+  ]
+}
