@@ -25,6 +25,10 @@ Modes: **Teams** (two named teams) or **every player for themself**.
 | 🗣️ Password · كلمة السر | One player describes names on their phone; their team shouts guesses. 60s per turn. |
 | ⚡ Quick Fire · أسئلة سريعة | Multiple choice, including flags. Fastest correct answer per side scores. |
 
+### Quizmaster mode (no phones)
+
+Open the site → **Play with friends** → **Quizmaster**. Set up 2–4 teams and pick segments (Career Path, Who's the Player?, Quick Fire, The Rondo). You read each question with the answer in front of you; teams shout their answers and you tap which team got it right. Undo, manual +/− and a "hide answers" toggle (for when the screen faces the players) are built in.
+
 ## Play solo
 
 | Game | How it plays |

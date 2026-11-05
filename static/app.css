@@ -342,6 +342,25 @@ button.opt:disabled { opacity: 1; }
 .levels .lvl { border: 0; background: transparent; color: var(--muted); }
 .lvl-easy { --lc: #2ee59d; } .lvl-amateur { --lc: #22d3ee; } .lvl-pro { --lc: #ff8a00; } .lvl-legend { --lc: #ff3d71; }
 .levels .lvl.on { background: var(--lc); color: #0a0e1a; font-weight: 800; box-shadow: 0 8px 20px -8px var(--lc); }
+/* quizmaster (no phones) */
+.qm { max-width: 1200px; margin: 0 auto; padding: 18px 16px 50px; display: flex; flex-direction: column; gap: 16px; }
+.qm-grid { display: grid; grid-template-columns: 1fr 300px; gap: 18px; align-items: start; }
+.qm aside { position: sticky; top: 12px; }
+.tc { --tc: #ff8a00; --ts: rgba(255, 138, 0, .14); } .td { --tc: #a78bfa; --ts: rgba(167, 139, 250, .14); }
+.qm-award { display: flex; flex-wrap: wrap; gap: 10px; }
+.qm-award .award { font-size: 18px; padding: 14px 18px; border-width: 2px; }
+.qm-award .award b { color: var(--gold); }
+.qm-award .award.on { background: var(--tc); color: #0a0e1a; }
+.ans-card { border-color: rgba(200, 255, 46, .35); background: linear-gradient(90deg, rgba(200, 255, 46, .1), rgba(255, 255, 255, .02)); padding: 14px 18px; }
+.ans-card .ans { font-size: 22px; margin-top: 4px; transition: filter .2s; }
+.ans-card .ans b { color: var(--gold); }
+.hide-ans .ans { filter: blur(12px); user-select: none; }
+.hide-ans .ans:hover { filter: none; }
+.ans-chip { cursor: pointer; font-size: 15px; }
+.ans-chip:hover:not(:disabled) { border-color: var(--ok); }
+.ans-chip.used { background: rgba(46, 229, 157, .2); border-color: var(--ok); text-decoration: line-through; opacity: .8; }
+@media (max-width: 900px) { .qm-grid { grid-template-columns: 1fr; } .qm aside { position: static; } }
+
 /* quiz calendar */
 .statrow { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
 .statrow .stat { padding: 14px 16px; }
