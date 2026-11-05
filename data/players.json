@@ -114,6 +114,31 @@
       "en": "Sweden",
       "ar": "السويد",
       "continent": "europe"
+    },
+    "BUL": {
+      "en": "Bulgaria",
+      "ar": "بلغاريا",
+      "continent": "europe"
+    },
+    "PAR": {
+      "en": "Paraguay",
+      "ar": "باراجواي",
+      "continent": "south_america"
+    },
+    "GHA": {
+      "en": "Ghana",
+      "ar": "غانا",
+      "continent": "africa"
+    },
+    "TOG": {
+      "en": "Togo",
+      "ar": "توجو",
+      "continent": "africa"
+    },
+    "RSA": {
+      "en": "South Africa",
+      "ar": "جنوب أفريقيا",
+      "continent": "africa"
     }
   },
   "players": [
@@ -159,7 +184,8 @@
           "en": "I've won a record eight Ballon d'Or awards.",
           "ar": "كسبت الكرة الذهبية ٨ مرات، رقم قياسي."
         }
-      ]
+      ],
+      "tier": "easy"
     },
     {
       "name": {
@@ -208,7 +234,8 @@
           "en": "I'm the all-time top scorer in Champions League history.",
           "ar": "أنا الهداف التاريخي لدوري أبطال أوروبا."
         }
-      ]
+      ],
+      "tier": "easy"
     },
     {
       "name": {
@@ -228,7 +255,8 @@
         "Chelsea",
         "Fiorentina",
         "Roma",
-        "Liverpool"
+        "Liverpool",
+        "Trabzonspor"
       ],
       "clues": [
         {
@@ -252,10 +280,11 @@
           "ar": "كسبت الحذاء الذهبي للدوري الإنجليزي ٣ مرات على الأقل."
         },
         {
-          "en": "I'm Egypt's captain and Anfield calls me the Egyptian King.",
-          "ar": "أنا كابتن منتخب مصر وجماهير أنفيلد بتقولي الملك المصري."
+          "en": "I'm Egypt's star forward, and Anfield crowned me the Egyptian King.",
+          "ar": "أنا نجم هجوم منتخب مصر، وجماهير أنفيلد سمّتني الملك المصري."
         }
-      ]
+      ],
+      "tier": "easy"
     },
     {
       "name": {
@@ -335,7 +364,8 @@
           "en": "I broke the Premier League record with 36 goals in my first season.",
           "ar": "كسرت رقم الدوري الإنجليزي بـ٣٦ جول في أول موسم ليا."
         }
-      ]
+      ],
+      "tier": "easy"
     },
     {
       "name": {
@@ -352,7 +382,8 @@
       "clubs": [
         "Lyon",
         "Real Madrid",
-        "Al Ittihad"
+        "Al Ittihad",
+        "Al Hilal"
       ]
     },
     {
@@ -372,7 +403,8 @@
         "Lech Poznań",
         "Borussia Dortmund",
         "Bayern Munich",
-        "Barcelona"
+        "Barcelona",
+        "Chicago Fire"
       ]
     },
     {
@@ -418,7 +450,8 @@
           "en": "I ended Messi and Ronaldo's Ballon d'Or run in 2018.",
           "ar": "قطعت سلسلة ميسي ورونالدو في الكرة الذهبية سنة ٢٠١٨."
         }
-      ]
+      ],
+      "tier": "easy"
     },
     {
       "name": {
@@ -509,7 +542,8 @@
           "en": "I'm Sweden's all-time top scorer and scored a 30-metre bicycle kick against England.",
           "ar": "أنا الهداف التاريخي للسويد وجبت مقصية من ٣٠ متر في إنجلترا."
         }
-      ]
+      ],
+      "tier": "amateur"
     },
     {
       "name": {
@@ -715,7 +749,8 @@
           "en": "I was PFA Player of the Year when Leicester won the league as 5000–1 outsiders.",
           "ar": "كنت أحسن لاعب في إنجلترا لما ليستر كسب الدوري واحتماله كان ١ من ٥٠٠٠."
         }
-      ]
+      ],
+      "tier": "amateur"
     },
     {
       "name": {
@@ -782,7 +817,8 @@
           "en": "I'm Arsenal's all-time top scorer and have a statue outside the Emirates.",
           "ar": "أنا الهداف التاريخي لأرسنال وليا تمثال قدام الإمارات."
         }
-      ]
+      ],
+      "tier": "amateur"
     },
     {
       "name": {
@@ -828,7 +864,8 @@
           "en": "As a coach I won three Champions League titles in a row — fans call me Zizou.",
           "ar": "كمدرب كسبت دوري الأبطال ٣ مرات ورا بعض — والجماهير بتقولي زيزو."
         }
-      ]
+      ],
+      "tier": "easy"
     },
     {
       "name": {
@@ -874,7 +911,8 @@
           "en": "Real Madrid fans gave me a standing ovation at the Bernabéu while I played for Barcelona.",
           "ar": "جماهير ريال مدريد صقفتلي واقفين في البرنابيو وأنا لاعب في برشلونة."
         }
-      ]
+      ],
+      "tier": "easy"
     },
     {
       "name": {
@@ -918,7 +956,8 @@
           "en": "I was the last Ballon d'Or winner before the Messi–Ronaldo era.",
           "ar": "أنا آخر واحد كسب الكرة الذهبية قبل عصر ميسي ورونالدو."
         }
-      ]
+      ],
+      "tier": "amateur"
     },
     {
       "name": {
@@ -967,7 +1006,8 @@
           "en": "My late header and winning penalty won Chelsea the 2012 Champions League.",
           "ar": "جول بالراس في الآخر وضربة الجزاء الحاسمة مني كسبوا تشيلسي دوري الأبطال ٢٠١٢."
         }
-      ]
+      ],
+      "tier": "amateur"
     },
     {
       "name": {
@@ -1013,7 +1053,8 @@
           "en": "Al Ahly fans call me 'the Magician' and I showed a Gaza shirt at AFCON 2008.",
           "ar": "جماهير الأهلي بتقولي الساحر ورفعت تيشيرت غزة في أمم أفريقيا ٢٠٠٨."
         }
-      ]
+      ],
+      "tier": "amateur"
     },
     {
       "name": {
@@ -1058,7 +1099,8 @@
           "en": "My Panenka penalty knocked Spain out of the 2022 World Cup.",
           "ar": "ضربة جزاء بانينكا مني خرجت إسبانيا من كأس العالم ٢٠٢٢."
         }
-      ]
+      ],
+      "tier": "amateur"
     },
     {
       "name": {
@@ -1388,7 +1430,8 @@
         "St. Pauli",
         "Karlsruher SC",
         "Eintracht Frankfurt",
-        "Manchester City"
+        "Manchester City",
+        "Tottenham"
       ]
     },
     {
@@ -1436,7 +1479,8 @@
           "en": "I scored the winning penalty in the 2022 AFCON final shootout.",
           "ar": "جبت ضربة الجزاء الحاسمة في نهائي أمم أفريقيا ٢٠٢٢."
         }
-      ]
+      ],
+      "tier": "amateur"
     },
     {
       "name": {
@@ -1455,7 +1499,8 @@
         "Basel",
         "Arsenal",
         "Beşiktaş",
-        "Al Jazira"
+        "Al Jazira",
+        "Levadiakos"
       ]
     },
     {
@@ -1534,6 +1579,723 @@
         "Santos",
         "New York Cosmos"
       ]
+    },
+    {
+      "name": {
+        "en": "Dimitar Berbatov",
+        "ar": "ديميتار برباتوف"
+      },
+      "aliases": [
+        "berbatov",
+        "برباتوف"
+      ],
+      "nation": "BUL",
+      "pos": "FW",
+      "born": 1981,
+      "clubs": [
+        "CSKA Sofia",
+        "Bayer Leverkusen",
+        "Tottenham",
+        "Manchester United",
+        "Fulham",
+        "Monaco",
+        "PAOK",
+        "Kerala Blasters"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in 1981 and grew up on the eastern side of the Iron Curtain.",
+          "ar": "اتولدت سنة ١٩٨١ واتربيت في الناحية الشرقية من الستار الحديدي."
+        },
+        {
+          "en": "I played alongside Michael Ballack, Robbie Keane and Martin Petrov.",
+          "ar": "لعبت جنب مايكل بالاك وروبي كين ومارتن بيتروف."
+        },
+        {
+          "en": "I've finished a Premier League season as its top scorer.",
+          "ar": "خلصت موسم في الدوري الإنجليزي وأنا هدافه."
+        },
+        {
+          "en": "I once scored five times in a single Premier League afternoon.",
+          "ar": "جبت ٥ أجوان في ماتش واحد في الدوري الإنجليزي."
+        },
+        {
+          "en": "The man I shared my Golden Boot with had been my teammate — before he crossed the city.",
+          "ar": "اللي قاسمني الحذاء الذهبي كان زميلي — قبل ما يعدّي للناحية التانية من المدينة."
+        },
+        {
+          "en": "I left White Hart Lane for Old Trafford on deadline day, and finished my career in India.",
+          "ar": "سبت وايت هارت لين لأولد ترافورد في آخر يوم انتقالات، وختمت مسيرتي في الهند."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Diego Forlán",
+        "ar": "دييجو فورلان"
+      },
+      "aliases": [
+        "forlan",
+        "فورلان"
+      ],
+      "nation": "URU",
+      "pos": "FW",
+      "born": 1979,
+      "clubs": [
+        "Independiente",
+        "Manchester United",
+        "Villarreal",
+        "Atlético Madrid",
+        "Inter",
+        "Internacional",
+        "Cerezo Osaka",
+        "Peñarol",
+        "Mumbai City",
+        "Kitchee"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the late 1970s, the son and grandson of men who lived for football.",
+          "ar": "اتولدت في أواخر السبعينات، ابن وحفيد ناس عاشوا للكورة."
+        },
+        {
+          "en": "I played alongside Ruud van Nistelrooy, Sergio Agüero and Luis Suárez.",
+          "ar": "لعبت جنب رود فان نيستلروي وسيرجيو أجويرو ولويس سواريز."
+        },
+        {
+          "en": "I've finished a season as the top league scorer in all of Europe.",
+          "ar": "خلصت موسم وأنا هداف الدوريات الأوروبية كلها."
+        },
+        {
+          "en": "I've won Europe's Golden Shoe twice.",
+          "ar": "كسبت الحذاء الذهبي الأوروبي مرتين."
+        },
+        {
+          "en": "I scored both goals in a European final that went to extra time.",
+          "ar": "جبت الجولين في نهائي أوروبي راح للوقت الإضافي."
+        },
+        {
+          "en": "I was voted the best player of the 2010 World Cup, though my team finished fourth.",
+          "ar": "اتختارت أحسن لاعب في كأس العالم ٢٠١٠ مع إن فريقي جه رابع."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Mido",
+        "ar": "ميدو"
+      },
+      "aliases": [
+        "ahmed hossam",
+        "احمد حسام",
+        "ميدو"
+      ],
+      "nation": "EGY",
+      "pos": "FW",
+      "born": 1983,
+      "clubs": [
+        "Zamalek",
+        "Gent",
+        "Ajax",
+        "Celta Vigo",
+        "Marseille",
+        "Roma",
+        "Tottenham",
+        "Middlesbrough",
+        "Wigan",
+        "West Ham",
+        "Barnsley"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in Cairo in the early 1980s and was playing in Europe before I turned 18.",
+          "ar": "اتولدت في القاهرة في أوائل الثمانينات وكنت بلعب في أوروبا قبل ما أكمل ١٨ سنة."
+        },
+        {
+          "en": "I played alongside Zlatan Ibrahimović, Didier Drogba and Robbie Keane.",
+          "ar": "لعبت جنب زلاتان إبراهيموفيتش وديدييه دروجبا وروبي كين."
+        },
+        {
+          "en": "I'm an Egyptian who has played in the Premier League.",
+          "ar": "أنا مصري لعب في الدوري الإنجليزي."
+        },
+        {
+          "en": "I've played in the top flights of Spain, France, Italy and England.",
+          "ar": "لعبت في الدوري الإسباني والفرنسي والإيطالي والإنجليزي."
+        },
+        {
+          "en": "Before my 22nd birthday I'd played club football in five European countries.",
+          "ar": "قبل ما أكمل ٢٢ سنة كنت لعبت لأندية في ٥ دول أوروبية."
+        },
+        {
+          "en": "A touchline row with Hassan Shehata in an AFCON semi-final got me suspended — years later I coached Zamalek.",
+          "ar": "خناقة على الخط مع حسن شحاتة في نص نهائي أمم أفريقيا خلتني اتوقفت — وبعدها بسنين دربت الزمالك."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Gedo",
+        "ar": "جدو"
+      },
+      "aliases": [
+        "mohamed nagy",
+        "محمد ناجي",
+        "جدو"
+      ],
+      "nation": "EGY",
+      "pos": "FW",
+      "born": 1984,
+      "clubs": [
+        "Al Ittihad Alexandria",
+        "Al Ahly",
+        "Hull City"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the mid-1980s and spent almost all my career in my home country.",
+          "ar": "اتولدت في نص الثمانينات وقضيت تقريبًا مسيرتي كلها في بلدي."
+        },
+        {
+          "en": "I played alongside Emad Moteab, Ahmed Hassan and Essam El-Hadary.",
+          "ar": "لعبت جنب عماد متعب وأحمد حسن وعصام الحضري."
+        },
+        {
+          "en": "I won the 2010 Africa Cup of Nations.",
+          "ar": "كسبت أمم أفريقيا ٢٠١٠."
+        },
+        {
+          "en": "I scored the only goal of an Africa Cup of Nations final.",
+          "ar": "جبت الجول الوحيد في نهائي أمم أفريقيا."
+        },
+        {
+          "en": "I finished as top scorer of an AFCON that my country won.",
+          "ar": "خلصت هداف بطولة أمم أفريقيا كسبها منتخب بلدي."
+        },
+        {
+          "en": "I came off the bench in every game, scored five times and settled the 2010 final against Ghana.",
+          "ar": "نزلت بديل في كل الماتشات، جبت ٥ أجوان، وحسمت نهائي ٢٠١٠ قدام غانا."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ahmed Hassan",
+        "ar": "أحمد حسن"
+      },
+      "aliases": [
+        "hassan",
+        "احمد حسن",
+        "الصقر"
+      ],
+      "nation": "EGY",
+      "pos": "MF",
+      "born": 1975,
+      "clubs": [
+        "Aswan",
+        "Ismaily",
+        "Kocaelispor",
+        "Denizlispor",
+        "Gençlerbirliği",
+        "Beşiktaş",
+        "Anderlecht",
+        "Al Ahly",
+        "Zamalek"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the mid-1970s in Upper Egypt.",
+          "ar": "اتولدت في نص السبعينات في الصعيد."
+        },
+        {
+          "en": "I played alongside Hossam Hassan, Mbark Boussoufa and Wael Gomaa.",
+          "ar": "لعبت جنب حسام حسن ومبارك بوصوفة ووائل جمعة."
+        },
+        {
+          "en": "I spent the best years of my European career in Turkey.",
+          "ar": "أحلى سنين مسيرتي في أوروبا كانت في تركيا."
+        },
+        {
+          "en": "I've won the Africa Cup of Nations at least three times.",
+          "ar": "كسبت أمم أفريقيا ٣ مرات على الأقل."
+        },
+        {
+          "en": "I've played more than 180 times for my country.",
+          "ar": "لعبت مع منتخب بلدي أكتر من ١٨٠ ماتش."
+        },
+        {
+          "en": "I won four AFCONs and was named player of the tournament in 2006 and 2010.",
+          "ar": "كسبت أمم أفريقيا ٤ مرات واتختارت أحسن لاعب في بطولتي ٢٠٠٦ و٢٠١٠."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Essam El-Hadary",
+        "ar": "عصام الحضري"
+      },
+      "aliases": [
+        "el hadary",
+        "hadary",
+        "الحضري",
+        "السد العالي"
+      ],
+      "nation": "EGY",
+      "pos": "GK",
+      "born": 1973,
+      "clubs": [
+        "Damietta",
+        "Al Ahly",
+        "Sion",
+        "Ismaily",
+        "Zamalek",
+        "Al Merreikh",
+        "Wadi Degla",
+        "Al Taawoun"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the early 1970s in the Nile Delta.",
+          "ar": "اتولدت في أوائل السبعينات في الدلتا."
+        },
+        {
+          "en": "I played alongside Ahmed Hassan, Mohamed Salah and Mohamed Barakat.",
+          "ar": "لعبت جنب أحمد حسن ومحمد صلاح ومحمد بركات."
+        },
+        {
+          "en": "I've played for both Al Ahly and Zamalek.",
+          "ar": "لعبت للأهلي وللزمالك."
+        },
+        {
+          "en": "I've won the Africa Cup of Nations at least three times.",
+          "ar": "كسبت أمم أفريقيا ٣ مرات على الأقل."
+        },
+        {
+          "en": "I've won the Africa Cup of Nations four times.",
+          "ar": "كسبت أمم أفريقيا ٤ مرات."
+        },
+        {
+          "en": "At 45 I became the oldest player in World Cup history — and saved a penalty that day.",
+          "ar": "وأنا عندي ٤٥ سنة بقيت أكبر لاعب في تاريخ كأس العالم — وصديت ضربة جزاء في نفس الماتش."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Mohamed Zidan",
+        "ar": "محمد زيدان"
+      },
+      "aliases": [
+        "zidan",
+        "زيدان"
+      ],
+      "nation": "EGY",
+      "pos": "FW",
+      "born": 1981,
+      "clubs": [
+        "Al Masry",
+        "Akademisk Boldklub",
+        "Midtjylland",
+        "Werder Bremen",
+        "Mainz",
+        "Hamburg",
+        "Borussia Dortmund"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born on the Mediterranean coast in the early 1980s, and my family moved abroad when I was a teenager.",
+          "ar": "اتولدت على ساحل البحر المتوسط في أوائل الثمانينات، وأهلي سافروا بره وأنا مراهق."
+        },
+        {
+          "en": "I played alongside Nuri Şahin, Mohamed Aboutrika and Miroslav Klose.",
+          "ar": "لعبت جنب نوري شاهين ومحمد أبو تريكة وميروسلاف كلوزه."
+        },
+        {
+          "en": "I began my European career in Scandinavia.",
+          "ar": "بدأت مسيرتي في أوروبا في إسكندنافيا."
+        },
+        {
+          "en": "The same coach brought me to two different German clubs.",
+          "ar": "نفس المدرب جابني لناديين ألمان مختلفين."
+        },
+        {
+          "en": "I've won both the Africa Cup of Nations and the Bundesliga.",
+          "ar": "كسبت أمم أفريقيا والدوري الألماني."
+        },
+        {
+          "en": "I was Klopp's Egyptian striker at Dortmund and scored twice against Brazil in 2009.",
+          "ar": "كنت مهاجم كلوب المصري في دورتموند وجبت جولين في البرازيل سنة ٢٠٠٩."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Islam Slimani",
+        "ar": "إسلام سليماني"
+      },
+      "aliases": [
+        "slimani",
+        "سليماني"
+      ],
+      "nation": "ALG",
+      "pos": "FW",
+      "born": 1988,
+      "clubs": [
+        "CR Belouizdad",
+        "Sporting CP",
+        "Leicester City",
+        "Newcastle United",
+        "Fenerbahçe",
+        "Monaco",
+        "Lyon",
+        "Brest",
+        "Anderlecht",
+        "CFR Cluj"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in North Africa in the late 1980s and only reached Europe in my mid-twenties.",
+          "ar": "اتولدت في شمال أفريقيا في أواخر الثمانينات ووصلت أوروبا وأنا عندي ٢٥ سنة تقريبًا."
+        },
+        {
+          "en": "I played alongside Riyad Mahrez, William Carvalho and Wissam Ben Yedder.",
+          "ar": "لعبت جنب رياض محرز وويليام كارفاليو ووسام بن يدر."
+        },
+        {
+          "en": "I won the 2019 Africa Cup of Nations.",
+          "ar": "كسبت أمم أفريقيا ٢٠١٩."
+        },
+        {
+          "en": "I've played club football in Portugal, England, Turkey and France.",
+          "ar": "لعبت لأندية في البرتغال وإنجلترا وتركيا وفرنسا."
+        },
+        {
+          "en": "The reigning English champions made me their record signing.",
+          "ar": "بطل إنجلترا وقتها اشتراني بأغلى صفقة في تاريخه."
+        },
+        {
+          "en": "I'm Algeria's all-time top scorer.",
+          "ar": "أنا الهداف التاريخي للجزائر."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Emmanuel Adebayor",
+        "ar": "إيمانويل أديبايور"
+      },
+      "aliases": [
+        "adebayor",
+        "أديبايور",
+        "اديبايور"
+      ],
+      "nation": "TOG",
+      "pos": "FW",
+      "born": 1984,
+      "clubs": [
+        "Metz",
+        "Monaco",
+        "Arsenal",
+        "Manchester City",
+        "Real Madrid",
+        "Tottenham",
+        "Crystal Palace",
+        "Başakşehir",
+        "Kayserispor",
+        "Olimpia"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in West Africa in the mid-1980s and moved to France as a teenager.",
+          "ar": "اتولدت في غرب أفريقيا في نص الثمانينات ورحت فرنسا وأنا مراهق."
+        },
+        {
+          "en": "I played alongside Robin van Persie, Gareth Bale and Robinho.",
+          "ar": "لعبت جنب روبن فان بيرسي وجاريث بيل وروبينيو."
+        },
+        {
+          "en": "I've played for both Arsenal and Tottenham.",
+          "ar": "لعبت لأرسنال ولتوتنهام."
+        },
+        {
+          "en": "I've played for both Manchester City and Tottenham.",
+          "ar": "لعبت لمانشستر سيتي ولتوتنهام."
+        },
+        {
+          "en": "I've played for Arsenal, Manchester City and Real Madrid.",
+          "ar": "لعبت لأرسنال ومانشستر سيتي وريال مدريد."
+        },
+        {
+          "en": "After scoring for Manchester City I sprinted the length of the pitch to celebrate in front of Arsenal's fans.",
+          "ar": "بعد ما جبت جول لمانشستر سيتي جريت الملعب كله عشان أحتفل قدام جماهير أرسنال."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Kevin-Prince Boateng",
+        "ar": "كيفن برينس بواتينج"
+      },
+      "aliases": [
+        "boateng",
+        "kevin prince",
+        "بواتينج"
+      ],
+      "nation": "GHA",
+      "pos": "MF",
+      "born": 1987,
+      "clubs": [
+        "Hertha Berlin",
+        "Tottenham",
+        "Borussia Dortmund",
+        "Portsmouth",
+        "AC Milan",
+        "Schalke",
+        "Las Palmas",
+        "Eintracht Frankfurt",
+        "Sassuolo",
+        "Barcelona",
+        "Fiorentina",
+        "Beşiktaş",
+        "Monza"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in a European capital in the late 1980s.",
+          "ar": "اتولدت في عاصمة أوروبية في أواخر الثمانينات."
+        },
+        {
+          "en": "I played alongside Zlatan Ibrahimović, Luka Jović and Lionel Messi.",
+          "ar": "لعبت جنب زلاتان إبراهيموفيتش ولوكا يوفيتش وليونيل ميسي."
+        },
+        {
+          "en": "I've played club football in Germany, England, Italy, Spain and Turkey.",
+          "ar": "لعبت لأندية في ألمانيا وإنجلترا وإيطاليا وإسبانيا وتركيا."
+        },
+        {
+          "en": "I chose a different national team from my brother.",
+          "ar": "اخترت منتخب غير منتخب أخويا."
+        },
+        {
+          "en": "I faced my own brother at a World Cup.",
+          "ar": "لعبت قدام أخويا في كأس العالم."
+        },
+        {
+          "en": "I walked off the pitch in protest at racist chants during a Milan friendly in 2013.",
+          "ar": "خرجت من الملعب احتجاجًا على هتافات عنصرية في ماتش ودي لميلان سنة ٢٠١٣."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Marouane Chamakh",
+        "ar": "مروان الشماخ"
+      },
+      "aliases": [
+        "chamakh",
+        "الشماخ",
+        "شماخ"
+      ],
+      "nation": "MAR",
+      "pos": "FW",
+      "born": 1984,
+      "clubs": [
+        "Bordeaux",
+        "Arsenal",
+        "West Ham",
+        "Crystal Palace",
+        "Cardiff City"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in south-west France in the mid-1980s.",
+          "ar": "اتولدت في جنوب غرب فرنسا في نص الثمانينات."
+        },
+        {
+          "en": "I played alongside Yoann Gourcuff, Samir Nasri and Wilfried Zaha.",
+          "ar": "لعبت جنب يوان جوركوف وسمير نصري وويلفريد زاها."
+        },
+        {
+          "en": "I won Ligue 1 with Bordeaux in 2009.",
+          "ar": "كسبت الدوري الفرنسي مع بوردو سنة ٢٠٠٩."
+        },
+        {
+          "en": "I'm a Moroccan who has played in the Premier League.",
+          "ar": "أنا مغربي لعب في الدوري الإنجليزي."
+        },
+        {
+          "en": "I'm a Moroccan who has played for Arsenal.",
+          "ar": "أنا مغربي لعب لأرسنال."
+        },
+        {
+          "en": "I joined Arsenal from Bordeaux on a free transfer in 2010.",
+          "ar": "انضميت لأرسنال من بوردو في انتقال حر سنة ٢٠١٠."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Roque Santa Cruz",
+        "ar": "روكي سانتا كروز"
+      },
+      "aliases": [
+        "santa cruz",
+        "سانتا كروز"
+      ],
+      "nation": "PAR",
+      "pos": "FW",
+      "born": 1981,
+      "clubs": [
+        "Olimpia",
+        "Bayern Munich",
+        "Blackburn Rovers",
+        "Manchester City",
+        "Real Betis",
+        "Málaga",
+        "Cruz Azul",
+        "Libertad",
+        "Nacional (Paraguay)"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in South America in the early 1980s.",
+          "ar": "اتولدت في أمريكا الجنوبية في أوائل الثمانينات."
+        },
+        {
+          "en": "I played alongside Michael Ballack, Morten Gamst Pedersen and Nelson Haedo Valdez.",
+          "ar": "لعبت جنب مايكل بالاك ومورتن جامست بيدرسن ونيلسون هايدو فالديز."
+        },
+        {
+          "en": "I'm a South American who won several Bundesliga titles with Bayern.",
+          "ar": "أنا لاعب من أمريكا الجنوبية كسب الدوري الألماني كذا مرة مع بايرن."
+        },
+        {
+          "en": "I'm Paraguayan and have played in the Premier League.",
+          "ar": "أنا من باراجواي ولعبت في الدوري الإنجليزي."
+        },
+        {
+          "en": "I've played for both Blackburn Rovers and Manchester City.",
+          "ar": "لعبت لبلاكبيرن ولمانشستر سيتي."
+        },
+        {
+          "en": "I'm Paraguay's all-time top scorer.",
+          "ar": "أنا الهداف التاريخي لباراجواي."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Javier Saviola",
+        "ar": "خافيير سافيولا"
+      },
+      "aliases": [
+        "saviola",
+        "سافيولا",
+        "el conejo"
+      ],
+      "nation": "ARG",
+      "pos": "FW",
+      "born": 1981,
+      "clubs": [
+        "River Plate",
+        "Barcelona",
+        "Monaco",
+        "Sevilla",
+        "Real Madrid",
+        "Benfica",
+        "Málaga",
+        "Olympiacos",
+        "Hellas Verona"
+      ],
+      "clues": [
+        {
+          "en": "I was born in South America in the early 1980s, and I was never the tallest man on the pitch.",
+          "ar": "اتولدت في أمريكا الجنوبية في أوائل الثمانينات، وعمري ما كنت أطول واحد في الملعب."
+        },
+        {
+          "en": "I played alongside Juan Román Riquelme, Óscar Cardozo and Gonzalo Higuaín.",
+          "ar": "لعبت جنب خوان رومان ريكيلمي وأوسكار كاردوزو وجونزالو هيجواين."
+        },
+        {
+          "en": "I won Olympic gold in Athens.",
+          "ar": "كسبت الدهبية الأولمبية في أثينا."
+        },
+        {
+          "en": "I've worn the shirts of both giants of Spanish football.",
+          "ar": "لبست تيشيرت قطبين الكورة الإسبانية الاتنين."
+        },
+        {
+          "en": "At a youth World Cup I was named both the best player and the top scorer.",
+          "ar": "في كأس عالم للشباب اتختارت أحسن لاعب وكنت الهداف كمان."
+        },
+        {
+          "en": "They called me 'the Rabbit', and my 11 goals at the 2001 Under-20 World Cup are still a record.",
+          "ar": "كانوا بيقولولي 'الأرنب'، و١١ جول جبتهم في كأس العالم للشباب ٢٠٠١ لسه رقم قياسي."
+        }
+      ],
+      "tier": "legend"
+    },
+    {
+      "name": {
+        "en": "Benni McCarthy",
+        "ar": "بيني مكارثي"
+      },
+      "aliases": [
+        "mccarthy",
+        "مكارثي"
+      ],
+      "nation": "RSA",
+      "pos": "FW",
+      "born": 1977,
+      "clubs": [
+        "Seven Stars",
+        "Ajax Cape Town",
+        "Ajax",
+        "Celta Vigo",
+        "Porto",
+        "Blackburn Rovers",
+        "West Ham",
+        "Orlando Pirates"
+      ],
+      "clues": [
+        {
+          "en": "I was born in the late 1970s in the southern hemisphere.",
+          "ar": "اتولدت في أواخر السبعينات في نص الكرة الجنوبي."
+        },
+        {
+          "en": "I played alongside Deco, Morten Gamst Pedersen and Steven Pienaar.",
+          "ar": "لعبت جنب ديكو ومورتن جامست بيدرسن وستيفن بينار."
+        },
+        {
+          "en": "I lifted Europe's biggest club trophy in 2004 with a side from outside the big leagues.",
+          "ar": "رفعت أكبر كاس أندية في أوروبا سنة ٢٠٠٤ مع فريق من بره الدوريات الكبيرة."
+        },
+        {
+          "en": "I'm my country's all-time top scorer and a European champion with my club.",
+          "ar": "أنا الهداف التاريخي لبلدي وبطل أوروبا مع نادي."
+        },
+        {
+          "en": "I'm the only player from my country to win the Champions League.",
+          "ar": "أنا اللاعب الوحيد من بلدي اللي كسب دوري أبطال أوروبا."
+        },
+        {
+          "en": "I scored four times in 13 minutes against Namibia at AFCON 1998, and later coached at Manchester United.",
+          "ar": "جبت ٤ أجوان في ١٣ دقيقة في ناميبيا في أمم أفريقيا ١٩٩٨، وبعدها بقيت مدرب في مانشستر يونايتد."
+        }
+      ],
+      "tier": "legend"
     }
   ]
 }

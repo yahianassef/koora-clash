@@ -32,7 +32,7 @@ Modes: **Teams** (two named teams) or **every player for themself**.
 | 📝 Name Them All · سمّيهم كلهم | Sporcle-style: type every answer in a category before the clock runs out. |
 | 🧭 Career Path · مسيرة لاعب | Guess 5 players from their clubs; each wrong guess or hint reveals another club. |
 | ❤️ Survival Quiz · تحدي البقاء | Endless multiple choice, 10s each, 3 lives. Chase your best streak. |
-| ❓ Who's the Player? · مين اللاعب؟ | "I played for only three clubs…" — clues are revealed hardest first; a wrong guess or *Next clue* reveals another, and the fewer you need the more you score. Daily player or a 5-player random round. |
+| ❓ Who's the Player? · مين اللاعب؟ | "I played for only three clubs…" — clues are revealed hardest first; a wrong guess or *Next clue* reveals another, and the fewer you need the more you score. Daily player or a 5-player random round, at four difficulties: Easy (superstars), Amateur, Pro and Legend (deep cuts). |
 
 Best scores are saved on the device.
 
@@ -51,7 +51,7 @@ then open http://localhost:8000 (needs internet for the PeerJS relay, fonts and 
 - `data/questions.json` — career paths, Rondo categories, Spy/Password names and Quick Fire questions. For `quickfire`, the **first option is the correct one** (options are shuffled at play time).
 - Career paths list each club with the `years` the player spent there ("2001–2004", "2015", or "2017–" if he's still there).
 - `data/clubs.json` — club name → crest image URL (from TheSportsDB). Run `python tools/fetch_club_logos.py` after adding clubs; clubs without a crest show their initials.
-- `data/players.json` — players (nation code, position GK/DF/MF/FW, birth year, English club names) plus the `nations` table. Players with a `clues` list appear in Who's the Player?. Each has exactly 6 first-person clues ({en, ar}) on this ladder:
+- `data/players.json` — players (nation code, position GK/DF/MF/FW, birth year, English club names) plus the `nations` table. Players with a `clues` list appear in Who's the Player?, grouped by `tier`: `easy`, `amateur`, `pro` or `legend`. Each has exactly 6 first-person clues ({en, ar}) on this ladder:
   1. almost no information ("I was born in the 1980s and spent most of my career in Europe.")
   2. three teammates ("I played alongside Ángel Di María, Carlos Tevez and Carles Puyol.")
   3. a fact that fits roughly 10–20 players

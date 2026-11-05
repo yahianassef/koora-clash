@@ -139,7 +139,9 @@ def main():
                 errors.append(f"{tag}: clues must be exactly 6 items, each with en+ar (see the ladder in README)")
             elif not cl[1]["en"].startswith("I played alongside"):
                 errors.append(f"{tag}: clue 2 must name three teammates (\"I played alongside …\")")
-            elif any(norm(p["name"]["en"].split()[-1]) in norm(c["en"]) for c in cl):
+            elif p.get("tier") not in ("easy", "amateur", "pro", "legend"):
+                errors.append(f"{tag}: players with clues need a tier: easy, amateur, pro or legend")
+            elif any(norm(p["name"]["en"]) in norm(c["en"]) for c in cl):
                 errors.append(f"{tag}: a clue gives away the player's name")
         if norm(p["name"]["en"]) in seen:
             errors.append(f"{tag}: duplicate player {p['name']['en']}")
@@ -164,7 +166,9 @@ def main():
         return 1
     print(f"OK  career={len(data['career'])}  rondo={len(data['rondo'])}  "
           f"words={len(data['words'])}  quickfire={len(data['quickfire'])}  players={len(pdata['players'])}  "
-          f"with_clues={sum(1 for p in pdata['players'] if p.get('clues'))}")
+          f"with_clues={sum(1 for p in pdata['players'] if p.get('clues'))}  " +
+          " ".join(f"{lv}={sum(1 for p in pdata['players'] if p.get('clues') and p.get('tier') == lv)}"
+                   for lv in ("easy", "amateur", "pro", "legend")))
     return 0
 
 

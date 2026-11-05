@@ -54,7 +54,7 @@ const I18N = {
     g_career: "Career Path", g_career_d: "Guess the player from his clubs. Fewer clubs = more points.",
     g_survival: "Survival Quiz", g_survival_d: "Endless questions, 10 seconds each, 3 lives. How far can you go?",
     g_mystery: "Who's the Player?", g_mystery_d: "\"I played for only three clubs…\" Guess from the clues — the fewer you need, the more you score.",
-    who_is_it: "Who am I?", next_clue_btn: "Next clue", clues_left: "more clues — each one costs a point", got_him: "Got him with",
+    who_is_it: "Who am I?", difficulty: "Difficulty", who_level_opt: "Who's the Player? difficulty:", lvl_easy: "Easy", lvl_amateur: "Amateur", lvl_pro: "Pro", lvl_legend: "Legend", next_clue_btn: "Next clue", clues_left: "more clues — each one costs a point", got_him: "Got him with",
     clue_one: "clue", clues_many: "clues", see_score: "See my score",
     best: "Best", play: "Play", give_up: "Give up", again: "Play again", menu: "All games", found: "found",
     choose_cat: "Pick a category", random_cat: "Random category", time_up: "Time's up!", you_got: "You got",
@@ -124,7 +124,7 @@ const I18N = {
     g_career: "مسيرة لاعب", g_career_d: "اعرف اللاعب من أنديته. كل ما تعرفه بأندية أقل، نقطك أكتر.",
     g_survival: "تحدي البقاء", g_survival_d: "أسئلة ورا بعض، ١٠ ثواني لكل سؤال، و٣ أرواح. هتوصل لفين؟",
     g_mystery: "مين اللاعب؟", g_mystery_d: "\"لعبت لـ٣ أندية بس…\" اعرفه من التلميحات — كل ما تحتاج تلميحات أقل، نقطك أكتر.",
-    who_is_it: "أنا مين؟", next_clue_btn: "التلميح اللي بعده", clues_left: "تلميحات كمان — كل واحد بنقطة", got_him: "عرفته من",
+    who_is_it: "أنا مين؟", difficulty: "الصعوبة", who_level_opt: "صعوبة مين اللاعب؟:", lvl_easy: "سهل", lvl_amateur: "هاوي", lvl_pro: "محترف", lvl_legend: "أسطورة", next_clue_btn: "التلميح اللي بعده", clues_left: "تلميحات كمان — كل واحد بنقطة", got_him: "عرفته من",
     clue_one: "تلميح", clues_many: "تلميحات", see_score: "شوف نتيجتي",
     best: "أحسن رقم", play: "العب", give_up: "استسلم", again: "العب تاني", menu: "كل الألعاب", found: "عرفتهم",
     choose_cat: "اختار فئة", random_cat: "فئة عشوائية", time_up: "الوقت خلص!", you_got: "جبت",
@@ -236,7 +236,10 @@ function soloTile(k, best, attrs, tag) {
     <span class="go">${t("play")} ${icon("arrow")}</span><span class="bg">${icon(k)}</span></${tag}>`;
 }
 function getBestScore(k) {
-  try { return JSON.parse(localStorage.getItem("kc_best") || "{}")[k === "nameall" ? "nameall_total" : k === "mystery" ? "mystery_pts" : k]; } catch (e) { return undefined; }
+  try {
+    const lv = localStorage.getItem("kc_who_level") || "pro";
+    return JSON.parse(localStorage.getItem("kc_best") || "{}")[k === "nameall" ? "nameall_total" : k === "mystery" ? "mystery_pts_" + lv : k];
+  } catch (e) { return undefined; }
 }
 
 // ---------- feedback: hype toasts, confetti, shake ----------

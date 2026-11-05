@@ -338,6 +338,10 @@ button.opt:disabled { opacity: 1; }
 .stage .clue .n { width: 42px; height: 42px; font-size: 26px; }
 .phone .clue { font-size: 15px; padding: 10px 12px; }
 .c-who { --c: #a78bfa; }
+.levels { display: inline-flex; gap: 4px; padding: 4px; border-radius: 14px; background: rgba(255, 255, 255, .05); border: 1px solid var(--line); }
+.levels .lvl { border: 0; background: transparent; color: var(--muted); }
+.lvl-easy { --lc: #2ee59d; } .lvl-amateur { --lc: #22d3ee; } .lvl-pro { --lc: #ff8a00; } .lvl-legend { --lc: #ff3d71; }
+.levels .lvl.on { background: var(--lc); color: #0a0e1a; font-weight: 800; box-shadow: 0 8px 20px -8px var(--lc); }
 .answer-card { animation: pop .45s cubic-bezier(.3, 1.6, .5, 1); }
 .mtable { display: flex; flex-direction: column; gap: 6px; overflow-x: auto; }
 .mrow { display: grid; grid-template-columns: 1.4fr 1fr .7fr .8fr 1.4fr; gap: 6px; min-width: 540px; }

@@ -4,12 +4,15 @@
 
 const SEGMENT_KEYS = ["career", "who", "rondo", "spy", "password", "quickfire"];
 let DATA = null;
+const WHO_LEVELS = ["easy", "amateur", "pro", "legend"];
 
 async function loadData() {
   const [q, p] = await Promise.all(["data/questions.json", "data/players.json"]
     .map((f) => fetch(f, { cache: "no-cache" }).then((r) => r.json())));
   DATA = q;
-  DATA.who = p.players.filter((x) => (x.clues || []).length >= 5);  // players with clue sets
+  // Players with clue sets, grouped by difficulty level (easy → legend).
+  const clued = p.players.filter((x) => (x.clues || []).length >= 5);
+  DATA.whoLevels = Object.fromEntries(WHO_LEVELS.map((lv) => [lv, clued.filter((x) => x.tier === lv)]));
   return DATA;
 }
 
@@ -546,7 +549,8 @@ Object.assign(QuickFire, { QTIME: 15, RESULT: 6, FAST: 5, N: 8 });
 class WhoIs extends CareerPath {
   static key = "who";
   pick() {
-    return freshest("who", DATA.who, Math.min(4, DATA.who.length))
+    const pool = DATA.whoLevels[this.room.who_level] || DATA.whoLevels.pro;
+    return freshest("who", pool, Math.min(4, pool.length))
       .map((p) => ({ answer: p.name, aliases: p.aliases, clubs: p.clues }));
   }
   points() { return this.q.clubs.length - this.shown + 1; }
@@ -564,6 +568,7 @@ class Room {
     this.mode = "teams";
     this.team_names = { A: "", B: "" };
     this.segments = SEGMENT_KEYS.slice();
+    this.who_level = "pro";  // Who's the Player? difficulty: easy | amateur | pro | legend
     this.scores = {};
     this.phase = "lobby";
     this.seg = null;
@@ -631,6 +636,7 @@ class Room {
     p = p || {};
     if (act === "settings" && this.phase === "lobby") {
       if (p.mode === "teams" || p.mode === "solo") this.mode = p.mode;
+      if (WHO_LEVELS.includes(p.who_level)) this.who_level = p.who_level;
       for (const t of ["A", "B"]) if (typeof p["team_" + t] === "string") this.team_names[t] = p["team_" + t].slice(0, 24);
       if (Array.isArray(p.segments)) {
         const segs = p.segments.filter((s) => SEGMENTS[s]);
@@ -664,7 +670,7 @@ class Room {
 
   baseView() {
     const v = { now: now(), room: this.code, phase: this.phase, mode: this.mode, team_names: this.team_names,
-      segments: this.segments, seg_index: this.seg_index, seg_key: this.seg ? this.seg.constructor.key : null,
+      segments: this.segments, who_level: this.who_level, seg_index: this.seg_index, seg_key: this.seg ? this.seg.constructor.key : null,
       notice: this.notice,
       players: Object.entries(this.players).map(([id, p]) => ({ id, name: p.name, team: p.team, connected: p.connected })),
       scores: this.scoreboard() };

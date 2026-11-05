@@ -46,8 +46,10 @@ function renderSettings() {
     if (document.activeElement !== el) el.value = S.team_names[k] || "";
   });
   setHTML($("#seglist"), ALL_SEGS.map((k) => `<label><input type="checkbox" data-seg="${k}" ${S.segments.includes(k) ? "checked" : ""}>
-    ${SEG_ICON[k]} ${esc(segTitle(k))}</label>`).join(""));
-  $("#seglist").querySelectorAll("input").forEach((cb) => {
+    ${SEG_ICON[k]} ${esc(segTitle(k))}</label>`).join("") +
+    `<label style="margin-top:6px">${esc(t("who_level_opt"))} <select id="wholevel">${WHO_LEVELS.map((lv) => `<option value="${lv}" ${S.who_level === lv ? "selected" : ""}>${esc(t("lvl_" + lv))}</option>`).join("")}</select></label>`);
+  $("#wholevel").onchange = (e) => act("settings", { who_level: e.target.value });
+  $("#seglist").querySelectorAll("input[data-seg]").forEach((cb) => {
     cb.onchange = () => {
       const segs = ALL_SEGS.filter((k) => $(`#seglist input[data-seg=${k}]`).checked);
       if (segs.length) act("settings", { segments: segs }); else cb.checked = true;

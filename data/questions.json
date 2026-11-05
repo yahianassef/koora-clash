@@ -106,7 +106,12 @@
         {
           "en": "Liverpool",
           "ar": "ليفربول",
-          "years": "2017–"
+          "years": "2017–2026"
+        },
+        {
+          "en": "Trabzonspor",
+          "ar": "طرابزون سبور",
+          "years": "2026–"
         }
       ]
     },
@@ -953,6 +958,14 @@
             "dembele",
             "ديمبيلي",
             "ديمبلي"
+          ]
+        },
+        {
+          "en": "Harry Kane",
+          "ar": "هاري كين",
+          "aliases": [
+            "kane",
+            "كين"
           ]
         }
       ]
@@ -2222,6 +2235,102 @@
         {
           "en": "Chad",
           "ar": "تشاد"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Who won the 2026 World Cup?",
+        "ar": "مين كسب كأس العالم ٢٠٢٦؟"
+      },
+      "options": [
+        {
+          "en": "Spain",
+          "ar": "إسبانيا"
+        },
+        {
+          "en": "Argentina",
+          "ar": "الأرجنتين"
+        },
+        {
+          "en": "France",
+          "ar": "فرنسا"
+        },
+        {
+          "en": "England",
+          "ar": "إنجلترا"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Who won the 2026 Ballon d'Or?",
+        "ar": "مين كسب الكرة الذهبية ٢٠٢٦؟"
+      },
+      "options": [
+        {
+          "en": "Harry Kane",
+          "ar": "هاري كين"
+        },
+        {
+          "en": "Kylian Mbappé",
+          "ar": "كيليان مبابي"
+        },
+        {
+          "en": "Lamine Yamal",
+          "ar": "لامين يامال"
+        },
+        {
+          "en": "Ousmane Dembélé",
+          "ar": "عثمان ديمبيلي"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Who won the 2025–26 Premier League?",
+        "ar": "مين كسب الدوري الإنجليزي ٢٠٢٥–٢٦؟"
+      },
+      "options": [
+        {
+          "en": "Arsenal",
+          "ar": "أرسنال"
+        },
+        {
+          "en": "Manchester City",
+          "ar": "مانشستر سيتي"
+        },
+        {
+          "en": "Liverpool",
+          "ar": "ليفربول"
+        },
+        {
+          "en": "Chelsea",
+          "ar": "تشيلسي"
+        }
+      ]
+    },
+    {
+      "q": {
+        "en": "Which club did Mohamed Salah join in 2026?",
+        "ar": "محمد صلاح انضم لأي نادي سنة ٢٠٢٦؟"
+      },
+      "options": [
+        {
+          "en": "Trabzonspor",
+          "ar": "طرابزون سبور"
+        },
+        {
+          "en": "Beşiktaş",
+          "ar": "بشكتاش"
+        },
+        {
+          "en": "Galatasaray",
+          "ar": "جالطة سراي"
+        },
+        {
+          "en": "Al Hilal",
+          "ar": "الهلال"
         }
       ]
     }

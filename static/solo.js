@@ -252,10 +252,19 @@ const Survival = {
 // ---------- Who's the Player? (clue by clue, hardest first) ----------
 const Mystery = {
   ROUND: 5,
-  pool() { return PLAYERS.players.filter((p) => (p.clues || []).length >= 5); },
+  // Difficulty (easy → legend) picks the player pool; it's remembered per device. Default: Pro.
+  level() {
+    let lv = null;
+    try { lv = localStorage.getItem("kc_who_level"); } catch (e) {}
+    return WHO_LEVELS.includes(lv) ? lv : "pro";
+  },
+  pool() {
+    const lv = this.level();
+    return PLAYERS.players.filter((p) => (p.clues || []).length >= 5 && p.tier === lv);
+  },
   start(mode) {
     clearTimers();
-    this.mode = mode || "daily";
+    this.mode = mode || this.mode || "daily";
     const pool = this.pool();
     if (this.mode === "daily") {
       const d = new Date();
@@ -279,7 +288,9 @@ const Mystery = {
     app().innerHTML = topbar("mystery", `<span class="chip">${t("total")}: <b id="wh-total">${this.total}</b></span>`) +
       `<div class="row"><button class="small ${this.mode === "daily" ? "primary" : ""}" data-mode="daily">${icon("calendar")} ${t("daily")}</button>
         <button class="small ${this.mode === "random" ? "primary" : ""}" data-mode="random">${icon("dice")} ${t("random")}</button>
-        <span class="grow"></span><span class="muted">${this.queue.length > 1 ? `${t("round_of")} ${this.qi + 1}/${this.queue.length} · ` : ""}${t("worth")} <b id="wh-pts"></b> ${t("pts")}</span></div>
+        <span class="grow"></span>
+        <span class="levels">${WHO_LEVELS.map((lv) => `<button class="small lvl lvl-${lv} ${this.level() === lv ? "on" : ""}" data-level="${lv}">${t("lvl_" + lv)}</button>`).join("")}</span></div>
+      <div class="row"><span class="grow"></span><span class="muted">${this.queue.length > 1 ? `${t("round_of")} ${this.qi + 1}/${this.queue.length} · ` : ""}${t("worth")} <b id="wh-pts"></b> ${t("pts")}</span></div>
       <div class="clues" id="wh-clues"></div>
       <form class="row" id="wh-form"><input type="text" id="wh-in" class="grow" list="wh-list" autocomplete="off" spellcheck="false" placeholder="${esc(t("who_is_it"))}">
         <button class="primary">${t("send")}</button></form>
@@ -288,6 +299,9 @@ const Mystery = {
       <div class="fb" id="wh-fb"></div><div id="wh-end"></div>`;
     wire(app());
     app().querySelectorAll("[data-mode]").forEach((b) => { b.onclick = () => this.start(b.dataset.mode); });
+    app().querySelectorAll("[data-level]").forEach((b) => {
+      b.onclick = () => { try { localStorage.setItem("kc_who_level", b.dataset.level); } catch (e) {} this.start(this.mode); };
+    });
     this.draw();
     $("#wh-in").focus();
     $("#wh-form").onsubmit = (e) => {
@@ -342,10 +356,10 @@ const Mystery = {
   },
   end() {
     const max = this.queue.reduce((s, p) => s + p.clues.length, 0);
-    const key = this.mode === "daily" ? "mystery_daily" : "mystery_pts";
+    const key = (this.mode === "daily" ? "mystery_daily_" : "mystery_pts_") + this.level();
     const nb = saveBest(key, this.total);
     if (nb && this.total) confetti();
-    app().innerHTML = topbar("mystery") + `<div class="card center"><div class="muted">${this.mode === "daily" ? t("daily") : t("total")}</div>
+    app().innerHTML = topbar("mystery") + `<div class="card center"><div class="muted">${this.mode === "daily" ? t("daily") : t("total")} · ${t("lvl_" + this.level())}</div>
       <div class="huge">${this.total} / ${max}</div>${nb && this.total ? `<div style="color:var(--gold);font-weight:800">${t("new_best")}</div>` : ""}
       <div class="row" style="justify-content:center;margin-top:12px"><button class="primary" data-mode="random">${icon("dice")} ${t("random")}</button><button data-menu>${t("menu")}</button></div></div>`;
     wire(app());

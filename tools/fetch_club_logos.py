@@ -38,7 +38,7 @@ COUNTRY = {
     "Nacional": "Uruguay", "Al Ahli": "Saudi Arabia", "Al Ittihad": "Saudi Arabia", "Al Hilal": "Saudi Arabia",
     "Al Nassr": "Saudi Arabia", "Al Shamal": "Qatar", "Al Sadd": "Qatar", "Qatar SC": "Qatar",
     "Al Jazira": "United Arab Emirates", "Baniyas": "United Arab Emirates", "Emirates Club": "United Arab Emirates",
-    "Al Mokawloon": "Egypt", "Al Ahly": "Egypt", "Tersana": "Egypt", "Wadi Degla": "Egypt",
+    "Al Mokawloon": "Egypt", "Al Ahly": "Egypt", "Al Merreikh": "Sudan", "Tersana": "Egypt", "Wadi Degla": "Egypt",
     "River Plate": "Argentina", "Inter": "Italy", "Valencia": "Spain", "Santos": "Brazil", "Celtic": "Scotland",
     "Everton": "England", "Monaco": "France", "Sporting CP": "Portugal", "Millonarios": "Colombia",
 }
