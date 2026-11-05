@@ -138,11 +138,18 @@ def main():
             if not isinstance(cl, list) or len(cl) != 6 or not all(bilingual(c) for c in cl):
                 errors.append(f"{tag}: clues must be exactly 6 items, each with en+ar (see the ladder in README)")
             elif not cl[1]["en"].startswith("I played alongside"):
-                errors.append(f"{tag}: clue 2 must name three teammates (\"I played alongside …\")")
+                errors.append(f"{tag}: clue 2 must list teammates (\"I played alongside …\")")
+            elif len(re.split(r",\s*|\s+and\s+", cl[1]["en"][len("I played alongside"):].strip(" ."))) < 6:
+                errors.append(f"{tag}: clue 2 must name at least 6 teammates from different clubs/national team")
             elif p.get("tier") not in ("easy", "amateur", "pro", "legend"):
                 errors.append(f"{tag}: players with clues need a tier: easy, amateur, pro or legend")
             elif any(norm(p["name"]["en"]) in norm(c["en"]) for c in cl):
                 errors.append(f"{tag}: a clue gives away the player's name")
+            else:
+                for club in p.get("clubs", []):
+                    hits = sum(1 for c in cl if re.search(r"(?<!\w)" + re.escape(club) + r"(?!\w)", c["en"]))
+                    if hits > 1:
+                        errors.append(f"{tag}: club '{club}' is named in {hits} clues — mention a club at most once")
         if norm(p["name"]["en"]) in seen:
             errors.append(f"{tag}: duplicate player {p['name']['en']}")
         seen.add(norm(p["name"]["en"]))

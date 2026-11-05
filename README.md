@@ -53,11 +53,13 @@ then open http://localhost:8000 (needs internet for the PeerJS relay, fonts and 
 - `data/clubs.json` — club name → crest image URL (from TheSportsDB). Run `python tools/fetch_club_logos.py` after adding clubs; clubs without a crest show their initials.
 - `data/players.json` — players (nation code, position GK/DF/MF/FW, birth year, English club names) plus the `nations` table. Players with a `clues` list appear in Who's the Player?, grouped by `tier`: `easy`, `amateur`, `pro` or `legend`. Each has exactly 6 first-person clues ({en, ar}) on this ladder:
   1. almost no information ("I was born in the 1980s and spent most of my career in Europe.")
-  2. three teammates ("I played alongside Ángel Di María, Carlos Tevez and Carles Puyol.")
+  2. six or seven teammates across his clubs and national team ("I played alongside Xavi, Neymar, Kylian Mbappé, Jordi Alba, Sergio Agüero, Javier Mascherano and Rodrigo De Paul.")
   3. a fact that fits roughly 10–20 players
   4. roughly 5–8 players
   5. roughly 4–6 players
   6. one to three players (the giveaway)
+
+  Clues 3–6 are built on trophies and honours, talk around club names, and never name the same club twice.
 
 Add `aliases` to help the answer matcher (it already ignores accents, Arabic hamza/taa-marbuta variants, "ال", and small typos). Run the validator before committing:
 

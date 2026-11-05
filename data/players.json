@@ -165,12 +165,12 @@
           "ar": "اتولدت في الثمانينات وقضيت أغلب مسيرتي في أوروبا."
         },
         {
-          "en": "I played alongside Ángel Di María, Carlos Tevez and Carles Puyol.",
-          "ar": "لعبت جنب أنخيل دي ماريا وكارلوس تيفيز وكارليس بويول."
+          "en": "I played alongside Xavi, Neymar, Kylian Mbappé, Jordi Alba, Sergio Agüero, Javier Mascherano and Rodrigo De Paul.",
+          "ar": "لعبت جنب تشافي ونيمار وكيليان مبابي وجوردي ألبا وسيرجيو أجويرو وخافيير ماسكيرانو ورودريجو دي بول."
         },
         {
-          "en": "I won the Champions League with Barcelona and I'm a World Cup winner.",
-          "ar": "كسبت دوري الأبطال مع برشلونة وكسبت كأس العالم."
+          "en": "I've won the league in both Spain and France.",
+          "ar": "كسبت الدوري في إسبانيا وفي فرنسا."
         },
         {
           "en": "I've won the World Cup, the Champions League and the Ballon d'Or.",
@@ -215,20 +215,20 @@
           "ar": "اتولدت في الثمانينات ولعبت في كذا دوري أوروبي."
         },
         {
-          "en": "I played alongside Pepe, Patrice Evra and Karim Benzema.",
-          "ar": "لعبت جنب بيبي وباتريس إيفرا وكريم بنزيما."
+          "en": "I played alongside Wayne Rooney, Karim Benzema, Paulo Dybala, Pepe, Sadio Mané, Bruno Fernandes and Luka Modrić.",
+          "ar": "لعبت جنب واين روني وكريم بنزيما وباولو ديبالا وبيبي وساديو ماني وبرونو فيرنانديز ولوكا مودريتش."
         },
         {
-          "en": "I've won both the Premier League and La Liga.",
-          "ar": "كسبت الدوري الإنجليزي والدوري الإسباني."
+          "en": "I've won the league in both England and Spain.",
+          "ar": "كسبت الدوري في إنجلترا وفي إسبانيا."
         },
         {
           "en": "I've won both the Ballon d'Or and the European Championship.",
           "ar": "كسبت الكرة الذهبية وكسبت بطولة أمم أوروبا."
         },
         {
-          "en": "I won the Ballon d'Or while playing for Manchester United.",
-          "ar": "كسبت الكرة الذهبية وأنا لاعب في مانشستر يونايتد."
+          "en": "I won the Ballon d'Or while playing in England.",
+          "ar": "كسبت الكرة الذهبية وأنا بلعب في إنجلترا."
         },
         {
           "en": "I'm the all-time top scorer in Champions League history.",
@@ -260,28 +260,28 @@
       ],
       "clues": [
         {
-          "en": "I was born in the 1990s and I've played club football in four countries.",
-          "ar": "اتولدت في التسعينات ولعبت لأندية في ٤ دول."
+          "en": "I was born in the 1990s and I've played club football in five countries.",
+          "ar": "اتولدت في التسعينات ولعبت لأندية في ٥ دول."
         },
         {
-          "en": "I played alongside Ahmed Hegazi, Xherdan Shaqiri and Edin Džeko.",
-          "ar": "لعبت جنب أحمد حجازي وجيردان شاكيري وإدين دجيكو."
+          "en": "I played alongside Virgil van Dijk, Xherdan Shaqiri, Edin Džeko, Ahmed Hegazi, Mohamed Elneny, Sadio Mané and Trézéguet.",
+          "ar": "لعبت جنب فيرجيل فان دايك وجيردان شاكيري وإدين دجيكو وأحمد حجازي ومحمد النني وساديو ماني وتريزيجيه."
         },
         {
-          "en": "I'm an African player who has won the Premier League.",
+          "en": "I'm an African player who has won the English league.",
           "ar": "أنا لاعب أفريقي كسب الدوري الإنجليزي."
         },
         {
-          "en": "I've been named PFA Player of the Year more than once.",
-          "ar": "اتختارت أحسن لاعب في إنجلترا (PFA) أكتر من مرة."
+          "en": "I've been voted England's players' Player of the Year more than once.",
+          "ar": "اتختارت أحسن لاعب في إنجلترا من اللاعبين أكتر من مرة."
         },
         {
-          "en": "I've won the Premier League Golden Boot at least three times.",
-          "ar": "كسبت الحذاء الذهبي للدوري الإنجليزي ٣ مرات على الأقل."
+          "en": "I've finished as the English top flight's top scorer at least three times.",
+          "ar": "خلصت هداف الدوري الإنجليزي ٣ مرات على الأقل."
         },
         {
-          "en": "I'm Egypt's star forward, and Anfield crowned me the Egyptian King.",
-          "ar": "أنا نجم هجوم منتخب مصر، وجماهير أنفيلد سمّتني الملك المصري."
+          "en": "They crowned me the Egyptian King on Merseyside before I moved to Turkey in 2026.",
+          "ar": "اتسميت الملك المصري في ميرسيسايد قبل ما أنتقل لتركيا سنة ٢٠٢٦."
         }
       ],
       "tier": "easy"
@@ -345,15 +345,15 @@
           "ar": "اتولدت في الألفينات وبلعب مهاجم."
         },
         {
-          "en": "I played alongside Takumi Minamino, Jude Bellingham and Martin Ødegaard.",
-          "ar": "لعبت جنب تاكومي مينامينو وجود بيلينجهام ومارتن أوديجارد."
+          "en": "I played alongside Takumi Minamino, Jude Bellingham, Martin Ødegaard, Kevin De Bruyne, Jadon Sancho, Dominik Szoboszlai and Alexander Sørloth.",
+          "ar": "لعبت جنب تاكومي مينامينو وجود بيلينجهام ومارتن أوديجارد وكيفين دي بروين وجادون سانشو ودومينيك سوبوسلاي وألكسندر سورلوث."
         },
         {
-          "en": "I've won the Premier League Golden Boot.",
-          "ar": "كسبت الحذاء الذهبي للدوري الإنجليزي."
+          "en": "I've finished as the English top flight's top scorer.",
+          "ar": "خلصت هداف الدوري الإنجليزي."
         },
         {
-          "en": "I've scored 30 or more goals in a single Premier League season.",
+          "en": "I've scored 30 or more goals in a single English top-flight season.",
           "ar": "جبت ٣٠ جول أو أكتر في موسم واحد في الدوري الإنجليزي."
         },
         {
@@ -361,8 +361,8 @@
           "ar": "أنا نرويجي وكسبت دوري الأبطال."
         },
         {
-          "en": "I broke the Premier League record with 36 goals in my first season.",
-          "ar": "كسرت رقم الدوري الإنجليزي بـ٣٦ جول في أول موسم ليا."
+          "en": "I broke the English top-flight record with 36 goals in my first season there.",
+          "ar": "كسرت رقم الدوري الإنجليزي بـ٣٦ جول في أول موسم ليا هناك."
         }
       ],
       "tier": "easy"
@@ -431,8 +431,8 @@
           "ar": "اتولدت في الثمانينات وأنا لاعب وسط."
         },
         {
-          "en": "I played alongside Gareth Bale, Ivan Rakitić and Rafael Leão.",
-          "ar": "لعبت جنب جاريث بيل وإيفان راكيتيتش ورافائيل لياو."
+          "en": "I played alongside Gareth Bale, Ivan Rakitić, Toni Kroos, Mario Mandžukić, Rafael Leão, Eduardo da Silva and Casemiro.",
+          "ar": "لعبت جنب جاريث بيل وإيفان راكيتيتش وتوني كروس وماريو ماندزوكيتش ورافائيل لياو وإدواردو دا سيلفا وكاسيميرو."
         },
         {
           "en": "I've won the Champions League at least five times.",
@@ -443,7 +443,7 @@
           "ar": "كسبت دوري الأبطال ٦ مرات."
         },
         {
-          "en": "I've won both the World Cup Golden Ball and the Ballon d'Or.",
+          "en": "I've won both the World Cup's best-player award and the Ballon d'Or.",
           "ar": "كسبت جايزة أحسن لاعب في كأس العالم والكرة الذهبية."
         },
         {
@@ -523,24 +523,24 @@
           "ar": "اتولدت في أوائل الثمانينات وأنا مهاجم طويل."
         },
         {
-          "en": "I played alongside Pavel Nedvěd, Thiago Silva and Paul Pogba.",
-          "ar": "لعبت جنب بافيل نيدفيد وتياجو سيلفا وبول بوجبا."
+          "en": "I played alongside Pavel Nedvěd, Thiago Silva, Paul Pogba, Lionel Messi, Maicon, Henrik Larsson and Rafael Leão.",
+          "ar": "لعبت جنب بافيل نيدفيد وتياجو سيلفا وبول بوجبا وليونيل ميسي ومايكون وهنريك لارسون ورافائيل لياو."
         },
         {
           "en": "I've won league titles in four different countries.",
           "ar": "كسبت الدوري في ٤ دول مختلفة."
         },
         {
-          "en": "I played for Juventus, Inter and AC Milan.",
-          "ar": "لعبت ليوفنتوس وإنتر وميلان."
+          "en": "I'm a Scandinavian who has won the Italian league.",
+          "ar": "أنا إسكندنافي كسب الدوري الإيطالي."
         },
         {
-          "en": "I'm a Scandinavian player who has won Serie A.",
-          "ar": "أنا لاعب إسكندنافي كسب الدوري الإيطالي."
+          "en": "I've won the league in the Netherlands, Italy, Spain and France.",
+          "ar": "كسبت الدوري في هولندا وإيطاليا وإسبانيا وفرنسا."
         },
         {
-          "en": "I'm Sweden's all-time top scorer and scored a 30-metre bicycle kick against England.",
-          "ar": "أنا الهداف التاريخي للسويد وجبت مقصية من ٣٠ متر في إنجلترا."
+          "en": "I'm Sweden's all-time top scorer and my 30-metre overhead kick won the Puskás Award.",
+          "ar": "أنا الهداف التاريخي للسويد ومقصيتي من ٣٠ متر كسبت جايزة بوشكاش."
         }
       ],
       "tier": "amateur"
@@ -730,24 +730,24 @@
           "ar": "اتولدت في أوائل التسعينات في فرنسا."
         },
         {
-          "en": "I played alongside Jamie Vardy, Kevin De Bruyne and Ivan Toney.",
-          "ar": "لعبت جنب جيمي فاردي وكيفين دي بروين وإيفان توني."
+          "en": "I played alongside Jamie Vardy, Kevin De Bruyne, Ivan Toney, N'Golo Kanté, Islam Slimani, İlkay Gündoğan and Roberto Firmino.",
+          "ar": "لعبت جنب جيمي فاردي وكيفين دي بروين وإيفان توني ونجولو كانتي وإسلام سليماني وإلكاي جوندوجان وروبرتو فيرمينو."
         },
         {
-          "en": "I've won the Premier League with two different clubs.",
+          "en": "I've won the English league with two different clubs.",
           "ar": "كسبت الدوري الإنجليزي مع ناديين مختلفين."
         },
         {
-          "en": "I captained an Arab national team to the Africa Cup of Nations title.",
-          "ar": "كنت كابتن منتخب عربي كسب أمم أفريقيا."
+          "en": "I captained an Arab nation to the African title.",
+          "ar": "كنت كابتن منتخب عربي كسب بطولة أفريقيا."
         },
         {
-          "en": "I'm an Arab player who has won the Premier League.",
+          "en": "I'm an Arab player who has won the English league.",
           "ar": "أنا لاعب عربي كسب الدوري الإنجليزي."
         },
         {
-          "en": "I was PFA Player of the Year when Leicester won the league as 5000–1 outsiders.",
-          "ar": "كنت أحسن لاعب في إنجلترا لما ليستر كسب الدوري واحتماله كان ١ من ٥٠٠٠."
+          "en": "I was England's players' Player of the Year when my unfancied Midlands club won the title at 5000–1.",
+          "ar": "كنت أحسن لاعب في إنجلترا لما نادي من الميدلاندز كسب الدوري واحتماله كان ١ من ٥٠٠٠."
         }
       ],
       "tier": "amateur"
@@ -798,24 +798,24 @@
           "ar": "اتولدت في السبعينات جنب باريس."
         },
         {
-          "en": "I played alongside Robert Pires, Samuel Eto'o and Juan Pablo Ángel.",
-          "ar": "لعبت جنب روبير بيريس وصامويل إيتو وخوان بابلو آنخيل."
+          "en": "I played alongside Robert Pires, Samuel Eto'o, Zinedine Zidane, Patrick Vieira, Dennis Bergkamp, Rafael Márquez and Juan Pablo Ángel.",
+          "ar": "لعبت جنب روبير بيريس وصامويل إيتو وزين الدين زيدان وباتريك فييرا ودينيس بيركامب ورافائيل ماركيز وخوان بابلو آنخيل."
         },
         {
           "en": "I've won the World Cup, the European Championship and the Champions League.",
           "ar": "كسبت كأس العالم وأمم أوروبا ودوري الأبطال."
         },
         {
-          "en": "I'm French and I've won the World Cup, the Euros and the Champions League.",
-          "ar": "أنا فرنساوي وكسبت كأس العالم وأمم أوروبا ودوري الأبطال."
+          "en": "I'm French and I've won all three: World Cup, Euros and Champions League.",
+          "ar": "أنا فرنساوي وكسبت التلاتة: كأس العالم وأمم أوروبا ودوري الأبطال."
         },
         {
-          "en": "I've won the Premier League Golden Boot at least three times.",
-          "ar": "كسبت الحذاء الذهبي للدوري الإنجليزي ٣ مرات على الأقل."
+          "en": "I've finished as the English top flight's top scorer at least three times.",
+          "ar": "خلصت هداف الدوري الإنجليزي ٣ مرات على الأقل."
         },
         {
-          "en": "I'm Arsenal's all-time top scorer and have a statue outside the Emirates.",
-          "ar": "أنا الهداف التاريخي لأرسنال وليا تمثال قدام الإمارات."
+          "en": "I'm my North London club's all-time top scorer, and they built me a statue.",
+          "ar": "أنا الهداف التاريخي لنادي في شمال لندن، وعملولي تمثال."
         }
       ],
       "tier": "amateur"
@@ -845,12 +845,12 @@
           "ar": "اتولدت في السبعينات وكنت لاعب وسط."
         },
         {
-          "en": "I played alongside Alessandro Del Piero, Raúl and Thierry Henry.",
-          "ar": "لعبت جنب أليساندرو ديل بييرو وراؤول وتييري هنري."
+          "en": "I played alongside Alessandro Del Piero, Raúl, Thierry Henry, Didier Deschamps, Luís Figo, Edgar Davids and Christophe Dugarry.",
+          "ar": "لعبت جنب أليساندرو ديل بييرو وراؤول وتييري هنري وديدييه ديشامب ولويس فيجو وإدجار ديفيدز وكريستوف دوجاري."
         },
         {
-          "en": "I won the 1998 World Cup and Euro 2000.",
-          "ar": "كسبت كأس العالم ١٩٩٨ ويورو ٢٠٠٠."
+          "en": "I won a World Cup on home soil and the European title two years later.",
+          "ar": "كسبت كأس العالم على أرضي وبعدها بسنتين كسبت بطولة أوروبا."
         },
         {
           "en": "I've won the World Cup, the Champions League and the Ballon d'Or.",
@@ -861,7 +861,7 @@
           "ar": "جبت جولين على الأقل في نهائي كأس عالم."
         },
         {
-          "en": "As a coach I won three Champions League titles in a row — fans call me Zizou.",
+          "en": "As a coach I won three European Cups in a row — fans call me Zizou.",
           "ar": "كمدرب كسبت دوري الأبطال ٣ مرات ورا بعض — والجماهير بتقولي زيزو."
         }
       ],
@@ -892,12 +892,12 @@
           "ar": "اتولدت سنة ١٩٨٠ وأنا مهاجم."
         },
         {
-          "en": "I played alongside Deco, Jay-Jay Okocha and Clarence Seedorf.",
-          "ar": "لعبت جنب ديكو وجاي جاي أوكوتشا وكلارنس سيدورف."
+          "en": "I played alongside Deco, Jay-Jay Okocha, Clarence Seedorf, Samuel Eto'o, Kaká, Rivaldo and Lionel Messi.",
+          "ar": "لعبت جنب ديكو وجاي جاي أوكوتشا وكلارنس سيدورف وصامويل إيتو وكاكا وريفالدو وليونيل ميسي."
         },
         {
-          "en": "I won the 2002 World Cup.",
-          "ar": "كسبت كأس العالم ٢٠٠٢."
+          "en": "I've won both the Copa América and the World Cup.",
+          "ar": "كسبت كوبا أمريكا وكأس العالم."
         },
         {
           "en": "I've won the World Cup, the Champions League and the Ballon d'Or.",
@@ -908,8 +908,8 @@
           "ar": "أنا برازيلي كسب الكرة الذهبية."
         },
         {
-          "en": "Real Madrid fans gave me a standing ovation at the Bernabéu while I played for Barcelona.",
-          "ar": "جماهير ريال مدريد صقفتلي واقفين في البرنابيو وأنا لاعب في برشلونة."
+          "en": "The Bernabéu crowd once stood to applaud me while I wore their great rival's shirt.",
+          "ar": "جماهير البرنابيو وقفت تصقفلي وأنا لابس تيشيرت الغريم."
         }
       ],
       "tier": "easy"
@@ -937,16 +937,16 @@
           "ar": "اتولدت في أوائل الثمانينات في عاصمة."
         },
         {
-          "en": "I played alongside Andrea Pirlo, Cristiano Ronaldo and Adriano.",
-          "ar": "لعبت جنب أندريا بيرلو وكريستيانو رونالدو وأدريانو."
+          "en": "I played alongside Andrea Pirlo, Cristiano Ronaldo, Adriano, Paolo Maldini, Ronaldinho, Andriy Shevchenko and Clarence Seedorf.",
+          "ar": "لعبت جنب أندريا بيرلو وكريستيانو رونالدو وأدريانو وباولو مالديني ورونالدينيو وأندريه شيفتشينكو وكلارنس سيدورف."
         },
         {
           "en": "I won the 2002 World Cup.",
           "ar": "كسبت كأس العالم ٢٠٠٢."
         },
         {
-          "en": "I'm Brazilian and won the Champions League with AC Milan.",
-          "ar": "أنا برازيلي وكسبت دوري الأبطال مع ميلان."
+          "en": "I'm Brazilian and won the Champions League with an Italian club.",
+          "ar": "أنا برازيلي وكسبت دوري الأبطال مع نادي إيطالي."
         },
         {
           "en": "I'm a Brazilian Ballon d'Or winner.",
@@ -987,24 +987,24 @@
           "ar": "اتولدت في السبعينات وانتقلت لفرنسا وأنا صغير."
         },
         {
-          "en": "I played alongside Frank Lampard, Wesley Sneijder and Yaya Touré.",
-          "ar": "لعبت جنب فرانك لامبارد وويسلي شنايدر ويايا توريه."
+          "en": "I played alongside Frank Lampard, Wesley Sneijder, Yaya Touré, Kolo Touré, John Terry, Didier Zokora and Fernando Torres.",
+          "ar": "لعبت جنب فرانك لامبارد وويسلي شنايدر ويايا توريه وكولو توريه وجون تيري وديدييه زوكورا وفرناندو توريس."
         },
         {
-          "en": "I've won the Champions League and played in MLS.",
-          "ar": "كسبت دوري الأبطال ولعبت في الدوري الأمريكي."
+          "en": "I've won the Champions League and played in North America.",
+          "ar": "كسبت دوري الأبطال ولعبت في أمريكا الشمالية."
         },
         {
-          "en": "I've won the African Player of the Year award at least twice.",
-          "ar": "كسبت جايزة أحسن لاعب أفريقي مرتين على الأقل."
+          "en": "I've been crowned African Player of the Year at least twice.",
+          "ar": "اتختارت أحسن لاعب في أفريقيا مرتين على الأقل."
         },
         {
-          "en": "I'm an African who scored in a Champions League final for an English club.",
-          "ar": "أنا لاعب أفريقي جاب جول في نهائي دوري الأبطال مع نادي إنجليزي."
+          "en": "I'm an African who scored in a European Cup final for an English club.",
+          "ar": "أنا أفريقي وجبت جول في نهائي دوري الأبطال مع نادي إنجليزي."
         },
         {
-          "en": "My late header and winning penalty won Chelsea the 2012 Champions League.",
-          "ar": "جول بالراس في الآخر وضربة الجزاء الحاسمة مني كسبوا تشيلسي دوري الأبطال ٢٠١٢."
+          "en": "My late header and winning penalty decided the 2012 Champions League final.",
+          "ar": "جول بالراس في الآخر وضربة الجزاء الحاسمة مني حسموا نهائي دوري الأبطال ٢٠١٢."
         }
       ],
       "tier": "amateur"
@@ -1034,24 +1034,24 @@
           "ar": "اتولدت في السبعينات ولعبت تقريبًا مسيرتي كلها في بلد واحد."
         },
         {
-          "en": "I played alongside Mohamed Barakat, Wael Gomaa and Flávio.",
-          "ar": "لعبت جنب محمد بركات ووائل جمعة وفلافيو."
+          "en": "I played alongside Mohamed Barakat, Wael Gomaa, Flávio, Essam El-Hadary, Ahmed Hassan, Emad Moteab and Hossam Ghaly.",
+          "ar": "لعبت جنب محمد بركات ووائل جمعة وفلافيو وعصام الحضري وأحمد حسن وعماد متعب وحسام غالي."
         },
         {
-          "en": "I won the Africa Cup of Nations in both 2006 and 2008.",
+          "en": "I won the African Nations Cup in both 2006 and 2008.",
           "ar": "كسبت أمم أفريقيا ٢٠٠٦ و٢٠٠٨."
         },
         {
-          "en": "I've won the African Champions League at least five times.",
+          "en": "I've won Africa's club championship at least five times.",
           "ar": "كسبت دوري أبطال أفريقيا ٥ مرات على الأقل."
         },
         {
-          "en": "I scored the only goal of an Africa Cup of Nations final.",
+          "en": "I scored the only goal of an African Nations Cup final.",
           "ar": "جبت الجول الوحيد في نهائي أمم أفريقيا."
         },
         {
-          "en": "Al Ahly fans call me 'the Magician' and I showed a Gaza shirt at AFCON 2008.",
-          "ar": "جماهير الأهلي بتقولي الساحر ورفعت تيشيرت غزة في أمم أفريقيا ٢٠٠٨."
+          "en": "Fans in red call me 'the Magician', and I revealed a Gaza message at AFCON 2008.",
+          "ar": "الجماهير الحمرا بتقولي الساحر، وكشفت رسالة لغزة في أمم أفريقيا ٢٠٠٨."
         }
       ],
       "tier": "amateur"
@@ -1080,23 +1080,23 @@
           "ar": "اتولدت في أواخر التسعينات وبلعب في الدفاع."
         },
         {
-          "en": "I played alongside Jadon Sancho, Romelu Lukaku and Kylian Mbappé.",
-          "ar": "لعبت جنب جادون سانشو وروميلو لوكاكو وكيليان مبابي."
+          "en": "I played alongside Jadon Sancho, Romelu Lukaku, Kylian Mbappé, Hakim Ziyech, Yassine Bounou, Marco Reus and Ousmane Dembélé.",
+          "ar": "لعبت جنب جادون سانشو وروميلو لوكاكو وكيليان مبابي وحكيم زياش وياسين بونو وماركو رويس وعثمان ديمبيلي."
         },
         {
-          "en": "I'm an African player who has won the Champions League.",
+          "en": "I'm an African player who has won the European Cup.",
           "ar": "أنا لاعب أفريقي كسب دوري أبطال أوروبا."
         },
         {
-          "en": "I've won league titles in both Italy and France.",
+          "en": "I've won the league in both Italy and France.",
           "ar": "كسبت الدوري في إيطاليا وفي فرنسا."
         },
         {
-          "en": "I'm a defender who scored in a Champions League final.",
+          "en": "I'm a defender who scored in a European Cup final.",
           "ar": "أنا مدافع وجبت جول في نهائي دوري الأبطال."
         },
         {
-          "en": "My Panenka penalty knocked Spain out of the 2022 World Cup.",
+          "en": "My chipped penalty knocked Spain out of the 2022 World Cup.",
           "ar": "ضربة جزاء بانينكا مني خرجت إسبانيا من كأس العالم ٢٠٢٢."
         }
       ],
@@ -1460,20 +1460,20 @@
           "ar": "اتولدت في التسعينات في غرب أفريقيا."
         },
         {
-          "en": "I played alongside Takumi Minamino, Thomas Müller and Kalidou Koulibaly.",
-          "ar": "لعبت جنب تاكومي مينامينو وتوماس مولر وكاليدو كوليبالي."
+          "en": "I played alongside Takumi Minamino, Thomas Müller, Kalidou Koulibaly, Cristiano Ronaldo, Mohamed Salah, Virgil van Dijk and Idrissa Gueye.",
+          "ar": "لعبت جنب تاكومي مينامينو وتوماس مولر وكاليدو كوليبالي وكريستيانو رونالدو ومحمد صلاح وفيرجيل فان دايك وإدريسا جاي."
         },
         {
-          "en": "I'm an African player who has won the Premier League.",
+          "en": "I'm an African player who has won the English league.",
           "ar": "أنا لاعب أفريقي كسب الدوري الإنجليزي."
         },
         {
-          "en": "I've won the African Player of the Year award at least twice.",
-          "ar": "كسبت جايزة أحسن لاعب أفريقي مرتين على الأقل."
+          "en": "I've been crowned African Player of the Year at least twice.",
+          "ar": "اتختارت أحسن لاعب في أفريقيا مرتين على الأقل."
         },
         {
-          "en": "I've won both the Africa Cup of Nations and the Champions League.",
-          "ar": "كسبت أمم أفريقيا ودوري أبطال أوروبا."
+          "en": "I've won both the African title and the European Cup.",
+          "ar": "كسبت بطولة أفريقيا ودوري أبطال أوروبا."
         },
         {
           "en": "I scored the winning penalty in the 2022 AFCON final shootout.",
@@ -1609,15 +1609,15 @@
           "ar": "اتولدت سنة ١٩٨١ واتربيت في الناحية الشرقية من الستار الحديدي."
         },
         {
-          "en": "I played alongside Michael Ballack, Robbie Keane and Martin Petrov.",
-          "ar": "لعبت جنب مايكل بالاك وروبي كين ومارتن بيتروف."
+          "en": "I played alongside Michael Ballack, Robbie Keane, Martin Petrov, Cristiano Ronaldo, Wayne Rooney, Clint Dempsey and Stiliyan Petrov.",
+          "ar": "لعبت جنب مايكل بالاك وروبي كين ومارتن بيتروف وكريستيانو رونالدو وواين روني وكلينت ديمبسي وستيليان بيتروف."
         },
         {
-          "en": "I've finished a Premier League season as its top scorer.",
-          "ar": "خلصت موسم في الدوري الإنجليزي وأنا هدافه."
+          "en": "I've finished as the English top flight's top scorer.",
+          "ar": "خلصت هداف الدوري الإنجليزي."
         },
         {
-          "en": "I once scored five times in a single Premier League afternoon.",
+          "en": "I once scored five times in a single English top-flight match.",
           "ar": "جبت ٥ أجوان في ماتش واحد في الدوري الإنجليزي."
         },
         {
@@ -1625,8 +1625,8 @@
           "ar": "اللي قاسمني الحذاء الذهبي كان زميلي — قبل ما يعدّي للناحية التانية من المدينة."
         },
         {
-          "en": "I left White Hart Lane for Old Trafford on deadline day, and finished my career in India.",
-          "ar": "سبت وايت هارت لين لأولد ترافورد في آخر يوم انتقالات، وختمت مسيرتي في الهند."
+          "en": "I finished my career in India after playing in Germany, England, France and Greece.",
+          "ar": "ختمت مسيرتي في الهند بعد ما لعبت في ألمانيا وإنجلترا وفرنسا واليونان."
         }
       ]
     },
@@ -1661,12 +1661,12 @@
           "ar": "اتولدت في أواخر السبعينات، ابن وحفيد ناس عاشوا للكورة."
         },
         {
-          "en": "I played alongside Ruud van Nistelrooy, Sergio Agüero and Luis Suárez.",
-          "ar": "لعبت جنب رود فان نيستلروي وسيرجيو أجويرو ولويس سواريز."
+          "en": "I played alongside Ruud van Nistelrooy, Sergio Agüero, Luis Suárez, Juan Román Riquelme, Wesley Sneijder and Edinson Cavani.",
+          "ar": "لعبت جنب رود فان نيستلروي وسيرجيو أجويرو ولويس سواريز وخوان رومان ريكيلمي وويسلي شنايدر وإدينسون كافاني."
         },
         {
-          "en": "I've finished a season as the top league scorer in all of Europe.",
-          "ar": "خلصت موسم وأنا هداف الدوريات الأوروبية كلها."
+          "en": "I've been the top league scorer in all of Europe.",
+          "ar": "كنت هداف الدوريات الأوروبية كلها."
         },
         {
           "en": "I've won Europe's Golden Shoe twice.",
@@ -1677,8 +1677,8 @@
           "ar": "جبت الجولين في نهائي أوروبي راح للوقت الإضافي."
         },
         {
-          "en": "I was voted the best player of the 2010 World Cup, though my team finished fourth.",
-          "ar": "اتختارت أحسن لاعب في كأس العالم ٢٠١٠ مع إن فريقي جه رابع."
+          "en": "I was voted best player of the 2010 World Cup, where we finished fourth — and in 2026 I took charge of my national team.",
+          "ar": "اتختارت أحسن لاعب في كأس العالم ٢٠١٠ وإحنا جينا رابع — وسنة ٢٠٢٦ بقيت مدرب منتخب بلدي."
         }
       ]
     },
@@ -1715,11 +1715,11 @@
           "ar": "اتولدت في القاهرة في أوائل الثمانينات وكنت بلعب في أوروبا قبل ما أكمل ١٨ سنة."
         },
         {
-          "en": "I played alongside Zlatan Ibrahimović, Didier Drogba and Robbie Keane.",
-          "ar": "لعبت جنب زلاتان إبراهيموفيتش وديدييه دروجبا وروبي كين."
+          "en": "I played alongside Zlatan Ibrahimović, Didier Drogba, Robbie Keane, Francesco Totti, Rafael van der Vaart, Mohamed Aboutrika and Jermain Defoe.",
+          "ar": "لعبت جنب زلاتان إبراهيموفيتش وديدييه دروجبا وروبي كين وفرانشيسكو توتي ورافائيل فان دير فارت ومحمد أبو تريكة وجيرمين ديفو."
         },
         {
-          "en": "I'm an Egyptian who has played in the Premier League.",
+          "en": "I'm an Egyptian who has played in the English top flight.",
           "ar": "أنا مصري لعب في الدوري الإنجليزي."
         },
         {
@@ -1727,12 +1727,12 @@
           "ar": "لعبت في الدوري الإسباني والفرنسي والإيطالي والإنجليزي."
         },
         {
-          "en": "Before my 22nd birthday I'd played club football in five European countries.",
-          "ar": "قبل ما أكمل ٢٢ سنة كنت لعبت لأندية في ٥ دول أوروبية."
+          "en": "As a teenager I won the Dutch league and cup double.",
+          "ar": "وأنا مراهق كسبت الدوري والكاس في هولندا."
         },
         {
-          "en": "A touchline row with Hassan Shehata in an AFCON semi-final got me suspended — years later I coached Zamalek.",
-          "ar": "خناقة على الخط مع حسن شحاتة في نص نهائي أمم أفريقيا خلتني اتوقفت — وبعدها بسنين دربت الزمالك."
+          "en": "A touchline row with Hassan Shehata in an AFCON semi-final got me suspended — years later I coached the Cairo club where I started.",
+          "ar": "خناقة على الخط مع حسن شحاتة في نص نهائي أمم أفريقيا خلتني اتوقفت — وبعدها بسنين دربت النادي اللي بدأت فيه في القاهرة."
         }
       ]
     },
@@ -1761,20 +1761,20 @@
           "ar": "اتولدت في نص الثمانينات وقضيت تقريبًا مسيرتي كلها في بلدي."
         },
         {
-          "en": "I played alongside Emad Moteab, Ahmed Hassan and Essam El-Hadary.",
-          "ar": "لعبت جنب عماد متعب وأحمد حسن وعصام الحضري."
+          "en": "I played alongside Emad Moteab, Ahmed Hassan, Essam El-Hadary, Mohamed Aboutrika, Hosny Abd Rabo, Wael Gomaa and Mohamed Zidan.",
+          "ar": "لعبت جنب عماد متعب وأحمد حسن وعصام الحضري ومحمد أبو تريكة وحسني عبد ربه ووائل جمعة ومحمد زيدان."
         },
         {
-          "en": "I won the 2010 Africa Cup of Nations.",
+          "en": "I won the 2010 African Nations Cup.",
           "ar": "كسبت أمم أفريقيا ٢٠١٠."
         },
         {
-          "en": "I scored the only goal of an Africa Cup of Nations final.",
+          "en": "I scored the only goal of an African Nations Cup final.",
           "ar": "جبت الجول الوحيد في نهائي أمم أفريقيا."
         },
         {
-          "en": "I finished as top scorer of an AFCON that my country won.",
-          "ar": "خلصت هداف بطولة أمم أفريقيا كسبها منتخب بلدي."
+          "en": "I finished as top scorer of an African Nations Cup my country won.",
+          "ar": "خلصت هداف أمم أفريقيا اللي كسبها منتخب بلدي."
         },
         {
           "en": "I came off the bench in every game, scored five times and settled the 2010 final against Ghana.",
@@ -1813,15 +1813,15 @@
           "ar": "اتولدت في نص السبعينات في الصعيد."
         },
         {
-          "en": "I played alongside Hossam Hassan, Mbark Boussoufa and Wael Gomaa.",
-          "ar": "لعبت جنب حسام حسن ومبارك بوصوفة ووائل جمعة."
+          "en": "I played alongside Hossam Hassan, Mbark Boussoufa, Wael Gomaa, Nicolás Frutos, Mohamed Aboutrika, Shikabala and Essam El-Hadary.",
+          "ar": "لعبت جنب حسام حسن ومبارك بوصوفة ووائل جمعة ونيكولاس فروتوس ومحمد أبو تريكة وشيكابالا وعصام الحضري."
         },
         {
-          "en": "I spent the best years of my European career in Turkey.",
-          "ar": "أحلى سنين مسيرتي في أوروبا كانت في تركيا."
+          "en": "I've won the Belgian league.",
+          "ar": "كسبت الدوري البلجيكي."
         },
         {
-          "en": "I've won the Africa Cup of Nations at least three times.",
+          "en": "I've won the African Nations Cup at least three times.",
           "ar": "كسبت أمم أفريقيا ٣ مرات على الأقل."
         },
         {
@@ -1829,8 +1829,8 @@
           "ar": "لعبت مع منتخب بلدي أكتر من ١٨٠ ماتش."
         },
         {
-          "en": "I won four AFCONs and was named player of the tournament in 2006 and 2010.",
-          "ar": "كسبت أمم أفريقيا ٤ مرات واتختارت أحسن لاعب في بطولتي ٢٠٠٦ و٢٠١٠."
+          "en": "I won four African Nations Cups and was named best player at two of them.",
+          "ar": "كسبت أمم أفريقيا ٤ مرات واتختارت أحسن لاعب في اتنين منهم."
         }
       ]
     },
@@ -1865,19 +1865,19 @@
           "ar": "اتولدت في أوائل السبعينات في الدلتا."
         },
         {
-          "en": "I played alongside Ahmed Hassan, Mohamed Salah and Mohamed Barakat.",
-          "ar": "لعبت جنب أحمد حسن ومحمد صلاح ومحمد بركات."
+          "en": "I played alongside Ahmed Hassan, Mohamed Salah, Mohamed Barakat, Mohamed Aboutrika, Wael Gomaa, Shikabala and Hossam Ghaly.",
+          "ar": "لعبت جنب أحمد حسن ومحمد صلاح ومحمد بركات ومحمد أبو تريكة ووائل جمعة وشيكابالا وحسام غالي."
         },
         {
-          "en": "I've played for both Al Ahly and Zamalek.",
-          "ar": "لعبت للأهلي وللزمالك."
+          "en": "I've played for both of Cairo's giants.",
+          "ar": "لعبت لقطبين القاهرة الاتنين."
         },
         {
-          "en": "I've won the Africa Cup of Nations at least three times.",
+          "en": "I've won the African Nations Cup at least three times.",
           "ar": "كسبت أمم أفريقيا ٣ مرات على الأقل."
         },
         {
-          "en": "I've won the Africa Cup of Nations four times.",
+          "en": "I've won the African Nations Cup four times.",
           "ar": "كسبت أمم أفريقيا ٤ مرات."
         },
         {
@@ -1914,8 +1914,8 @@
           "ar": "اتولدت على ساحل البحر المتوسط في أوائل الثمانينات، وأهلي سافروا بره وأنا مراهق."
         },
         {
-          "en": "I played alongside Nuri Şahin, Mohamed Aboutrika and Miroslav Klose.",
-          "ar": "لعبت جنب نوري شاهين ومحمد أبو تريكة وميروسلاف كلوزه."
+          "en": "I played alongside Nuri Şahin, Mohamed Aboutrika, Miroslav Klose, Robert Lewandowski, Mats Hummels, Ahmed Hassan and Łukasz Piszczek.",
+          "ar": "لعبت جنب نوري شاهين ومحمد أبو تريكة وميروسلاف كلوزه وروبرت ليفاندوفسكي وماتس هوملز وأحمد حسن ولوكاش بيشتشيك."
         },
         {
           "en": "I began my European career in Scandinavia.",
@@ -1926,12 +1926,12 @@
           "ar": "نفس المدرب جابني لناديين ألمان مختلفين."
         },
         {
-          "en": "I've won both the Africa Cup of Nations and the Bundesliga.",
+          "en": "I've won both the African Nations Cup and the German league.",
           "ar": "كسبت أمم أفريقيا والدوري الألماني."
         },
         {
-          "en": "I was Klopp's Egyptian striker at Dortmund and scored twice against Brazil in 2009.",
-          "ar": "كنت مهاجم كلوب المصري في دورتموند وجبت جولين في البرازيل سنة ٢٠٠٩."
+          "en": "I scored twice against Brazil at the 2009 Confederations Cup.",
+          "ar": "جبت جولين في البرازيل في كأس القارات ٢٠٠٩."
         }
       ]
     },
@@ -1966,11 +1966,11 @@
           "ar": "اتولدت في شمال أفريقيا في أواخر الثمانينات ووصلت أوروبا وأنا عندي ٢٥ سنة تقريبًا."
         },
         {
-          "en": "I played alongside Riyad Mahrez, William Carvalho and Wissam Ben Yedder.",
-          "ar": "لعبت جنب رياض محرز وويليام كارفاليو ووسام بن يدر."
+          "en": "I played alongside Riyad Mahrez, William Carvalho, Wissam Ben Yedder, Jamie Vardy, Memphis Depay, Yacine Brahimi and Wilfried Ndidi.",
+          "ar": "لعبت جنب رياض محرز وويليام كارفاليو ووسام بن يدر وجيمي فاردي وممفيس ديباي وياسين براهيمي وويلفريد نديدي."
         },
         {
-          "en": "I won the 2019 Africa Cup of Nations.",
+          "en": "I won the 2019 African Nations Cup.",
           "ar": "كسبت أمم أفريقيا ٢٠١٩."
         },
         {
@@ -2019,24 +2019,24 @@
           "ar": "اتولدت في غرب أفريقيا في نص الثمانينات ورحت فرنسا وأنا مراهق."
         },
         {
-          "en": "I played alongside Robin van Persie, Gareth Bale and Robinho.",
-          "ar": "لعبت جنب روبن فان بيرسي وجاريث بيل وروبينيو."
+          "en": "I played alongside Robin van Persie, Gareth Bale, Robinho, Cesc Fàbregas, Luka Modrić, Yaya Touré and Cristiano Ronaldo.",
+          "ar": "لعبت جنب روبن فان بيرسي وجاريث بيل وروبينيو وسيسك فابريجاس ولوكا مودريتش ويايا توريه وكريستيانو رونالدو."
         },
         {
-          "en": "I've played for both Arsenal and Tottenham.",
-          "ar": "لعبت لأرسنال ولتوتنهام."
+          "en": "I've been crowned African Player of the Year.",
+          "ar": "اتختارت أحسن لاعب في أفريقيا."
         },
         {
-          "en": "I've played for both Manchester City and Tottenham.",
-          "ar": "لعبت لمانشستر سيتي ولتوتنهام."
+          "en": "I've played for both North London rivals.",
+          "ar": "لعبت للغريمين بتوع شمال لندن."
         },
         {
-          "en": "I've played for Arsenal, Manchester City and Real Madrid.",
-          "ar": "لعبت لأرسنال ومانشستر سيتي وريال مدريد."
+          "en": "I won Spain's domestic cup while on loan from an English club.",
+          "ar": "كسبت كاس ملك إسبانيا وأنا معار من نادي إنجليزي."
         },
         {
-          "en": "After scoring for Manchester City I sprinted the length of the pitch to celebrate in front of Arsenal's fans.",
-          "ar": "بعد ما جبت جول لمانشستر سيتي جريت الملعب كله عشان أحتفل قدام جماهير أرسنال."
+          "en": "After scoring against my old club I sprinted the length of the pitch to celebrate in front of their fans.",
+          "ar": "بعد ما جبت جول في ناديي القديم جريت الملعب كله عشان أحتفل قدام جماهيره."
         }
       ]
     },
@@ -2075,8 +2075,8 @@
           "ar": "اتولدت في عاصمة أوروبية في أواخر الثمانينات."
         },
         {
-          "en": "I played alongside Zlatan Ibrahimović, Luka Jović and Lionel Messi.",
-          "ar": "لعبت جنب زلاتان إبراهيموفيتش ولوكا يوفيتش وليونيل ميسي."
+          "en": "I played alongside Zlatan Ibrahimović, Luka Jović, Lionel Messi, Asamoah Gyan, Sulley Muntari, Ante Rebić and Clarence Seedorf.",
+          "ar": "لعبت جنب زلاتان إبراهيموفيتش ولوكا يوفيتش وليونيل ميسي وأسامواه جيان وسولي مونتاري وأنتي ريبيتش وكلارنس سيدورف."
         },
         {
           "en": "I've played club football in Germany, England, Italy, Spain and Turkey.",
@@ -2087,12 +2087,12 @@
           "ar": "اخترت منتخب غير منتخب أخويا."
         },
         {
-          "en": "I faced my own brother at a World Cup.",
-          "ar": "لعبت قدام أخويا في كأس العالم."
+          "en": "I won the Italian league and, years later, the German Cup.",
+          "ar": "كسبت الدوري الإيطالي وبعدها بسنين كسبت كاس ألمانيا."
         },
         {
-          "en": "I walked off the pitch in protest at racist chants during a Milan friendly in 2013.",
-          "ar": "خرجت من الملعب احتجاجًا على هتافات عنصرية في ماتش ودي لميلان سنة ٢٠١٣."
+          "en": "I faced my own brother at a World Cup, and walked off in protest at racist chants in a 2013 friendly.",
+          "ar": "لعبت قدام أخويا في كأس العالم، وخرجت من الملعب احتجاجًا على العنصرية في ماتش ودي سنة ٢٠١٣."
         }
       ]
     },
@@ -2123,24 +2123,24 @@
           "ar": "اتولدت في جنوب غرب فرنسا في نص الثمانينات."
         },
         {
-          "en": "I played alongside Yoann Gourcuff, Samir Nasri and Wilfried Zaha.",
-          "ar": "لعبت جنب يوان جوركوف وسمير نصري وويلفريد زاها."
+          "en": "I played alongside Yoann Gourcuff, Samir Nasri, Wilfried Zaha, Cesc Fàbregas, Mehdi Benatia, Younès Belhanda and Laurent Koscielny.",
+          "ar": "لعبت جنب يوان جوركوف وسمير نصري وويلفريد زاها وسيسك فابريجاس والمهدي بنعطية ويونس بلهندة ولوران كوسيلني."
         },
         {
-          "en": "I won Ligue 1 with Bordeaux in 2009.",
-          "ar": "كسبت الدوري الفرنسي مع بوردو سنة ٢٠٠٩."
+          "en": "I won the French league in 2009.",
+          "ar": "كسبت الدوري الفرنسي سنة ٢٠٠٩."
         },
         {
-          "en": "I'm a Moroccan who has played in the Premier League.",
+          "en": "I'm a Moroccan who has played in the English top flight.",
           "ar": "أنا مغربي لعب في الدوري الإنجليزي."
         },
         {
-          "en": "I'm a Moroccan who has played for Arsenal.",
-          "ar": "أنا مغربي لعب لأرسنال."
+          "en": "I'm a Moroccan who played for a North London giant.",
+          "ar": "أنا مغربي لعب لنادي كبير في شمال لندن."
         },
         {
-          "en": "I joined Arsenal from Bordeaux on a free transfer in 2010.",
-          "ar": "انضميت لأرسنال من بوردو في انتقال حر سنة ٢٠١٠."
+          "en": "After winning the French title I left on a free in 2010 to join Arsène Wenger.",
+          "ar": "بعد ما كسبت الدوري الفرنسي مشيت في انتقال حر سنة ٢٠١٠ عشان ألعب مع أرسين فينجر."
         }
       ]
     },
@@ -2174,20 +2174,20 @@
           "ar": "اتولدت في أمريكا الجنوبية في أوائل الثمانينات."
         },
         {
-          "en": "I played alongside Michael Ballack, Morten Gamst Pedersen and Nelson Haedo Valdez.",
-          "ar": "لعبت جنب مايكل بالاك ومورتن جامست بيدرسن ونيلسون هايدو فالديز."
+          "en": "I played alongside Michael Ballack, Morten Gamst Pedersen, Nelson Haedo Valdez, Oliver Kahn, Claudio Pizarro, Benni McCarthy and Óscar Cardozo.",
+          "ar": "لعبت جنب مايكل بالاك ومورتن جامست بيدرسن ونيلسون هايدو فالديز وأوليفر كان وكلاوديو بيزارو وبيني مكارثي وأوسكار كاردوزو."
         },
         {
-          "en": "I'm a South American who won several Bundesliga titles with Bayern.",
-          "ar": "أنا لاعب من أمريكا الجنوبية كسب الدوري الألماني كذا مرة مع بايرن."
+          "en": "I'm a South American who won several German league titles.",
+          "ar": "أنا لاعب من أمريكا الجنوبية كسب الدوري الألماني كذا مرة."
         },
         {
-          "en": "I'm Paraguayan and have played in the Premier League.",
+          "en": "I'm Paraguayan and played in the English top flight.",
           "ar": "أنا من باراجواي ولعبت في الدوري الإنجليزي."
         },
         {
-          "en": "I've played for both Blackburn Rovers and Manchester City.",
-          "ar": "لعبت لبلاكبيرن ولمانشستر سيتي."
+          "en": "I lifted the European Cup in 2001 and was still playing in my forties.",
+          "ar": "رفعت كاس دوري الأبطال سنة ٢٠٠١ وكنت لسه بلعب وأنا في الأربعينات."
         },
         {
           "en": "I'm Paraguay's all-time top scorer.",
@@ -2225,16 +2225,16 @@
           "ar": "اتولدت في أمريكا الجنوبية في أوائل الثمانينات، وعمري ما كنت أطول واحد في الملعب."
         },
         {
-          "en": "I played alongside Juan Román Riquelme, Óscar Cardozo and Gonzalo Higuaín.",
-          "ar": "لعبت جنب خوان رومان ريكيلمي وأوسكار كاردوزو وجونزالو هيجواين."
+          "en": "I played alongside Juan Román Riquelme, Óscar Cardozo, Gonzalo Higuaín, Ronaldinho, Pablo Aimar, Carlos Tevez and Frédéric Kanouté.",
+          "ar": "لعبت جنب خوان رومان ريكيلمي وأوسكار كاردوزو وجونزالو هيجواين ورونالدينيو وبابلو أيمار وكارلوس تيفيز وفريدريك كانوتيه."
         },
         {
           "en": "I won Olympic gold in Athens.",
           "ar": "كسبت الدهبية الأولمبية في أثينا."
         },
         {
-          "en": "I've worn the shirts of both giants of Spanish football.",
-          "ar": "لبست تيشيرت قطبين الكورة الإسبانية الاتنين."
+          "en": "I've won the league in both Spain and Portugal.",
+          "ar": "كسبت الدوري في إسبانيا وفي البرتغال."
         },
         {
           "en": "At a youth World Cup I was named both the best player and the top scorer.",
@@ -2275,8 +2275,8 @@
           "ar": "اتولدت في أواخر السبعينات في نص الكرة الجنوبي."
         },
         {
-          "en": "I played alongside Deco, Morten Gamst Pedersen and Steven Pienaar.",
-          "ar": "لعبت جنب ديكو ومورتن جامست بيدرسن وستيفن بينار."
+          "en": "I played alongside Deco, Morten Gamst Pedersen, Steven Pienaar, Ricardo Carvalho, Lucas Radebe, Jari Litmanen and Quinton Fortune.",
+          "ar": "لعبت جنب ديكو ومورتن جامست بيدرسن وستيفن بينار وريكاردو كارفاليو ولوكاس راديبي وياري ليتمانين وكوينتون فورتشن."
         },
         {
           "en": "I lifted Europe's biggest club trophy in 2004 with a side from outside the big leagues.",
@@ -2287,12 +2287,12 @@
           "ar": "أنا الهداف التاريخي لبلدي وبطل أوروبا مع نادي."
         },
         {
-          "en": "I'm the only player from my country to win the Champions League.",
+          "en": "I'm the only player from my country to have won the European Cup.",
           "ar": "أنا اللاعب الوحيد من بلدي اللي كسب دوري أبطال أوروبا."
         },
         {
-          "en": "I scored four times in 13 minutes against Namibia at AFCON 1998, and later coached at Manchester United.",
-          "ar": "جبت ٤ أجوان في ١٣ دقيقة في ناميبيا في أمم أفريقيا ١٩٩٨، وبعدها بقيت مدرب في مانشستر يونايتد."
+          "en": "I scored four times in 13 minutes at AFCON 1998, and later coached at Old Trafford.",
+          "ar": "جبت ٤ أجوان في ١٣ دقيقة في أمم أفريقيا ١٩٩٨، وبعدها بقيت مدرب في أولد ترافورد."
         }
       ],
       "tier": "legend"
