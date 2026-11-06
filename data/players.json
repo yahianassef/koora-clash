@@ -139,6 +139,16 @@
       "en": "South Africa",
       "ar": "جنوب أفريقيا",
       "continent": "africa"
+    },
+    "NGA": {
+      "en": "Nigeria",
+      "ar": "نيجيريا",
+      "continent": "africa"
+    },
+    "TUR": {
+      "en": "Turkey",
+      "ar": "تركيا",
+      "continent": "europe"
     }
   },
   "players": [
@@ -2296,6 +2306,311 @@
         }
       ],
       "tier": "legend"
+    },
+    {
+      "name": {
+        "en": "Frank Lampard",
+        "ar": "فرانك لامبارد"
+      },
+      "aliases": [
+        "lampard",
+        "lamps",
+        "لامبارد"
+      ],
+      "nation": "ENG",
+      "pos": "MF",
+      "born": 1978,
+      "clubs": [
+        "West Ham",
+        "Swansea City",
+        "Chelsea",
+        "Manchester City",
+        "New York City FC"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the late 1970s and spent most of my career in England.",
+          "ar": "اتولدت في أواخر السبعينات ولعبت أغلب مسيرتي في إنجلترا."
+        },
+        {
+          "en": "I played alongside Rio Ferdinand, Paolo Di Canio, Didier Drogba, Michael Essien, Sergio Agüero, David Villa and Steven Gerrard.",
+          "ar": "لعبت جنب ريو فرديناند وباولو دي كانيو وديدييه دروجبا ومايكل إيسيان وسيرجيو أجويرو وديفيد فيا وستيفن جيرارد."
+        },
+        {
+          "en": "I won the English league, the European Cup and the Europa League.",
+          "ar": "كسبت الدوري الإنجليزي ودوري أبطال أوروبا والدوري الأوروبي."
+        },
+        {
+          "en": "I played in the European Cup finals of 2008 and 2012.",
+          "ar": "لعبت نهائي دوري أبطال أوروبا ٢٠٠٨ ونهائي ٢٠١٢."
+        },
+        {
+          "en": "I'm an England international who won the European Cup and the Europa League in back-to-back seasons.",
+          "ar": "أنا لاعب دولي إنجليزي كسبت دوري الأبطال والدوري الأوروبي في موسمين ورا بعض."
+        },
+        {
+          "en": "I'm the highest-scoring midfielder in English top-flight history and my London club's all-time top scorer.",
+          "ar": "أنا أكتر لاعب وسط جاب أجوان في تاريخ الدوري الإنجليزي والهداف التاريخي لنادي اللندني."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Mesut Özil",
+        "ar": "مسعود أوزيل"
+      },
+      "aliases": [
+        "ozil",
+        "özil",
+        "اوزيل",
+        "أوزيل"
+      ],
+      "nation": "GER",
+      "pos": "MF",
+      "born": 1988,
+      "clubs": [
+        "Schalke",
+        "Werder Bremen",
+        "Real Madrid",
+        "Arsenal",
+        "Fenerbahçe",
+        "Başakşehir"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the late 1980s and played club football in four different countries.",
+          "ar": "اتولدت في أواخر التمانينات ولعبت في أندية في ٤ دول مختلفة."
+        },
+        {
+          "en": "I played alongside Kevin Kurányi, Diego, Cristiano Ronaldo, Xabi Alonso, Alexis Sánchez, Pierre-Emerick Aubameyang and Thomas Müller.",
+          "ar": "لعبت جنب كيفن كوراني ودييجو وكريستيانو رونالدو وتشابي ألونسو وأليكسيس سانشيز وبيير إيمريك أوباميانج وتوماس مولر."
+        },
+        {
+          "en": "I've won the league in Spain and the FA Cup in England.",
+          "ar": "كسبت الدوري في إسبانيا وكاس الاتحاد في إنجلترا."
+        },
+        {
+          "en": "I won the World Cup and the FA Cup in the same calendar year.",
+          "ar": "كسبت كاس العالم وكاس الاتحاد الإنجليزي في نفس السنة."
+        },
+        {
+          "en": "I'm a World Cup winner who lifted the FA Cup three times with the same club.",
+          "ar": "أنا بطل كاس عالم ورفعت كاس الاتحاد الإنجليزي ٣ مرات مع نفس النادي."
+        },
+        {
+          "en": "Real Madrid sold me to North London on deadline day in 2013 for a club-record fee.",
+          "ar": "ريال مدريد باعني لنادي في شمال لندن في آخر يوم انتقالات ٢٠١٣ بأغلى صفقة في تاريخه."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Yaya Touré",
+        "ar": "يايا توريه"
+      },
+      "aliases": [
+        "yaya",
+        "toure",
+        "touré",
+        "يايا",
+        "توريه"
+      ],
+      "nation": "CIV",
+      "pos": "MF",
+      "born": 1983,
+      "clubs": [
+        "Beveren",
+        "Metalurh Donetsk",
+        "Olympiacos",
+        "Monaco",
+        "Barcelona",
+        "Manchester City",
+        "Qingdao Huanghai"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the early 1980s and played club football in seven different countries.",
+          "ar": "اتولدت في أوائل التمانينات ولعبت في أندية في ٧ دول مختلفة."
+        },
+        {
+          "en": "I played alongside Rivaldo, Thierry Henry, Lionel Messi, Vincent Kompany, Sergio Agüero, Didier Drogba and Gervinho.",
+          "ar": "لعبت جنب ريفالدو وتييري هنري وليونيل ميسي وفانسان كومباني وسيرجيو أجويرو وديدييه دروجبا وجيرفينيو."
+        },
+        {
+          "en": "I've won league titles in both Spain and England.",
+          "ar": "كسبت الدوري في إسبانيا وفي إنجلترا."
+        },
+        {
+          "en": "I've won both the Africa Cup of Nations and the European Cup.",
+          "ar": "كسبت أمم أفريقيا ودوري أبطال أوروبا."
+        },
+        {
+          "en": "I lifted the Africa Cup of Nations as my country's captain.",
+          "ar": "رفعت كاس أمم أفريقيا وأنا كابتن منتخب بلدي."
+        },
+        {
+          "en": "I was African Footballer of the Year four years running, and my older brother was my teammate in Manchester.",
+          "ar": "كنت أحسن لاعب في أفريقيا ٤ سنين ورا بعض، وأخويا الكبير كان زميلي في مانشستر."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Amr Zaki",
+        "ar": "عمرو زكي"
+      },
+      "aliases": [
+        "zaki",
+        "zaky",
+        "زكي",
+        "البلدوزر"
+      ],
+      "nation": "EGY",
+      "pos": "FW",
+      "born": 1983,
+      "clubs": [
+        "El Mansoura",
+        "ENPPI",
+        "Lokomotiv Moscow",
+        "Zamalek",
+        "Wigan",
+        "Hull City",
+        "Elazığspor",
+        "Al Salmiya",
+        "Raja Casablanca",
+        "Al Mokawloon"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the early 1980s and played most of my football in my home country.",
+          "ar": "اتولدت في أوائل التمانينات ولعبت أغلب الكورة بتاعتي في بلدي."
+        },
+        {
+          "en": "I played alongside Ahmed Hassan, Mohamed Aboutrika, Shikabala, Emile Heskey, Antonio Valencia, Wilson Palacios and Jimmy Bullard.",
+          "ar": "لعبت جنب أحمد حسن ومحمد أبو تريكة وشيكابالا وإيميل هيسكي وأنطونيو فالنسيا وويلسون بالاسيوس وجيمي بولارد."
+        },
+        {
+          "en": "I won the Africa Cup of Nations twice.",
+          "ar": "كسبت أمم أفريقيا مرتين."
+        },
+        {
+          "en": "I'm an Egyptian AFCON winner who played in the English top flight.",
+          "ar": "أنا لاعب مصري كسبت أمم أفريقيا ولعبت في الدوري الإنجليزي الممتاز."
+        },
+        {
+          "en": "On loan from Cairo's White Knights, I scored ten goals in my only full Premier League season.",
+          "ar": "وأنا معار من الفارس الأبيض جبت ١٠ أجوان في موسمي الكامل الوحيد في البريميرليج."
+        },
+        {
+          "en": "They called me 'the Bulldozer'.",
+          "ar": "كانوا بيسموني \"البلدوزر\"."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hakan Şükür",
+        "ar": "هاكان شوكور"
+      },
+      "aliases": [
+        "hakan",
+        "sukur",
+        "şükür",
+        "هاكان",
+        "شوكور"
+      ],
+      "nation": "TUR",
+      "pos": "FW",
+      "born": 1971,
+      "clubs": [
+        "Sakaryaspor",
+        "Bursaspor",
+        "Galatasaray",
+        "Torino",
+        "Inter",
+        "Parma",
+        "Blackburn Rovers"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the early 1970s and spent most of my career in my home country.",
+          "ar": "اتولدت في أوائل السبعينات ولعبت أغلب مسيرتي في بلدي."
+        },
+        {
+          "en": "I played alongside Gheorghe Hagi, Cláudio Taffarel, Rüştü Reçber, Christian Vieri, Javier Zanetti, Damien Duff and Brad Friedel.",
+          "ar": "لعبت جنب جورجي هاجي وكلاوديو تافاريل وروشتو ريتشبير وكريستيان فييري وخافيير زانيتي وداميان داف وبراد فريدل."
+        },
+        {
+          "en": "I won a European club trophy with a Turkish club.",
+          "ar": "كسبت بطولة أوروبية مع نادي تركي."
+        },
+        {
+          "en": "I won a European trophy with my club and finished third at a World Cup.",
+          "ar": "كسبت بطولة أوروبية مع نادي وخدت المركز التالت في كاس العالم."
+        },
+        {
+          "en": "I've played in Serie A and the Premier League and finished third at a World Cup.",
+          "ar": "لعبت في الدوري الإيطالي والدوري الإنجليزي وخدت المركز التالت في كاس العالم."
+        },
+        {
+          "en": "I scored the fastest goal in World Cup history, after 11 seconds.",
+          "ar": "جبت أسرع جون في تاريخ كاس العالم، بعد ١١ ثانية."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Nwankwo Kanu",
+        "ar": "نوانكو كانو"
+      },
+      "aliases": [
+        "kanu",
+        "papilo",
+        "كانو"
+      ],
+      "nation": "NGA",
+      "pos": "FW",
+      "born": 1976,
+      "clubs": [
+        "Iwuanyanwu Nationale",
+        "Ajax",
+        "Inter",
+        "Arsenal",
+        "West Brom",
+        "Portsmouth"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the mid-1970s and spent most of my career in Europe.",
+          "ar": "اتولدت في نص السبعينات ولعبت أغلب مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Patrick Kluivert, Edgar Davids, Youri Djorkaeff, Dennis Bergkamp, Thierry Henry, Jermain Defoe and Jay-Jay Okocha.",
+          "ar": "لعبت جنب باتريك كلويفرت وإدجار دافيدز ويوري دجوركاييف ودينيس بيركامب وتييري هنري وجيرمين ديفو وجاي جاي أوكوتشا."
+        },
+        {
+          "en": "I won the European Cup with a Dutch club.",
+          "ar": "كسبت دوري أبطال أوروبا مع نادي هولندي."
+        },
+        {
+          "en": "I've won Olympic gold and the English league.",
+          "ar": "كسبت ذهبية الأولمبياد والدوري الإنجليزي."
+        },
+        {
+          "en": "I was named African Footballer of the Year twice.",
+          "ar": "اتختارت أحسن لاعب في أفريقيا مرتين."
+        },
+        {
+          "en": "I came back from heart surgery, and my 15-minute hat-trick at Stamford Bridge is North London folklore.",
+          "ar": "رجعت بعد عملية في القلب، والهاتريك بتاعي في ١٥ دقيقة في ستامفورد بريدج بقى أسطورة في شمال لندن."
+        }
+      ]
     }
   ]
 }

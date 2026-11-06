@@ -55,6 +55,20 @@
       "items": [
         "Countries that have won the Africa Cup of Nations"
       ]
+    },
+    {
+      "id": "nameall-2026-11-06-1",
+      "date": "2026-11-06",
+      "items": [
+        "Clubs that have won the Egyptian Premier League"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-06-2",
+      "date": "2026-11-06",
+      "items": [
+        "Countries that have hosted the World Cup"
+      ]
     }
   ],
   "career": [
@@ -94,6 +108,24 @@
         "Andrea Pirlo",
         "Luka Modrić",
         "Thierry Henry"
+      ]
+    },
+    {
+      "id": "career-2026-11-06-1",
+      "date": "2026-11-06",
+      "items": [
+        "Hernán Crespo",
+        "Hossam Ghaly",
+        "Asamoah Gyan"
+      ]
+    },
+    {
+      "id": "career-2026-11-06-2",
+      "date": "2026-11-06",
+      "items": [
+        "Clarence Seedorf",
+        "Ahmed Elmohamady",
+        "Medhi Benatia"
       ]
     }
   ],
@@ -185,6 +217,44 @@
         "Who managed Egypt to three AFCON titles in a row (2006–2010)?"
       ],
       "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-06-1",
+      "date": "2026-11-06",
+      "items": [
+        "Who scored Egypt's winner in the 2010 AFCON final against Ghana?",
+        "Who scored twice for AC Milan in the 2005 Champions League final?",
+        "Al Ahly beat which club in the 2005 CAF Champions League final?",
+        "Who scored Saudi Arabia's winner against Argentina at the 2022 World Cup?",
+        "Which club won Serie A in 1999–2000?",
+        "Who was the top scorer of the 2008 Africa Cup of Nations?",
+        "Who coached Greece to the Euro 2004 title?",
+        "Who coached Egypt at the 1990 World Cup?",
+        "Who scored Senegal's winner against France in the 2002 World Cup opener?",
+        "Al Hilal beat which club in the 2021 AFC Champions League final?",
+        "Chelsea loaned Mohamed Salah to which club in 2015?",
+        "Al Ahly lost the 2018 CAF Champions League final to which club?"
+      ],
+      "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-06-2",
+      "date": "2026-11-06",
+      "items": [
+        "Who scored Egypt's decisive penalty in the 2006 AFCON final shootout?",
+        "Zamalek beat which club in the 2002 CAF Champions League final?",
+        "Who scored the only goal of the 2019 AFCON final?",
+        "Who scored Saudi Arabia's famous solo goal against Belgium at the 1994 World Cup?",
+        "Walid Regragui won the 2022 CAF Champions League with which club?",
+        "Who scored both of Inter's goals in the 2010 Champions League final?",
+        "Who scored the Premier League's fastest hat-trick, in 2015?",
+        "Who scored the winner in the Euro 2004 final?",
+        "Who won the Golden Ball at the 2002 World Cup?",
+        "Which club won the 2023–24 Saudi Pro League without losing a game?",
+        "Who scored Egypt's goal against the Netherlands at the 1990 World Cup?",
+        "Tunisia beat which country in the 2004 AFCON final?"
+      ],
+      "level": "hard"
     }
   ],
   "mystery": [
@@ -272,6 +342,26 @@
         "Marouane Chamakh"
       ],
       "level": "legend"
+    },
+    {
+      "id": "mystery-2026-11-06-1",
+      "date": "2026-11-06",
+      "items": [
+        "Frank Lampard",
+        "Mesut Özil",
+        "Yaya Touré"
+      ],
+      "level": "amateur"
+    },
+    {
+      "id": "mystery-2026-11-06-2",
+      "date": "2026-11-06",
+      "items": [
+        "Amr Zaki",
+        "Hakan Şükür",
+        "Nwankwo Kanu"
+      ],
+      "level": "pro"
     }
   ]
 }
