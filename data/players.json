@@ -149,6 +149,16 @@
       "en": "Turkey",
       "ar": "تركيا",
       "continent": "europe"
+    },
+    "UKR": {
+      "en": "Ukraine",
+      "ar": "أوكرانيا",
+      "continent": "europe"
+    },
+    "KSA": {
+      "en": "Saudi Arabia",
+      "ar": "السعودية",
+      "continent": "asia"
     }
   },
   "players": [
@@ -2609,6 +2619,294 @@
         {
           "en": "I came back from heart surgery, and my 15-minute hat-trick at Stamford Bridge is North London folklore.",
           "ar": "رجعت بعد عملية في القلب، والهاتريك بتاعي في ١٥ دقيقة في ستامفورد بريدج بقى أسطورة في شمال لندن."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Luis Figo",
+        "ar": "لويس فيجو"
+      },
+      "aliases": [
+        "figo",
+        "فيجو"
+      ],
+      "nation": "POR",
+      "pos": "FW",
+      "born": 1972,
+      "clubs": [
+        "Sporting CP",
+        "Barcelona",
+        "Real Madrid",
+        "Inter"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the early 1970s and spent my whole career in Europe.",
+          "ar": "اتولدت في أوائل السبعينات ولعبت مسيرتي كلها في أوروبا."
+        },
+        {
+          "en": "I played alongside Rui Costa, Pep Guardiola, Rivaldo, Zinedine Zidane, Ronaldo Nazário, Zlatan Ibrahimović and Javier Zanetti.",
+          "ar": "لعبت جنب روي كوستا وبيب جوارديولا وريفالدو وزين الدين زيدان ورونالدو الظاهرة وزلاتان إبراهيموفيتش وخافيير زانيتي."
+        },
+        {
+          "en": "I won league titles in both Spain and Italy.",
+          "ar": "كسبت الدوري في إسبانيا وفي إيطاليا."
+        },
+        {
+          "en": "I've won the Cup Winners' Cup, the Champions League and the Ballon d'Or.",
+          "ar": "كسبت كاس الكؤوس الأوروبية ودوري الأبطال والكورة الدهبية."
+        },
+        {
+          "en": "I crossed straight from Catalonia to the capital, swapping one Clásico shirt for the other.",
+          "ar": "نقلت على طول من كتالونيا للعاصمة، وغيرت قميص الكلاسيكو بالقميص التاني."
+        },
+        {
+          "en": "I won the 2000 Ballon d'Or, and on my return to the Camp Nou a pig's head was thrown towards me.",
+          "ar": "كسبت الكورة الدهبية ٢٠٠٠، ولما رجعت الكامب نو اترمى عليا راس خنزير."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Andriy Shevchenko",
+        "ar": "أندريه شيفتشينكو"
+      },
+      "aliases": [
+        "shevchenko",
+        "sheva",
+        "شيفتشينكو",
+        "شيفا"
+      ],
+      "nation": "UKR",
+      "pos": "FW",
+      "born": 1976,
+      "clubs": [
+        "Dynamo Kyiv",
+        "AC Milan",
+        "Chelsea"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and played my whole career in Europe.",
+          "ar": "اتولدت في السبعينات ولعبت مسيرتي كلها في أوروبا."
+        },
+        {
+          "en": "I played alongside Kaká, Paolo Maldini, Andrea Pirlo, Didier Drogba, Frank Lampard, Serhiy Rebrov and Anatoliy Tymoshchuk.",
+          "ar": "لعبت جنب كاكا وباولو مالديني وأندريا بيرلو وديدييه دروجبا وفرانك لامبارد وسيرهي ريبروف وأناتولي تيموشوك."
+        },
+        {
+          "en": "I won the Champions League with an Italian club and later played in England.",
+          "ar": "كسبت دوري الأبطال مع نادي إيطالي وبعدها لعبت في إنجلترا."
+        },
+        {
+          "en": "I've been Serie A's top scorer and I've won the Ballon d'Or.",
+          "ar": "كنت هداف الدوري الإيطالي وكسبت الكورة الدهبية."
+        },
+        {
+          "en": "I've won the Ballon d'Or, the Champions League and the FA Cup.",
+          "ar": "كسبت الكورة الدهبية ودوري الأبطال وكاس الاتحاد الإنجليزي."
+        },
+        {
+          "en": "I scored the winning penalty of the 2003 Champions League final shootout against Juventus.",
+          "ar": "أنا اللي سجلت ضربة الجزاء الحاسمة في ترجيح نهائي دوري الأبطال ٢٠٠٣ قدام يوفنتوس."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Roberto Carlos",
+        "ar": "روبرتو كارلوس"
+      },
+      "aliases": [
+        "roberto carlos",
+        "carlos",
+        "روبرتو كارلوس"
+      ],
+      "nation": "BRA",
+      "pos": "DF",
+      "born": 1973,
+      "clubs": [
+        "União São João",
+        "Palmeiras",
+        "Inter",
+        "Real Madrid",
+        "Fenerbahçe",
+        "Corinthians",
+        "Anzhi"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and played club football on three continents.",
+          "ar": "اتولدت في السبعينات ولعبت مع أندية في ٣ قارات."
+        },
+        {
+          "en": "I played alongside Zinedine Zidane, Raúl, Iker Casillas, Cafu, Rivaldo, Alex de Souza and Paul Ince.",
+          "ar": "لعبت جنب زين الدين زيدان وراؤول وإيكر كاسياس وكافو وريفالدو وأليكس دي سوزا وبول إنس."
+        },
+        {
+          "en": "I've won the World Cup and three Champions Leagues.",
+          "ar": "كسبت كاس العالم و٣ دوري أبطال."
+        },
+        {
+          "en": "I've won three Champions Leagues and finished runner-up in a Ballon d'Or vote.",
+          "ar": "كسبت ٣ دوري أبطال وجيت تاني في الكورة الدهبية."
+        },
+        {
+          "en": "I won the World Cup and finished Ballon d'Or runner-up in the same year.",
+          "ar": "كسبت كاس العالم وجيت تاني في الكورة الدهبية في نفس السنة."
+        },
+        {
+          "en": "My banana free kick against France in 1997 seemed to defy physics.",
+          "ar": "الفري كيك الموز بتاعتي قدام فرنسا سنة ١٩٩٧ كانت ضد قوانين الفيزيا."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hossam Ghaly",
+        "ar": "حسام غالي"
+      },
+      "aliases": [
+        "ghaly",
+        "ghali",
+        "غالي",
+        "حسام غالى"
+      ],
+      "nation": "EGY",
+      "pos": "MF",
+      "born": 1981,
+      "clubs": [
+        "Al Ahly",
+        "Feyenoord",
+        "Tottenham",
+        "Derby County",
+        "Al Nassr",
+        "Lierse"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the early 1980s and played club football in five countries.",
+          "ar": "اتولدت في أوائل الثمانينات ولعبت مع أندية في ٥ دول."
+        },
+        {
+          "en": "I played alongside Robin van Persie, Dirk Kuyt, Dimitar Berbatov, Robbie Keane, Mohamed Aboutrika, Ahmed Hassan and Mohamed Barakat.",
+          "ar": "لعبت جنب روبن فان بيرسي وديرك كاوت وديميتار برباتوف وروبي كين ومحمد أبو تريكة وأحمد حسن ومحمد بركات."
+        },
+        {
+          "en": "I'm an Egyptian who has played in the Premier League.",
+          "ar": "أنا مصري لعب في الدوري الإنجليزي."
+        },
+        {
+          "en": "I've won the Africa Cup of Nations and played in both the Dutch and English top flights.",
+          "ar": "كسبت أمم أفريقيا ولعبت في الدوري الهولندي والإنجليزي."
+        },
+        {
+          "en": "I've played for clubs in both Rotterdam and North London.",
+          "ar": "لعبت لنادي في روتردام ونادي في شمال لندن."
+        },
+        {
+          "en": "Substituted in a Premier League game, I threw my Spurs shirt to the ground — and later captained Cairo's Red Giants for years.",
+          "ar": "لما اتغيرت في ماتش في الدوري الإنجليزي رميت قميص السبيرز على الأرض — وبعدها بقيت كابتن القلعة الحمرا سنين."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Sami Al-Jaber",
+        "ar": "سامي الجابر"
+      },
+      "aliases": [
+        "al jaber",
+        "al-jaber",
+        "aljaber",
+        "sami",
+        "سامي",
+        "الجابر"
+      ],
+      "nation": "KSA",
+      "pos": "FW",
+      "born": 1972,
+      "clubs": [
+        "Al Hilal",
+        "Wolves"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the early 1970s and spent almost my entire career at one club.",
+          "ar": "اتولدت في أوائل السبعينات وقضيت تقريبًا مسيرتي كلها في نادي واحد."
+        },
+        {
+          "en": "I played alongside Majed Abdullah, Saeed Al-Owairan, Fuad Anwar, Mohamed Al-Deayea, Nawaf Al-Temyat, Yasser Al-Qahtani and Mohammed Noor.",
+          "ar": "لعبت جنب ماجد عبدالله وسعيد العويران وفؤاد أنور ومحمد الدعيع ونواف التمياط وياسر القحطاني ومحمد نور."
+        },
+        {
+          "en": "I won the Asian Cup and played league football in England.",
+          "ar": "كسبت كاس آسيا ولعبت في الدوري الإنجليزي."
+        },
+        {
+          "en": "I played at four World Cups and scored at three of them.",
+          "ar": "لعبت في ٤ كاسات عالم وجبت أجوان في ٣ منهم."
+        },
+        {
+          "en": "I scored at three different World Cups for an Asian nation.",
+          "ar": "جبت أجوان في ٣ كاسات عالم مختلفة مع منتخب آسيوي."
+        },
+        {
+          "en": "In 2000 I became the first Saudi to play in English football, on loan at a Black Country club.",
+          "ar": "سنة ٢٠٠٠ بقيت أول سعودي يلعب في الكورة الإنجليزية، معار لنادي من منطقة البلاك كانتري."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Gaizka Mendieta",
+        "ar": "جايزكا منديتا"
+      },
+      "aliases": [
+        "mendieta",
+        "منديتا"
+      ],
+      "nation": "ESP",
+      "pos": "MF",
+      "born": 1974,
+      "clubs": [
+        "Castellón",
+        "Valencia",
+        "Lazio",
+        "Barcelona",
+        "Middlesbrough"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and played my whole career in Europe.",
+          "ar": "اتولدت في السبعينات ولعبت مسيرتي كلها في أوروبا."
+        },
+        {
+          "en": "I played alongside Claudio López, Pablo Aimar, Hernán Crespo, Ronaldinho, Mark Viduka, Stewart Downing and Raúl.",
+          "ar": "لعبت جنب كلاوديو لوبيز وبابلو أيمار وهيرنان كريسبو ورونالدينيو ومارك فيدوكا وستيوارت داونينج وراؤول."
+        },
+        {
+          "en": "I lost back-to-back Champions League finals.",
+          "ar": "خسرت نهائيين دوري أبطال ورا بعض."
+        },
+        {
+          "en": "I scored a penalty during normal time of a European Cup final.",
+          "ar": "جبت جول من ضربة جزاء في الوقت الأصلي لنهائي دوري الأبطال."
+        },
+        {
+          "en": "I was named UEFA's best club midfielder twice.",
+          "ar": "اتختارت أحسن لاعب وسط في أوروبا من اليويفا مرتين."
+        },
+        {
+          "en": "In 2001 I left the club I captained for Lazio in one of that era's biggest transfers, and later won the League Cup in England.",
+          "ar": "سنة ٢٠٠١ سبت النادي اللي كنت كابتنه ورحت لاتسيو في صفقة من أغلى صفقات وقتها، وبعدها كسبت كاس الرابطة في إنجلترا."
         }
       ]
     }

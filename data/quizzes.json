@@ -69,6 +69,20 @@
       "items": [
         "Countries that have hosted the World Cup"
       ]
+    },
+    {
+      "id": "nameall-2026-11-07-1",
+      "date": "2026-11-07",
+      "items": [
+        "Clubs Mohamed Salah has played for"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-07-2",
+      "date": "2026-11-07",
+      "items": [
+        "Countries that have won the AFC Asian Cup"
+      ]
     }
   ],
   "career": [
@@ -126,6 +140,24 @@
         "Clarence Seedorf",
         "Ahmed Elmohamady",
         "Medhi Benatia"
+      ]
+    },
+    {
+      "id": "career-2026-11-07-1",
+      "date": "2026-11-07",
+      "items": [
+        "Robin van Persie",
+        "Yaya Touré",
+        "Marouane Chamakh"
+      ]
+    },
+    {
+      "id": "career-2026-11-07-2",
+      "date": "2026-11-07",
+      "items": [
+        "Wesley Sneijder",
+        "Michael Essien",
+        "Emmanuel Adebayor"
       ]
     }
   ],
@@ -255,6 +287,44 @@
         "Tunisia beat which country in the 2004 AFCON final?"
       ],
       "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-07-1",
+      "date": "2026-11-07",
+      "items": [
+        "Al Ahly beat which club in the 2006 CAF Champions League final, thanks to Aboutrika's late winner in Tunisia?",
+        "Who scored Uruguay's late winner against Egypt at the 2018 World Cup?",
+        "Who coached Egypt at the 2018 World Cup?",
+        "Who scored Cameroon's late winner against Egypt in the 2017 AFCON final?",
+        "Zidane's famous volley in the 2002 Champions League final came against which club?",
+        "Who saved Andriy Shevchenko's penalty to win the 2005 Champions League final shootout?",
+        "Who was the top scorer at the 2006 World Cup?",
+        "Who set a Saudi Pro League record with 35 goals in the 2023–24 season?",
+        "Abderrazak Hamdallah scored a then-record 34 Saudi league goals in 2018–19 for which club?",
+        "Who was the top scorer at the 2019 Africa Cup of Nations?",
+        "How many Premier League goals did Mohamed Salah score in 2017–18, a record for a 38-game season at the time?",
+        "Whose flag is this?|https://flagcdn.com/w320/tn.png"
+      ],
+      "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-07-2",
+      "date": "2026-11-07",
+      "items": [
+        "Zamalek beat which club to win the 2019 CAF Confederation Cup?",
+        "Al Ahly beat which club in the 2020 CAF Champions League final, dubbed 'the final of the century'?",
+        "Who scored Al Ahly's late winner in the 2020 CAF Champions League final against Zamalek?",
+        "Al Ahly beat which South African club in the 2021 CAF Champions League final?",
+        "Pyramids beat which club to win their first CAF Champions League in 2025?",
+        "Which Saudi club won the 2025 AFC Champions League Elite?",
+        "Who coached Al Ahly to back-to-back CAF Champions League titles in 2020 and 2021?",
+        "Who holds the record for most appearances for Egypt?",
+        "Who became the oldest player ever to appear at a World Cup, in 2018?",
+        "What was the score when Spain beat Italy in the Euro 2012 final?",
+        "Leicester signed N'Golo Kanté from which club in 2015?",
+        "Who assisted Sergio Agüero's title-winning goal against QPR in 2012?"
+      ],
+      "level": "hard"
     }
   ],
   "mystery": [
@@ -362,6 +432,26 @@
         "Nwankwo Kanu"
       ],
       "level": "pro"
+    },
+    {
+      "id": "mystery-2026-11-07-1",
+      "date": "2026-11-07",
+      "items": [
+        "Luis Figo",
+        "Andriy Shevchenko",
+        "Roberto Carlos"
+      ],
+      "level": "easy"
+    },
+    {
+      "id": "mystery-2026-11-07-2",
+      "date": "2026-11-07",
+      "items": [
+        "Hossam Ghaly",
+        "Sami Al-Jaber",
+        "Gaizka Mendieta"
+      ],
+      "level": "legend"
     }
   ]
 }
