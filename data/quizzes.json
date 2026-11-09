@@ -83,6 +83,20 @@
       "items": [
         "Countries that have won the AFC Asian Cup"
       ]
+    },
+    {
+      "id": "nameall-2026-11-09-1",
+      "date": "2026-11-09",
+      "items": [
+        "Countries that have hosted the Africa Cup of Nations"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-09-2",
+      "date": "2026-11-09",
+      "items": [
+        "Countries that have won the Copa América"
+      ]
     }
   ],
   "career": [
@@ -158,6 +172,24 @@
         "Wesley Sneijder",
         "Michael Essien",
         "Emmanuel Adebayor"
+      ]
+    },
+    {
+      "id": "career-2026-11-09-1",
+      "date": "2026-11-09",
+      "items": [
+        "Romelu Lukaku",
+        "Ahmed Hegazi",
+        "Mario Mandžukić"
+      ]
+    },
+    {
+      "id": "career-2026-11-09-2",
+      "date": "2026-11-09",
+      "items": [
+        "Pierre-Emerick Aubameyang",
+        "Mahmoud Trezeguet",
+        "Ahmed Hassan"
       ]
     }
   ],
@@ -325,6 +357,44 @@
         "Who assisted Sergio Agüero's title-winning goal against QPR in 2012?"
       ],
       "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-09-1",
+      "date": "2026-11-09",
+      "items": [
+        "Al Ahly's first CAF Champions League title came in 1982 against which club?",
+        "Al Ahly won bronze at the 2006 Club World Cup by beating which club?",
+        "Who scored Egypt's first-ever World Cup goals, against Hungary in 1934?",
+        "Qatar beat which team in the 2023 AFC Asian Cup final?",
+        "Who scored a hat-trick of penalties in the 2023 AFC Asian Cup final?",
+        "Who scored Barcelona's winner in the 2006 Champions League final?",
+        "Who scored Bayern's goal in the 2012 Champions League final?",
+        "Sevilla beat which club 4–0 in the 2006 UEFA Cup final?",
+        "Who was the Premier League top scorer in 2015–16?",
+        "TP Mazembe reached the 2010 Club World Cup final and lost to which club?",
+        "Who scored Morocco's winner against Portugal in the 2022 World Cup quarter-final?",
+        "Whose flag is this?|https://flagcdn.com/w320/cv.png"
+      ],
+      "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-09-2",
+      "date": "2026-11-09",
+      "items": [
+        "Raja Casablanca reached the 2013 Club World Cup final and lost to which club?",
+        "Wydad Casablanca beat which club in the 2022 CAF Champions League final?",
+        "Zamalek beat which club on penalties to win the 2024 CAF Super Cup in Riyadh?",
+        "Who coached Zamalek to the 2024 CAF Confederation Cup title?",
+        "Algeria beat which team in the 2021 FIFA Arab Cup final?",
+        "Al Hilal beat which club in the 2019 AFC Champions League final?",
+        "Who coached Al Ittihad to the 2022–23 Saudi Pro League title?",
+        "Liverpool beat which club 5–4 in the 2001 UEFA Cup final?",
+        "Who scored Real Madrid's winner in the 1998 Champions League final?",
+        "Mamelodi Sundowns beat which club in the 2016 CAF Champions League final?",
+        "Mohamed Salah's two goals at the 2018 World Cup came against Russia and which team?",
+        "Al Nassr beat which club in the 2023 Arab Club Champions Cup final?"
+      ],
+      "level": "hard"
     }
   ],
   "mystery": [
@@ -452,6 +522,26 @@
         "Gaizka Mendieta"
       ],
       "level": "legend"
+    },
+    {
+      "id": "mystery-2026-11-09-1",
+      "date": "2026-11-09",
+      "items": [
+        "Eden Hazard",
+        "Arjen Robben",
+        "Hakim Ziyech"
+      ],
+      "level": "amateur"
+    },
+    {
+      "id": "mystery-2026-11-09-2",
+      "date": "2026-11-09",
+      "items": [
+        "Dirk Kuyt",
+        "Diego Milito",
+        "Fernando Morientes"
+      ],
+      "level": "pro"
     }
   ]
 }

@@ -2909,6 +2909,298 @@
           "ar": "سنة ٢٠٠١ سبت النادي اللي كنت كابتنه ورحت لاتسيو في صفقة من أغلى صفقات وقتها، وبعدها كسبت كاس الرابطة في إنجلترا."
         }
       ]
+    },
+    {
+      "name": {
+        "en": "Eden Hazard",
+        "ar": "إيدين هازارد"
+      },
+      "aliases": [
+        "hazard",
+        "هازارد",
+        "ازار",
+        "هازار"
+      ],
+      "nation": "BEL",
+      "pos": "FW",
+      "born": 1991,
+      "clubs": [
+        "Lille",
+        "Chelsea",
+        "Real Madrid"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1990s and played my whole career in Europe.",
+          "ar": "اتولدت في التسعينات ولعبت مسيرتي كلها في أوروبا."
+        },
+        {
+          "en": "I played alongside Yohan Cabaye, Gervinho, Frank Lampard, Diego Costa, Karim Benzema, Luka Modrić and Romelu Lukaku.",
+          "ar": "لعبت جنب يوهان كاباي وجيرفينيو وفرانك لامبارد ودييجو كوستا وكريم بنزيما ولوكا مودريتش وروميلو لوكاكو."
+        },
+        {
+          "en": "I've won league titles in both France and England.",
+          "ar": "كسبت الدوري في فرنسا وفي إنجلترا."
+        },
+        {
+          "en": "I've won the Premier League, La Liga and the Europa League.",
+          "ar": "كسبت الدوري الإنجليزي والدوري الإسباني والدوري الأوروبي."
+        },
+        {
+          "en": "I won the Europa League twice with the same English club, six years apart.",
+          "ar": "كسبت الدوري الأوروبي مرتين مع نفس النادي الإنجليزي، والفرق بينهم ست سنين."
+        },
+        {
+          "en": "I was voted France's best player two years running, then the English players' Player of the Year in 2015.",
+          "ar": "اتختارت أحسن لاعب في الدوري الفرنسي سنتين ورا بعض، وبعدها أحسن لاعب في إنجلترا من اللاعيبة سنة ٢٠١٥."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Arjen Robben",
+        "ar": "آريين روبن"
+      },
+      "aliases": [
+        "robben",
+        "روبن",
+        "اريين روبن"
+      ],
+      "nation": "NED",
+      "pos": "FW",
+      "born": 1984,
+      "clubs": [
+        "Groningen",
+        "PSV",
+        "Chelsea",
+        "Real Madrid",
+        "Bayern Munich"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and played my whole career in Europe.",
+          "ar": "اتولدت في الثمانينات ولعبت مسيرتي كلها في أوروبا."
+        },
+        {
+          "en": "I played alongside Didier Drogba, Ruud van Nistelrooy, Raúl, Wesley Sneijder, Franck Ribéry, Thomas Müller and Robin van Persie.",
+          "ar": "لعبت جنب ديدييه دروجبا ورود فان نيستلروي وراؤول وويسلي شنايدر وفرانك ريبيري وتوماس مولر وروبين فان بيرسي."
+        },
+        {
+          "en": "I've won league titles in both England and Germany.",
+          "ar": "كسبت الدوري في إنجلترا وفي ألمانيا."
+        },
+        {
+          "en": "Within a few weeks in 2010 I lost a Champions League final and a World Cup final.",
+          "ar": "في كام أسبوع سنة ٢٠١٠ خسرت نهائي دوري أبطال ونهائي كاس عالم."
+        },
+        {
+          "en": "I won the German league exactly eight times.",
+          "ar": "كسبت الدوري الألماني ٨ مرات بالظبط."
+        },
+        {
+          "en": "I scored the late winner in an all-German Champions League final at Wembley.",
+          "ar": "جبت جول الفوز المتأخر في نهائي دوري أبطال ألماني-ألماني على ويمبلي."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hakim Ziyech",
+        "ar": "حكيم زياش"
+      },
+      "aliases": [
+        "ziyech",
+        "زياش",
+        "زياش حكيم"
+      ],
+      "nation": "MAR",
+      "pos": "FW",
+      "born": 1993,
+      "clubs": [
+        "Heerenveen",
+        "Twente",
+        "Ajax",
+        "Chelsea",
+        "Galatasaray",
+        "Al-Duhail",
+        "Wydad Casablanca",
+        "Botafogo"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1990s and spent most of my career in Europe.",
+          "ar": "اتولدت في التسعينات وقضيت معظم مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Frenkie de Jong, Dušan Tadić, Mason Mount, Kai Havertz, Mauro Icardi, Achraf Hakimi and Yassine Bounou.",
+          "ar": "لعبت جنب فرينكي دي يونج ودوشان تاديتش وميسون ماونت وكاي هافيرتز وماورو إيكاردي وأشرف حكيمي وياسين بونو."
+        },
+        {
+          "en": "I've won the Champions League and played at a World Cup for an African nation.",
+          "ar": "كسبت دوري الأبطال ولعبت كاس العالم مع منتخب أفريقي."
+        },
+        {
+          "en": "I've won the Dutch league, and the Champions League with an English club.",
+          "ar": "كسبت الدوري الهولندي، وكسبت دوري الأبطال مع نادي إنجليزي."
+        },
+        {
+          "en": "I was born in the Netherlands but chose Morocco, and reached a World Cup semi-final with them.",
+          "ar": "اتولدت في هولندا بس اخترت المغرب، ووصلت معاهم نص نهائي كاس العالم."
+        },
+        {
+          "en": "I scored for Ajax in a Champions League semi-final, and two years later I was a Champions League winner in London blue.",
+          "ar": "جبت جول لأياكس في نص نهائي دوري الأبطال، وبعدها بسنتين كسبت البطولة بالأزرق اللندني."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Dirk Kuyt",
+        "ar": "ديرك كاوت"
+      },
+      "aliases": [
+        "kuyt",
+        "كاوت",
+        "كويت",
+        "ديرك كويت"
+      ],
+      "nation": "NED",
+      "pos": "FW",
+      "born": 1980,
+      "clubs": [
+        "Utrecht",
+        "Feyenoord",
+        "Liverpool",
+        "Fenerbahçe"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in 1980 and played my whole career in Europe.",
+          "ar": "اتولدت سنة ١٩٨٠ ولعبت مسيرتي كلها في أوروبا."
+        },
+        {
+          "en": "I played alongside Robin van Persie, Fernando Torres, Luis Suárez, Xabi Alonso, Moussa Sow, Wesley Sneijder and Klaas-Jan Huntelaar.",
+          "ar": "لعبت جنب روبين فان بيرسي وفرناندو توريس ولويس سواريز وتشابي ألونسو وموسى سو وويسلي شنايدر وكلاس يان هونتيلار."
+        },
+        {
+          "en": "I scored in a Champions League final but finished on the losing side.",
+          "ar": "جبت جول في نهائي دوري أبطال بس فريقي خسر."
+        },
+        {
+          "en": "I scored a Premier League hat-trick against Manchester United.",
+          "ar": "جبت هاتريك في الدوري الإنجليزي في مانشستر يونايتد."
+        },
+        {
+          "en": "I've won the English League Cup and the Dutch league.",
+          "ar": "كسبت كاس الرابطة الإنجليزية والدوري الهولندي."
+        },
+        {
+          "en": "In my final game I scored a hat-trick to win the Rotterdam club its first league title in 18 years, then retired.",
+          "ar": "في آخر ماتش ليا جبت هاتريك وكسبت لنادي روتردام أول دوري من ١٨ سنة، وبعدها اعتزلت."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Diego Milito",
+        "ar": "دييجو ميليتو"
+      },
+      "aliases": [
+        "milito",
+        "ميليتو",
+        "el principe",
+        "الأمير"
+      ],
+      "nation": "ARG",
+      "pos": "FW",
+      "born": 1979,
+      "clubs": [
+        "Racing Club",
+        "Genoa",
+        "Real Zaragoza",
+        "Inter"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and played in both South America and Europe.",
+          "ar": "اتولدت في السبعينات ولعبت في أمريكا الجنوبية وأوروبا."
+        },
+        {
+          "en": "I played alongside Javier Zanetti, Samuel Eto'o, Wesley Sneijder, Thiago Motta, Pablo Aimar and Lionel Messi.",
+          "ar": "لعبت جنب خافيير زانيتي وصامويل إيتو وويسلي شنايدر وتياجو موتا وبابلو أيمار وليونيل ميسي."
+        },
+        {
+          "en": "I'm an Argentine striker who has won the Italian league.",
+          "ar": "أنا مهاجم أرجنتيني كسبت الدوري الإيطالي."
+        },
+        {
+          "en": "I've won the Argentine league and the Champions League.",
+          "ar": "كسبت الدوري الأرجنتيني ودوري الأبطال."
+        },
+        {
+          "en": "I'm an Argentine who won the Champions League with an Italian club and played at a World Cup.",
+          "ar": "أنا أرجنتيني كسبت دوري الأبطال مع نادي إيطالي ولعبت كاس العالم."
+        },
+        {
+          "en": "I scored both goals in a Champions League final in Madrid that completed a historic treble.",
+          "ar": "جبت الجولين في نهائي دوري أبطال في مدريد كمّل ثلاثية تاريخية."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fernando Morientes",
+        "ar": "فرناندو مورينتس"
+      },
+      "aliases": [
+        "morientes",
+        "مورينتس",
+        "موريينتس"
+      ],
+      "nation": "ESP",
+      "pos": "FW",
+      "born": 1976,
+      "clubs": [
+        "Albacete",
+        "Real Zaragoza",
+        "Real Madrid",
+        "Monaco",
+        "Liverpool",
+        "Valencia",
+        "Marseille"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and played my whole career in Europe.",
+          "ar": "اتولدت في السبعينات ولعبت مسيرتي كلها في أوروبا."
+        },
+        {
+          "en": "I played alongside Gustavo Poyet, Raúl, Roberto Carlos, Ludovic Giuly, Steven Gerrard, David Villa and Mamadou Niang.",
+          "ar": "لعبت جنب جوستافو بوييت وراؤول وروبرتو كارلوس ولودوفيك جولي وستيفن جيرارد وديفيد فيا ومامادو نيانج."
+        },
+        {
+          "en": "I'm a Spanish striker who won La Liga and also played in the Premier League.",
+          "ar": "أنا مهاجم إسباني كسبت الدوري الإسباني ولعبت كمان في الدوري الإنجليزي."
+        },
+        {
+          "en": "I'm a Spanish striker who has won both the Champions League and the FA Cup.",
+          "ar": "أنا مهاجم إسباني كسبت دوري الأبطال وكاس الاتحاد الإنجليزي."
+        },
+        {
+          "en": "I lifted the European Cup in 1998, 2000 and 2002.",
+          "ar": "رفعت كاس دوري الأبطال سنة ١٩٩٨ و٢٠٠٠ و٢٠٠٢."
+        },
+        {
+          "en": "On loan in the principality, I knocked my parent club out of the Champions League and finished as the competition's top scorer.",
+          "ar": "وأنا معار في الإمارة، طلّعت ناديي الأصلي من دوري الأبطال وخلصت البطولة هدافها."
+        }
+      ]
     }
   ]
 }
