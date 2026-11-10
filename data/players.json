@@ -159,6 +159,11 @@
       "en": "Saudi Arabia",
       "ar": "السعودية",
       "continent": "asia"
+    },
+    "JPN": {
+      "en": "Japan",
+      "ar": "اليابان",
+      "continent": "asia"
     }
   },
   "players": [
@@ -3199,6 +3204,295 @@
         {
           "en": "On loan in the principality, I knocked my parent club out of the Champions League and finished as the competition's top scorer.",
           "ar": "وأنا معار في الإمارة، طلّعت ناديي الأصلي من دوري الأبطال وخلصت البطولة هدافها."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Manuel Neuer",
+        "ar": "مانويل نوير"
+      },
+      "aliases": [
+        "neuer",
+        "نوير",
+        "نيوير"
+      ],
+      "nation": "GER",
+      "pos": "GK",
+      "born": 1986,
+      "clubs": [
+        "Schalke",
+        "Bayern Munich"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and have spent my whole career in my home country.",
+          "ar": "اتولدت في الثمانينات وقضيت مسيرتي كلها في بلدي."
+        },
+        {
+          "en": "I played alongside Mesut Özil, Raúl, Robert Lewandowski, Arjen Robben, Philipp Lahm, Miroslav Klose and Harry Kane.",
+          "ar": "لعبت جنب مسعود أوزيل وراؤول وروبرت ليفاندوفسكي وآريين روبن وفيليب لام وميروسلاف كلوزه وهاري كين."
+        },
+        {
+          "en": "I'm a World Cup winner who has also lifted the European Cup with a Bavarian club.",
+          "ar": "أنا بطل كاس عالم ورفعت كمان كاس أوروبا مع نادي بافاري."
+        },
+        {
+          "en": "I'm a goalkeeper who has won both the World Cup and the Champions League.",
+          "ar": "أنا حارس مرمى كسبت كاس العالم ودوري الأبطال."
+        },
+        {
+          "en": "I lifted the European Cup in both 2013 and 2020.",
+          "ar": "رفعت كاس دوري الأبطال سنة ٢٠١٣ وسنة ٢٠٢٠."
+        },
+        {
+          "en": "I won the Golden Glove at the World Cup where my country thrashed the hosts 7–1 in the semi-final.",
+          "ar": "كسبت القفاز الذهبي في كاس العالم اللي منتخبنا كسح فيها البلد المنظم ٧–١ في نص النهائي."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Raúl",
+        "ar": "راؤول"
+      },
+      "aliases": [
+        "raul",
+        "raul gonzalez",
+        "raúl gonzález",
+        "راؤول",
+        "راوول",
+        "راؤول جونزاليس"
+      ],
+      "nation": "ESP",
+      "pos": "FW",
+      "born": 1977,
+      "clubs": [
+        "Real Madrid",
+        "Schalke",
+        "Al Sadd",
+        "New York Cosmos"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and finished my playing career outside Europe.",
+          "ar": "اتولدت في السبعينات وختمت مسيرتي برّه أوروبا."
+        },
+        {
+          "en": "I played alongside Luis Figo, Ronaldo Nazário, Fernando Hierro, Klaas-Jan Huntelaar, Manuel Neuer, Marcos Senna and Xavi.",
+          "ar": "لعبت جنب لويس فيجو ورونالدو نازاريو وفرناندو هييرو وكلاس يان هونتيلار ومانويل نوير وماركوس سينا وتشافي."
+        },
+        {
+          "en": "I'm a Spanish striker who has won the Champions League.",
+          "ar": "أنا مهاجم إسباني كسبت دوري الأبطال."
+        },
+        {
+          "en": "I've scored in two different Champions League finals since 2000.",
+          "ar": "جبت أجوان في نهائيين مختلفين لدوري الأبطال من سنة ٢٠٠٠."
+        },
+        {
+          "en": "I've won the European Cup and finished as La Liga's top scorer more than once.",
+          "ar": "كسبت كاس أوروبا وكنت هداف الدوري الإسباني أكتر من مرة."
+        },
+        {
+          "en": "I scored in European Cup finals in Paris and Glasgow, and I was Spain's record scorer until David Villa passed me.",
+          "ar": "جبت أجوان في نهائيات دوري الأبطال في باريس وجلاسجو، وكنت الهداف التاريخي لإسبانيا لحد ما ديفيد فيا عدّاني."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Antoine Griezmann",
+        "ar": "أنطوان جريزمان"
+      },
+      "aliases": [
+        "griezmann",
+        "grizi",
+        "جريزمان",
+        "غريزمان"
+      ],
+      "nation": "FRA",
+      "pos": "FW",
+      "born": 1991,
+      "clubs": [
+        "Real Sociedad",
+        "Atlético Madrid",
+        "Barcelona",
+        "Orlando City"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the early 1990s and left my home country as a teenager.",
+          "ar": "اتولدت في أوائل التسعينات وسبت بلدي وأنا لسه مراهق."
+        },
+        {
+          "en": "I played alongside Carlos Vela, Diego Godín, Lionel Messi, Luis Suárez, Kylian Mbappé, Paul Pogba and Koke.",
+          "ar": "لعبت جنب كارلوس فيلا ودييجو جودين وليونيل ميسي ولويس سواريز وكيليان مبابي وبول بوجبا وكوكي."
+        },
+        {
+          "en": "I'm a 2018 World Cup winner who spent years playing in La Liga.",
+          "ar": "أنا بطل كاس العالم ٢٠١٨ وقضيت سنين في الدوري الإسباني."
+        },
+        {
+          "en": "I was named man of the match in a World Cup final.",
+          "ar": "اتختارت رجل المباراة في نهائي كاس عالم."
+        },
+        {
+          "en": "I finished as top scorer at a European Championship my country hosted.",
+          "ar": "كنت هداف بطولة أمم أوروبا اللي بلدي نظمتها."
+        },
+        {
+          "en": "I won the Golden Boot at Euro 2016 and scored from the spot in the 2018 World Cup final.",
+          "ar": "كسبت الحذاء الذهبي في يورو ٢٠١٦ وجبت جون من ضربة جزاء في نهائي كاس العالم ٢٠١٨."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hazem Emam",
+        "ar": "حازم إمام"
+      },
+      "aliases": [
+        "emam",
+        "imam",
+        "hazem imam",
+        "حازم إمام",
+        "حازم امام"
+      ],
+      "nation": "EGY",
+      "pos": "MF",
+      "born": 1975,
+      "clubs": [
+        "Zamalek",
+        "Udinese",
+        "De Graafschap"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and played most of my career in Africa.",
+          "ar": "اتولدت في السبعينات ولعبت أغلب مسيرتي في أفريقيا."
+        },
+        {
+          "en": "I played alongside Oliver Bierhoff, Márcio Amoroso, Hossam Hassan, Ibrahim Hassan, Ahmed Hassan, Hany Ramzy and Essam El-Hadary.",
+          "ar": "لعبت جنب أوليفر بيرهوف وماركيو أموروزو وحسام حسن وإبراهيم حسن وأحمد حسن وهاني رمزي وعصام الحضري."
+        },
+        {
+          "en": "I'm an Africa Cup of Nations winner who also played in Serie A.",
+          "ar": "أنا بطل أمم أفريقيا ولعبت كمان في الدوري الإيطالي."
+        },
+        {
+          "en": "I'm an Egyptian who has played in Serie A.",
+          "ar": "أنا مصري لعبت في الدوري الإيطالي."
+        },
+        {
+          "en": "I lifted the African Champions League in 1996 and the Africa Cup of Nations two years later.",
+          "ar": "رفعت دوري أبطال أفريقيا سنة ١٩٩٦ وكاس أمم أفريقيا بعدها بسنتين."
+        },
+        {
+          "en": "Udinese signed me from Cairo's White Knights in 1996, and I spent two seasons on loan in Doetinchem.",
+          "ar": "أودينيزي اشتراني من الفرسان البيض في القاهرة سنة ١٩٩٦، وقضيت موسمين معار في دوتينخم."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Mohamed Barakat",
+        "ar": "محمد بركات"
+      },
+      "aliases": [
+        "barakat",
+        "بركات",
+        "محمد بركات"
+      ],
+      "nation": "EGY",
+      "pos": "MF",
+      "born": 1976,
+      "clubs": [
+        "El Sekka El Hadid",
+        "Ismaily",
+        "Al Ahli",
+        "Al-Arabi",
+        "Al Ahly"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and spent almost all of my career in the Arab world.",
+          "ar": "اتولدت في السبعينات وقضيت تقريبًا مسيرتي كلها في الوطن العربي."
+        },
+        {
+          "en": "I played alongside Hussein Abdulghani, Mohamed Aboutrika, Flávio Amado, Wael Gomaa, Emad Moteab, Amr Zaki and Ahmed Hassan.",
+          "ar": "لعبت جنب حسين عبد الغني ومحمد أبو تريكة وفلافيو أمادو ووائل جمعة وعماد متعب وعمرو زكي وأحمد حسن."
+        },
+        {
+          "en": "I won the African Champions League four times.",
+          "ar": "كسبت دوري أبطال أفريقيا ٤ مرات."
+        },
+        {
+          "en": "I'm an Egyptian who played club football in both Saudi Arabia and Qatar.",
+          "ar": "أنا مصري لعبت في أندية في السعودية وقطر."
+        },
+        {
+          "en": "I won the Egyptian league with a Suez Canal club before winning it seven seasons in a row in Cairo.",
+          "ar": "كسبت الدوري المصري مع نادي من مدن القناة، وبعدها كسبته ٧ مواسم ورا بعض في القاهرة."
+        },
+        {
+          "en": "I was named BBC African Footballer of the Year in 2005.",
+          "ar": "اتختارت أفضل لاعب أفريقي من البي بي سي سنة ٢٠٠٥."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hidetoshi Nakata",
+        "ar": "هيديتوشي ناكاتا"
+      },
+      "aliases": [
+        "nakata",
+        "hide",
+        "ناكاتا"
+      ],
+      "nation": "JPN",
+      "pos": "MF",
+      "born": 1977,
+      "clubs": [
+        "Bellmare Hiratsuka",
+        "Perugia",
+        "Roma",
+        "Parma",
+        "Bologna",
+        "Fiorentina",
+        "Bolton"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and played most of my career in Europe.",
+          "ar": "اتولدت في السبعينات ولعبت أغلب مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Francesco Totti, Gabriel Batistuta, Adriano, Adrian Mutu, Jay-Jay Okocha, Shunsuke Nakamura and Shinji Ono.",
+          "ar": "لعبت جنب فرانشيسكو توتي وجابرييل باتيستوتا وأدريانو وأدريان موتو وجاي جاي أوكوتشا وشونسوكي ناكامورا وشينجي أونو."
+        },
+        {
+          "en": "I'm an Asian player who won one of Europe's big-five league titles.",
+          "ar": "أنا لاعب آسيوي كسبت دوري من الدوريات الخمسة الكبار في أوروبا."
+        },
+        {
+          "en": "I was named Asian Footballer of the Year twice.",
+          "ar": "اتختارت أفضل لاعب في آسيا مرتين."
+        },
+        {
+          "en": "I'm a Japanese midfielder who played in the Premier League.",
+          "ar": "أنا لاعب وسط ياباني لعبت في الدوري الإنجليزي."
+        },
+        {
+          "en": "I retired at 29, straight after the 2006 World Cup, at the height of my fame.",
+          "ar": "اعتزلت وأنا عندي ٢٩ سنة، على طول بعد كاس العالم ٢٠٠٦، وأنا في عز شهرتي."
         }
       ]
     }

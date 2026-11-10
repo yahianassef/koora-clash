@@ -97,6 +97,20 @@
       "items": [
         "Countries that have won the Copa América"
       ]
+    },
+    {
+      "id": "nameall-2026-11-10-1",
+      "date": "2026-11-10",
+      "items": [
+        "Clubs Zlatan Ibrahimović played for"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-10-2",
+      "date": "2026-11-10",
+      "items": [
+        "Countries that have won the FIFA Arab Cup"
+      ]
     }
   ],
   "career": [
@@ -190,6 +204,24 @@
         "Pierre-Emerick Aubameyang",
         "Mahmoud Trezeguet",
         "Ahmed Hassan"
+      ]
+    },
+    {
+      "id": "career-2026-11-10-1",
+      "date": "2026-11-10",
+      "items": [
+        "Carlos Tevez",
+        "Mido",
+        "Samir Nasri"
+      ]
+    },
+    {
+      "id": "career-2026-11-10-2",
+      "date": "2026-11-10",
+      "items": [
+        "Didier Drogba",
+        "Hossam Hassan",
+        "Javier Mascherano"
       ]
     }
   ],
@@ -395,6 +427,44 @@
         "Al Nassr beat which club in the 2023 Arab Club Champions Cup final?"
       ],
       "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-10-1",
+      "date": "2026-11-10",
+      "items": [
+        "Who scored the only goal of the 2008 AFCON final against Cameroon?",
+        "Al Ahly beat which club in the 2013 CAF Champions League final?",
+        "Al Ahly beat which club in the 2012 CAF Champions League final?",
+        "Al Ahly beat which Cameroonian club in the 2008 CAF Champions League final?",
+        "Enyimba beat which Egyptian club in the 2003 CAF Champions League final?",
+        "Al Ahly beat which club in the 2001 CAF Champions League final?",
+        "Which Portuguese coach led Al Ahly to four CAF Champions League titles between 2001 and 2008?",
+        "Which country knocked Egypt out of the 2022 World Cup play-off on penalties?",
+        "Who scored the winning penalty for Senegal against Egypt in the 2021 AFCON final shootout?",
+        "Whose flag is this?|https://flagcdn.com/w320/km.png",
+        "Who scored Real Madrid's stoppage-time equaliser in the 2014 Champions League final?",
+        "Who scored the golden goal that won the Euro 96 final?"
+      ],
+      "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-10-2",
+      "date": "2026-11-10",
+      "items": [
+        "Who was the top scorer at the 2006 Africa Cup of Nations?",
+        "Which goalkeeper scored the winning penalty for Côte d'Ivoire in the 2015 AFCON final shootout?",
+        "Zambia won the 2012 AFCON final in which city, close to where their national team died in a 1993 plane crash?",
+        "Who coached Egypt at the 2019 Africa Cup of Nations on home soil?",
+        "Mohamed Salah scored on his Premier League debut for Liverpool in 2017 against which club?",
+        "Al Ittihad won the AFC Champions League in 2004 and again in which year?",
+        "Who scored Iraq's winner against Saudi Arabia in the 2007 AFC Asian Cup final?",
+        "At which World Cup did Saudi Arabia reach the round of 16?",
+        "Who scored Liverpool's third goal to make it 3–3 in the 2005 Champions League final?",
+        "Who coached Porto to the 2011 Europa League title?",
+        "Who scored the golden goal that won the Euro 2000 final?",
+        "Who coached Denmark to the Euro 1992 title?"
+      ],
+      "level": "hard"
     }
   ],
   "mystery": [
@@ -542,6 +612,26 @@
         "Fernando Morientes"
       ],
       "level": "pro"
+    },
+    {
+      "id": "mystery-2026-11-10-1",
+      "date": "2026-11-10",
+      "items": [
+        "Manuel Neuer",
+        "Raúl",
+        "Antoine Griezmann"
+      ],
+      "level": "easy"
+    },
+    {
+      "id": "mystery-2026-11-10-2",
+      "date": "2026-11-10",
+      "items": [
+        "Hazem Emam",
+        "Mohamed Barakat",
+        "Hidetoshi Nakata"
+      ],
+      "level": "legend"
     }
   ]
 }

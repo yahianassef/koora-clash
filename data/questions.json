@@ -1828,6 +1828,367 @@
           "years": "2011–2013"
         }
       ]
+    },
+    {
+      "answer": {
+        "en": "Carlos Tevez",
+        "ar": "كارلوس تيفيز"
+      },
+      "aliases": [
+        "tevez",
+        "carlitos",
+        "تيفيز",
+        "كارليتوس"
+      ],
+      "clubs": [
+        {
+          "en": "Boca Juniors",
+          "ar": "بوكا جونيورز",
+          "years": "2001–2004"
+        },
+        {
+          "en": "Corinthians",
+          "ar": "كورينثيانز",
+          "years": "2005–2006"
+        },
+        {
+          "en": "West Ham",
+          "ar": "وست هام",
+          "years": "2006–2007"
+        },
+        {
+          "en": "Manchester United",
+          "ar": "مانشستر يونايتد",
+          "years": "2007–2009"
+        },
+        {
+          "en": "Manchester City",
+          "ar": "مانشستر سيتي",
+          "years": "2009–2013"
+        },
+        {
+          "en": "Juventus",
+          "ar": "يوفنتوس",
+          "years": "2013–2015"
+        },
+        {
+          "en": "Boca Juniors",
+          "ar": "بوكا جونيورز",
+          "years": "2015–2016"
+        },
+        {
+          "en": "Shanghai Shenhua",
+          "ar": "شنغهاي شينهوا",
+          "years": "2016–2018"
+        },
+        {
+          "en": "Boca Juniors",
+          "ar": "بوكا جونيورز",
+          "years": "2018–2021"
+        }
+      ]
+    },
+    {
+      "answer": {
+        "en": "Didier Drogba",
+        "ar": "ديدييه دروجبا"
+      },
+      "aliases": [
+        "drogba",
+        "didier",
+        "دروجبا",
+        "دروغبا",
+        "ديدييه"
+      ],
+      "clubs": [
+        {
+          "en": "Le Mans",
+          "ar": "لو مان",
+          "years": "1998–2002"
+        },
+        {
+          "en": "Guingamp",
+          "ar": "جانجون",
+          "years": "2002–2003"
+        },
+        {
+          "en": "Marseille",
+          "ar": "مارسيليا",
+          "years": "2003–2004"
+        },
+        {
+          "en": "Chelsea",
+          "ar": "تشيلسي",
+          "years": "2004–2012"
+        },
+        {
+          "en": "Shanghai Shenhua",
+          "ar": "شنغهاي شينهوا",
+          "years": "2012–2013"
+        },
+        {
+          "en": "Galatasaray",
+          "ar": "جالطة سراي",
+          "years": "2013–2014"
+        },
+        {
+          "en": "Chelsea",
+          "ar": "تشيلسي",
+          "years": "2014–2015"
+        },
+        {
+          "en": "Montreal Impact",
+          "ar": "مونتريال إمباكت",
+          "years": "2015–2016"
+        },
+        {
+          "en": "Phoenix Rising",
+          "ar": "فينيكس رايزينج",
+          "years": "2017–2018"
+        }
+      ]
+    },
+    {
+      "answer": {
+        "en": "Samir Nasri",
+        "ar": "سمير نصري"
+      },
+      "aliases": [
+        "nasri",
+        "نصري",
+        "سمير"
+      ],
+      "clubs": [
+        {
+          "en": "Marseille",
+          "ar": "مارسيليا",
+          "years": "2004–2008"
+        },
+        {
+          "en": "Arsenal",
+          "ar": "أرسنال",
+          "years": "2008–2011"
+        },
+        {
+          "en": "Manchester City",
+          "ar": "مانشستر سيتي",
+          "years": "2011–2017"
+        },
+        {
+          "en": "Sevilla",
+          "ar": "إشبيلية",
+          "years": "2016–2017"
+        },
+        {
+          "en": "Antalyaspor",
+          "ar": "أنطاليا سبور",
+          "years": "2017–2018"
+        },
+        {
+          "en": "West Ham",
+          "ar": "وست هام",
+          "years": "2019"
+        },
+        {
+          "en": "Anderlecht",
+          "ar": "أندرلخت",
+          "years": "2019–2020"
+        }
+      ]
+    },
+    {
+      "answer": {
+        "en": "Javier Mascherano",
+        "ar": "خافيير ماسكيرانو"
+      },
+      "aliases": [
+        "mascherano",
+        "masche",
+        "el jefecito",
+        "ماسكيرانو",
+        "ماسكرانو"
+      ],
+      "clubs": [
+        {
+          "en": "River Plate",
+          "ar": "ريفر بليت",
+          "years": "2003–2005"
+        },
+        {
+          "en": "Corinthians",
+          "ar": "كورينثيانز",
+          "years": "2005–2006"
+        },
+        {
+          "en": "West Ham",
+          "ar": "وست هام",
+          "years": "2006–2007"
+        },
+        {
+          "en": "Liverpool",
+          "ar": "ليفربول",
+          "years": "2007–2010"
+        },
+        {
+          "en": "Barcelona",
+          "ar": "برشلونة",
+          "years": "2010–2018"
+        },
+        {
+          "en": "Hebei China Fortune",
+          "ar": "خبي تشاينا فورتشن",
+          "years": "2018–2019"
+        },
+        {
+          "en": "Estudiantes",
+          "ar": "إستوديانتس",
+          "years": "2019–2020"
+        }
+      ]
+    },
+    {
+      "answer": {
+        "en": "Mido",
+        "ar": "ميدو"
+      },
+      "aliases": [
+        "ahmed hossam",
+        "ahmed hossam mido",
+        "ميدو",
+        "أحمد حسام",
+        "احمد حسام"
+      ],
+      "clubs": [
+        {
+          "en": "Zamalek",
+          "ar": "الزمالك",
+          "years": "1999–2000"
+        },
+        {
+          "en": "Gent",
+          "ar": "جنت",
+          "years": "2000–2001"
+        },
+        {
+          "en": "Ajax",
+          "ar": "أياكس",
+          "years": "2001–2003"
+        },
+        {
+          "en": "Celta Vigo",
+          "ar": "سيلتا فيجو",
+          "years": "2003"
+        },
+        {
+          "en": "Marseille",
+          "ar": "مارسيليا",
+          "years": "2003–2004"
+        },
+        {
+          "en": "Roma",
+          "ar": "روما",
+          "years": "2004–2006"
+        },
+        {
+          "en": "Tottenham",
+          "ar": "توتنهام",
+          "years": "2005–2007"
+        },
+        {
+          "en": "Middlesbrough",
+          "ar": "ميدلسبره",
+          "years": "2007–2010"
+        },
+        {
+          "en": "Wigan",
+          "ar": "ويجان",
+          "years": "2009"
+        },
+        {
+          "en": "Zamalek",
+          "ar": "الزمالك",
+          "years": "2009–2010"
+        },
+        {
+          "en": "West Ham",
+          "ar": "وست هام",
+          "years": "2010"
+        },
+        {
+          "en": "Ajax",
+          "ar": "أياكس",
+          "years": "2010–2011"
+        },
+        {
+          "en": "Zamalek",
+          "ar": "الزمالك",
+          "years": "2011–2012"
+        },
+        {
+          "en": "Barnsley",
+          "ar": "بارنسلي",
+          "years": "2012–2013"
+        }
+      ]
+    },
+    {
+      "answer": {
+        "en": "Hossam Hassan",
+        "ar": "حسام حسن"
+      },
+      "aliases": [
+        "hossam",
+        "hossam hassan",
+        "حسام حسن",
+        "حسام"
+      ],
+      "clubs": [
+        {
+          "en": "Al Ahly",
+          "ar": "الأهلي",
+          "years": "1984–1990"
+        },
+        {
+          "en": "PAOK",
+          "ar": "باوك",
+          "years": "1990–1991"
+        },
+        {
+          "en": "Neuchâtel Xamax",
+          "ar": "نوشاتيل زاماكس",
+          "years": "1991–1992"
+        },
+        {
+          "en": "Al Ahly",
+          "ar": "الأهلي",
+          "years": "1992–1999"
+        },
+        {
+          "en": "Al Ain",
+          "ar": "العين",
+          "years": "1999–2000"
+        },
+        {
+          "en": "Zamalek",
+          "ar": "الزمالك",
+          "years": "2000–2004"
+        },
+        {
+          "en": "Al Masry",
+          "ar": "المصري",
+          "years": "2004–2006"
+        },
+        {
+          "en": "Tersana",
+          "ar": "الترسانة",
+          "years": "2006–2007"
+        },
+        {
+          "en": "Al Ittihad Alexandria",
+          "ar": "الاتحاد السكندري",
+          "years": "2007–2008"
+        }
+      ]
     }
   ],
   "rondo": [
@@ -2972,6 +3333,129 @@
           "aliases": []
         }
       ]
+    },
+    {
+      "prompt": {
+        "en": "Clubs Zlatan Ibrahimović played for",
+        "ar": "الأندية اللي لعب لها زلاتان إبراهيموفيتش"
+      },
+      "answers": [
+        {
+          "en": "Malmö",
+          "ar": "مالمو",
+          "aliases": [
+            "malmo",
+            "مالمو"
+          ]
+        },
+        {
+          "en": "Ajax",
+          "ar": "أياكس",
+          "aliases": [
+            "اياكس"
+          ]
+        },
+        {
+          "en": "Juventus",
+          "ar": "يوفنتوس",
+          "aliases": [
+            "juve",
+            "اليوفي",
+            "يوفي"
+          ]
+        },
+        {
+          "en": "Inter",
+          "ar": "إنتر",
+          "aliases": [
+            "inter milan",
+            "انتر",
+            "إنتر ميلان"
+          ]
+        },
+        {
+          "en": "Barcelona",
+          "ar": "برشلونة",
+          "aliases": [
+            "barca",
+            "برشا"
+          ]
+        },
+        {
+          "en": "AC Milan",
+          "ar": "ميلان",
+          "aliases": [
+            "milan",
+            "إيه سي ميلان"
+          ]
+        },
+        {
+          "en": "Paris Saint-Germain",
+          "ar": "باريس سان جيرمان",
+          "aliases": [
+            "psg",
+            "باريس"
+          ]
+        },
+        {
+          "en": "Manchester United",
+          "ar": "مانشستر يونايتد",
+          "aliases": [
+            "man united",
+            "man utd",
+            "اليونايتد"
+          ]
+        },
+        {
+          "en": "LA Galaxy",
+          "ar": "لوس أنجلوس جالاكسي",
+          "aliases": [
+            "galaxy",
+            "جالاكسي"
+          ]
+        }
+      ]
+    },
+    {
+      "prompt": {
+        "en": "Countries that have won the FIFA Arab Cup",
+        "ar": "دول كسبت كاس العرب"
+      },
+      "answers": [
+        {
+          "en": "Tunisia",
+          "ar": "تونس",
+          "aliases": []
+        },
+        {
+          "en": "Iraq",
+          "ar": "العراق",
+          "aliases": []
+        },
+        {
+          "en": "Egypt",
+          "ar": "مصر",
+          "aliases": []
+        },
+        {
+          "en": "Saudi Arabia",
+          "ar": "السعودية",
+          "aliases": [
+            "ksa",
+            "المملكة"
+          ]
+        },
+        {
+          "en": "Morocco",
+          "ar": "المغرب",
+          "aliases": []
+        },
+        {
+          "en": "Algeria",
+          "ar": "الجزائر",
+          "aliases": []
+        }
+      ]
     }
   ],
   "words": [
@@ -3246,6 +3730,30 @@
     {
       "en": "Antoine Griezmann",
       "ar": "أنطوان جريزمان"
+    },
+    {
+      "en": "Mido",
+      "ar": "ميدو"
+    },
+    {
+      "en": "Carlos Tevez",
+      "ar": "كارلوس تيفيز"
+    },
+    {
+      "en": "Manuel Neuer",
+      "ar": "مانويل نوير"
+    },
+    {
+      "en": "Raúl",
+      "ar": "راؤول"
+    },
+    {
+      "en": "San Siro",
+      "ar": "سان سيرو"
+    },
+    {
+      "en": "Mahmoud El-Khatib",
+      "ar": "محمود الخطيب"
     }
   ],
   "quickfire": [
@@ -6525,6 +7033,607 @@
         {
           "en": "Zamalek",
           "ar": "الزمالك"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who scored the only goal of the 2008 AFCON final against Cameroon?",
+        "ar": "مين جاب هدف نهائي أمم أفريقيا ٢٠٠٨ الوحيد قدام الكاميرون؟"
+      },
+      "options": [
+        {
+          "en": "Mohamed Aboutrika",
+          "ar": "محمد أبو تريكة"
+        },
+        {
+          "en": "Amr Zaki",
+          "ar": "عمرو زكي"
+        },
+        {
+          "en": "Mohamed Zidan",
+          "ar": "محمد زيدان"
+        },
+        {
+          "en": "Hosny Abd Rabou",
+          "ar": "حسني عبد ربه"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Al Ahly beat which club in the 2013 CAF Champions League final?",
+        "ar": "الأهلي غلب مين في نهائي دوري أبطال أفريقيا ٢٠١٣؟"
+      },
+      "options": [
+        {
+          "en": "Orlando Pirates",
+          "ar": "أورلاندو بايرتس"
+        },
+        {
+          "en": "Espérance de Tunis",
+          "ar": "الترجي"
+        },
+        {
+          "en": "TP Mazembe",
+          "ar": "مازيمبي"
+        },
+        {
+          "en": "Kaizer Chiefs",
+          "ar": "كايزر تشيفز"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Al Ahly beat which club in the 2012 CAF Champions League final?",
+        "ar": "الأهلي غلب مين في نهائي دوري أبطال أفريقيا ٢٠١٢؟"
+      },
+      "options": [
+        {
+          "en": "Espérance de Tunis",
+          "ar": "الترجي"
+        },
+        {
+          "en": "TP Mazembe",
+          "ar": "مازيمبي"
+        },
+        {
+          "en": "Étoile du Sahel",
+          "ar": "النجم الساحلي"
+        },
+        {
+          "en": "Zamalek",
+          "ar": "الزمالك"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Al Ahly beat which Cameroonian club in the 2008 CAF Champions League final?",
+        "ar": "الأهلي غلب أنهي نادي كاميروني في نهائي دوري أبطال أفريقيا ٢٠٠٨؟"
+      },
+      "options": [
+        {
+          "en": "Coton Sport",
+          "ar": "قطن سبور"
+        },
+        {
+          "en": "Canon Yaoundé",
+          "ar": "كانون ياوندي"
+        },
+        {
+          "en": "Union Douala",
+          "ar": "يونيون دوالا"
+        },
+        {
+          "en": "Tonnerre Yaoundé",
+          "ar": "تونير ياوندي"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Enyimba beat which Egyptian club in the 2003 CAF Champions League final?",
+        "ar": "إنييمبا غلب أنهي نادي مصري في نهائي دوري أبطال أفريقيا ٢٠٠٣؟"
+      },
+      "options": [
+        {
+          "en": "Ismaily",
+          "ar": "الإسماعيلي"
+        },
+        {
+          "en": "Al Ahly",
+          "ar": "الأهلي"
+        },
+        {
+          "en": "Zamalek",
+          "ar": "الزمالك"
+        },
+        {
+          "en": "Al Masry",
+          "ar": "المصري"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Al Ahly beat which club in the 2001 CAF Champions League final?",
+        "ar": "الأهلي غلب مين في نهائي دوري أبطال أفريقيا ٢٠٠١؟"
+      },
+      "options": [
+        {
+          "en": "Mamelodi Sundowns",
+          "ar": "صن داونز"
+        },
+        {
+          "en": "Kaizer Chiefs",
+          "ar": "كايزر تشيفز"
+        },
+        {
+          "en": "Orlando Pirates",
+          "ar": "أورلاندو بايرتس"
+        },
+        {
+          "en": "Enyimba",
+          "ar": "إنييمبا"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Which Portuguese coach led Al Ahly to four CAF Champions League titles between 2001 and 2008?",
+        "ar": "مين المدرب البرتغالي اللي كسب مع الأهلي ٤ دوري أبطال أفريقيا بين ٢٠٠١ و٢٠٠٨؟"
+      },
+      "options": [
+        {
+          "en": "Manuel José",
+          "ar": "مانويل جوزيه"
+        },
+        {
+          "en": "Jesualdo Ferreira",
+          "ar": "جيسوالدو فيريرا"
+        },
+        {
+          "en": "José Peseiro",
+          "ar": "جوزيه بيسيرو"
+        },
+        {
+          "en": "Carlos Queiroz",
+          "ar": "كارلوس كيروش"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Which country knocked Egypt out of the 2022 World Cup play-off on penalties?",
+        "ar": "مين اللي طلّع مصر من الملحق الفاصل لكاس العالم ٢٠٢٢ بضربات الترجيح؟"
+      },
+      "options": [
+        {
+          "en": "Senegal",
+          "ar": "السنغال"
+        },
+        {
+          "en": "Ghana",
+          "ar": "غانا"
+        },
+        {
+          "en": "Cameroon",
+          "ar": "الكاميرون"
+        },
+        {
+          "en": "Algeria",
+          "ar": "الجزائر"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who scored the winning penalty for Senegal against Egypt in the 2021 AFCON final shootout?",
+        "ar": "مين سجل ضربة الترجيح الحاسمة للسنغال قدام مصر في نهائي أمم أفريقيا ٢٠٢١؟"
+      },
+      "options": [
+        {
+          "en": "Sadio Mané",
+          "ar": "ساديو ماني"
+        },
+        {
+          "en": "Kalidou Koulibaly",
+          "ar": "كاليدو كوليبالي"
+        },
+        {
+          "en": "Idrissa Gueye",
+          "ar": "إدريسا جايي"
+        },
+        {
+          "en": "Ismaïla Sarr",
+          "ar": "إسماعيلا سار"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Whose flag is this?",
+        "ar": "علم أنهي دولة ده؟"
+      },
+      "options": [
+        {
+          "en": "Comoros",
+          "ar": "جزر القمر"
+        },
+        {
+          "en": "Mauritania",
+          "ar": "موريتانيا"
+        },
+        {
+          "en": "Equatorial Guinea",
+          "ar": "غينيا الاستوائية"
+        },
+        {
+          "en": "Madagascar",
+          "ar": "مدغشقر"
+        }
+      ],
+      "level": "hard",
+      "img": "https://flagcdn.com/w320/km.png"
+    },
+    {
+      "q": {
+        "en": "Who scored Real Madrid's stoppage-time equaliser in the 2014 Champions League final?",
+        "ar": "مين جاب هدف التعادل لريال مدريد في الوقت بدل الضائع في نهائي دوري الأبطال ٢٠١٤؟"
+      },
+      "options": [
+        {
+          "en": "Sergio Ramos",
+          "ar": "سيرجيو راموس"
+        },
+        {
+          "en": "Gareth Bale",
+          "ar": "جاريث بيل"
+        },
+        {
+          "en": "Marcelo",
+          "ar": "مارسيلو"
+        },
+        {
+          "en": "Cristiano Ronaldo",
+          "ar": "كريستيانو رونالدو"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who scored the golden goal that won the Euro 96 final?",
+        "ar": "مين جاب الهدف الذهبي في نهائي يورو ٩٦؟"
+      },
+      "options": [
+        {
+          "en": "Oliver Bierhoff",
+          "ar": "أوليفر بيرهوف"
+        },
+        {
+          "en": "Jürgen Klinsmann",
+          "ar": "يورجن كلينسمان"
+        },
+        {
+          "en": "Stefan Kuntz",
+          "ar": "ستيفان كونتز"
+        },
+        {
+          "en": "Andreas Möller",
+          "ar": "أندرياس موللر"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who was the top scorer at the 2006 Africa Cup of Nations?",
+        "ar": "مين كان هداف أمم أفريقيا ٢٠٠٦؟"
+      },
+      "options": [
+        {
+          "en": "Samuel Eto'o",
+          "ar": "صامويل إيتو"
+        },
+        {
+          "en": "Ahmed Hassan",
+          "ar": "أحمد حسن"
+        },
+        {
+          "en": "Didier Drogba",
+          "ar": "ديدييه دروجبا"
+        },
+        {
+          "en": "Pascal Feindouno",
+          "ar": "باسكال فيندونو"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Which goalkeeper scored the winning penalty for Côte d'Ivoire in the 2015 AFCON final shootout?",
+        "ar": "أنهي حارس سجل ضربة الترجيح الحاسمة لكوت ديفوار في نهائي أمم أفريقيا ٢٠١٥؟"
+      },
+      "options": [
+        {
+          "en": "Boubacar Barry",
+          "ar": "بوبكر باري"
+        },
+        {
+          "en": "Sylvain Gbohouo",
+          "ar": "سيلفان جبوهو"
+        },
+        {
+          "en": "Brice Samba",
+          "ar": "بريس سامبا"
+        },
+        {
+          "en": "Kennedy Mweene",
+          "ar": "كينيدي موين"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Zambia won the 2012 AFCON final in which city, close to where their national team died in a 1993 plane crash?",
+        "ar": "زامبيا كسبت نهائي أمم أفريقيا ٢٠١٢ في أنهي مدينة، قريب من مكان كارثة طيارة منتخبها سنة ١٩٩٣؟"
+      },
+      "options": [
+        {
+          "en": "Libreville",
+          "ar": "ليبرفيل"
+        },
+        {
+          "en": "Malabo",
+          "ar": "مالابو"
+        },
+        {
+          "en": "Bata",
+          "ar": "باتا"
+        },
+        {
+          "en": "Franceville",
+          "ar": "فرانسفيل"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who coached Egypt at the 2019 Africa Cup of Nations on home soil?",
+        "ar": "مين كان مدرب مصر في أمم أفريقيا ٢٠١٩ على أرضها؟"
+      },
+      "options": [
+        {
+          "en": "Javier Aguirre",
+          "ar": "خافيير أجيري"
+        },
+        {
+          "en": "Héctor Cúper",
+          "ar": "هيكتور كوبر"
+        },
+        {
+          "en": "Carlos Queiroz",
+          "ar": "كارلوس كيروش"
+        },
+        {
+          "en": "Rui Vitória",
+          "ar": "روي فيتوريا"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Mohamed Salah scored on his Premier League debut for Liverpool in 2017 against which club?",
+        "ar": "محمد صلاح جاب جون في أول ماتش له في البريميرليج مع ليفربول سنة ٢٠١٧ قدام مين؟"
+      },
+      "options": [
+        {
+          "en": "Watford",
+          "ar": "واتفورد"
+        },
+        {
+          "en": "Arsenal",
+          "ar": "أرسنال"
+        },
+        {
+          "en": "Crystal Palace",
+          "ar": "كريستال بالاس"
+        },
+        {
+          "en": "Burnley",
+          "ar": "بيرنلي"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Al Ittihad won the AFC Champions League in 2004 and again in which year?",
+        "ar": "اتحاد جدة كسب دوري أبطال آسيا سنة ٢٠٠٤ ورجع كسبه تاني سنة كام؟"
+      },
+      "options": [
+        {
+          "en": "2005",
+          "ar": "٢٠٠٥"
+        },
+        {
+          "en": "2003",
+          "ar": "٢٠٠٣"
+        },
+        {
+          "en": "2006",
+          "ar": "٢٠٠٦"
+        },
+        {
+          "en": "2007",
+          "ar": "٢٠٠٧"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who scored Iraq's winner against Saudi Arabia in the 2007 AFC Asian Cup final?",
+        "ar": "مين جاب هدف فوز العراق على السعودية في نهائي كاس آسيا ٢٠٠٧؟"
+      },
+      "options": [
+        {
+          "en": "Younis Mahmoud",
+          "ar": "يونس محمود"
+        },
+        {
+          "en": "Nashat Akram",
+          "ar": "نشأت أكرم"
+        },
+        {
+          "en": "Hawar Mulla Mohammed",
+          "ar": "هوار ملا محمد"
+        },
+        {
+          "en": "Emad Mohammed",
+          "ar": "عماد محمد"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "At which World Cup did Saudi Arabia reach the round of 16?",
+        "ar": "السعودية وصلت دور الـ١٦ في أنهي كاس عالم؟"
+      },
+      "options": [
+        {
+          "en": "1994",
+          "ar": "١٩٩٤"
+        },
+        {
+          "en": "1998",
+          "ar": "١٩٩٨"
+        },
+        {
+          "en": "2002",
+          "ar": "٢٠٠٢"
+        },
+        {
+          "en": "2006",
+          "ar": "٢٠٠٦"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who scored Liverpool's third goal to make it 3–3 in the 2005 Champions League final?",
+        "ar": "مين جاب هدف ليفربول التالت (٣–٣) في نهائي دوري الأبطال ٢٠٠٥؟"
+      },
+      "options": [
+        {
+          "en": "Xabi Alonso",
+          "ar": "تشابي ألونسو"
+        },
+        {
+          "en": "Vladimír Šmicer",
+          "ar": "فلاديمير شميتسر"
+        },
+        {
+          "en": "Steven Gerrard",
+          "ar": "ستيفن جيرارد"
+        },
+        {
+          "en": "Milan Baroš",
+          "ar": "ميلان باروش"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who coached Porto to the 2011 Europa League title?",
+        "ar": "مين درّب بورتو لما كسب الدوري الأوروبي ٢٠١١؟"
+      },
+      "options": [
+        {
+          "en": "André Villas-Boas",
+          "ar": "أندريه فيلاش بواش"
+        },
+        {
+          "en": "Jesualdo Ferreira",
+          "ar": "جيسوالدو فيريرا"
+        },
+        {
+          "en": "Vítor Pereira",
+          "ar": "فيتور بيريرا"
+        },
+        {
+          "en": "Paulo Fonseca",
+          "ar": "باولو فونسيكا"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who scored the golden goal that won the Euro 2000 final?",
+        "ar": "مين جاب الهدف الذهبي في نهائي يورو ٢٠٠٠؟"
+      },
+      "options": [
+        {
+          "en": "David Trezeguet",
+          "ar": "دافيد تريزيجيه"
+        },
+        {
+          "en": "Sylvain Wiltord",
+          "ar": "سيلفان فيلتور"
+        },
+        {
+          "en": "Thierry Henry",
+          "ar": "تييري هنري"
+        },
+        {
+          "en": "Robert Pirès",
+          "ar": "روبير بيريس"
+        }
+      ],
+      "level": "hard"
+    },
+    {
+      "q": {
+        "en": "Who coached Denmark to the Euro 1992 title?",
+        "ar": "مين درّب الدنمارك لما كسبت يورو ٩٢؟"
+      },
+      "options": [
+        {
+          "en": "Richard Møller Nielsen",
+          "ar": "ريتشارد مولر نيلسن"
+        },
+        {
+          "en": "Sepp Piontek",
+          "ar": "سيب بيونتيك"
+        },
+        {
+          "en": "Morten Olsen",
+          "ar": "مورتن أولسن"
+        },
+        {
+          "en": "Åge Hareide",
+          "ar": "أوجه هاريدي"
         }
       ],
       "level": "hard"
