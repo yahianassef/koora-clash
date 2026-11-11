@@ -111,6 +111,20 @@
       "items": [
         "Countries that have won the FIFA Arab Cup"
       ]
+    },
+    {
+      "id": "nameall-2026-11-11-1",
+      "date": "2026-11-11",
+      "items": [
+        "Clubs Didier Drogba played for"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-11-2",
+      "date": "2026-11-11",
+      "items": [
+        "Countries that have hosted the AFC Asian Cup"
+      ]
     }
   ],
   "career": [
@@ -222,6 +236,24 @@
         "Didier Drogba",
         "Hossam Hassan",
         "Javier Mascherano"
+      ]
+    },
+    {
+      "id": "career-2026-11-11-1",
+      "date": "2026-11-11",
+      "items": [
+        "Fernando Morientes",
+        "Hany Ramzy",
+        "Jay-Jay Okocha"
+      ]
+    },
+    {
+      "id": "career-2026-11-11-2",
+      "date": "2026-11-11",
+      "items": [
+        "Dimitar Berbatov",
+        "Frédéric Kanouté",
+        "Ruud van Nistelrooy"
       ]
     }
   ],
@@ -465,6 +497,44 @@
         "Who coached Denmark to the Euro 1992 title?"
       ],
       "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-11-1",
+      "date": "2026-11-11",
+      "items": [
+        "Wigan signed Amr Zaki on loan in 2008 from which club?",
+        "Egypt beat which team 4–0 in the 2010 AFCON semi-final?",
+        "Al Ahly beat which club in the 2024 CAF Champions League final?",
+        "Who was the top scorer at the 2010 Africa Cup of Nations?",
+        "Who scored Saudi Arabia's equaliser against Argentina at the 2022 World Cup?",
+        "Who scored Morocco's winning Panenka penalty against Spain at the 2022 World Cup?",
+        "Who scored Tunisia's winner against France at the 2022 World Cup?",
+        "Who was the only player to miss in the 2006 World Cup final shootout?",
+        "Who was the top scorer at Euro 2016?",
+        "Who scored the only goal of the Euro 2016 final?",
+        "Dimitar Berbatov scored five goals in one Premier League match in 2010 against which club?",
+        "Ronaldinho won the 2013 Copa Libertadores with which club?"
+      ],
+      "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-11-2",
+      "date": "2026-11-11",
+      "items": [
+        "Who came off the bench to score Egypt's winner against Senegal in the 2006 AFCON semi-final?",
+        "Who coached Al Ahly to the 2023 CAF Champions League title?",
+        "In which year did Egypt host the Africa Cup of Nations for the first time?",
+        "Essam El-Hadary left Al Ahly in 2008 for which Swiss club?",
+        "Which Moroccan goalkeeper won the Zamora Trophy with Sevilla in 2021–22?",
+        "Algeria's famous 2–1 win at the 1982 World Cup came against which team?",
+        "Who scored Manchester United's stoppage-time winner in the 1999 Champions League final?",
+        "Valencia beat which club in the 2004 UEFA Cup final?",
+        "Who won the 2006 Ballon d'Or?",
+        "Which club won the first Champions League season in 1992–93?",
+        "Who scored Nigeria's late winner against Argentina in the 1996 Olympic final?",
+        "Which country won the Olympic football gold at Sydney 2000?"
+      ],
+      "level": "hard"
     }
   ],
   "mystery": [
@@ -632,6 +702,26 @@
         "Hidetoshi Nakata"
       ],
       "level": "legend"
+    },
+    {
+      "id": "mystery-2026-11-11-1",
+      "date": "2026-11-11",
+      "items": [
+        "Wesley Sneijder",
+        "Michael Ballack",
+        "Michael Owen"
+      ],
+      "level": "amateur"
+    },
+    {
+      "id": "mystery-2026-11-11-2",
+      "date": "2026-11-11",
+      "items": [
+        "Hossam Hassan",
+        "Roy Makaay",
+        "Nicolas Anelka"
+      ],
+      "level": "pro"
     }
   ]
 }

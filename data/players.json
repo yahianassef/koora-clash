@@ -3495,6 +3495,303 @@
           "ar": "اعتزلت وأنا عندي ٢٩ سنة، على طول بعد كاس العالم ٢٠٠٦، وأنا في عز شهرتي."
         }
       ]
+    },
+    {
+      "name": {
+        "en": "Wesley Sneijder",
+        "ar": "ويسلي شنايدر"
+      },
+      "aliases": [
+        "sneijder",
+        "شنايدر",
+        "سنايدر"
+      ],
+      "nation": "NED",
+      "pos": "MF",
+      "born": 1984,
+      "clubs": [
+        "Ajax",
+        "Real Madrid",
+        "Inter",
+        "Galatasaray",
+        "Nice",
+        "Al-Gharafa"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and finished my playing days in the Gulf.",
+          "ar": "اتولدت في الثمانينات وختمت مسيرتي في الخليج."
+        },
+        {
+          "en": "I played alongside Zlatan Ibrahimović, Raúl, Samuel Eto'o, Javier Zanetti, Didier Drogba, Arjen Robben and Robin van Persie.",
+          "ar": "لعبت جنب زلاتان إبراهيموفيتش وراؤول وصامويل إيتو وخافيير زانيتي وديدييه دروجبا وآريين روبن وروبن فان بيرسي."
+        },
+        {
+          "en": "In the same year I won the Champions League, I also played in a World Cup final.",
+          "ar": "في نفس السنة اللي كسبت فيها دوري الأبطال، لعبت كمان نهائي كاس العالم."
+        },
+        {
+          "en": "I've won the Champions League, and later I won the league in Turkey too.",
+          "ar": "كسبت دوري الأبطال، وبعدها كسبت الدوري في تركيا كمان."
+        },
+        {
+          "en": "I won league titles in the Netherlands, Spain and Italy.",
+          "ar": "كسبت الدوري في هولندا وإسبانيا وإيطاليا."
+        },
+        {
+          "en": "In 2010 I won the treble with a Milan club, then lost the World Cup final that same summer.",
+          "ar": "سنة ٢٠١٠ كسبت الثلاثية مع نادي من ميلانو، وبعدها خسرت نهائي كاس العالم في نفس الصيف."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Michael Ballack",
+        "ar": "ميكايل بالاك"
+      },
+      "aliases": [
+        "ballack",
+        "بالاك"
+      ],
+      "nation": "GER",
+      "pos": "MF",
+      "born": 1976,
+      "clubs": [
+        "Chemnitzer FC",
+        "Kaiserslautern",
+        "Bayer Leverkusen",
+        "Bayern Munich",
+        "Chelsea"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and only ever played club football in two countries.",
+          "ar": "اتولدت في السبعينات ولعبت كورة أندية في بلدين بس طول مسيرتي."
+        },
+        {
+          "en": "I played alongside Oliver Kahn, Lúcio, Roy Makaay, Didier Drogba, Frank Lampard, Miroslav Klose and Philipp Lahm.",
+          "ar": "لعبت جنب أوليفر كان ولوسيو وروي ماكاي وديدييه دروجبا وفرانك لامبارد وميروسلاف كلوزه وفيليب لام."
+        },
+        {
+          "en": "I've won the league in both Germany and England.",
+          "ar": "كسبت الدوري في ألمانيا وإنجلترا الاتنين."
+        },
+        {
+          "en": "In the same summer, I finished runner-up in both the Champions League and the World Cup.",
+          "ar": "في نفس الصيف، طلعت وصيف في دوري الأبطال وفي كاس العالم."
+        },
+        {
+          "en": "I won the league and cup double in both Germany and England.",
+          "ar": "كسبت ثنائية الدوري والكاس في ألمانيا وفي إنجلترا."
+        },
+        {
+          "en": "I scored the winner in a World Cup semi-final but missed the final through suspension.",
+          "ar": "جبت هدف الفوز في نص نهائي كاس العالم بس غبت عن النهائي بسبب الإيقاف."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Michael Owen",
+        "ar": "مايكل أوين"
+      },
+      "aliases": [
+        "owen",
+        "أوين",
+        "اوين"
+      ],
+      "nation": "ENG",
+      "pos": "FW",
+      "born": 1979,
+      "clubs": [
+        "Liverpool",
+        "Real Madrid",
+        "Newcastle United",
+        "Manchester United",
+        "Stoke City"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and spent all but one season of my career in the same country.",
+          "ar": "اتولدت في السبعينات ولعبت مسيرتي كلها في بلد واحد ما عدا موسم واحد."
+        },
+        {
+          "en": "I played alongside Jamie Carragher, Zinedine Zidane, Ronaldo Nazário, Alan Shearer, Ryan Giggs, David Beckham and Frank Lampard.",
+          "ar": "لعبت جنب جيمي كاراجر وزين الدين زيدان ورونالدو نازاريو وآلان شيرر ورايان جيجز وديفيد بيكهام وفرانك لامبارد."
+        },
+        {
+          "en": "I won the Ballon d'Or in the 2000s.",
+          "ar": "كسبت الكورة الذهبية في العقد الأول من الألفية."
+        },
+        {
+          "en": "I won the Ballon d'Or while playing in England.",
+          "ar": "كسبت الكورة الذهبية وأنا بلعب في إنجلترا."
+        },
+        {
+          "en": "I won the Ballon d'Or in the 2000s but never lifted the Champions League.",
+          "ar": "كسبت الكورة الذهبية في الألفينات بس عمري ما رفعت دوري الأبطال."
+        },
+        {
+          "en": "My hat-trick in a 5–1 win in Munich helped me win the Ballon d'Or that year.",
+          "ar": "الهاتريك بتاعي في الفوز ٥–١ في ميونخ ساعدني أكسب الكورة الذهبية السنة دي."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hossam Hassan",
+        "ar": "حسام حسن"
+      },
+      "aliases": [
+        "hossam",
+        "حسام",
+        "العميد"
+      ],
+      "nation": "EGY",
+      "pos": "FW",
+      "born": 1966,
+      "clubs": [
+        "Al Ahly",
+        "PAOK",
+        "Neuchâtel Xamax",
+        "Al Ain",
+        "Zamalek",
+        "Al Masry",
+        "Tersana",
+        "Al Ittihad Alexandria"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the 1960s and played most of my career in my home league.",
+          "ar": "اتولدت في الستينات ولعبت أغلب مسيرتي في دوري بلدي."
+        },
+        {
+          "en": "I played alongside Mahmoud El-Khatib, Hazem Emam, Magdi Abdelghani, Hany Ramzy, Ahmed Hassan, Mido and Essam El-Hadary.",
+          "ar": "لعبت جنب محمود الخطيب وحازم إمام ومجدي عبد الغني وهاني رمزي وأحمد حسن وميدو وعصام الحضري."
+        },
+        {
+          "en": "I won the Africa Cup of Nations three times.",
+          "ar": "كسبت كاس الأمم الأفريقية ٣ مرات."
+        },
+        {
+          "en": "I won Africa's top club competition with two bitter city rivals.",
+          "ar": "كسبت أكبر بطولة أندية في أفريقيا مع ناديين غريمين من نفس المدينة."
+        },
+        {
+          "en": "In the early 1990s I had spells in the Greek and Swiss leagues.",
+          "ar": "في أول التسعينات لعبت في الدوري اليوناني والدوري السويسري."
+        },
+        {
+          "en": "My header against Algeria in 1989 sent us to Italia '90, and I'm my country's all-time top scorer.",
+          "ar": "راسيتي قدام الجزائر سنة ١٩٨٩ وصّلتنا لكاس العالم ٩٠، وأنا الهداف التاريخي لمنتخب بلدي."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Roy Makaay",
+        "ar": "روي ماكاي"
+      },
+      "aliases": [
+        "makaay",
+        "ماكاي"
+      ],
+      "nation": "NED",
+      "pos": "FW",
+      "born": 1975,
+      "clubs": [
+        "Vitesse",
+        "Tenerife",
+        "Deportivo La Coruña",
+        "Bayern Munich",
+        "Feyenoord"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and finished my career back in my home country.",
+          "ar": "اتولدت في السبعينات ورجعت أختم مسيرتي في بلدي."
+        },
+        {
+          "en": "I played alongside Diego Tristán, Juan Carlos Valerón, Michael Ballack, Bastian Schweinsteiger, Giovanni van Bronckhorst, Patrick Kluivert and Ruud van Nistelrooy.",
+          "ar": "لعبت جنب دييجو تريستان وخوان كارلوس فاليرون وميكايل بالاك وباستيان شفاينشتايجر وجيوفاني فان برونكهورست وباتريك كلويفرت ورود فان نيستلروي."
+        },
+        {
+          "en": "I've won the league in both Spain and Germany.",
+          "ar": "كسبت الدوري في إسبانيا وألمانيا الاتنين."
+        },
+        {
+          "en": "I was Europe's top league scorer while playing in Spain.",
+          "ar": "كنت هداف الدوريات الأوروبية وأنا بلعب في إسبانيا."
+        },
+        {
+          "en": "I've won the league in Spain and Germany as well as Europe's top-scorer award.",
+          "ar": "كسبت الدوري في إسبانيا وألمانيا، وكمان جايزة هداف أوروبا."
+        },
+        {
+          "en": "I scored the fastest goal in Champions League history, after about 10 seconds against Real Madrid.",
+          "ar": "جبت أسرع هدف في تاريخ دوري الأبطال، بعد حوالي ١٠ ثواني قدام ريال مدريد."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Nicolas Anelka",
+        "ar": "نيكولا أنيلكا"
+      },
+      "aliases": [
+        "anelka",
+        "أنيلكا",
+        "انيلكا"
+      ],
+      "nation": "FRA",
+      "pos": "FW",
+      "born": 1979,
+      "clubs": [
+        "Paris Saint-Germain",
+        "Arsenal",
+        "Real Madrid",
+        "Liverpool",
+        "Manchester City",
+        "Fenerbahçe",
+        "Bolton",
+        "Chelsea",
+        "Shanghai Shenhua",
+        "Juventus",
+        "West Brom",
+        "Mumbai City"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and ended my career in Asia.",
+          "ar": "اتولدت في السبعينات وختمت مسيرتي في آسيا."
+        },
+        {
+          "en": "I played alongside Dennis Bergkamp, Raúl, Steven Gerrard, Shaun Wright-Phillips, Kevin Nolan, Frank Lampard and Zinedine Zidane.",
+          "ar": "لعبت جنب دينيس بيركامب وراؤول وستيفن جيرارد وشون رايت فيليبس وكيفن نولان وفرانك لامبارد وزين الدين زيدان."
+        },
+        {
+          "en": "I won the Champions League and the European Championship in the same year.",
+          "ar": "كسبت دوري الأبطال وبطولة أمم أوروبا في نفس السنة."
+        },
+        {
+          "en": "I won the Premier League Golden Boot with a London club.",
+          "ar": "كسبت لقب هداف الدوري الإنجليزي مع نادي من لندن."
+        },
+        {
+          "en": "I've won league titles in England and in Turkey.",
+          "ar": "كسبت الدوري في إنجلترا وفي تركيا."
+        },
+        {
+          "en": "I was sent home from the 2010 World Cup after a dressing-room row with our coach.",
+          "ar": "اترحّلت من كاس العالم ٢٠١٠ بعد خناقة في غرفة اللبس مع المدرب."
+        }
+      ]
     }
   ]
 }
