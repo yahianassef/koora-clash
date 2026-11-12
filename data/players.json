@@ -164,6 +164,11 @@
       "en": "Japan",
       "ar": "اليابان",
       "continent": "asia"
+    },
+    "FIN": {
+      "en": "Finland",
+      "ar": "فنلندا",
+      "continent": "europe"
     }
   },
   "players": [
@@ -3790,6 +3795,316 @@
         {
           "en": "I was sent home from the 2010 World Cup after a dressing-room row with our coach.",
           "ar": "اترحّلت من كاس العالم ٢٠١٠ بعد خناقة في غرفة اللبس مع المدرب."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Sergio Agüero",
+        "ar": "سيرخيو أجويرو"
+      },
+      "aliases": [
+        "aguero",
+        "kun",
+        "kun aguero",
+        "أجويرو",
+        "اجويرو",
+        "كون"
+      ],
+      "nation": "ARG",
+      "pos": "FW",
+      "born": 1988,
+      "clubs": [
+        "Independiente",
+        "Atlético Madrid",
+        "Manchester City",
+        "Barcelona"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and spent most of my career in Europe.",
+          "ar": "اتولدت في الثمانينات وقضيت أغلب مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Diego Forlán, Simão, David Silva, Vincent Kompany, Yaya Touré, Ángel Di María and Javier Mascherano.",
+          "ar": "لعبت جنب دييجو فورلان وسيماو وديفيد سيلفا وفينسنت كومباني ويايا توريه وأنخيل دي ماريا وخافيير ماسكيرانو."
+        },
+        {
+          "en": "I've won the English league and the Copa América.",
+          "ar": "كسبت الدوري الإنجليزي وكوبا أمريكا."
+        },
+        {
+          "en": "I've won an Olympic gold medal and the Under-20 World Cup.",
+          "ar": "كسبت ذهبية الأولمبياد وكاس العالم للشباب."
+        },
+        {
+          "en": "I scored more than 180 Premier League goals.",
+          "ar": "جبت أكتر من ١٨٠ هدف في الدوري الإنجليزي."
+        },
+        {
+          "en": "My stoppage-time winner on the last day of the 2011–12 season gave my club its first league title in 44 years.",
+          "ar": "هدفي في الوقت بدل الضايع في آخر يوم من موسم ٢٠١١–١٢ جاب لنادي أول دوري من ٤٤ سنة."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Fabio Cannavaro",
+        "ar": "فابيو كانافارو"
+      },
+      "aliases": [
+        "cannavaro",
+        "كانافارو"
+      ],
+      "nation": "ITA",
+      "pos": "DF",
+      "born": 1973,
+      "clubs": [
+        "Napoli",
+        "Parma",
+        "Inter",
+        "Juventus",
+        "Real Madrid",
+        "Shabab Al Ahli"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and spent almost my whole playing career in Europe.",
+          "ar": "اتولدت في السبعينات وقضيت تقريبًا مسيرتي كلها في أوروبا."
+        },
+        {
+          "en": "I played alongside Gianfranco Zola, Gianluigi Buffon, Lilian Thuram, Zlatan Ibrahimović, Raúl, Ruud van Nistelrooy and Gennaro Gattuso.",
+          "ar": "لعبت جنب جانفرانكو زولا وجانلويجي بوفون وليليان تورام وزلاتان إبراهيموفيتش وراؤول ورود فان نيستلروي وجينارو جاتوزو."
+        },
+        {
+          "en": "I won the UEFA Cup with an Italian club and later the World Cup.",
+          "ar": "كسبت كاس الاتحاد الأوروبي مع نادي إيطالي وبعدها كاس العالم."
+        },
+        {
+          "en": "I captained my country to World Cup glory as a defender.",
+          "ar": "كنت كابتن منتخب بلدي وأنا مدافع لما كسبنا كاس العالم."
+        },
+        {
+          "en": "I've won the World Cup, the UEFA Cup and the Spanish league.",
+          "ar": "كسبت كاس العالم وكاس الاتحاد الأوروبي والدوري الإسباني."
+        },
+        {
+          "en": "In 2006 I became the only defender ever named FIFA World Player of the Year.",
+          "ar": "في ٢٠٠٦ بقيت المدافع الوحيد في التاريخ اللي اتختار أفضل لاعب في العالم من الفيفا."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Rivaldo",
+        "ar": "ريفالدو"
+      },
+      "aliases": [
+        "ريفالدو",
+        "rivaldo ferreira"
+      ],
+      "nation": "BRA",
+      "pos": "FW",
+      "born": 1972,
+      "clubs": [
+        "Santa Cruz",
+        "Mogi Mirim",
+        "Corinthians",
+        "Palmeiras",
+        "Deportivo La Coruña",
+        "Barcelona",
+        "AC Milan",
+        "Cruzeiro",
+        "Olympiacos",
+        "AEK Athens",
+        "Bunyodkor",
+        "São Paulo",
+        "Kabuscorp",
+        "São Caetano"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and spent my best years in Europe.",
+          "ar": "اتولدت في السبعينات وقضيت أحلى سنيني في أوروبا."
+        },
+        {
+          "en": "I played alongside Luís Figo, Patrick Kluivert, Pep Guardiola, Andriy Shevchenko, Paolo Maldini, Ronaldo and Cafu.",
+          "ar": "لعبت جنب لويس فيجو وباتريك كلويفرت وبيب جوارديولا وأندريه شيفتشينكو وباولو مالديني ورونالدو وكافو."
+        },
+        {
+          "en": "I've won the World Cup and the Ballon d'Or.",
+          "ar": "كسبت كاس العالم والكورة الدهبية."
+        },
+        {
+          "en": "I've won the World Cup, the Ballon d'Or and the Champions League.",
+          "ar": "كسبت كاس العالم والكورة الدهبية ودوري الأبطال."
+        },
+        {
+          "en": "I've won the World Cup, the Ballon d'Or, the Champions League and the Copa América.",
+          "ar": "كسبت كاس العالم والكورة الدهبية ودوري الأبطال وكوبا أمريكا."
+        },
+        {
+          "en": "My last-minute overhead kick completed a hat-trick on the final day of 2000–01 and sent my Catalan club into the Champions League.",
+          "ar": "دبل كيك في آخر دقيقة كمّلت بيها هاتريك في آخر يوم من موسم ٢٠٠٠–٠١ ودخّلت نادي الكتالوني دوري الأبطال."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Pablo Aimar",
+        "ar": "بابلو أيمار"
+      },
+      "aliases": [
+        "aimar",
+        "el payaso",
+        "أيمار",
+        "ايمار"
+      ],
+      "nation": "ARG",
+      "pos": "MF",
+      "born": 1979,
+      "clubs": [
+        "River Plate",
+        "Valencia",
+        "Real Zaragoza",
+        "Benfica",
+        "Johor Darul Ta'zim",
+        "Estudiantes de Río Cuarto"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and spent most of my career in Europe.",
+          "ar": "اتولدت في السبعينات وقضيت أغلب مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Javier Saviola, Gaizka Mendieta, Rubén Baraja, Diego Milito, Ángel Di María, David Luiz and Hernán Crespo.",
+          "ar": "لعبت جنب خافيير سافيولا وجايزكا مينديتا وروبن باراخا ودييجو ميليتو وأنخيل دي ماريا وديفيد لويز وهيرنان كريسبو."
+        },
+        {
+          "en": "I won two Spanish league titles and the UEFA Cup with the same club.",
+          "ar": "كسبت الدوري الإسباني مرتين وكاس الاتحاد الأوروبي مع نفس النادي."
+        },
+        {
+          "en": "I won the Under-20 World Cup and later the Spanish league.",
+          "ar": "كسبت كاس العالم للشباب وبعدها الدوري الإسباني."
+        },
+        {
+          "en": "I've won league titles in Argentina, Spain and Portugal.",
+          "ar": "كسبت الدوري في الأرجنتين وإسبانيا والبرتغال."
+        },
+        {
+          "en": "Lionel Messi has named me as his childhood idol, and I later joined Argentina's coaching staff.",
+          "ar": "ليونيل ميسي قال إني كنت مثله الأعلى وهو صغير، وبعدين بقيت في الجهاز الفني للأرجنتين."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Mustapha Hadji",
+        "ar": "مصطفى حجي"
+      },
+      "aliases": [
+        "hadji",
+        "حجي",
+        "مصطفي حجي"
+      ],
+      "nation": "MAR",
+      "pos": "MF",
+      "born": 1971,
+      "clubs": [
+        "Nancy",
+        "Sporting CP",
+        "Deportivo La Coruña",
+        "Coventry City",
+        "Aston Villa",
+        "Espanyol",
+        "Emirates Club",
+        "Saarbrücken",
+        "Fola Esch"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the early 1970s and played club football in Europe and Asia.",
+          "ar": "اتولدت في أول السبعينات ولعبت لأندية في أوروبا وآسيا."
+        },
+        {
+          "en": "I played alongside Noureddine Naybet, Robbie Keane, Gary McAllister, Juan Pablo Ángel, Paul Merson, Gareth Barry and Youssef Chippo.",
+          "ar": "لعبت جنب نور الدين النيبت وروبي كين وجاري ماكاليستر وخوان بابلو أنخيل وبول ميرسون وجاريث باري ويوسف شيبو."
+        },
+        {
+          "en": "I'm an African Player of the Year who played in the Premier League.",
+          "ar": "أنا أفضل لاعب في أفريقيا ولعبت في الدوري الإنجليزي الممتاز."
+        },
+        {
+          "en": "I'm an Arab who won the African Player of the Year award.",
+          "ar": "أنا لاعب عربي كسب جايزة أفضل لاعب في أفريقيا."
+        },
+        {
+          "en": "I'm one of only three Arab winners of Africa's top individual award who played in England's top flight.",
+          "ar": "أنا واحد من تلات لاعيبة عرب بس كسبوا جايزة أفضل لاعب في أفريقيا ولعبوا في الدوري الإنجليزي الممتاز."
+        },
+        {
+          "en": "I was crowned Africa's best in 1998, the year of my dazzling solo goal against Norway at the World Cup.",
+          "ar": "اتتوجت أفضل لاعب في أفريقيا سنة ١٩٩٨، سنة هدفي الفردي الرائع في النرويج في كاس العالم."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Jari Litmanen",
+        "ar": "ياري ليتمانين"
+      },
+      "aliases": [
+        "litmanen",
+        "litti",
+        "ليتمانين"
+      ],
+      "nation": "FIN",
+      "pos": "FW",
+      "born": 1971,
+      "clubs": [
+        "Reipas Lahti",
+        "HJK",
+        "MyPa",
+        "Ajax",
+        "Barcelona",
+        "Liverpool",
+        "Lahti",
+        "Hansa Rostock",
+        "Malmö",
+        "Fulham",
+        "Tallinna Kalev Juunior"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and was still playing professional football at 40.",
+          "ar": "اتولدت في السبعينات وفضلت ألعب كورة احترافية لحد ما بقى عندي ٤٠ سنة."
+        },
+        {
+          "en": "I played alongside Patrick Kluivert, Edgar Davids, Rivaldo, Luís Figo, Michael Owen, Steven Gerrard and Sami Hyypiä.",
+          "ar": "لعبت جنب باتريك كلويفرت وإدجار دافيدز وريفالدو ولويس فيجو ومايكل أوين وستيفن جيرارد وسامي هيبيا."
+        },
+        {
+          "en": "I'm a Nordic player who has won the European Cup.",
+          "ar": "أنا لاعب من دول الشمال الأوروبي وكسبت دوري أبطال أوروبا."
+        },
+        {
+          "en": "I'm a Nordic player who won the European Cup with a club outside England.",
+          "ar": "أنا لاعب من دول الشمال الأوروبي وكسبت دوري الأبطال مع نادي مش إنجليزي."
+        },
+        {
+          "en": "I'm one of only two Finns to have won the European Cup.",
+          "ar": "أنا واحد من اتنين فنلنديين بس كسبوا دوري أبطال أوروبا."
+        },
+        {
+          "en": "In my homeland they call me 'Kuningas' – the King – and I'm seen as our greatest ever player.",
+          "ar": "في بلدي بيسموني 'كونينجاس' يعني الملك، وبيعتبروني أعظم لاعب في تاريخنا."
         }
       ]
     }

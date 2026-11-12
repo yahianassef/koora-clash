@@ -125,6 +125,20 @@
       "items": [
         "Countries that have hosted the AFC Asian Cup"
       ]
+    },
+    {
+      "id": "nameall-2026-11-12-1",
+      "date": "2026-11-12",
+      "items": [
+        "Countries that have won the European Championship"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-12-2",
+      "date": "2026-11-12",
+      "items": [
+        "Clubs that have won the Saudi Pro League"
+      ]
     }
   ],
   "career": [
@@ -254,6 +268,24 @@
         "Dimitar Berbatov",
         "Frédéric Kanouté",
         "Ruud van Nistelrooy"
+      ]
+    },
+    {
+      "id": "career-2026-11-12-1",
+      "date": "2026-11-12",
+      "items": [
+        "Christian Vieri",
+        "Shikabala",
+        "Emmanuel Emenike"
+      ]
+    },
+    {
+      "id": "career-2026-11-12-2",
+      "date": "2026-11-12",
+      "items": [
+        "Kevin-Prince Boateng",
+        "Mohamed Zidan",
+        "Amr Zaki"
       ]
     }
   ],
@@ -535,6 +567,44 @@
         "Which country won the Olympic football gold at Sydney 2000?"
       ],
       "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-12-1",
+      "date": "2026-11-12",
+      "items": [
+        "Which club won the first AFC Champions League, in 2002–03?",
+        "Who scored Manchester United's stoppage-time equaliser in the 1999 Champions League final?",
+        "Who scored Tunisia's winner against Morocco in the 2004 AFCON final?",
+        "Who scored Porto's opening goal in the 2004 Champions League final?",
+        "Christian Vieri won the 1997–98 Pichichi as La Liga's top scorer with which club?",
+        "Mido won the Dutch league in 2001–02 with which club?",
+        "Celtic beat which club in the 1967 European Cup final?",
+        "Who scored Ivory Coast's winner against Nigeria in the 2023 AFCON final?",
+        "Who scored Bayern Munich's late winner in the 2013 Champions League final?",
+        "Hossam Ghaly left Feyenoord for which Premier League club in January 2006?",
+        "Ahmed Elmohamady first moved to England in 2010 on loan to which club?",
+        "Who scored both of Atlético Madrid's goals in the 2010 Europa League final?"
+      ],
+      "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-12-2",
+      "date": "2026-11-12",
+      "items": [
+        "Al Sadd won the 2011 AFC Champions League final on penalties against which club?",
+        "In which year did Algeria win their first Africa Cup of Nations?",
+        "Which team knocked hosts Egypt out of the 2019 AFCON in the round of 16?",
+        "Borussia Dortmund beat which club in the 1997 Champions League final?",
+        "Who coached Saudi Arabia to their win over Argentina at the 2022 World Cup?",
+        "Who scored Zambia's winning penalty in the 2012 AFCON final shootout?",
+        "Egypt beat which team in the 1998 AFCON final?",
+        "Who scored Egypt's opening goal in the 2017 AFCON final?",
+        "Which club won the 2004 Copa Libertadores, beating Boca Juniors in the final?",
+        "At which AFCON did Mohamed Aboutrika reveal his 'Sympathize with Gaza' T-shirt?",
+        "Which club won the 2024–25 Saudi Pro League?",
+        "Zamalek beat which club in the 2024 CAF Confederation Cup final?"
+      ],
+      "level": "hard"
     }
   ],
   "mystery": [
@@ -722,6 +792,26 @@
         "Nicolas Anelka"
       ],
       "level": "pro"
+    },
+    {
+      "id": "mystery-2026-11-12-1",
+      "date": "2026-11-12",
+      "items": [
+        "Sergio Agüero",
+        "Fabio Cannavaro",
+        "Rivaldo"
+      ],
+      "level": "easy"
+    },
+    {
+      "id": "mystery-2026-11-12-2",
+      "date": "2026-11-12",
+      "items": [
+        "Pablo Aimar",
+        "Mustapha Hadji",
+        "Jari Litmanen"
+      ],
+      "level": "legend"
     }
   ]
 }
