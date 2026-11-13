@@ -139,6 +139,20 @@
       "items": [
         "Clubs that have won the Saudi Pro League"
       ]
+    },
+    {
+      "id": "nameall-2026-11-13-1",
+      "date": "2026-11-13",
+      "items": [
+        "Clubs Ahmed Hassan played for"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-13-2",
+      "date": "2026-11-13",
+      "items": [
+        "Countries whose clubs have won the African Champions League"
+      ]
     }
   ],
   "career": [
@@ -286,6 +300,24 @@
         "Kevin-Prince Boateng",
         "Mohamed Zidan",
         "Amr Zaki"
+      ]
+    },
+    {
+      "id": "career-2026-11-13-1",
+      "date": "2026-11-13",
+      "items": [
+        "Patrick Kluivert",
+        "Rabah Madjer",
+        "Craig Bellamy"
+      ]
+    },
+    {
+      "id": "career-2026-11-13-2",
+      "date": "2026-11-13",
+      "items": [
+        "Nwankwo Kanu",
+        "El Hadji Diouf",
+        "Emile Heskey"
       ]
     }
   ],
@@ -605,6 +637,44 @@
         "Zamalek beat which club in the 2024 CAF Confederation Cup final?"
       ],
       "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-13-1",
+      "date": "2026-11-13",
+      "items": [
+        "Al Ahly beat which club in the 2014 CAF Confederation Cup final?",
+        "Who coached Egypt to the 1998 AFCON title?",
+        "Benni McCarthy scored four goals in one match at AFCON 1998 against which team?",
+        "By what score did Egypt beat Cameroon in their 2008 AFCON group opener?",
+        "Al Ahly beat which club on penalties for bronze at the 2020 Club World Cup in Qatar?",
+        "Who scored Egypt's winner against Algeria in Cairo in 1989 to reach the 1990 World Cup?",
+        "Who scored Saudi Arabia's first-ever World Cup goal, against the Netherlands in 1994?",
+        "Who coached Algeria to the 2019 AFCON title?",
+        "Urawa Red Diamonds beat which club in the 2017 AFC Champions League final?",
+        "Who coached Zambia to the 2012 AFCON title?",
+        "Who scored Arsenal's goal in the 2006 Champions League final?",
+        "Chelsea beat which club in the 2013 Europa League final?"
+      ],
+      "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-13-2",
+      "date": "2026-11-13",
+      "items": [
+        "Étoile du Sahel beat which club in the 2015 CAF Confederation Cup final?",
+        "Which Egyptian shared the 1998 AFCON top-scorer award with Benni McCarthy?",
+        "Mohamed Aboutrika joined which UAE club on loan in 2013?",
+        "Al Ahly lost the 2012 Club World Cup semi-final to which club?",
+        "In which year did Mahmoud El-Khatib win the African Footballer of the Year award?",
+        "Étoile du Sahel beat which club in the 2007 CAF Champions League final?",
+        "The UAE's only World Cup appearance came in which year?",
+        "Rabah Madjer's famous backheel goal in the 1987 European Cup final came against which club?",
+        "Which club won the 2018 AFC Champions League, beating Persepolis in the final?",
+        "Real Madrid beat which club in the 2014 Club World Cup final?",
+        "Who scored Liverpool's second goal in the 2019 Champions League final?",
+        "Arsenal came from 2–0 down to beat which club in the 2014 FA Cup final?"
+      ],
+      "level": "hard"
     }
   ],
   "mystery": [
@@ -812,6 +882,26 @@
         "Jari Litmanen"
       ],
       "level": "legend"
+    },
+    {
+      "id": "mystery-2026-11-13-1",
+      "date": "2026-11-13",
+      "items": [
+        "Patrick Vieira",
+        "Ruud van Nistelrooy",
+        "Cesc Fàbregas"
+      ],
+      "level": "amateur"
+    },
+    {
+      "id": "mystery-2026-11-13-2",
+      "date": "2026-11-13",
+      "items": [
+        "Medhi Benatia",
+        "Ahmed Elmohamady",
+        "Freddie Ljungberg"
+      ],
+      "level": "pro"
     }
   ]
 }

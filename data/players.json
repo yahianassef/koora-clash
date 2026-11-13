@@ -4107,6 +4107,309 @@
           "ar": "في بلدي بيسموني 'كونينجاس' يعني الملك، وبيعتبروني أعظم لاعب في تاريخنا."
         }
       ]
+    },
+    {
+      "name": {
+        "en": "Patrick Vieira",
+        "ar": "باتريك فييرا"
+      },
+      "aliases": [
+        "vieira",
+        "فييرا",
+        "فيرا"
+      ],
+      "nation": "FRA",
+      "pos": "MF",
+      "born": 1976,
+      "clubs": [
+        "Cannes",
+        "AC Milan",
+        "Arsenal",
+        "Juventus",
+        "Inter",
+        "Manchester City"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and moved to a different continent as a child.",
+          "ar": "اتولدت في السبعينات واتنقلت لقارة تانية وأنا طفل."
+        },
+        {
+          "en": "I played alongside Dennis Bergkamp, Robert Pirès, Paolo Maldini, Pavel Nedvěd, Javier Zanetti, Vincent Kompany and Zinedine Zidane.",
+          "ar": "لعبت جنب دينيس بيركامب وروبير بيريس وباولو مالديني وبافيل نيدفيد وخافيير زانيتي وفينسنت كومباني وزين الدين زيدان."
+        },
+        {
+          "en": "I'm a World Cup winner who has won the Premier League.",
+          "ar": "أنا كسبت كأس العالم وكسبت الدوري الإنجليزي."
+        },
+        {
+          "en": "I've won the World Cup, the European Championship and the Premier League.",
+          "ar": "كسبت كأس العالم وبطولة أمم أوروبا والدوري الإنجليزي."
+        },
+        {
+          "en": "I won three Premier League titles with my North London club.",
+          "ar": "كسبت الدوري الإنجليزي ٣ مرات مع نادي شمال لندن."
+        },
+        {
+          "en": "I was the captain who lifted the trophy after a whole league season without a single defeat.",
+          "ar": "أنا الكابتن اللي رفع الدرع بعد موسم دوري كامل من غير ولا هزيمة."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ruud van Nistelrooy",
+        "ar": "رود فان نيستلروي"
+      },
+      "aliases": [
+        "van nistelrooy",
+        "nistelrooy",
+        "rvn",
+        "فان نيستلروي",
+        "نيستلروي"
+      ],
+      "nation": "NED",
+      "pos": "FW",
+      "born": 1976,
+      "clubs": [
+        "Den Bosch",
+        "Heerenveen",
+        "PSV",
+        "Manchester United",
+        "Real Madrid",
+        "Hamburg",
+        "Málaga"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and played club football in four different countries.",
+          "ar": "اتولدت في السبعينات ولعبت كورة أندية في ٤ دول مختلفة."
+        },
+        {
+          "en": "I played alongside Paul Scholes, Raúl, Fabio Cannavaro, Mark van Bommel, Zé Roberto, Santi Cazorla and Clarence Seedorf.",
+          "ar": "لعبت جنب بول سكولز وراؤول وفابيو كانافارو ومارك فان بوميل وزي روبرتو وسانتي كازورلا وكلارنس سيدورف."
+        },
+        {
+          "en": "I've won the league title in both England and Spain.",
+          "ar": "كسبت الدوري في إنجلترا وفي إسبانيا."
+        },
+        {
+          "en": "I've won league titles in England, Spain and a third country.",
+          "ar": "كسبت الدوري في إنجلترا وإسبانيا وفي بلد تالت كمان."
+        },
+        {
+          "en": "I've been the league's top scorer in both England and Spain.",
+          "ar": "كنت هداف الدوري في إنجلترا وفي إسبانيا."
+        },
+        {
+          "en": "I scored 150 goals for Manchester United before leaving for Madrid in 2006.",
+          "ar": "جبت ١٥٠ هدف لمانشستر يونايتد قبل ما أمشي لمدريد سنة ٢٠٠٦."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Cesc Fàbregas",
+        "ar": "سيسك فابريجاس"
+      },
+      "aliases": [
+        "fabregas",
+        "cesc",
+        "فابريجاس",
+        "فابريغاس",
+        "سيسك"
+      ],
+      "nation": "ESP",
+      "pos": "MF",
+      "born": 1987,
+      "clubs": [
+        "Arsenal",
+        "Barcelona",
+        "Chelsea",
+        "Monaco",
+        "Como"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and left home for another country at 16.",
+          "ar": "اتولدت في التمانينات وسبت بلدي لبلد تاني وأنا عندي ١٦ سنة."
+        },
+        {
+          "en": "I played alongside Dennis Bergkamp, Robin van Persie, Lionel Messi, Eden Hazard, Diego Costa, Radamel Falcao and Iker Casillas.",
+          "ar": "لعبت جنب دينيس بيركامب وروبين فان بيرسي وليونيل ميسي وإيدين هازارد ودييجو كوستا وراداميل فالكاو وإيكر كاسياس."
+        },
+        {
+          "en": "I won the World Cup and two European Championships with my country.",
+          "ar": "كسبت كأس العالم وبطولتين أمم أوروبا مع منتخب بلدي."
+        },
+        {
+          "en": "I'm a Spanish World Cup winner who won league titles in two different countries.",
+          "ar": "أنا إسباني كسبت كأس العالم وكسبت الدوري في بلدين مختلفين."
+        },
+        {
+          "en": "I won the FA Cup with two different London clubs.",
+          "ar": "كسبت كأس الاتحاد الإنجليزي مع ناديين مختلفين من لندن."
+        },
+        {
+          "en": "I gave the pass for the winning goal in the 2010 World Cup final.",
+          "ar": "أنا اللي عملت الباص لهدف الفوز في نهائي كأس العالم ٢٠١٠."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Medhi Benatia",
+        "ar": "المهدي بنعطية"
+      },
+      "aliases": [
+        "benatia",
+        "mehdi benatia",
+        "بنعطية",
+        "بن عطية"
+      ],
+      "nation": "MAR",
+      "pos": "DF",
+      "born": 1987,
+      "clubs": [
+        "Clermont",
+        "Udinese",
+        "Roma",
+        "Bayern Munich",
+        "Juventus",
+        "Al-Duhail",
+        "Fatih Karagümrük"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the 1980s in Europe but chose to represent my parents' homeland.",
+          "ar": "اتولدت في التمانينات في أوروبا بس اخترت ألعب لبلد أهلي."
+        },
+        {
+          "en": "I played alongside Alexis Sánchez, Francesco Totti, Robert Lewandowski, Arjen Robben, Gianluigi Buffon, Hakim Ziyech and Achraf Hakimi.",
+          "ar": "لعبت جنب أليكسيس سانشيز وفرانشيسكو توتي وروبرت ليفاندوفسكي وآريين روبن وجيانلويجي بوفون وحكيم زياش وأشرف حكيمي."
+        },
+        {
+          "en": "I've won league titles in both Germany and Italy.",
+          "ar": "كسبت الدوري في ألمانيا وفي إيطاليا."
+        },
+        {
+          "en": "I won the German title in Munich and the Italian title in Turin.",
+          "ar": "كسبت الدوري الألماني في ميونخ والدوري الإيطالي في تورينو."
+        },
+        {
+          "en": "I'm an African who won the Bundesliga with Munich's giants.",
+          "ar": "أنا لاعب أفريقي كسبت البوندسليجا مع عملاق ميونخ."
+        },
+        {
+          "en": "I captained the Atlas Lions at the 2018 World Cup, then swapped Italy's champions for Qatar in January 2019.",
+          "ar": "كنت كابتن أسود الأطلس في كأس العالم ٢٠١٨، وبعدها سبت بطل إيطاليا ورحت قطر في يناير ٢٠١٩."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ahmed Elmohamady",
+        "ar": "أحمد المحمدي"
+      },
+      "aliases": [
+        "elmohamady",
+        "el mohamady",
+        "المحمدي",
+        "محمدي"
+      ],
+      "nation": "EGY",
+      "pos": "DF",
+      "born": 1987,
+      "clubs": [
+        "Ghazl El Mahalla",
+        "ENPPI",
+        "Sunderland",
+        "Hull City",
+        "Aston Villa"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and spent most of my club career abroad.",
+          "ar": "اتولدت في التمانينات وقضيت أغلب مسيرتي مع الأندية برة بلدي."
+        },
+        {
+          "en": "I played alongside Asamoah Gyan, Jordan Henderson, Andrew Robertson, Jack Grealish, John Terry, Mohamed Salah and Mohamed Aboutrika.",
+          "ar": "لعبت جنب أسامواه جيان وجوردان هندرسون وأندرو روبرتسون وجاك جريليش وجون تيري ومحمد صلاح ومحمد أبوتريكة."
+        },
+        {
+          "en": "I'm an Egyptian who played in the Premier League.",
+          "ar": "أنا مصري لعبت في الدوري الإنجليزي."
+        },
+        {
+          "en": "I'm an Egyptian who won the Africa Cup of Nations and played in the Premier League.",
+          "ar": "أنا مصري كسبت أمم أفريقيا ولعبت في الدوري الإنجليزي."
+        },
+        {
+          "en": "I'm an Egyptian who played in an FA Cup final.",
+          "ar": "أنا مصري لعبت نهائي كأس الاتحاد الإنجليزي."
+        },
+        {
+          "en": "I set up the opening goal of the 2019 Wembley play-off final that took my Midlands club back to the Premier League.",
+          "ar": "أنا اللي صنعت أول هدف في نهائي الملحق على ويمبلي ٢٠١٩ اللي رجّع نادي الميدلاندز بتاعي للبريميرليج."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Freddie Ljungberg",
+        "ar": "فريدي ليونجبرج"
+      },
+      "aliases": [
+        "ljungberg",
+        "fredrik ljungberg",
+        "ليونجبرج",
+        "يونجبيرج"
+      ],
+      "nation": "SWE",
+      "pos": "MF",
+      "born": 1977,
+      "clubs": [
+        "Halmstad",
+        "Arsenal",
+        "West Ham",
+        "Seattle Sounders",
+        "Chicago Fire",
+        "Celtic",
+        "Shimizu S-Pulse",
+        "Mumbai City"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and finished my playing days in Asia.",
+          "ar": "اتولدت في السبعينات وخلصت مسيرتي كلاعب في آسيا."
+        },
+        {
+          "en": "I played alongside Dennis Bergkamp, Patrick Vieira, Zlatan Ibrahimović, Henrik Larsson, Scott Parker, Kasey Keller and Georgios Samaras.",
+          "ar": "لعبت جنب دينيس بيركامب وباتريك فييرا وزلاتان إبراهيموفيتش وهنريك لارسون وسكوت باركر وكيسي كيلر وجورجيوس ساماراس."
+        },
+        {
+          "en": "I'm a Scandinavian who has won the Premier League.",
+          "ar": "أنا لاعب إسكندنافي كسبت الدوري الإنجليزي."
+        },
+        {
+          "en": "I won exactly two Premier League titles, one of them without losing a game.",
+          "ar": "كسبت الدوري الإنجليزي مرتين بالظبط، واحدة منهم من غير ولا هزيمة."
+        },
+        {
+          "en": "I'm a Swede who has won the Premier League.",
+          "ar": "أنا سويدي كسبت الدوري الإنجليزي."
+        },
+        {
+          "en": "I scored in back-to-back FA Cup finals, the first player to do it in four decades.",
+          "ar": "جبت أهداف في نهائيين ورا بعض في كأس الاتحاد الإنجليزي، أول لاعب يعملها من ٤٠ سنة."
+        }
+      ]
     }
   ]
 }
