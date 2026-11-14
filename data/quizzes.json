@@ -153,6 +153,20 @@
       "items": [
         "Countries whose clubs have won the African Champions League"
       ]
+    },
+    {
+      "id": "nameall-2026-11-14-1",
+      "date": "2026-11-14",
+      "items": [
+        "Clubs that have won the CAF Confederation Cup"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-14-2",
+      "date": "2026-11-14",
+      "items": [
+        "Countries that have played in a World Cup final"
+      ]
     }
   ],
   "career": [
@@ -318,6 +332,24 @@
         "Nwankwo Kanu",
         "El Hadji Diouf",
         "Emile Heskey"
+      ]
+    },
+    {
+      "id": "career-2026-11-14-1",
+      "date": "2026-11-14",
+      "items": [
+        "Ricardo Quaresma",
+        "Abdallah El Said",
+        "Sulley Muntari"
+      ]
+    },
+    {
+      "id": "career-2026-11-14-2",
+      "date": "2026-11-14",
+      "items": [
+        "Youssef El-Arabi",
+        "Wahbi Khazri",
+        "Obafemi Martins"
       ]
     }
   ],
@@ -675,6 +707,44 @@
         "Arsenal came from 2–0 down to beat which club in the 2014 FA Cup final?"
       ],
       "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-14-1",
+      "date": "2026-11-14",
+      "items": [
+        "Hossam Hassan spent the 1990–91 season in Greece with which club?",
+        "Whose penalty did Edwin van der Sar save to win the 2008 Champions League final shootout?",
+        "Sami Al-Jaber had a loan spell in England in 2000 with which club?",
+        "Qatar beat which team 3–1 in the 2019 AFC Asian Cup final?",
+        "Whose stoppage-time free kick beat Nigeria in the 2019 AFCON semi-final?",
+        "Who was the Premier League's top scorer in 2009–10?",
+        "Who scored the only goal of the Euro 2008 final?",
+        "Al Ahly loaned Ahmed Hegazi to which Premier League club in 2017?",
+        "Espérance de Tunis beat which club in the 2011 CAF Champions League final?",
+        "Whose header at Camp Nou clinched the 2013–14 La Liga title for Atlético Madrid?",
+        "Who scored PSG's opening goal in the 2025 Champions League final against Inter?",
+        "Arsenal beat which club on penalties in the 2005 FA Cup final?"
+      ],
+      "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-14-2",
+      "date": "2026-11-14",
+      "items": [
+        "Zamalek beat which Ivorian club on penalties in the 1986 African Cup of Champions Clubs final?",
+        "Who was the top scorer at the 2023 Africa Cup of Nations, played in Ivory Coast?",
+        "Who won the CAF African Footballer of the Year award for 2023?",
+        "USM Alger won the CAF Confederation Cup in 2023 and again in which year?",
+        "Who set an AFC Asian Cup record with 9 goals at the 2019 tournament?",
+        "Who scored Algeria's winner against Egypt in the 2009 World Cup play-off in Omdurman?",
+        "Who coached Senegal at the 2002 World Cup?",
+        "Who coached Al Hilal to their unbeaten 2023–24 Saudi Pro League title?",
+        "TP Mazembe beat which Nigerian club in the 2009 CAF Champions League final?",
+        "Hervé Renard won his second AFCON title in 2015 with which country?",
+        "Who scored Barcelona's opening goal in the 2009 Champions League final?",
+        "Who scored Chelsea's goal in the 2008 Champions League final?"
+      ],
+      "level": "hard"
     }
   ],
   "mystery": [
@@ -902,6 +972,26 @@
         "Freddie Ljungberg"
       ],
       "level": "pro"
+    },
+    {
+      "id": "mystery-2026-11-14-1",
+      "date": "2026-11-14",
+      "items": [
+        "Son Heung-min",
+        "Paul Pogba",
+        "Thomas Müller"
+      ],
+      "level": "easy"
+    },
+    {
+      "id": "mystery-2026-11-14-2",
+      "date": "2026-11-14",
+      "items": [
+        "Emad Moteab",
+        "Shunsuke Nakamura",
+        "Obafemi Martins"
+      ],
+      "level": "legend"
     }
   ]
 }

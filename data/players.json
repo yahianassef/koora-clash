@@ -169,6 +169,11 @@
       "en": "Finland",
       "ar": "فنلندا",
       "continent": "europe"
+    },
+    "KOR": {
+      "en": "South Korea",
+      "ar": "كوريا الجنوبية",
+      "continent": "asia"
     }
   },
   "players": [
@@ -4408,6 +4413,298 @@
         {
           "en": "I scored in back-to-back FA Cup finals, the first player to do it in four decades.",
           "ar": "جبت أهداف في نهائيين ورا بعض في كأس الاتحاد الإنجليزي، أول لاعب يعملها من ٤٠ سنة."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Son Heung-min",
+        "ar": "سون هيونج مين"
+      },
+      "aliases": [
+        "son",
+        "sonny",
+        "son heungmin",
+        "سون",
+        "هيونج مين سون"
+      ],
+      "nation": "KOR",
+      "pos": "FW",
+      "born": 1992,
+      "clubs": [
+        "Hamburg",
+        "Bayer Leverkusen",
+        "Tottenham",
+        "Los Angeles FC"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1990s and spent most of my career in Europe.",
+          "ar": "اتولدت في التسعينات وقضيت أغلب مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Rafael van der Vaart, Hakan Çalhanoğlu, Harry Kane, Dele Alli, Christian Eriksen, Hugo Lloris and Kim Min-jae.",
+          "ar": "لعبت جنب رافاييل فان دير فارت وهاكان تشالهان أوغلو وهاري كين وديلي آلي وكريستيان إريكسن وهوجو لوريس وكيم مين جاي."
+        },
+        {
+          "en": "I lifted a European trophy as captain of an English club.",
+          "ar": "رفعت كأس أوروبية وأنا كابتن نادي إنجليزي."
+        },
+        {
+          "en": "I scored more than 100 Premier League goals and later moved to Major League Soccer.",
+          "ar": "جبت أكتر من ١٠٠ هدف في الدوري الإنجليزي وبعدين رحت الدوري الأمريكي."
+        },
+        {
+          "en": "I'm one of the few East Asian players to win a major UEFA club trophy.",
+          "ar": "أنا من اللاعبين القلائل من شرق آسيا اللي كسبوا بطولة أندية كبيرة من اليويفا."
+        },
+        {
+          "en": "I was the first Asian to finish as the Premier League's top scorer, sharing the prize with an Egyptian.",
+          "ar": "أنا أول آسيوي يبقى هداف الدوري الإنجليزي، وقسمت اللقب مع لاعب مصري."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Paul Pogba",
+        "ar": "بول بوجبا"
+      },
+      "aliases": [
+        "pogba",
+        "بوجبا",
+        "pogboom"
+      ],
+      "nation": "FRA",
+      "pos": "MF",
+      "born": 1993,
+      "clubs": [
+        "Manchester United",
+        "Juventus",
+        "Monaco"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1990s and spent my whole career in Europe.",
+          "ar": "اتولدت في التسعينات وقضيت مسيرتي كلها في أوروبا."
+        },
+        {
+          "en": "I played alongside Andrea Pirlo, Carlos Tevez, Zlatan Ibrahimović, Bruno Fernandes, Olivier Giroud, N'Golo Kanté and Antoine Griezmann.",
+          "ar": "لعبت جنب أندريا بيرلو وكارلوس تيفيز وزلاتان إبراهيموفيتش وبرونو فرنانديز وأوليفييه جيرو ونجولو كانتي وأنطوان جريزمان."
+        },
+        {
+          "en": "I've won the World Cup and the Europa League.",
+          "ar": "كسبت كأس العالم والدوري الأوروبي."
+        },
+        {
+          "en": "This century, I was briefly the most expensive footballer in the world.",
+          "ar": "في القرن ده، كنت لفترة أغلى لاعب في العالم."
+        },
+        {
+          "en": "I won the Golden Boy award and later lifted the World Cup.",
+          "ar": "كسبت جايزة الفتى الذهبي وبعدين رفعت كأس العالم."
+        },
+        {
+          "en": "I left Old Trafford for nothing as a teenager and came back four years later for a world-record fee.",
+          "ar": "سبت أولد ترافورد ببلاش وأنا مراهق ورجعت بعد ٤ سنين بصفقة قياسية عالمية."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Thomas Müller",
+        "ar": "توماس مولر"
+      },
+      "aliases": [
+        "muller",
+        "mueller",
+        "thomas mueller",
+        "مولر",
+        "مولار"
+      ],
+      "nation": "GER",
+      "pos": "FW",
+      "born": 1989,
+      "clubs": [
+        "Bayern Munich",
+        "Vancouver Whitecaps"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and spent most of my career in Europe.",
+          "ar": "اتولدت في الثمانينات وقضيت أغلب مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Philipp Lahm, Franck Ribéry, Robert Lewandowski, Harry Kane, Mesut Özil, Miroslav Klose and Brian White.",
+          "ar": "لعبت جنب فيليب لام وفرانك ريبيري وروبرت ليفاندوفسكي وهاري كين ومسعود أوزيل وميروسلاف كلوزه وبرايان وايت."
+        },
+        {
+          "en": "I'm a German who has won both the World Cup and the Champions League.",
+          "ar": "أنا ألماني كسبت كأس العالم ودوري أبطال أوروبا."
+        },
+        {
+          "en": "I won a World Cup Golden Boot this century.",
+          "ar": "كسبت الحذاء الذهبي في كأس عالم في القرن ده."
+        },
+        {
+          "en": "I won the treble twice with the same club.",
+          "ar": "كسبت الثلاثية مرتين مع نفس النادي."
+        },
+        {
+          "en": "They call me the 'Raumdeuter' — the interpreter of space.",
+          "ar": "بيسموني «راومدويتر» يعني مفسّر المساحات."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Emad Moteab",
+        "ar": "عماد متعب"
+      },
+      "aliases": [
+        "moteab",
+        "emad meteb",
+        "متعب",
+        "عماد متعب"
+      ],
+      "nation": "EGY",
+      "pos": "FW",
+      "born": 1983,
+      "clubs": [
+        "Al Ahly",
+        "Al Ittihad",
+        "Al Taawoun"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and spent almost my entire career in Africa.",
+          "ar": "اتولدت في الثمانينات وقضيت تقريبًا مسيرتي كلها في أفريقيا."
+        },
+        {
+          "en": "I played alongside Mohamed Aboutrika, Wael Gomaa, Mohamed Barakat, Ahmed Hassan, Mido, Mohamed Noor and Hamad Al-Montashari.",
+          "ar": "لعبت جنب محمد أبوتريكة ووائل جمعة ومحمد بركات وأحمد حسن وميدو ومحمد نور وحمد المنتشري."
+        },
+        {
+          "en": "I've won the Africa Cup of Nations three times.",
+          "ar": "كسبت كأس الأمم الأفريقية ٣ مرات."
+        },
+        {
+          "en": "I've won the African Champions League four times.",
+          "ar": "كسبت دوري أبطال أفريقيا ٤ مرات."
+        },
+        {
+          "en": "I won three straight AFCONs, and I was already an African club champion before the first of them.",
+          "ar": "كسبت ٣ أمم أفريقيا ورا بعض، وكنت بطل أفريقيا للأندية قبل أولهم."
+        },
+        {
+          "en": "I spent 15 years at Cairo's Red Giants, broken only by loans to clubs in Jeddah and Buraidah.",
+          "ar": "قضيت ١٥ سنة في القلعة الحمراء، وماخرجتش منها غير إعارات لأندية في جدة وبريدة."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Shunsuke Nakamura",
+        "ar": "شونسكي ناكامورا"
+      },
+      "aliases": [
+        "nakamura",
+        "ناكامورا",
+        "shunsuke"
+      ],
+      "nation": "JPN",
+      "pos": "MF",
+      "born": 1978,
+      "clubs": [
+        "Yokohama F. Marinos",
+        "Reggina",
+        "Celtic",
+        "Espanyol",
+        "Júbilo Iwata",
+        "Yokohama FC"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and finished my career in my home country.",
+          "ar": "اتولدت في السبعينات وخلصت مسيرتي في بلدي."
+        },
+        {
+          "en": "I played alongside Hidetoshi Nakata, Keisuke Honda, Yasuhito Endo, Neil Lennon, Shaun Maloney, Artur Boruc and Raúl Tamudo.",
+          "ar": "لعبت جنب هيديتوشي ناكاتا وكيسكي هوندا وياسوهيتو إندو ونيل لينون وشون مالوني وأرتور بوروتس وراؤول تامودو."
+        },
+        {
+          "en": "I've won the AFC Asian Cup twice.",
+          "ar": "كسبت كأس آسيا مرتين."
+        },
+        {
+          "en": "I was named the best player of an Asian Cup.",
+          "ar": "اتختارت أحسن لاعب في بطولة كأس آسيا."
+        },
+        {
+          "en": "In the mid-2000s I was voted Scotland's best player by my fellow pros.",
+          "ar": "في نص الألفينات زمايلي اللاعيبة اختاروني أحسن لاعب في اسكتلندا."
+        },
+        {
+          "en": "My free kicks beat Manchester United both home and away in the same Champions League group.",
+          "ar": "ضرباتي الحرة جابت أجوان في مانشستر يونايتد ذهاب وإياب في نفس دور مجموعات دوري الأبطال."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Obafemi Martins",
+        "ar": "أوبافيمي مارتينز"
+      },
+      "aliases": [
+        "martins",
+        "oba martins",
+        "مارتينز",
+        "أوبا مارتينز"
+      ],
+      "nation": "NGA",
+      "pos": "FW",
+      "born": 1984,
+      "clubs": [
+        "Reggiana",
+        "Inter",
+        "Newcastle United",
+        "Wolfsburg",
+        "Rubin Kazan",
+        "Birmingham City",
+        "Levante",
+        "Seattle Sounders",
+        "Shanghai Shenhua",
+        "Wuhan"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and played professionally on three continents.",
+          "ar": "اتولدت في الثمانينات ولعبت كمحترف في ٣ قارات."
+        },
+        {
+          "en": "I played alongside Adriano, Javier Zanetti, Michael Owen, Edin Džeko, Clint Dempsey, John Obi Mikel and Jay-Jay Okocha.",
+          "ar": "لعبت جنب أدريانو وخافيير زانيتي ومايكل أوين وإيدين دجيكو وكلينت ديمبسي وجون أوبي ميكيل وجاي جاي أوكوتشا."
+        },
+        {
+          "en": "I won Serie A in a season when the title was handed to my club after a scandal.",
+          "ar": "كسبت الدوري الإيطالي في موسم اللقب اتمنح فيه لنادي بعد فضيحة."
+        },
+        {
+          "en": "I'm an African striker who played in the top flights of Italy, England, Germany and Spain.",
+          "ar": "أنا مهاجم أفريقي لعبت في الدوري الإيطالي والإنجليزي والألماني والإسباني."
+        },
+        {
+          "en": "My trophies include an Italian cup, an English cup and an American cup.",
+          "ar": "من ألقابي كأس إيطالي وكأس إنجليزي وكأس أمريكاني."
+        },
+        {
+          "en": "I came off the bench at Wembley and knocked in the winner against the Gunners after a defensive mix-up.",
+          "ar": "نزلت بديل في ويمبلي وجبت هدف الفوز على المدفعجية بعد لخبطة في الدفاع."
         }
       ]
     }
