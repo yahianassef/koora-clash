@@ -174,6 +174,11 @@
       "en": "South Korea",
       "ar": "كوريا الجنوبية",
       "continent": "asia"
+    },
+    "IRL": {
+      "en": "Republic of Ireland",
+      "ar": "أيرلندا",
+      "continent": "europe"
     }
   },
   "players": [
@@ -4705,6 +4710,318 @@
         {
           "en": "I came off the bench at Wembley and knocked in the winner against the Gunners after a defensive mix-up.",
           "ar": "نزلت بديل في ويمبلي وجبت هدف الفوز على المدفعجية بعد لخبطة في الدفاع."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Robin van Persie",
+        "ar": "روبين فان بيرسي"
+      },
+      "aliases": [
+        "van persie",
+        "rvp",
+        "persie",
+        "فان بيرسي",
+        "فان برسي"
+      ],
+      "nation": "NED",
+      "pos": "FW",
+      "born": 1983,
+      "clubs": [
+        "Feyenoord",
+        "Arsenal",
+        "Manchester United",
+        "Fenerbahçe"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and spent most of my career in England.",
+          "ar": "اتولدت في الثمانينات وقضيت أغلب مسيرتي في إنجلترا."
+        },
+        {
+          "en": "I played alongside Thierry Henry, Cesc Fàbregas, Wayne Rooney, Ryan Giggs, Arjen Robben, Wesley Sneijder and Simon Kjær.",
+          "ar": "لعبت جنب تييري هنري وسيسك فابريجاس وواين روني وريان جيجز وآريين روبن وويسلي شنايدر وسيمون كيير."
+        },
+        {
+          "en": "I've won the Premier League and the FA Cup, and I played in a World Cup final.",
+          "ar": "كسبت الدوري الإنجليزي وكأس إنجلترا، ولعبت نهائي كأس عالم."
+        },
+        {
+          "en": "In the same season I finished as the Premier League's top scorer, the players also voted me their player of the year.",
+          "ar": "في نفس الموسم اللي كنت فيه هداف الدوري الإنجليزي، اللاعيبة اختاروني أحسن لاعب."
+        },
+        {
+          "en": "I finished as the Premier League's top scorer more than once, and I'm not English.",
+          "ar": "بقيت هداف الدوري الإنجليزي أكتر من مرة، وأنا مش إنجليزي."
+        },
+        {
+          "en": "My flying header against the reigning world champions at the 2014 World Cup is one of the tournament's most famous goals.",
+          "ar": "راسيتي الطايرة في مرمى أبطال العالم في مونديال ٢٠١٤ من أشهر أهداف البطولة."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Alessandro Del Piero",
+        "ar": "أليساندرو ديل بييرو"
+      },
+      "aliases": [
+        "del piero",
+        "alex del piero",
+        "pinturicchio",
+        "ديل بييرو",
+        "ديلبييرو"
+      ],
+      "nation": "ITA",
+      "pos": "FW",
+      "born": 1974,
+      "clubs": [
+        "Padova",
+        "Juventus",
+        "Sydney FC",
+        "Delhi Dynamos"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and spent almost all of my career at one club.",
+          "ar": "اتولدت في السبعينات وقضيت تقريبًا مسيرتي كلها في نادي واحد."
+        },
+        {
+          "en": "I played alongside Zinedine Zidane, Pavel Nedvěd, David Trezeguet, Gianluigi Buffon, Andrea Pirlo, Francesco Totti and Alessandro Nesta.",
+          "ar": "لعبت جنب زين الدين زيدان وبافل نيدفيد وديفيد تريزيجيه وجيانلويجي بوفون وأندريا بيرلو وفرانشيسكو توتي وأليساندرو نيستا."
+        },
+        {
+          "en": "I'm a World Cup winner who also lifted the European Cup with an Italian club.",
+          "ar": "أنا بطل كأس عالم وكسبت كمان دوري أبطال أوروبا مع نادي إيطالي."
+        },
+        {
+          "en": "I'm a World Cup winner who also lifted the European Cup with the Old Lady.",
+          "ar": "أنا بطل كأس عالم وكسبت دوري أبطال أوروبا مع السيدة العجوز."
+        },
+        {
+          "en": "I hold my club's all-time records for both appearances and goals.",
+          "ar": "أنا صاحب الرقم القياسي في نادي في عدد الماتشات وعدد الأهداف الاتنين."
+        },
+        {
+          "en": "In 2006 I curled in the last-gasp second goal in Dortmund that knocked the hosts out of the World Cup.",
+          "ar": "في ٢٠٠٦ لفّيت الهدف التاني في آخر ثانية في دورتموند وخرّجت أصحاب الأرض من كأس العالم."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Xabi Alonso",
+        "ar": "تشابي ألونسو"
+      },
+      "aliases": [
+        "alonso",
+        "xabi",
+        "xabier alonso",
+        "ألونسو",
+        "تشابي",
+        "شابي ألونسو"
+      ],
+      "nation": "ESP",
+      "pos": "MF",
+      "born": 1981,
+      "clubs": [
+        "Real Sociedad",
+        "Eibar",
+        "Liverpool",
+        "Real Madrid",
+        "Bayern Munich"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and played in three of Europe's big five leagues.",
+          "ar": "اتولدت في الثمانينات ولعبت في ٣ من الدوريات الخمسة الكبار في أوروبا."
+        },
+        {
+          "en": "I played alongside Steven Gerrard, Fernando Torres, Cristiano Ronaldo, Karim Benzema, Robert Lewandowski, Arjen Robben and Iker Casillas.",
+          "ar": "لعبت جنب ستيفن جيرارد وفرناندو توريس وكريستيانو رونالدو وكريم بنزيما وروبرت ليفاندوفسكي وآريين روبن وإيكر كاسياس."
+        },
+        {
+          "en": "I've won the World Cup, the Champions League, and league titles in two different countries.",
+          "ar": "كسبت كأس العالم ودوري أبطال أوروبا والدوري في بلدين مختلفين."
+        },
+        {
+          "en": "I'm a World Cup winner who lifted the Champions League with clubs from two different countries.",
+          "ar": "أنا بطل كأس عالم وكسبت دوري الأبطال مع ناديين من بلدين مختلفين."
+        },
+        {
+          "en": "I've won the league title in both Spain and Germany, and I'm a European champion with my country.",
+          "ar": "كسبت الدوري في إسبانيا وألمانيا، وأنا بطل أوروبا مع منتخب بلدي."
+        },
+        {
+          "en": "In the 2005 European final in Istanbul my penalty was saved, but I buried the rebound to complete a three-goal comeback.",
+          "ar": "في نهائي أوروبا ٢٠٠٥ في إسطنبول ضربة الجزاء بتاعتي اتصدت، بس جبت المتابعة وكملت ريمونتادا ٣ أهداف."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Robbie Keane",
+        "ar": "روبي كين"
+      },
+      "aliases": [
+        "keane",
+        "robbie",
+        "كين",
+        "روبى كين"
+      ],
+      "nation": "IRL",
+      "pos": "FW",
+      "born": 1980,
+      "clubs": [
+        "Wolves",
+        "Coventry City",
+        "Inter",
+        "Leeds United",
+        "Tottenham",
+        "Liverpool",
+        "Celtic",
+        "West Ham",
+        "LA Galaxy",
+        "Aston Villa",
+        "ATK"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and my senior career took me to three continents.",
+          "ar": "اتولدت في الثمانينات ومسيرتي كمحترف خدتني لـ٣ قارات."
+        },
+        {
+          "en": "I played alongside Christian Vieri, Mark Viduka, Dimitar Berbatov, Steven Gerrard, David Beckham, Landon Donovan and Damien Duff.",
+          "ar": "لعبت جنب كريستيان فييري ومارك فيدوكا وديميتار برباتوف وستيفن جيرارد وديفيد بيكهام ولاندون دونوفان وداميان داف."
+        },
+        {
+          "en": "I won America's league championship three times.",
+          "ar": "كسبت بطولة الدوري الأمريكي ٣ مرات."
+        },
+        {
+          "en": "I've scored at a World Cup and also lifted the MLS Cup.",
+          "ar": "جبت جول في كأس العالم وكسبت كمان كأس الدوري الأمريكي."
+        },
+        {
+          "en": "I'm the all-time top scorer of a European national team, and I later played in MLS.",
+          "ar": "أنا الهداف التاريخي لمنتخب أوروبي، وبعدها لعبت في الدوري الأمريكي."
+        },
+        {
+          "en": "My stoppage-time equaliser against Germany at the 2002 World Cup was followed by my trademark cartwheel celebration.",
+          "ar": "جول التعادل بتاعي في الوقت بدل الضايع قدام ألمانيا في مونديال ٢٠٠٢ احتفلت بيه بالشقلباظ المشهور بتاعي."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Jimmy Floyd Hasselbaink",
+        "ar": "جيمي فلويد هاسلبانك"
+      },
+      "aliases": [
+        "hasselbaink",
+        "jimmy floyd",
+        "jerrel hasselbaink",
+        "هاسلبانك",
+        "هاسيلباينك"
+      ],
+      "nation": "NED",
+      "pos": "FW",
+      "born": 1972,
+      "clubs": [
+        "Telstar",
+        "AZ Alkmaar",
+        "Neerlandia",
+        "Campomaiorense",
+        "Boavista",
+        "Leeds United",
+        "Atlético Madrid",
+        "Chelsea",
+        "Middlesbrough",
+        "Charlton Athletic",
+        "Cardiff City"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the 1970s in South America.",
+          "ar": "اتولدت في السبعينات في أمريكا الجنوبية."
+        },
+        {
+          "en": "I played alongside Harry Kewell, Lucas Radebe, Juan Carlos Valerón, Gianfranco Zola, John Terry, Mark Viduka and Dennis Bergkamp.",
+          "ar": "لعبت جنب هاري كيويل ولوكاس راديبي وخوان كارلوس فاليرون وجيانفرانكو زولا وجون تيري ومارك فيدوكا ودينيس بيركامب."
+        },
+        {
+          "en": "I finished as the Premier League's top scorer twice.",
+          "ar": "بقيت هداف الدوري الإنجليزي مرتين."
+        },
+        {
+          "en": "I finished as the Premier League's top scorer twice, and I'm not English.",
+          "ar": "بقيت هداف الدوري الإنجليزي مرتين، وأنا مش إنجليزي."
+        },
+        {
+          "en": "I topped the Premier League scoring charts with two different clubs.",
+          "ar": "بقيت هداف الدوري الإنجليزي مع ناديين مختلفين."
+        },
+        {
+          "en": "I scored 24 La Liga goals in a season that ended with my Madrid club relegated.",
+          "ar": "جبت ٢٤ جول في الدوري الإسباني في موسم نادي المدريدي هبط في آخره."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ahmed Fathy",
+        "ar": "أحمد فتحي"
+      },
+      "aliases": [
+        "fathy",
+        "fathi",
+        "ahmed fathi",
+        "فتحي",
+        "أحمد فتحى"
+      ],
+      "nation": "EGY",
+      "pos": "DF",
+      "born": 1984,
+      "clubs": [
+        "Ismaily",
+        "Sheffield United",
+        "Al Ahly",
+        "Kazma",
+        "Hull City",
+        "Umm Salal",
+        "Pyramids"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and spent most of my career in my home country.",
+          "ar": "اتولدت في الثمانينات وقضيت أغلب مسيرتي في بلدي."
+        },
+        {
+          "en": "I played alongside Mohamed Aboutrika, Wael Gomaa, Ahmed Hassan, Mohamed Salah, Phil Jagielka, Ali Maâloul and Abdallah El Said.",
+          "ar": "لعبت جنب محمد أبو تريكة ووائل جمعة وأحمد حسن ومحمد صلاح وفيل جاجيلكا وعلي معلول وعبد الله السعيد."
+        },
+        {
+          "en": "I've won the African Champions League four times.",
+          "ar": "كسبت دوري أبطال أفريقيا ٤ مرات."
+        },
+        {
+          "en": "I won three Africa Cup of Nations titles in a row.",
+          "ar": "كسبت أمم أفريقيا ٣ مرات ورا بعض."
+        },
+        {
+          "en": "I won three straight AFCONs and four African Champions Leagues.",
+          "ar": "كسبت ٣ أمم أفريقيا ورا بعض و٤ دوري أبطال أفريقيا."
+        },
+        {
+          "en": "At the 2018 World Cup, the hosts' first goal against us went in off me.",
+          "ar": "في مونديال ٢٠١٨، أول جول لأصحاب الأرض علينا دخل مني."
         }
       ]
     }

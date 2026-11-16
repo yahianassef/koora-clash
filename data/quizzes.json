@@ -167,6 +167,20 @@
       "items": [
         "Countries that have played in a World Cup final"
       ]
+    },
+    {
+      "id": "nameall-2026-11-16-1",
+      "date": "2026-11-16",
+      "items": [
+        "Countries that have hosted the FIFA Club World Cup"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-16-2",
+      "date": "2026-11-16",
+      "items": [
+        "Clubs Samuel Eto'o played for"
+      ]
     }
   ],
   "career": [
@@ -350,6 +364,24 @@
         "Youssef El-Arabi",
         "Wahbi Khazri",
         "Obafemi Martins"
+      ]
+    },
+    {
+      "id": "career-2026-11-16-1",
+      "date": "2026-11-16",
+      "items": [
+        "Ronaldo Nazário",
+        "Ahmed Fathy",
+        "Jimmy Floyd Hasselbaink"
+      ]
+    },
+    {
+      "id": "career-2026-11-16-2",
+      "date": "2026-11-16",
+      "items": [
+        "Ronaldinho",
+        "Noureddine Naybet",
+        "Robbie Keane"
       ]
     }
   ],
@@ -745,6 +777,44 @@
         "Who scored Chelsea's goal in the 2008 Champions League final?"
       ],
       "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-16-1",
+      "date": "2026-11-16",
+      "items": [
+        "Who won the Golden Ball as the best player of the 2010 World Cup?",
+        "Al Ain reached the 2018 Club World Cup final and lost to which club?",
+        "Porto beat which club after extra time in the 2003 UEFA Cup final?",
+        "Which club won the 2001–02 Egyptian Premier League, breaking the Cairo giants' grip on the title?",
+        "How many Africa Cup of Nations titles did Ahmed Hassan win as a player, a record?",
+        "Espérance kept the 2019 CAF Champions League title after which club walked off in the second leg of the final?",
+        "Pyramids lost the 2020 CAF Confederation Cup final to which club?",
+        "Al Ittihad beat which club in the 2005 AFC Champions League final?",
+        "Who coached Morocco to the 2004 Africa Cup of Nations final?",
+        "Mido spent the second half of 2002–03 on loan at which Spanish club?",
+        "Middlesbrough won the 2004 League Cup, their first major trophy, by beating which club?",
+        "Zenit Saint Petersburg beat which club in the 2008 UEFA Cup final?"
+      ],
+      "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-16-2",
+      "date": "2026-11-16",
+      "items": [
+        "Atlético Madrid beat which club in the 2010 Europa League final?",
+        "Al Hilal beat which club 3–2 in the 2022 Club World Cup semi-final in Morocco?",
+        "Who became the first African to finish as the Premier League's top scorer, in 2006–07?",
+        "Shakhtar Donetsk beat which club in the 2009 UEFA Cup final, the last before it became the Europa League?",
+        "Whose disputed 'ghost goal' sent Liverpool past Chelsea in the 2005 Champions League semi-final?",
+        "Sevilla beat which club on penalties in the 2014 Europa League final?",
+        "ES Sétif won the 2014 CAF Champions League on away goals against which club?",
+        "Who coached Al Ahly to the 2013 CAF Champions League title?",
+        "Jordan beat which team in the 2023 AFC Asian Cup semi-final?",
+        "Which club knocked Barcelona out in the 2010 Champions League semi-finals?",
+        "Who was named CAF African Player of the Year for 2008?",
+        "Which English club did Ahmed Fathy join from Ismaily in January 2007?"
+      ],
+      "level": "hard"
     }
   ],
   "mystery": [
@@ -992,6 +1062,26 @@
         "Obafemi Martins"
       ],
       "level": "legend"
+    },
+    {
+      "id": "mystery-2026-11-16-1",
+      "date": "2026-11-16",
+      "items": [
+        "Robin van Persie",
+        "Alessandro Del Piero",
+        "Xabi Alonso"
+      ],
+      "level": "amateur"
+    },
+    {
+      "id": "mystery-2026-11-16-2",
+      "date": "2026-11-16",
+      "items": [
+        "Robbie Keane",
+        "Jimmy Floyd Hasselbaink",
+        "Ahmed Fathy"
+      ],
+      "level": "pro"
     }
   ]
 }
