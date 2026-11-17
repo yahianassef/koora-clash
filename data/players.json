@@ -1468,7 +1468,7 @@
         "Wadi Degla",
         "Wolfsburg",
         "St. Pauli",
-        "Karlsruher SC",
+        "VfB Stuttgart",
         "Eintracht Frankfurt",
         "Manchester City",
         "Tottenham"
@@ -5022,6 +5022,302 @@
         {
           "en": "At the 2018 World Cup, the hosts' first goal against us went in off me.",
           "ar": "في مونديال ٢٠١٨، أول جول لأصحاب الأرض علينا دخل مني."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Cafu",
+        "ar": "كافو"
+      },
+      "aliases": [
+        "marcos evangelista",
+        "cafú",
+        "كافو"
+      ],
+      "nation": "BRA",
+      "pos": "DF",
+      "born": 1970,
+      "clubs": [
+        "São Paulo",
+        "Real Zaragoza",
+        "Palmeiras",
+        "Roma",
+        "AC Milan"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and played most of my club football in Europe.",
+          "ar": "اتولدت في السبعينات ولعبت أغلب كورتي مع أندية في أوروبا."
+        },
+        {
+          "en": "I played alongside Francesco Totti, Gabriel Batistuta, Kaká, Andriy Shevchenko, Ronaldo, Rivaldo and Paolo Maldini.",
+          "ar": "لعبت جنب فرانشيسكو توتي وجابرييل باتيستوتا وكاكا وأندريه شيفتشينكو ورونالدو وريفالدو وباولو مالديني."
+        },
+        {
+          "en": "I've won the Copa Libertadores in South America and the Champions League in Europe.",
+          "ar": "كسبت كوبا ليبرتادوريس في أمريكا الجنوبية ودوري الأبطال في أوروبا."
+        },
+        {
+          "en": "I'm a right-back who won both the World Cup and the Champions League.",
+          "ar": "أنا ظهير يمين كسبت كأس العالم ودوري الأبطال."
+        },
+        {
+          "en": "I won Serie A in the capital and again in Milan.",
+          "ar": "كسبت الدوري الإيطالي في العاصمة وكسبته تاني في ميلانو."
+        },
+        {
+          "en": "I'm the only man to play in three World Cup finals in a row, and I lifted the trophy as captain in 2002.",
+          "ar": "أنا الوحيد اللي لعب ٣ نهائيات كأس عالم ورا بعض، ورفعت الكاس كابتن سنة ٢٠٠٢."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Romário",
+        "ar": "روماريو"
+      },
+      "aliases": [
+        "romario",
+        "روماريو"
+      ],
+      "nation": "BRA",
+      "pos": "FW",
+      "born": 1966,
+      "clubs": [
+        "Vasco da Gama",
+        "PSV",
+        "Barcelona",
+        "Flamengo",
+        "Valencia",
+        "Fluminense",
+        "Al Sadd",
+        "Miami FC",
+        "Adelaide United"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1960s and played in both South America and Europe.",
+          "ar": "اتولدت في الستينات ولعبت في أمريكا الجنوبية وأوروبا."
+        },
+        {
+          "en": "I played alongside Hristo Stoichkov, Ronald Koeman, Pep Guardiola, Bebeto, Dunga, Edmundo and Ronaldo.",
+          "ar": "لعبت جنب خريستو ستويتشكوف ورونالد كومان وبيب جوارديولا وبيبيتو ودونجا وإدموندو ورونالدو."
+        },
+        {
+          "en": "I've won the league in both the Netherlands and Spain.",
+          "ar": "كسبت الدوري في هولندا وفي إسبانيا."
+        },
+        {
+          "en": "I'm a World Cup winner who was also named FIFA World Player of the Year.",
+          "ar": "كسبت كأس العالم واتختارت أحسن لاعب في العالم من الفيفا."
+        },
+        {
+          "en": "I won the official Golden Ball at a World Cup that my country won.",
+          "ar": "كسبت الكرة الذهبية الرسمية لأحسن لاعب في كأس عالم بلدي كسبته."
+        },
+        {
+          "en": "I claimed my 1,000th career goal with a penalty in 2007.",
+          "ar": "سجلت الجون رقم ١٠٠٠ في مسيرتي (حسب حسابي) من ضربة جزاء سنة ٢٠٠٧."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Gerard Piqué",
+        "ar": "جيرارد بيكيه"
+      },
+      "aliases": [
+        "pique",
+        "gerard pique",
+        "بيكيه",
+        "بيكية"
+      ],
+      "nation": "ESP",
+      "pos": "DF",
+      "born": 1987,
+      "clubs": [
+        "Manchester United",
+        "Real Zaragoza",
+        "Barcelona"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and spent most of my career in Spain.",
+          "ar": "اتولدت في الثمانينات وقضيت أغلب مسيرتي في إسبانيا."
+        },
+        {
+          "en": "I played alongside Cristiano Ronaldo, Wayne Rooney, Neymar, Luis Suárez, Iker Casillas, Sergio Ramos and David Silva.",
+          "ar": "لعبت جنب كريستيانو رونالدو وواين روني ونيمار ولويس سواريز وإيكر كاسياس وسيرجيو راموس ودافيد سيلفا."
+        },
+        {
+          "en": "I've won the treble twice.",
+          "ar": "كسبت الثلاثية مرتين."
+        },
+        {
+          "en": "I'm a world and European champion who has won the Champions League at least three times.",
+          "ar": "بطل عالم وبطل أوروبا مع المنتخب وكسبت دوري الأبطال ٣ مرات على الأقل."
+        },
+        {
+          "en": "I've won the Champions League with clubs in both England and Spain.",
+          "ar": "كسبت دوري الأبطال مع نادي إنجليزي ونادي إسباني."
+        },
+        {
+          "en": "I own a club in the Pyrenees and founded a seven-a-side league with streamers.",
+          "ar": "عندي نادي في جبال البرانس وأسست دوري سباعي مع الستريمرز."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Juninho Pernambucano",
+        "ar": "جونينيو بيرنامبوكانو"
+      },
+      "aliases": [
+        "juninho",
+        "pernambucano",
+        "جونينيو",
+        "جونينهو"
+      ],
+      "nation": "BRA",
+      "pos": "MF",
+      "born": 1975,
+      "clubs": [
+        "Sport Recife",
+        "Vasco da Gama",
+        "Lyon",
+        "Al-Gharafa",
+        "New York Red Bulls"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and played club football on three continents.",
+          "ar": "اتولدت في السبعينات ولعبت مع أندية في ٣ قارات."
+        },
+        {
+          "en": "I played alongside Romário, Edmundo, Karim Benzema, Michael Essien, Florent Malouda, Ronaldinho and Kaká.",
+          "ar": "لعبت جنب روماريو وإدموندو وكريم بنزيما ومايكل إيسيان وفلوران مالودا ورونالدينيو وكاكا."
+        },
+        {
+          "en": "I've won the league in both Brazil and France.",
+          "ar": "كسبت الدوري في البرازيل وفي فرنسا."
+        },
+        {
+          "en": "I won the Copa Libertadores and later the French league.",
+          "ar": "كسبت كوبا ليبرتادوريس وبعدها كسبت الدوري الفرنسي."
+        },
+        {
+          "en": "I won seven league titles in a row in France.",
+          "ar": "كسبت الدوري الفرنسي ٧ مرات ورا بعض."
+        },
+        {
+          "en": "I scored 44 direct free kicks for my French club, many with my trademark knuckleball.",
+          "ar": "جبت ٤٤ جون من ضربات حرة مباشرة لناديا الفرنساوي، كتير منهم بالضربة اللي بتتهز في الهوا."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Wael Gomaa",
+        "ar": "وائل جمعة"
+      },
+      "aliases": [
+        "gomaa",
+        "wael gomaa",
+        "gomaa wael",
+        "وائل جمعه",
+        "جمعة"
+      ],
+      "nation": "EGY",
+      "pos": "DF",
+      "born": 1975,
+      "clubs": [
+        "Ghazl El Mahalla",
+        "Al Ahly",
+        "Al-Sailiya"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and spent almost my whole career in my home country.",
+          "ar": "اتولدت في السبعينات وقضيت تقريبًا كل مسيرتي في بلدي."
+        },
+        {
+          "en": "I played alongside Mohamed Aboutrika, Mohamed Barakat, Emad Moteab, Ahmed Hassan, Mido, Mohamed Zidan and Essam El-Hadary.",
+          "ar": "لعبت جنب محمد أبو تريكة ومحمد بركات وعماد متعب وأحمد حسن وميدو ومحمد زيدان وعصام الحضري."
+        },
+        {
+          "en": "I won three Africa Cup of Nations titles in a row.",
+          "ar": "كسبت أمم أفريقيا ٣ مرات ورا بعض."
+        },
+        {
+          "en": "I won the African Champions League at least five times and played at the Club World Cup.",
+          "ar": "كسبت دوري أبطال أفريقيا ٥ مرات على الأقل ولعبت في كأس العالم للأندية."
+        },
+        {
+          "en": "I've won the African Champions League six times and spent a season on loan in Qatar.",
+          "ar": "كسبت دوري أبطال أفريقيا ٦ مرات وقضيت موسم معار في قطر."
+        },
+        {
+          "en": "I'm the centre-back of Egypt's three straight AFCON wins, and I came to Cairo's Red Devils from Ghazl El Mahalla in 2001.",
+          "ar": "أنا قلب دفاع مصر في التلات بطولات أمم أفريقيا ورا بعض، وجيت للأهلي من غزل المحلة سنة ٢٠٠١."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Jay-Jay Okocha",
+        "ar": "جاي جاي أوكوتشا"
+      },
+      "aliases": [
+        "okocha",
+        "jay jay",
+        "jayjay",
+        "austin okocha",
+        "أوكوتشا",
+        "اوكوتشا"
+      ],
+      "nation": "NGA",
+      "pos": "MF",
+      "born": 1973,
+      "clubs": [
+        "Borussia Neunkirchen",
+        "Eintracht Frankfurt",
+        "Fenerbahçe",
+        "Paris Saint-Germain",
+        "Bolton",
+        "Qatar SC",
+        "Hull City"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and spent most of my career in Europe.",
+          "ar": "اتولدت في السبعينات وقضيت أغلب مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Ronaldinho, Nicolas Anelka, Anthony Yeboah, Fernando Hierro, Youri Djorkaeff, Nwankwo Kanu and Sunday Oliseh.",
+          "ar": "لعبت جنب رونالدينيو ونيكولا أنيلكا وأنتوني يبواه وفرناندو هييرو ويوري جوركاييف ونوانكو كانو وصنداي أوليسيه."
+        },
+        {
+          "en": "I've won the Africa Cup of Nations and Olympic gold.",
+          "ar": "كسبت أمم أفريقيا والدهب الأوليمبي."
+        },
+        {
+          "en": "I won the Africa Cup of Nations in 1994 and Olympic gold two years later.",
+          "ar": "كسبت أمم أفريقيا ١٩٩٤ والدهب الأوليمبي بعدها بسنتين."
+        },
+        {
+          "en": "I played in the Bundesliga, the Turkish league, Ligue 1 and the Premier League.",
+          "ar": "لعبت في الدوري الألماني والتركي والفرنسي والإنجليزي."
+        },
+        {
+          "en": "My English club's fans sang that I was 'so good they named him twice'.",
+          "ar": "جمهور ناديا الإنجليزي كان بيغني إني \"حلو أوي لدرجة إنهم سموه مرتين\"."
         }
       ]
     }

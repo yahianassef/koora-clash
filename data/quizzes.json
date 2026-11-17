@@ -181,6 +181,20 @@
       "items": [
         "Clubs Samuel Eto'o played for"
       ]
+    },
+    {
+      "id": "nameall-2026-11-17-1",
+      "date": "2026-11-17",
+      "items": [
+        "Clubs that won Ligue 1 between 2000 and 2025"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-17-2",
+      "date": "2026-11-17",
+      "items": [
+        "Countries that have won the Arabian Gulf Cup"
+      ]
     }
   ],
   "career": [
@@ -382,6 +396,24 @@
         "Ronaldinho",
         "Noureddine Naybet",
         "Robbie Keane"
+      ]
+    },
+    {
+      "id": "career-2026-11-17-1",
+      "date": "2026-11-17",
+      "items": [
+        "Claude Makélélé",
+        "Omar Marmoush",
+        "Gervinho"
+      ]
+    },
+    {
+      "id": "career-2026-11-17-2",
+      "date": "2026-11-17",
+      "items": [
+        "Juan Sebastián Verón",
+        "Seydou Keita",
+        "Diego Forlán"
       ]
     }
   ],
@@ -815,6 +847,44 @@
         "Which English club did Ahmed Fathy join from Ismaily in January 2007?"
       ],
       "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-17-1",
+      "date": "2026-11-17",
+      "items": [
+        "Who scored Liverpool's first goal in their 2005 Champions League final comeback?",
+        "Who scored four goals in Al Ahly's 6–1 win over Zamalek in 2002?",
+        "Who won the Golden Boot at the 1998 World Cup?",
+        "Al Ittihad overturned a 3–1 home defeat to win the 2004 AFC Champions League final against which club?",
+        "Which Brazilian coached Iraq to the 2007 AFC Asian Cup title?",
+        "Who headed Egypt's winner against world champions Italy at the 2009 Confederations Cup?",
+        "How many league games in a row did Arsenal go unbeaten across 2003 and 2004?",
+        "Who was named best player of the 2006 Africa Cup of Nations?",
+        "Whose goal-line handball denied Ghana a 2010 World Cup semi-final place?",
+        "Saudi Arabia won their first AFC Asian Cup in 1984 by beating which team in the final?",
+        "Who scored a then-record 36 Serie A goals in the 2015–16 season?",
+        "Al Ain won the 2023–24 AFC Champions League by beating which club in the final?"
+      ],
+      "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-17-2",
+      "date": "2026-11-17",
+      "items": [
+        "Who scored Chelsea's late equaliser in the 2012 Champions League final in Munich?",
+        "Who came off the bench to score twice in Germany's 7–1 win over Brazil in 2014?",
+        "Who headed Cameroon's winner against holders Argentina in the 1990 World Cup opener?",
+        "Who coached Monaco to the 2004 Champions League final?",
+        "Whose golden own goal decided the 2001 UEFA Cup final between Liverpool and Alavés?",
+        "Who scored AC Milan's winning penalty in the 2003 Champions League final shootout against Juventus?",
+        "Who scored both of Wydad's goals against Al Ahly in the 2022 CAF Champions League final?",
+        "Who scored the fastest goal in World Cup history, after about 11 seconds in 2002?",
+        "Who scored the only goal of the 2010 World Cup final?",
+        "Which team beat Saudi Arabia 8–0 at the 2002 World Cup?",
+        "Kuwait won the 1980 AFC Asian Cup on home soil by beating which team in the final?",
+        "Who scored Brazil's last-minute penalty to beat Egypt 4–3 at the 2009 Confederations Cup?"
+      ],
+      "level": "hard"
     }
   ],
   "mystery": [
@@ -1082,6 +1152,26 @@
         "Ahmed Fathy"
       ],
       "level": "pro"
+    },
+    {
+      "id": "mystery-2026-11-17-1",
+      "date": "2026-11-17",
+      "items": [
+        "Cafu",
+        "Romário",
+        "Gerard Piqué"
+      ],
+      "level": "easy"
+    },
+    {
+      "id": "mystery-2026-11-17-2",
+      "date": "2026-11-17",
+      "items": [
+        "Juninho Pernambucano",
+        "Wael Gomaa",
+        "Jay-Jay Okocha"
+      ],
+      "level": "legend"
     }
   ]
 }
