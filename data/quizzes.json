@@ -195,6 +195,20 @@
       "items": [
         "Countries that have won the Arabian Gulf Cup"
       ]
+    },
+    {
+      "id": "nameall-2026-11-18-1",
+      "date": "2026-11-18",
+      "items": [
+        "Countries that have hosted the Arab Cup"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-18-2",
+      "date": "2026-11-18",
+      "items": [
+        "Clubs that won the FA Cup between 2000 and 2025"
+      ]
     }
   ],
   "career": [
@@ -414,6 +428,24 @@
         "Juan Sebastián Verón",
         "Seydou Keita",
         "Diego Forlán"
+      ]
+    },
+    {
+      "id": "career-2026-11-18-1",
+      "date": "2026-11-18",
+      "items": [
+        "Mario Balotelli",
+        "Mohamed Elneny",
+        "Daniel Sturridge"
+      ]
+    },
+    {
+      "id": "career-2026-11-18-2",
+      "date": "2026-11-18",
+      "items": [
+        "Alexis Sánchez",
+        "Kolo Touré",
+        "Hatem Ben Arfa"
       ]
     }
   ],
@@ -885,6 +917,44 @@
         "Who scored Brazil's last-minute penalty to beat Egypt 4–3 at the 2009 Confederations Cup?"
       ],
       "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-18-1",
+      "date": "2026-11-18",
+      "items": [
+        "Which club did Al Ahly beat in the 1987 African Cup of Champions Clubs final?",
+        "Who coached Egypt to the 1986 AFCON title on home soil?",
+        "Which Egyptian goalkeeper was the shootout hero against Cameroon in the 2021 AFCON semi-final?",
+        "Who scored Egypt's extra-time winner against Morocco in the 2021 AFCON quarter-final?",
+        "Who coached Saudi Arabia at the 1994 World Cup?",
+        "In which year did Morocco become the first African team to top a World Cup group?",
+        "Who scored Ajax's winner in the 1995 Champions League final?",
+        "Who was the top scorer at the 1990 World Cup?",
+        "Roger Milla became the World Cup's oldest scorer in 1994 against which team?",
+        "Who was the Premier League's top scorer in 2002–03?",
+        "Who won the 2001 Ballon d'Or?",
+        "Who was the top scorer at Euro 2004?"
+      ],
+      "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-18-2",
+      "date": "2026-11-18",
+      "items": [
+        "Zamalek won their first African title in 1984 by beating which Nigerian club in the final?",
+        "Egypt beat which team on penalties in the 1986 AFCON final in Cairo?",
+        "Who was named Player of the Tournament at the 2017 Africa Cup of Nations?",
+        "Egypt knocked out which team on penalties in the round of 16 at the 2021 AFCON?",
+        "Who scored Egypt's late winner against Morocco in the 2017 AFCON quarter-final?",
+        "Who coached Egypt at the 2021 Africa Cup of Nations?",
+        "Real Madrid loaned Achraf Hakimi to which club for two seasons?",
+        "Who scored Marseille's winner in the 1993 Champions League final?",
+        "Who scored five goals in a single match at the 1994 World Cup?",
+        "Which country hosted the 2002 Africa Cup of Nations?",
+        "Deportivo La Coruña overturned a 4–1 first-leg defeat with a 4–0 win against which club in the 2004 Champions League quarter-final?",
+        "Who was named Player of the Tournament at Euro 2008?"
+      ],
+      "level": "hard"
     }
   ],
   "mystery": [
@@ -1172,6 +1242,26 @@
         "Jay-Jay Okocha"
       ],
       "level": "legend"
+    },
+    {
+      "id": "mystery-2026-11-18-1",
+      "date": "2026-11-18",
+      "items": [
+        "David Villa",
+        "Franck Ribéry",
+        "Petr Čech"
+      ],
+      "level": "amateur"
+    },
+    {
+      "id": "mystery-2026-11-18-2",
+      "date": "2026-11-18",
+      "items": [
+        "Sofiane Feghouli",
+        "Mario Gómez",
+        "Rafael van der Vaart"
+      ],
+      "level": "pro"
     }
   ]
 }

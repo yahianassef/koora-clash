@@ -179,6 +179,11 @@
       "en": "Republic of Ireland",
       "ar": "أيرلندا",
       "continent": "europe"
+    },
+    "CZE": {
+      "en": "Czech Republic",
+      "ar": "التشيك",
+      "continent": "europe"
     }
   },
   "players": [
@@ -5318,6 +5323,316 @@
         {
           "en": "My English club's fans sang that I was 'so good they named him twice'.",
           "ar": "جمهور ناديا الإنجليزي كان بيغني إني \"حلو أوي لدرجة إنهم سموه مرتين\"."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "David Villa",
+        "ar": "ديفيد فيا"
+      },
+      "aliases": [
+        "villa",
+        "david villa",
+        "el guaje",
+        "فيا",
+        "دافيد فيا"
+      ],
+      "nation": "ESP",
+      "pos": "FW",
+      "born": 1981,
+      "clubs": [
+        "Sporting Gijón",
+        "Real Zaragoza",
+        "Valencia",
+        "Barcelona",
+        "Atlético Madrid",
+        "New York City FC",
+        "Melbourne City",
+        "Vissel Kobe"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and spent most of my career in Europe.",
+          "ar": "اتولدت في الثمانينات وقضيت أغلب مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside David Silva, Juan Mata, Xavi, Diego Costa, Andrea Pirlo, Lukas Podolski and Fernando Torres.",
+          "ar": "لعبت جنب ديفيد سيلفا وخوان ماتا وتشافي ودييجو كوستا وأندريا بيرلو ولوكاس بودولسكي وفرناندو توريس."
+        },
+        {
+          "en": "I'm a World Cup winner who also lifted the Champions League with a Spanish club.",
+          "ar": "أنا بطل كأس عالم وكسبت دوري الأبطال كمان مع نادي إسباني."
+        },
+        {
+          "en": "I scored in a Champions League final and I'm a World Cup winner.",
+          "ar": "جبت جون في نهائي دوري الأبطال وأنا بطل كأس عالم."
+        },
+        {
+          "en": "I scored in a Champions League final and won both the World Cup and the European Championship.",
+          "ar": "جبت جون في نهائي دوري الأبطال وكسبت كأس العالم وكأس أمم أوروبا."
+        },
+        {
+          "en": "I'm my country's all-time record scorer, and I finished as top scorer when we won Euro 2008.",
+          "ar": "أنا الهداف التاريخي لمنتخب بلدي، وكنت هداف يورو ٢٠٠٨ اللي كسبناها."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Franck Ribéry",
+        "ar": "فرانك ريبيري"
+      },
+      "aliases": [
+        "ribery",
+        "franck ribery",
+        "scarface",
+        "ريبيري",
+        "ريبري"
+      ],
+      "nation": "FRA",
+      "pos": "FW",
+      "born": 1983,
+      "clubs": [
+        "Boulogne",
+        "Alès",
+        "Brest",
+        "Metz",
+        "Galatasaray",
+        "Marseille",
+        "Bayern Munich",
+        "Fiorentina",
+        "Salernitana"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and played all my football in Europe.",
+          "ar": "اتولدت في الثمانينات ولعبت كل مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Hakan Şükür, Samir Nasri, Philipp Lahm, Thomas Müller, Robert Lewandowski, Dušan Vlahović and Zinedine Zidane.",
+          "ar": "لعبت جنب هاكان شوكور وسمير نصري وفيليب لام وتوماس مولر وروبرت ليفاندوفسكي ودوشان فلاهوفيتش وزين الدين زيدان."
+        },
+        {
+          "en": "I've won the Bundesliga at least eight times.",
+          "ar": "كسبت الدوري الألماني ٨ مرات على الأقل."
+        },
+        {
+          "en": "I lost a World Cup final, but I've won the Champions League and the Bundesliga.",
+          "ar": "خسرت نهائي كأس عالم، بس كسبت دوري الأبطال والدوري الألماني."
+        },
+        {
+          "en": "I won a treble with a German club and I've also lost a World Cup final.",
+          "ar": "كسبت الثلاثية مع نادي ألماني وخسرت نهائي كأس عالم كمان."
+        },
+        {
+          "en": "I finished third in the Ballon d'Or in the year my German club won the treble, and my face carries scars from a childhood car crash.",
+          "ar": "جيت التالت في الكورة الدهبية في السنة اللي نادي الألماني كسب فيها الثلاثية، ووشي فيه ندوب من حادثة عربية وأنا صغير."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Petr Čech",
+        "ar": "بيتر تشيك"
+      },
+      "aliases": [
+        "cech",
+        "petr cech",
+        "تشيك",
+        "بيتر تشك",
+        "تشك"
+      ],
+      "nation": "CZE",
+      "pos": "GK",
+      "born": 1982,
+      "clubs": [
+        "Chmel Blšany",
+        "Sparta Prague",
+        "Rennes",
+        "Chelsea",
+        "Arsenal"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and played my whole career in Europe.",
+          "ar": "اتولدت في الثمانينات ولعبت كل مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Pavel Nedvěd, Jan Koller, Alexander Frei, Frank Lampard, Didier Drogba, Mesut Özil and Pierre-Emerick Aubameyang.",
+          "ar": "لعبت جنب بافل نيدفيد ويان كولر وألكسندر فراي وفرانك لامبارد وديدييه دروجبا ومسعود أوزيل وبيير إيمريك أوباميانج."
+        },
+        {
+          "en": "I'm a goalkeeper with Champions League and Premier League winner's medals.",
+          "ar": "أنا حارس مرمى كسبت دوري الأبطال والدوري الإنجليزي."
+        },
+        {
+          "en": "I won the Premier League's award for the most clean sheets more than once.",
+          "ar": "كسبت جايزة أكتر حارس حافظ على نظافة شباكه في الدوري الإنجليزي أكتر من مرة."
+        },
+        {
+          "en": "I'm a goalkeeper with more than 100 caps and a Champions League winner's medal.",
+          "ar": "أنا حارس لعبت أكتر من ١٠٠ ماتش دولي وكسبت دوري الأبطال."
+        },
+        {
+          "en": "I wore a protective headguard for most of my career after fracturing my skull, and I won that clean-sheet award with two London clubs.",
+          "ar": "لبست خوذة حماية أغلب مسيرتي بعد كسر في الجمجمة، وكسبت جايزة الشباك النظيفة مع ناديين من لندن."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Sofiane Feghouli",
+        "ar": "سفيان فيغولي"
+      },
+      "aliases": [
+        "feghouli",
+        "sofiane feghouli",
+        "فيغولي",
+        "فيجولي",
+        "فغولي"
+      ],
+      "nation": "ALG",
+      "pos": "FW",
+      "born": 1989,
+      "clubs": [
+        "Grenoble",
+        "Valencia",
+        "Almería",
+        "West Ham",
+        "Galatasaray",
+        "Fatih Karagümrük",
+        "Amanat Baghdad"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and spent most of my career in Europe.",
+          "ar": "اتولدت في الثمانينات وقضيت أغلب مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Ever Banega, Roberto Soldado, Dimitri Payet, Andy Carroll, Radamel Falcao, Fernando Muslera and Riyad Mahrez.",
+          "ar": "لعبت جنب إيفر بانيجا وروبرتو سولدادو وديميتري باييه وآندي كارول وراداميل فالكاو وفرناندو موسليرا ورياض محرز."
+        },
+        {
+          "en": "I've won the Africa Cup of Nations and played in La Liga.",
+          "ar": "كسبت كأس الأمم الأفريقية ولعبت في الدوري الإسباني."
+        },
+        {
+          "en": "I've won the Africa Cup of Nations and played in both the Premier League and La Liga.",
+          "ar": "كسبت أمم أفريقيا ولعبت في الدوري الإنجليزي والإسباني."
+        },
+        {
+          "en": "I've won the Africa Cup of Nations and the Turkish league title.",
+          "ar": "كسبت أمم أفريقيا والدوري التركي."
+        },
+        {
+          "en": "My penalty against the Red Devils in 2014 was my country's first World Cup goal in 28 years.",
+          "ar": "ضربة الجزاء اللي جبتها في الشياطين الحمر سنة ٢٠١٤ كانت أول جون لبلدي في كأس العالم من ٢٨ سنة."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Mario Gómez",
+        "ar": "ماريو جوميز"
+      },
+      "aliases": [
+        "gomez",
+        "mario gomez",
+        "جوميز",
+        "غوميز"
+      ],
+      "nation": "GER",
+      "pos": "FW",
+      "born": 1985,
+      "clubs": [
+        "VfB Stuttgart",
+        "Bayern Munich",
+        "Fiorentina",
+        "Beşiktaş",
+        "Wolfsburg"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and played my whole career in Europe.",
+          "ar": "اتولدت في الثمانينات ولعبت كل مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Sami Khedira, Cacau, Arjen Robben, Juan Cuadrado, Ricardo Quaresma, Julian Draxler and Bastian Schweinsteiger.",
+          "ar": "لعبت جنب سامي خضيرة وكاكاو وآريين روبن وخوان كوادرادو وريكاردو كواريزما ويوليان دراكسلر وباستيان شفاينشتايجر."
+        },
+        {
+          "en": "I won the Bundesliga with two different clubs.",
+          "ar": "كسبت الدوري الألماني مع ناديين مختلفين."
+        },
+        {
+          "en": "I won the Bundesliga with two clubs, and a league title in another country too.",
+          "ar": "كسبت الدوري الألماني مع ناديين، وكسبت الدوري في بلد تانية كمان."
+        },
+        {
+          "en": "I've won league titles in Germany and Turkey.",
+          "ar": "كسبت الدوري في ألمانيا وتركيا."
+        },
+        {
+          "en": "I was top scorer in both the Bundesliga and the Turkish league, and I missed an open goal against Austria at Euro 2008.",
+          "ar": "كنت هداف الدوري الألماني والتركي، وضيعت فرصة جون مضمون قدام النمسا في يورو ٢٠٠٨."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Rafael van der Vaart",
+        "ar": "رافائيل فان دير فارت"
+      },
+      "aliases": [
+        "van der vaart",
+        "vdv",
+        "rafael van der vaart",
+        "فان دير فارت",
+        "فاندرفارت"
+      ],
+      "nation": "NED",
+      "pos": "MF",
+      "born": 1983,
+      "clubs": [
+        "Ajax",
+        "Hamburg",
+        "Real Madrid",
+        "Tottenham",
+        "Real Betis",
+        "Midtjylland",
+        "Esbjerg"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and played my whole career in Europe.",
+          "ar": "اتولدت في الثمانينات ولعبت كل مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Zlatan Ibrahimović, Vincent Kompany, Kaká, Gareth Bale, Luka Modrić, Joaquín and Robin van Persie.",
+          "ar": "لعبت جنب زلاتان إبراهيموفيتش وفينسنت كومباني وكاكا وجاريث بيل ولوكا مودريتش وخواكين وروبن فان بيرسي."
+        },
+        {
+          "en": "I lost a World Cup final, and I played for the Bernabéu club.",
+          "ar": "خسرت نهائي كأس عالم، ولعبت للنادي صاحب ملعب البرنابيو."
+        },
+        {
+          "en": "I won the Dutch league in Amsterdam and later moved to the Spanish capital.",
+          "ar": "كسبت الدوري الهولندي في أمستردام وبعدين انتقلت لعاصمة إسبانيا."
+        },
+        {
+          "en": "I've won league titles in the Netherlands and Denmark.",
+          "ar": "كسبت الدوري في هولندا والدنمارك."
+        },
+        {
+          "en": "I joined a North London club from Madrid on deadline day in 2010.",
+          "ar": "انتقلت من مدريد لنادي في شمال لندن في آخر يوم في الميركاتو سنة ٢٠١٠."
         }
       ]
     }
