@@ -209,6 +209,20 @@
       "items": [
         "Clubs that won the FA Cup between 2000 and 2025"
       ]
+    },
+    {
+      "id": "nameall-2026-11-19-1",
+      "date": "2026-11-19",
+      "items": [
+        "Clubs that won the CAF Champions League between 2000 and 2025"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-19-2",
+      "date": "2026-11-19",
+      "items": [
+        "Clubs Nicolas Anelka played for"
+      ]
     }
   ],
   "career": [
@@ -446,6 +460,24 @@
         "Alexis Sánchez",
         "Kolo Touré",
         "Hatem Ben Arfa"
+      ]
+    },
+    {
+      "id": "career-2026-11-19-1",
+      "date": "2026-11-19",
+      "items": [
+        "Michael Owen",
+        "Robbie Fowler",
+        "Stephen Appiah"
+      ]
+    },
+    {
+      "id": "career-2026-11-19-2",
+      "date": "2026-11-19",
+      "items": [
+        "Andriy Shevchenko",
+        "Mbark Boussoufa",
+        "Roberto Carlos"
       ]
     }
   ],
@@ -955,6 +987,44 @@
         "Who was named Player of the Tournament at Euro 2008?"
       ],
       "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-19-1",
+      "date": "2026-11-19",
+      "items": [
+        "Who was the top scorer at the 2002 World Cup?",
+        "Who scored both of Liverpool's goals in the 2001 FA Cup final against Arsenal?",
+        "Who scored Chelsea's winner in the 2021 Champions League final?",
+        "Which club won the 2008–09 Bundesliga?",
+        "Who missed Villarreal's last-minute penalty against Arsenal in the 2006 Champions League semi-final?",
+        "Who scored the winning penalty in the 2012 Champions League final shootout?",
+        "Which Egyptian club won the 1969 African Cup of Champions Clubs, Egypt's first continental club title?",
+        "Which Egyptian club won the African Cup Winners' Cup in 1982 and 1983?",
+        "Egypt's three matches at the 1990 World Cup were against the Netherlands, England and which team?",
+        "Tunisia ended a 40-year wait for a World Cup win by beating which team in 2018?",
+        "Which team knocked Egypt out of the 2023 Africa Cup of Nations on penalties?",
+        "Who scored Nigeria's winner against Burkina Faso in the 2013 AFCON final?"
+      ],
+      "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-19-2",
+      "date": "2026-11-19",
+      "items": [
+        "Who was the top scorer at the 2014 World Cup?",
+        "Who won the Golden Ball as the best player of the 2006 World Cup?",
+        "Who scored Real Madrid's winner in the 2022 Champions League final?",
+        "Who scored Manchester City's winner in the 2023 Champions League final?",
+        "Which club won Ligue 1 in 2011–12?",
+        "Who shared Europe's Golden Shoe with Diego Forlán in 2004–05?",
+        "Morocco lost the 2022 World Cup third-place match to which team?",
+        "Who scored Morocco's opening goal in their 2–0 win over Belgium at the 2022 World Cup?",
+        "Algeria's first-ever World Cup knockout match, in 2014, ended in an extra-time defeat to which team?",
+        "Who coached Algeria at the 2014 World Cup?",
+        "Who coached Egypt at the 2023 Africa Cup of Nations in Ivory Coast?",
+        "Whose flag is this?|https://flagcdn.com/w320/iq.png"
+      ],
+      "level": "hard"
     }
   ],
   "mystery": [
@@ -1262,6 +1332,26 @@
         "Rafael van der Vaart"
       ],
       "level": "pro"
+    },
+    {
+      "id": "mystery-2026-11-19-1",
+      "date": "2026-11-19",
+      "items": [
+        "Marcelo",
+        "N'Golo Kanté",
+        "Thibaut Courtois"
+      ],
+      "level": "easy"
+    },
+    {
+      "id": "mystery-2026-11-19-2",
+      "date": "2026-11-19",
+      "items": [
+        "Noureddine Naybet",
+        "Juan Carlos Valerón",
+        "Ali Daei"
+      ],
+      "level": "legend"
     }
   ]
 }

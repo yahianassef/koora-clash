@@ -184,6 +184,11 @@
       "en": "Czech Republic",
       "ar": "التشيك",
       "continent": "europe"
+    },
+    "IRN": {
+      "en": "Iran",
+      "ar": "إيران",
+      "continent": "asia"
     }
   },
   "players": [
@@ -5633,6 +5638,294 @@
         {
           "en": "I joined a North London club from Madrid on deadline day in 2010.",
           "ar": "انتقلت من مدريد لنادي في شمال لندن في آخر يوم في الميركاتو سنة ٢٠١٠."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Marcelo",
+        "ar": "مارسيلو"
+      },
+      "aliases": [
+        "marcelo vieira",
+        "مارسيلو فييرا"
+      ],
+      "nation": "BRA",
+      "pos": "DF",
+      "born": 1988,
+      "clubs": [
+        "Fluminense",
+        "Real Madrid",
+        "Olympiacos"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and spent most of my career in Europe.",
+          "ar": "اتولدت في الثمانينات ولعبت أغلب مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Ruud van Nistelrooy, Gonzalo Higuaín, Mesut Özil, Gareth Bale, Neymar, Philippe Coutinho and Felipe Melo.",
+          "ar": "لعبت جنب رود فان نيستلروي وجونزالو هيجوايين ومسعود أوزيل وجاريث بيل ونيمار وفيليب كوتينيو وفيليبي ميلو."
+        },
+        {
+          "en": "I won the Champions League four times in five seasons.",
+          "ar": "كسبت دوري الأبطال ٤ مرات في ٥ مواسم."
+        },
+        {
+          "en": "I've won the Champions League, the Copa Libertadores and the Club World Cup.",
+          "ar": "كسبت دوري أبطال أوروبا وكوبا ليبرتادوريس وكأس العالم للأندية."
+        },
+        {
+          "en": "I won Olympic medals at both Beijing 2008 and London 2012.",
+          "ar": "كسبت ميداليات أولمبية في بكين ٢٠٠٨ ولندن ٢٠١٢."
+        },
+        {
+          "en": "I left the Spanish capital in 2022 as the club's most decorated player ever, after lifting that year's European Cup as captain.",
+          "ar": "سبت العاصمة الإسبانية سنة ٢٠٢٢ وأنا أكتر لاعب كسب بطولات في تاريخ النادي، بعد ما رفعت كأس أوروبا السنة دي كابتن."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "N'Golo Kanté",
+        "ar": "نجولو كانتي"
+      },
+      "aliases": [
+        "kante",
+        "ngolo kante",
+        "كانتي",
+        "نغولو كانتي"
+      ],
+      "nation": "FRA",
+      "pos": "MF",
+      "born": 1991,
+      "clubs": [
+        "Boulogne",
+        "Caen",
+        "Leicester City",
+        "Chelsea",
+        "Al Ittihad",
+        "Fenerbahçe"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1990s and have spent most of my career in Europe.",
+          "ar": "اتولدت في التسعينات ولعبت أغلب مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Jamie Vardy, Riyad Mahrez, Eden Hazard, Mason Mount, Karim Benzema, Antoine Griezmann and Paul Pogba.",
+          "ar": "لعبت جنب جيمي فاردي ورياض محرز وإيدين هازارد وماسون ماونت وكريم بنزيما وأنطوان جريزمان وبول بوجبا."
+        },
+        {
+          "en": "I've won the English league with two different clubs.",
+          "ar": "كسبت الدوري الإنجليزي مع ناديين مختلفين."
+        },
+        {
+          "en": "I've won the World Cup, the Champions League and the Europa League.",
+          "ar": "كسبت كأس العالم ودوري الأبطال والدوري الأوروبي."
+        },
+        {
+          "en": "I've won the English league, the Champions League and the World Cup.",
+          "ar": "كسبت الدوري الإنجليزي ودوري الأبطال وكأس العالم."
+        },
+        {
+          "en": "I won back-to-back English titles with two different clubs, starting with the 5,000-1 outsiders.",
+          "ar": "كسبت الدوري الإنجليزي موسمين ورا بعض مع ناديين مختلفين، أولهم الفريق اللي كانت فرصته ١ من ٥٠٠٠."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Thibaut Courtois",
+        "ar": "تيبو كورتوا"
+      },
+      "aliases": [
+        "courtois",
+        "كورتوا"
+      ],
+      "nation": "BEL",
+      "pos": "GK",
+      "born": 1992,
+      "clubs": [
+        "Genk",
+        "Chelsea",
+        "Atlético Madrid",
+        "Real Madrid"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1990s and have spent my whole career in Europe.",
+          "ar": "اتولدت في التسعينات ولعبت كل مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Radamel Falcao, Diego Costa, Eden Hazard, N'Golo Kanté, Luka Modrić, Kylian Mbappé and Vincent Kompany.",
+          "ar": "لعبت جنب راداميل فالكاو ودييجو كوستا وإيدين هازارد ونجولو كانتي ولوكا مودريتش وكيليان مبابي وفينسنت كومباني."
+        },
+        {
+          "en": "I've won the league in Spain with two different clubs.",
+          "ar": "كسبت الدوري الإسباني مع ناديين مختلفين."
+        },
+        {
+          "en": "I've won the Premier League, La Liga and the Champions League.",
+          "ar": "كسبت الدوري الإنجليزي والدوري الإسباني ودوري الأبطال."
+        },
+        {
+          "en": "I've won the Europa League, the Champions League, the Premier League and La Liga.",
+          "ar": "كسبت الدوري الأوروبي ودوري الأبطال والدوري الإنجليزي والدوري الإسباني."
+        },
+        {
+          "en": "I was named man of the match in the 2022 Champions League final after a string of saves against an English side near Paris.",
+          "ar": "اتختارت رجل المباراة في نهائي دوري الأبطال ٢٠٢٢ بعد سلسلة تصديات قدام فريق إنجليزي جنب باريس."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Noureddine Naybet",
+        "ar": "نور الدين نيبت"
+      },
+      "aliases": [
+        "naybet",
+        "نيبت",
+        "نايبت",
+        "نور الدين نايبت"
+      ],
+      "nation": "MAR",
+      "pos": "DF",
+      "born": 1970,
+      "clubs": [
+        "Wydad Casablanca",
+        "Nantes",
+        "Sporting CP",
+        "Deportivo La Coruña",
+        "Tottenham"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and played most of my career in Europe.",
+          "ar": "اتولدت في السبعينات ولعبت أغلب مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Luís Figo, Djalminha, Roy Makaay, Robbie Keane, Michael Carrick, Mustapha Hadji and Youssef Chippo.",
+          "ar": "لعبت جنب لويس فيجو وجالمينيا وروي ماكاي وروبي كين ومايكل كاريك ومصطفى حجي ويوسف شيبو."
+        },
+        {
+          "en": "I won the Spanish league in 2000 with a club that had never been champions before.",
+          "ar": "كسبت الدوري الإسباني سنة ٢٠٠٠ مع نادي عمره ما كان كسبه قبل كده."
+        },
+        {
+          "en": "I've won domestic cups in both Portugal and Spain.",
+          "ar": "كسبت كاس البلد في البرتغال وإسبانيا."
+        },
+        {
+          "en": "I've won league titles in Morocco and in Spain.",
+          "ar": "كسبت الدوري في المغرب وفي إسبانيا."
+        },
+        {
+          "en": "I captained my country in the 2004 Africa Cup of Nations final, then moved to North London at 34.",
+          "ar": "كنت كابتن بلدي في نهائي أمم أفريقيا ٢٠٠٤، وبعدها انتقلت لشمال لندن وأنا عندي ٣٤ سنة."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Juan Carlos Valerón",
+        "ar": "خوان كارلوس فاليرون"
+      },
+      "aliases": [
+        "valeron",
+        "فاليرون"
+      ],
+      "nation": "ESP",
+      "pos": "MF",
+      "born": 1975,
+      "clubs": [
+        "Las Palmas",
+        "Mallorca",
+        "Atlético Madrid",
+        "Deportivo La Coruña"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and spent my whole career in Spain.",
+          "ar": "اتولدت في السبعينات ولعبت كل مسيرتي في إسبانيا."
+        },
+        {
+          "en": "I played alongside Jimmy Floyd Hasselbaink, Roy Makaay, Diego Tristán, Mauro Silva, Raúl, Carles Puyol and Xavi.",
+          "ar": "لعبت جنب جيمي فلويد هاسلبينك وروي ماكاي ودييجو تريستان وماورو سيلفا وراؤول وكارليس بويول وتشافي."
+        },
+        {
+          "en": "I won a Spanish Cup final that spoiled the hosts' 100th-birthday party in Madrid.",
+          "ar": "كسبت نهائي كأس ملك إسبانيا اللي بوّظ احتفال صاحب الأرض بعيد ميلاده المية في مدريد."
+        },
+        {
+          "en": "I scored in a famous 4–0 Champions League comeback against the holders.",
+          "ar": "سجلت في ريمونتادا تاريخية ٤–٠ في دوري الأبطال قدام حامل اللقب."
+        },
+        {
+          "en": "I went down with the capital's red-and-whites in 2000 and won a major cup with my next club two years later.",
+          "ar": "هبطت مع الأحمر والأبيض بتاع العاصمة سنة ٢٠٠٠، وبعدها بسنتين كسبت كاس كبيرة مع النادي اللي بعده."
+        },
+        {
+          "en": "I'm a Canary Islands playmaker who spent 13 seasons in A Coruña, then went home to finish my career.",
+          "ar": "أنا صانع ألعاب من جزر الكناري، قضيت ١٣ موسم في لاكورونيا ورجعت بلدي أختم مسيرتي."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Ali Daei",
+        "ar": "علي دائي"
+      },
+      "aliases": [
+        "daei",
+        "علي دايي",
+        "دائي",
+        "دايي"
+      ],
+      "nation": "IRN",
+      "pos": "FW",
+      "born": 1969,
+      "clubs": [
+        "Persepolis",
+        "Al Sadd",
+        "Arminia Bielefeld",
+        "Bayern Munich",
+        "Hertha Berlin",
+        "Al Shabab Dubai",
+        "Saba",
+        "Saipa"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1960s and spent most of my career in Asia.",
+          "ar": "اتولدت في الستينات ولعبت أغلب مسيرتي في آسيا."
+        },
+        {
+          "en": "I played alongside Lothar Matthäus, Oliver Kahn, Giovane Élber, Sebastian Deisler, Karim Bagheri, Mehdi Mahdavikia and Javad Nekounam.",
+          "ar": "لعبت جنب لوثار ماتيوس وأوليفر كان وجيوفاني إلبر وسيباستيان دايسلر وكريم باقري ومهدي مهدوي كيا وجواد نكونام."
+        },
+        {
+          "en": "I won the German league with Munich's giants in 1999.",
+          "ar": "كسبت الدوري الألماني مع عملاق ميونخ سنة ١٩٩٩."
+        },
+        {
+          "en": "I'm an Asian player who has won the Bundesliga.",
+          "ar": "أنا لاعب آسيوي كسب الدوري الألماني."
+        },
+        {
+          "en": "I've scored more than 100 goals for my country.",
+          "ar": "جبت أكتر من ١٠٠ هدف لمنتخب بلدي."
+        },
+        {
+          "en": "I was the first man to reach 100 international goals, and my record of 109 stood until 2021.",
+          "ar": "كنت أول لاعب يوصل ١٠٠ هدف دولي، ورقمي القياسي ١٠٩ فضل صامد لحد ٢٠٢١."
         }
       ]
     }
