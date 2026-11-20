@@ -2311,7 +2311,7 @@
       "born": 1977,
       "clubs": [
         "Seven Stars",
-        "Ajax Cape Town",
+        "Cape Town Spurs",
         "Ajax",
         "Celta Vigo",
         "Porto",
@@ -3711,8 +3711,8 @@
           "ar": "في أول التسعينات لعبت في الدوري اليوناني والدوري السويسري."
         },
         {
-          "en": "My header against Algeria in 1989 sent us to Italia '90, and I'm my country's all-time top scorer.",
-          "ar": "راسيتي قدام الجزائر سنة ١٩٨٩ وصّلتنا لكاس العالم ٩٠، وأنا الهداف التاريخي لمنتخب بلدي."
+          "en": "My header against Algeria in 1989 sent us to Italia '90, and I was my country's all-time top scorer for more than two decades.",
+          "ar": "راسيتي قدام الجزائر سنة ١٩٨٩ وصّلتنا لكاس العالم ٩٠، وفضلت الهداف التاريخي لمنتخب بلدي أكتر من عشرين سنة."
         }
       ]
     },
@@ -5926,6 +5926,294 @@
         {
           "en": "I was the first man to reach 100 international goals, and my record of 109 stood until 2021.",
           "ar": "كنت أول لاعب يوصل ١٠٠ هدف دولي، ورقمي القياسي ١٠٩ فضل صامد لحد ٢٠٢١."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Clarence Seedorf",
+        "ar": "كلارنس سيدورف"
+      },
+      "aliases": [
+        "seedorf",
+        "سيدورف",
+        "كلارينس سيدورف"
+      ],
+      "nation": "NED",
+      "pos": "MF",
+      "born": 1976,
+      "clubs": [
+        "Ajax",
+        "Sampdoria",
+        "Real Madrid",
+        "Inter",
+        "AC Milan",
+        "Botafogo"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and played club football in four different countries.",
+          "ar": "اتولدت في السبعينات ولعبت كورة أندية في أربع دول مختلفة."
+        },
+        {
+          "en": "I played alongside Patrick Kluivert, Raúl, Fernando Hierro, Andrea Pirlo, Kaká, Paolo Maldini and Edgar Davids.",
+          "ar": "لعبت جنب باتريك كلويفرت وراؤول وفرناندو هييرو وأندريا بيرلو وكاكا وباولو مالديني وإدجار دافيدز."
+        },
+        {
+          "en": "I'm a Dutchman who lifted the Champions League with a foreign club.",
+          "ar": "أنا هولندي رفعت دوري الأبطال مع نادي من بره بلدي."
+        },
+        {
+          "en": "I've won the Champions League with clubs from both Spain and Italy.",
+          "ar": "كسبت دوري الأبطال مع أندية من إسبانيا وإيطاليا الاتنين."
+        },
+        {
+          "en": "I've won league titles in the Netherlands, Spain and Italy.",
+          "ar": "كسبت الدوري في هولندا وإسبانيا وإيطاليا."
+        },
+        {
+          "en": "I was the first player to win the Champions League with three different clubs.",
+          "ar": "كنت أول لاعب يكسب دوري الأبطال مع تلات أندية مختلفة."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Philipp Lahm",
+        "ar": "فيليب لام"
+      },
+      "aliases": [
+        "lahm",
+        "لام",
+        "فيليب لاهم"
+      ],
+      "nation": "GER",
+      "pos": "DF",
+      "born": 1983,
+      "clubs": [
+        "Bayern Munich",
+        "VfB Stuttgart"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and played my whole club career in one country.",
+          "ar": "اتولدت في الثمانينات ولعبت مسيرتي كلها مع الأندية في بلد واحد."
+        },
+        {
+          "en": "I played alongside Aleksandr Hleb, Kevin Kurányi, Miroslav Klose, Franck Ribéry, Mesut Özil, Arjen Robben and Thomas Müller.",
+          "ar": "لعبت جنب ألكسندر هليب وكيفن كوراني وميروسلاف كلوزه وفرانك ريبيري ومسعود أوزيل وآريين روبن وتوماس مولر."
+        },
+        {
+          "en": "I lifted the World Cup as my country's captain.",
+          "ar": "رفعت كاس العالم وأنا كابتن منتخب بلدي."
+        },
+        {
+          "en": "I'm a full-back who captained my side in a winning Champions League final.",
+          "ar": "أنا ظهير كنت كابتن فريقي في نهائي دوري أبطال كسبناه."
+        },
+        {
+          "en": "I captained my club to the Champions League and my country to the World Cup.",
+          "ar": "كنت كابتن ناديّ وإحنا بنكسب دوري الأبطال، وكابتن منتخبي وإحنا بنكسب كاس العالم."
+        },
+        {
+          "en": "I quit international football at 30, just days after lifting the World Cup in Rio.",
+          "ar": "اعتزلت دوليًا وأنا عندي ٣٠ سنة، بعد أيام من رفع كاس العالم في ريو."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Pavel Nedvěd",
+        "ar": "بافيل نيدفيد"
+      },
+      "aliases": [
+        "nedved",
+        "nedvěd",
+        "نيدفيد",
+        "نيدفيت"
+      ],
+      "nation": "CZE",
+      "pos": "MF",
+      "born": 1972,
+      "clubs": [
+        "Dukla Prague",
+        "Sparta Prague",
+        "Lazio",
+        "Juventus"
+      ],
+      "tier": "amateur",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and played my whole career in two countries.",
+          "ar": "اتولدت في السبعينات ولعبت مسيرتي كلها في بلدين بس."
+        },
+        {
+          "en": "I played alongside Alessandro Nesta, Marcelo Salas, Juan Sebastián Verón, Alessandro Del Piero, Gianluigi Buffon, Tomáš Rosický and Jan Koller.",
+          "ar": "لعبت جنب أليساندرو نيستا ومارسيلو سالاس وخوان سيباستيان فيرون وأليساندرو ديل بييرو وجيانلويجي بوفون وتوماس روسيسكي ويان كولر."
+        },
+        {
+          "en": "I won the Ballon d'Or in the 2000s.",
+          "ar": "كسبت الكرة الدهبية في العقد الأول من الألفية."
+        },
+        {
+          "en": "I'm one of the few Ballon d'Or winners from the former Eastern Bloc.",
+          "ar": "أنا من الكام لاعب اللي كسبوا الكرة الدهبية من دول الكتلة الشرقية القديمة."
+        },
+        {
+          "en": "I won Serie A with clubs from both Rome and Turin.",
+          "ar": "كسبت الدوري الإيطالي مع نادي من روما ونادي من تورينو."
+        },
+        {
+          "en": "Italian fans called me the 'Czech Fury', and I won the Ballon d'Or in 2003.",
+          "ar": "جماهير إيطاليا سمّتني 'الإعصار التشيكي'، وكسبت الكرة الدهبية سنة ٢٠٠٣."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Rabah Madjer",
+        "ar": "رابح ماجر"
+      },
+      "aliases": [
+        "madjer",
+        "ماجر",
+        "رابح"
+      ],
+      "nation": "ALG",
+      "pos": "FW",
+      "born": 1958,
+      "clubs": [
+        "NA Hussein Dey",
+        "Racing Paris",
+        "Tours",
+        "Porto",
+        "Valencia",
+        "Qatar SC"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the 1950s and played club football in Africa, Europe and Asia.",
+          "ar": "اتولدت في الخمسينات ولعبت مع أندية في أفريقيا وأوروبا وآسيا."
+        },
+        {
+          "en": "I played alongside Lakhdar Belloumi, Salah Assad, Mustapha Dahleb, Djamel Menad, Paulo Futre, Fernando Gomes and Juary.",
+          "ar": "لعبت جنب لخضر بلومي وصالح عصاد ومصطفى دحلب وجمال مناد وباولو فوتري وفرناندو جوميز وجواري."
+        },
+        {
+          "en": "I lifted the African title on home soil at the start of the 1990s.",
+          "ar": "رفعت كاس أفريقيا على أرض بلدي في أول التسعينات."
+        },
+        {
+          "en": "I'm one of the few Arab players to have won Europe's biggest club trophy.",
+          "ar": "أنا من العرب القليلين اللي كسبوا أكبر بطولة أندية في أوروبا."
+        },
+        {
+          "en": "I'm a former African Footballer of the Year who later coached my national team.",
+          "ar": "كسبت جايزة أحسن لاعب في أفريقيا، وبعدين بقيت مدرب منتخب بلدي."
+        },
+        {
+          "en": "My back-heel goal in the 1987 European Cup final in Vienna is one of the most famous in Arab football history.",
+          "ar": "هدفي بالكعب في نهائي كاس أوروبا ١٩٨٧ في فيينا من أشهر الأهداف في تاريخ الكورة العربية."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Jerzy Dudek",
+        "ar": "يجي دوديك"
+      },
+      "aliases": [
+        "dudek",
+        "دوديك",
+        "جيرزي دوديك",
+        "يرزي دوديك"
+      ],
+      "nation": "POL",
+      "pos": "GK",
+      "born": 1973,
+      "clubs": [
+        "Concordia Knurów",
+        "Sokół Tychy",
+        "Feyenoord",
+        "Liverpool",
+        "Real Madrid"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and played club football in four different countries.",
+          "ar": "اتولدت في السبعينات ولعبت كورة أندية في أربع دول مختلفة."
+        },
+        {
+          "en": "I played alongside Jon Dahl Tomasson, Steven Gerrard, Sami Hyypiä, Raúl, Arjen Robben, Emmanuel Olisadebe and Tomasz Hajto.",
+          "ar": "لعبت جنب يون دال توماسون وستيفن جيرارد وسامي هيبيا وراؤول وآريين روبن وإيمانويل أوليساديبي وتوماش هايتو."
+        },
+        {
+          "en": "I won the Dutch league with Rotterdam's giants in 1999.",
+          "ar": "كسبت الدوري الهولندي مع عملاق روتردام سنة ١٩٩٩."
+        },
+        {
+          "en": "I won the Champions League with an English club and La Liga with a Spanish one.",
+          "ar": "كسبت دوري الأبطال مع نادي إنجليزي والدوري الإسباني مع نادي إسباني."
+        },
+        {
+          "en": "I'm one of only a handful of Polish players to have won the European Cup.",
+          "ar": "أنا من لاعيبة بولندا القليلين جدًا اللي كسبوا كاس أوروبا."
+        },
+        {
+          "en": "My wobbly 'spaghetti legs' on the goal line helped win a famous shootout in Istanbul.",
+          "ar": "رقصة 'رجلين الإسباجيتي' بتاعتي على خط المرمى ساعدت في كسب ركلات ترجيح تاريخية في إسطنبول."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Hany Ramzy",
+        "ar": "هاني رمزي"
+      },
+      "aliases": [
+        "ramzy",
+        "رمزي",
+        "هانى رمزى"
+      ],
+      "nation": "EGY",
+      "pos": "DF",
+      "born": 1969,
+      "clubs": [
+        "Al Ahly",
+        "Neuchâtel Xamax",
+        "Werder Bremen",
+        "Kaiserslautern",
+        "Saarbrücken"
+      ],
+      "tier": "pro",
+      "clues": [
+        {
+          "en": "I was born in the 1960s and spent most of my career in Europe.",
+          "ar": "اتولدت في الستينات ولعبت أغلب مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Hossam Hassan, Hazem Emam, Mario Basler, Andreas Herzog, Michael Ballack, Miroslav Klose and Ciriaco Sforza.",
+          "ar": "لعبت جنب حسام حسن وحازم إمام وماريو باسلر وأندرياس هيرتزوج وميكايل بالاك وميروسلاف كلوزه وتشيرياكو سفورزا."
+        },
+        {
+          "en": "I was part of the Pharaohs' squad at Italia '90.",
+          "ar": "كنت ضمن قايمة الفراعنة في كاس العالم ٩٠ في إيطاليا."
+        },
+        {
+          "en": "I'm one of only a handful of Egyptians to have played in the Bundesliga.",
+          "ar": "أنا من المصريين القليلين اللي لعبوا في الدوري الألماني."
+        },
+        {
+          "en": "I later coached an African side at the London 2012 Olympics.",
+          "ar": "بعد كده درّبت منتخب أفريقي في أولمبياد لندن ٢٠١٢."
+        },
+        {
+          "en": "I was the first Egyptian to play in the Bundesliga, joining Bremen in 1994.",
+          "ar": "كنت أول مصري يلعب في الدوري الألماني، لما انضميت لبريمن سنة ١٩٩٤."
         }
       ]
     }

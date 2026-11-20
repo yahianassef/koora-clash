@@ -223,6 +223,20 @@
       "items": [
         "Clubs Nicolas Anelka played for"
       ]
+    },
+    {
+      "id": "nameall-2026-11-20-1",
+      "date": "2026-11-20",
+      "items": [
+        "Clubs Mido played for"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-20-2",
+      "date": "2026-11-20",
+      "items": [
+        "Clubs that won the Bundesliga between 1990 and 2025"
+      ]
     }
   ],
   "career": [
@@ -478,6 +492,24 @@
         "Andriy Shevchenko",
         "Mbark Boussoufa",
         "Roberto Carlos"
+      ]
+    },
+    {
+      "id": "career-2026-11-20-1",
+      "date": "2026-11-20",
+      "items": [
+        "Patrick Vieira",
+        "Mustapha Hadji",
+        "Hidetoshi Nakata"
+      ]
+    },
+    {
+      "id": "career-2026-11-20-2",
+      "date": "2026-11-20",
+      "items": [
+        "Gaizka Mendieta",
+        "Edgar Davids",
+        "Benni McCarthy"
       ]
     }
   ],
@@ -1025,6 +1057,44 @@
         "Whose flag is this?|https://flagcdn.com/w320/iq.png"
       ],
       "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-20-1",
+      "date": "2026-11-20",
+      "items": [
+        "Who scored Algeria's winner against West Germany at the 1982 World Cup?",
+        "Juventus beat which club on penalties in the 1996 Champions League final?",
+        "Who coached Tunisia to the 2004 AFCON title?",
+        "Al Ahly drew 0–0 with which club in the opening match of the 2025 Club World Cup?",
+        "Who scored the first golden goal in World Cup history, against Paraguay in 1998?",
+        "Which country won the 2009 FIFA U-20 World Cup, hosted by Egypt?",
+        "Parma beat which club 3–0 in the 1999 UEFA Cup final?",
+        "Saudi Arabia's first-ever World Cup win, 2–1 in 1994, came against which team?",
+        "Who crossed for Mario Götze's winner in the 2014 World Cup final?",
+        "Which Moroccan was named African Footballer of the Year for 1998?",
+        "Milan beat which club 4–0 in the 1994 Champions League final?",
+        "Iraq beat which team on penalties in the 2007 AFC Asian Cup semi-final?"
+      ],
+      "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-20-2",
+      "date": "2026-11-20",
+      "items": [
+        "Algeria beat which team in the 1990 AFCON final?",
+        "Galatasaray beat which club on penalties in the 2000 UEFA Cup final?",
+        "Al Hilal knocked which club out of the 2025 Club World Cup with a 4–3 extra-time win?",
+        "Who scored Bayern Munich's goal in the 2001 Champions League final?",
+        "Who was named best player of the 2010 Africa Cup of Nations?",
+        "Schalke won the 1997 UEFA Cup by beating which club on penalties in the final?",
+        "Which club did Hossam Hassan join after his season at Al Ain in 2000?",
+        "Who scored Italy's winning penalty in the 2006 World Cup final shootout?",
+        "Who captained Porto in their 2004 Champions League final win?",
+        "Feyenoord beat which club in the 2002 UEFA Cup final in Rotterdam?",
+        "Who coached Real Madrid to the 2000 Champions League title?",
+        "Who scored Japan's extra-time winner in the 2011 AFC Asian Cup final?"
+      ],
+      "level": "hard"
     }
   ],
   "mystery": [
@@ -1352,6 +1422,26 @@
         "Ali Daei"
       ],
       "level": "legend"
+    },
+    {
+      "id": "mystery-2026-11-20-1",
+      "date": "2026-11-20",
+      "items": [
+        "Clarence Seedorf",
+        "Philipp Lahm",
+        "Pavel Nedvěd"
+      ],
+      "level": "amateur"
+    },
+    {
+      "id": "mystery-2026-11-20-2",
+      "date": "2026-11-20",
+      "items": [
+        "Rabah Madjer",
+        "Jerzy Dudek",
+        "Hany Ramzy"
+      ],
+      "level": "pro"
     }
   ]
 }
