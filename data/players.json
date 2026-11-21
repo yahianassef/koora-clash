@@ -189,6 +189,16 @@
       "en": "Iran",
       "ar": "إيران",
       "continent": "asia"
+    },
+    "CHI": {
+      "en": "Chile",
+      "ar": "تشيلي",
+      "continent": "south_america"
+    },
+    "TUN": {
+      "en": "Tunisia",
+      "ar": "تونس",
+      "continent": "africa"
     }
   },
   "players": [
@@ -6214,6 +6224,304 @@
         {
           "en": "I was the first Egyptian to play in the Bundesliga, joining Bremen in 1994.",
           "ar": "كنت أول مصري يلعب في الدوري الألماني، لما انضميت لبريمن سنة ١٩٩٤."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Casemiro",
+        "ar": "كاسيميرو"
+      },
+      "aliases": [
+        "carlos casemiro",
+        "كاسيميرو",
+        "كازيميرو"
+      ],
+      "nation": "BRA",
+      "pos": "MF",
+      "born": 1992,
+      "clubs": [
+        "São Paulo",
+        "Real Madrid",
+        "Porto",
+        "Manchester United",
+        "Inter Miami"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1990s and have played club football on three continents.",
+          "ar": "اتولدت في التسعينات ولعبت كورة أندية في تلات قارات."
+        },
+        {
+          "en": "I played alongside Rogério Ceni, Yacine Brahimi, Karim Benzema, Luka Modrić, Bruno Fernandes, Neymar and Lionel Messi.",
+          "ar": "لعبت جنب روجيريو سيني وياسين براهيمي وكريم بنزيما ولوكا مودريتش وبرونو فرنانديز ونيمار وليونيل ميسي."
+        },
+        {
+          "en": "I lifted the Champions League five times with the same club.",
+          "ar": "رفعت دوري أبطال أوروبا خمس مرات مع نفس النادي."
+        },
+        {
+          "en": "I'm a Copa America winner and a Champions League winner, and I've also lifted England's League Cup.",
+          "ar": "كسبت كوبا أمريكا ودوري أبطال أوروبا، وكمان رفعت كاس الرابطة الإنجليزية."
+        },
+        {
+          "en": "I won Europe's top prize in the Spanish capital and later joined the Red Devils.",
+          "ar": "كسبت أغلى بطولة في أوروبا في العاصمة الإسبانية وبعدها انضميت للشياطين الحمر."
+        },
+        {
+          "en": "Before conquering Europe, I won the Copa Sudamericana with my club back home in Brazil.",
+          "ar": "قبل ما أغزو أوروبا، كسبت كوبا سودأمريكانا مع ناديي في البرازيل."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Sergio Busquets",
+        "ar": "سيرجيو بوسكيتس"
+      },
+      "aliases": [
+        "busquets",
+        "busi",
+        "بوسكيتس",
+        "بوسكتس"
+      ],
+      "nation": "ESP",
+      "pos": "MF",
+      "born": 1988,
+      "clubs": [
+        "Barcelona",
+        "Inter Miami"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and spent almost my entire career at one club.",
+          "ar": "اتولدت في الثمانينات وقضيت تقريبًا مسيرتي كلها في نادي واحد."
+        },
+        {
+          "en": "I played alongside Thierry Henry, Zlatan Ibrahimović, Neymar, Antoine Griezmann, Fernando Torres, Rodrigo De Paul and Luis Suárez.",
+          "ar": "لعبت جنب تييري هنري وزلاتان إبراهيموفيتش ونيمار وأنطوان جريزمان وفرناندو توريس ورودريجو دي بول ولويس سواريز."
+        },
+        {
+          "en": "I won the Champions League at least three times and I'm a World Cup winner.",
+          "ar": "كسبت دوري أبطال أوروبا تلات مرات على الأقل، وبطل كاس العالم كمان."
+        },
+        {
+          "en": "I won two continental trebles, both with the same Catalan club.",
+          "ar": "كسبت الثلاثية مرتين، الاتنين مع نفس النادي الكتالوني."
+        },
+        {
+          "en": "I've won the World Cup, the European Championship and two trebles.",
+          "ar": "كسبت كاس العالم وكاس أمم أوروبا والثلاثية مرتين."
+        },
+        {
+          "en": "Guardiola promoted me from his B team to anchor his midfield, and I ended my career beside Messi in Florida.",
+          "ar": "جوارديولا صعّدني من الفريق الرديف عشان أبقى محور وسطه، وختمت مسيرتي جنب ميسي في فلوريدا."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Raphaël Varane",
+        "ar": "رافاييل فاران"
+      },
+      "aliases": [
+        "varane",
+        "raphael varane",
+        "فاران",
+        "رافائيل فاران"
+      ],
+      "nation": "FRA",
+      "pos": "DF",
+      "born": 1993,
+      "clubs": [
+        "Lens",
+        "Real Madrid",
+        "Manchester United",
+        "Como"
+      ],
+      "tier": "easy",
+      "clues": [
+        {
+          "en": "I was born in the 1990s and spent most of my career in Spain.",
+          "ar": "اتولدت في التسعينات ولعبت أغلب مسيرتي في إسبانيا."
+        },
+        {
+          "en": "I played alongside Cristiano Ronaldo, Gareth Bale, Xabi Alonso, Bruno Fernandes, Marcus Rashford, Antoine Griezmann and Kylian Mbappé.",
+          "ar": "لعبت جنب كريستيانو رونالدو وجاريث بيل وتشابي ألونسو وبرونو فرنانديز وماركوس راشفورد وأنطوان جريزمان وكيليان مبابي."
+        },
+        {
+          "en": "I've won the World Cup and the Champions League, and I played in the Premier League.",
+          "ar": "كسبت كاس العالم ودوري أبطال أوروبا، ولعبت في الدوري الإنجليزي."
+        },
+        {
+          "en": "I'm a French world champion who also won La Liga.",
+          "ar": "أنا بطل عالم فرنساوي وكسبت الدوري الإسباني كمان."
+        },
+        {
+          "en": "I won the Champions League four times with the same club, and I'm a World Cup winner.",
+          "ar": "كسبت دوري الأبطال أربع مرات مع نفس النادي، وبطل كاس العالم."
+        },
+        {
+          "en": "I lifted the Champions League and the World Cup within two months of each other in 2018.",
+          "ar": "رفعت دوري أبطال أوروبا وكاس العالم في خلال شهرين بس سنة ٢٠١٨."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Iván Zamorano",
+        "ar": "إيفان زامورانو"
+      },
+      "aliases": [
+        "zamorano",
+        "ivan zamorano",
+        "bam bam",
+        "زامورانو"
+      ],
+      "nation": "CHI",
+      "pos": "FW",
+      "born": 1967,
+      "clubs": [
+        "Cobresal",
+        "St. Gallen",
+        "Sevilla",
+        "Real Madrid",
+        "Inter",
+        "Club América",
+        "Colo-Colo"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1960s and spent most of my career in Europe.",
+          "ar": "اتولدت في الستينات ولعبت أغلب مسيرتي في أوروبا."
+        },
+        {
+          "en": "I played alongside Davor Šuker, Michael Laudrup, Raúl, Fernando Hierro, Ronaldo Nazário, Javier Zanetti and Marcelo Salas.",
+          "ar": "لعبت جنب دافور شوكر ومايكل لاودروب وراؤول وفرناندو هييرو ورونالدو نازاريو وخافيير زانيتي ومارسيلو سالاس."
+        },
+        {
+          "en": "I was La Liga's top scorer in a season during the 1990s.",
+          "ar": "كنت هداف الدوري الإسباني في موسم من مواسم التسعينات."
+        },
+        {
+          "en": "I've won Spain's top-scorer trophy and the UEFA Cup.",
+          "ar": "كسبت جايزة هداف الدوري الإسباني وكاس الاتحاد الأوروبي."
+        },
+        {
+          "en": "I played at France '98 and won a medal at the Sydney 2000 Olympics.",
+          "ar": "لعبت في كاس العالم ٩٨ في فرنسا وكسبت ميدالية في أولمبياد سيدني ٢٠٠٠."
+        },
+        {
+          "en": "When a Brazilian took my No. 9 shirt, I wore '1+8' instead.",
+          "ar": "لما برازيلي أخد مني القميص رقم ٩، لبست '١+٨' بداله."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "El Hadji Diouf",
+        "ar": "الحاج ضيوف"
+      },
+      "aliases": [
+        "diouf",
+        "el-hadji diouf",
+        "ضيوف",
+        "الحاجي ضيوف",
+        "الحاج ديوف"
+      ],
+      "nation": "SEN",
+      "pos": "FW",
+      "born": 1981,
+      "clubs": [
+        "Sochaux",
+        "Rennes",
+        "Lens",
+        "Liverpool",
+        "Bolton",
+        "Sunderland",
+        "Blackburn Rovers",
+        "Rangers",
+        "Doncaster Rovers",
+        "Leeds United",
+        "Sabah"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1980s and spent most of my career in British football.",
+          "ar": "اتولدت في الثمانينات ولعبت أغلب مسيرتي في الكورة البريطانية."
+        },
+        {
+          "en": "I played alongside Michael Owen, Steven Gerrard, Jay-Jay Okocha, Nicolas Anelka, Benni McCarthy, Henri Camara and Papa Bouba Diop.",
+          "ar": "لعبت جنب مايكل أوين وستيفن جيرارد وجاي جاي أوكوتشا ونيكولا أنيلكا وبيني مكارثي وهنري كامارا وبابا بوبا ديوب."
+        },
+        {
+          "en": "I was named African Footballer of the Year more than once.",
+          "ar": "اتختارت أفضل لاعب في أفريقيا أكتر من مرة."
+        },
+        {
+          "en": "I won Africa's top individual award in back-to-back years.",
+          "ar": "كسبت أكبر جايزة فردية في أفريقيا سنتين ورا بعض."
+        },
+        {
+          "en": "I'm an African Footballer of the Year who reached a World Cup quarter-final.",
+          "ar": "أنا من اللي كسبوا جايزة أفضل لاعب في أفريقيا ووصلوا لربع نهائي كاس العالم."
+        },
+        {
+          "en": "I set up the winner when my country stunned the world champions in the opening game of the 2002 World Cup.",
+          "ar": "صنعت جون الفوز لما بلدي فاجئت أبطال العالم في افتتاح كاس العالم ٢٠٠٢."
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Radhi Jaïdi",
+        "ar": "راضي الجعايدي"
+      },
+      "aliases": [
+        "jaidi",
+        "jaïdi",
+        "radhi jaidi",
+        "الجعايدي",
+        "راضي جعايدي"
+      ],
+      "nation": "TUN",
+      "pos": "DF",
+      "born": 1975,
+      "clubs": [
+        "Espérance de Tunis",
+        "Bolton",
+        "Birmingham City",
+        "Southampton"
+      ],
+      "tier": "legend",
+      "clues": [
+        {
+          "en": "I was born in the 1970s and didn't move to Europe until my late twenties.",
+          "ar": "اتولدت في السبعينات وماسافرتش أوروبا غير وأنا في أواخر العشرينات."
+        },
+        {
+          "en": "I played alongside Jay-Jay Okocha, Kevin Nolan, Gary Speed, Mikael Forssell, Sebastian Larsson, Rickie Lambert and Francileudo Santos.",
+          "ar": "لعبت جنب جاي جاي أوكوتشا وكيفن نولان وجاري سبيد وميكائيل فورسيل وسيباستيان لارسون وريكي لامبرت وفرانسيليودو سانتوس."
+        },
+        {
+          "en": "I won the Africa Cup of Nations on home soil and played in England's top flight.",
+          "ar": "كسبت كاس الأمم الأفريقية على أرضنا ولعبت في الدوري الإنجليزي الممتاز."
+        },
+        {
+          "en": "I'm a defender who won the AFCON as hosts and played in the Premier League.",
+          "ar": "أنا مدافع كسب كاس الأمم الأفريقية وبلده مستضيفة البطولة، ولعب في البريميرليج."
+        },
+        {
+          "en": "I'm one of a handful of Tunisian internationals who played both in the Premier League and at a World Cup.",
+          "ar": "أنا من قلة من الدوليين التوانسة اللي لعبوا في البريميرليج وفي كاس العالم."
+        },
+        {
+          "en": "My goal earned my country a 2–2 draw with Saudi Arabia at the 2006 World Cup.",
+          "ar": "جوني جاب لبلدي تعادل ٢–٢ مع السعودية في كاس العالم ٢٠٠٦."
         }
       ]
     }

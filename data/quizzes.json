@@ -237,6 +237,20 @@
       "items": [
         "Clubs that won the Bundesliga between 1990 and 2025"
       ]
+    },
+    {
+      "id": "nameall-2026-11-21-1",
+      "date": "2026-11-21",
+      "items": [
+        "CAF African Footballer of the Year winners from 2000 to 2025"
+      ]
+    },
+    {
+      "id": "nameall-2026-11-21-2",
+      "date": "2026-11-21",
+      "items": [
+        "Clubs Hossam Hassan played for"
+      ]
     }
   ],
   "career": [
@@ -510,6 +524,24 @@
         "Gaizka Mendieta",
         "Edgar Davids",
         "Benni McCarthy"
+      ]
+    },
+    {
+      "id": "career-2026-11-21-1",
+      "date": "2026-11-21",
+      "items": [
+        "Jermain Defoe",
+        "Gedo",
+        "Gianluca Zambrotta"
+      ]
+    },
+    {
+      "id": "career-2026-11-21-2",
+      "date": "2026-11-21",
+      "items": [
+        "John Obi Mikel",
+        "Mohamed Shawky",
+        "Nordin Amrabat"
       ]
     }
   ],
@@ -1095,6 +1127,44 @@
         "Who scored Japan's extra-time winner in the 2011 AFC Asian Cup final?"
       ],
       "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-21-1",
+      "date": "2026-11-21",
+      "items": [
+        "Arsenal signed Mohamed Elneny from which club in January 2016?",
+        "Hazem Emam played in Serie A for which club?",
+        "Oliver Kahn's save from which player won the 2001 Champions League final shootout?",
+        "Ahmed Hassan won the Belgian league with which club?",
+        "Who coached Pyramids to their first CAF Champions League title in 2025?",
+        "Which Saudi club signed Ahmed Hegazi from West Brom in 2021?",
+        "Which club did Pitso Mosimane take charge of after leaving Al Ahly in 2022?",
+        "Uruguay beat which team 3–0 in the 2011 Copa América final?",
+        "In which city did Egypt win the 1998 Africa Cup of Nations final?",
+        "Who coached South Africa in the 1998 AFCON final against Egypt?",
+        "Who coached Morocco at the 1986 World Cup, when they topped their group?",
+        "This flag belongs to which country that won the 1992 Africa Cup of Nations?|https://flagcdn.com/w320/ci.png"
+      ],
+      "level": "hard"
+    },
+    {
+      "id": "survival-2026-11-21-2",
+      "date": "2026-11-21",
+      "items": [
+        "Tunisia's first ever World Cup win came in 1978 against which team?",
+        "Who scored Egypt's opening goal in the 1998 AFCON final against South Africa?",
+        "Real Madrid broke the world transfer record in 2001 to sign Zinedine Zidane from which club?",
+        "Manchester United signed Ruud van Nistelrooy from which club?",
+        "Who coached Ajax to the 1995 Champions League title?",
+        "Who scored with his first touch as a substitute in the 1997 Champions League final?",
+        "Which club won Serie A in 2000–01?",
+        "Barcelona signed Yaya Touré from which club in 2007?",
+        "Aston Villa signed Mahmoud Trezeguet from which Turkish club in 2019?",
+        "Who coached Al Hilal to the 2021 AFC Champions League title?",
+        "Eintracht Frankfurt signed Omar Marmoush on a free transfer from which club in 2023?",
+        "Raja Casablanca beat which club in the 2018 CAF Confederation Cup final?"
+      ],
+      "level": "hard"
     }
   ],
   "mystery": [
@@ -1442,6 +1512,26 @@
         "Hany Ramzy"
       ],
       "level": "pro"
+    },
+    {
+      "id": "mystery-2026-11-21-1",
+      "date": "2026-11-21",
+      "items": [
+        "Casemiro",
+        "Sergio Busquets",
+        "Raphaël Varane"
+      ],
+      "level": "easy"
+    },
+    {
+      "id": "mystery-2026-11-21-2",
+      "date": "2026-11-21",
+      "items": [
+        "Iván Zamorano",
+        "El Hadji Diouf",
+        "Radhi Jaïdi"
+      ],
+      "level": "legend"
     }
   ]
 }
